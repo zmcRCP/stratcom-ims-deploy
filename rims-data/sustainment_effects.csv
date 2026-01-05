@@ -1,0 +1,36 @@
+pattern,derate_pct,for_increase,duration_days
+transformer|breaker|relay,0.05,0.01,30
+boiler|hrsg|scr|fgd|pulverizer|steam|turbine,0.08,0.02,60
+cooling|pumps|valves|lube|filters|strainers,0.03,0.01,30
+inverter|converter|pcs|bms|scada|controls|cyber,0.04,0.01,30
+blade|gearbox|yaw|pitch|tracker|module,0.06,0.015,45
+penstock|spillway|wicket|trash rack|intake,0.07,0.02,60
+fire suppression|safety|radiation|seismic,0.02,0.01,30
+vegetation|wildfire|winterization|weatherization|flood,0.02,0.005,30
+combustor,0.04,0.01,30
+generator,0.04,0.01,30
+main,0.04,0.01,30
+pv,0.04,0.01,30
+coal,0.04,0.01,30
+ash,0.05,0.01,30
+stack,0.04,0.01,30
+containment,0.04,0.01,30
+refueling,0.04,0.01,30
+wellfield,0.07,0.02,45
+hrsg tube cleaning and inspection,0.04,0.012,30
+gas turbine borescope and hot section insp,0.02,0.006,45
+blade inspection and repair,0.07,0.021,35
+gearbox oil change,0.04,0.021,30
+tracker inspection and realignment,0.06,0.021,45
+boiler tube inspection and repair,0.07,0.021,30
+fgd gypsum handling upkeep,0.04,0.01,30
+catalyst changeout,0.04,0.01,30
+pulverizer overhaul,0.04,0.01,30
+instrumentation and controls upgrade,0.05,0.01,30
+cooling tower structural and fill replacement,0.08,0.02,60
+water treatment and chemistry controls modernization,0.03,0.01,30
+brine pumps heat exchanger clean,0.04,0.01,30
+combustor hardware refresh,0.06,0.021,45
+generator inspection,0.07,0.021,30
+hrsg tube cleaning and inspection,0.04,0.01,30
+gas turbine borescope and hot section insp,0.04,0.01,30

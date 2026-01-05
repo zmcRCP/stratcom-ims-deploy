@@ -1,0 +1,1920 @@
+[
+  {
+    "id": 1,
+    "predecessorId": "PSC-NU-UP-retire::instrumentation_spares",
+    "successorId": "M-NU-UP-retire_MS2-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 2,
+    "predecessorId": "PSC-SC_proj_021_Long-lead_eq",
+    "successorId": "M-proj_021_procurement-WORK",
+    "type": 0,
+    "lag_days": 36
+  },
+  {
+    "id": 3,
+    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_PV_modules",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 0,
+    "lag_days": 18
+  },
+  {
+    "id": 4,
+    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_Inverters",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 5,
+    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_Tracker_syst",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 0,
+    "lag_days": 22
+  },
+  {
+    "id": 6,
+    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_Main_power_t",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 0,
+    "lag_days": 162
+  },
+  {
+    "id": 7,
+    "predecessorId": "PSC-SC_tall_wind_demo_WTG_nacelles",
+    "successorId": "M-tall_wind_demo_procurement-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 8,
+    "predecessorId": "PSC-SC_tall_wind_demo_Towers",
+    "successorId": "M-tall_wind_demo_procurement-WORK",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 9,
+    "predecessorId": "PSC-SC_tall_wind_demo_Padmount/col",
+    "successorId": "M-tall_wind_demo_procurement-WORK",
+    "type": 0,
+    "lag_days": 81
+  },
+  {
+    "id": 10,
+    "predecessorId": "PSC-NU-UP-VOG1::valve_actuator_kits",
+    "successorId": "M-NU-UP-VOG1_MS3-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 11,
+    "predecessorId": "PSC-NU-UP-VOG1::outage_scaffolding_shielding",
+    "successorId": "M-NU-UP-VOG1_MS3-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 12,
+    "predecessorId": "PSC-SC_proj_017_WTG_nacelles_&_blades",
+    "successorId": "M-proj_017_procurement-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 13,
+    "predecessorId": "PSC-SC_proj_017_Towers",
+    "successorId": "M-proj_017_procurement-WORK",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 14,
+    "predecessorId": "PSC-SC_proj_017_Padmount/collector_transformers",
+    "successorId": "M-proj_017_procurement-WORK",
+    "type": 0,
+    "lag_days": 81
+  },
+  {
+    "id": 15,
+    "predecessorId": "PSC-Plant_28_retirement::specialty_parts",
+    "successorId": "M-retire_Plant28_MS5-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 16,
+    "predecessorId": "PSC-MCI-NGCC-10-11-7FA05::gt_combustion_parts",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 17,
+    "predecessorId": "PSC-MCI-NGCC-10-11-7FA05::hrsg_tube_panels",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 18,
+    "predecessorId": "PSC-022::hx_plate_pack",
+    "successorId": "M-proj_022_decommissioning_start-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 19,
+    "predecessorId": "PSC-022::pump_impeller_seal_kit",
+    "successorId": "M-proj_022_decommissioning_start-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 20,
+    "predecessorId": "PSC-022::filtration_cartridges",
+    "successorId": "M-proj_022_decommissioning_start-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 21,
+    "predecessorId": "PSC-hydro_mod_sinclair::general_mro_materials",
+    "successorId": "M-hydro_mod_sinclair_MS6-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 22,
+    "predecessorId": "PSC-MCI-NGC5::gt_combustion_parts",
+    "successorId": "M-MCI-NGC5_MS2-WORK",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 23,
+    "predecessorId": "PSC-MCI-NGC5::valves_actuators",
+    "successorId": "M-MCI-NGC5_MS2-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 24,
+    "predecessorId": "PSC-NU-UP-VOG1::instrumentation_spares",
+    "successorId": "M-NU-UP-VOG1_MS6-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 25,
+    "predecessorId": "PSC-SC_proj_020_PV_modules",
+    "successorId": "M-proj_020_procurement-WORK",
+    "type": 0,
+    "lag_days": 18
+  },
+  {
+    "id": 26,
+    "predecessorId": "PSC-SC_proj_020_Inverters",
+    "successorId": "M-proj_020_procurement-WORK",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 27,
+    "predecessorId": "PSC-SC_proj_020_Tracker_syst",
+    "successorId": "M-proj_020_procurement-WORK",
+    "type": 0,
+    "lag_days": 22
+  },
+  {
+    "id": 28,
+    "predecessorId": "PSC-SC_proj_020_Main_power_t",
+    "successorId": "M-proj_020_procurement-WORK",
+    "type": 0,
+    "lag_days": 162
+  },
+  {
+    "id": 29,
+    "predecessorId": "PSC-retire_bowen_1_2::specialty_parts",
+    "successorId": "M-retire_bowen_1_2_MS4-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 30,
+    "predecessorId": "PSC-SC_Cape_Wind_new_build_WTG_nacelles",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 31,
+    "predecessorId": "PSC-SC_Cape_Wind_new_build2_Towers",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 32,
+    "predecessorId": "PSC-SC_Cape_Wind_new_build_Padmount/col",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "type": 0,
+    "lag_days": 81
+  },
+  {
+    "id": 33,
+    "predecessorId": "PSC-SC_Cape_Wind_new_build_WTG_nacelles",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 34,
+    "predecessorId": "PSC-SC_Cape_Wind_new_build_Towers",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 35,
+    "predecessorId": "PSC-SC_Cape_Wind_new_build_Padmount/col",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "type": 0,
+    "lag_days": 81
+  },
+  {
+    "id": 36,
+    "predecessorId": "PSC-MCI-NGC5::hrsg_tube_panels",
+    "successorId": "M-MCI-NGC5_MS5-WORK",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 37,
+    "predecessorId": "PSC-NU-UP-retire::valve_actuator_kits",
+    "successorId": "M-NU-UP-retire_MS4-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 38,
+    "predecessorId": "PSC-NU-UP-retire::outage_scaffolding_shielding",
+    "successorId": "M-NU-UP-retire_MS4-WORK",
+    "type": 0,
+    "lag_days": 56
+  },
+  {
+    "id": 39,
+    "predecessorId": "PSC-011::general_mro_materials",
+    "successorId": "M-proj_011_decommissioning_start-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 40,
+    "predecessorId": "PSC-011::specialty_parts",
+    "successorId": "M-proj_011_decommissioning_start-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 41,
+    "predecessorId": "PSC-MCI-NGCC-10-11-7FA05::valves_actuators",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS6-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 42,
+    "predecessorId": "PSC-hydro_mod_sinclair::specialty_parts",
+    "successorId": "M-hydro_mod_sinclair_MS5-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 43,
+    "predecessorId": "PSC-NU-UP-VOG2::valve_actuator_kits",
+    "successorId": "M-NU-UP-VOG2_MS3-WORK",
+    "type": 0,
+    "lag_days": 28
+  },
+  {
+    "id": 44,
+    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_Gas_turbine_",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "type": 0,
+    "lag_days": 54
+  },
+  {
+    "id": 45,
+    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_HRSG_modules",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 46,
+    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_Generator_st",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "type": 0,
+    "lag_days": 162
+  },
+  {
+    "id": 47,
+    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_Main_power_t",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "type": 0,
+    "lag_days": 162
+  },
+  {
+    "id": 48,
+    "predecessorId": "PSC-retire_bowen_1_2::general_mro_materials",
+    "successorId": "M-retire_bowen_1_2_MS2-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 49,
+    "predecessorId": "PSC-SC_proj_019_Long-lead_equipment",
+    "successorId": "M-proj_019_long-lead_pos_placed-WORK",
+    "type": 0,
+    "lag_days": 36
+  },
+  {
+    "id": 50,
+    "predecessorId": "PSC-SC_proj_019_Long-lead_equipment",
+    "successorId": "M-proj_019_long-lead_pos_placed-WORK",
+    "type": 0,
+    "lag_days": 36
+  },
+  {
+    "id": 51,
+    "predecessorId": "PSC-SC_proj_009_Steam_turbin",
+    "successorId": "M-proj_009_procurement-WORK",
+    "type": 0,
+    "lag_days": 72
+  },
+  {
+    "id": 52,
+    "predecessorId": "PSC-SC_proj_009_Boiler_press",
+    "successorId": "M-proj_009_procurement-WORK",
+    "type": 0,
+    "lag_days": 54
+  },
+  {
+    "id": 53,
+    "predecessorId": "PSC-SC_proj_009_FGD/SCR_equi",
+    "successorId": "M-proj_009_procurement-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 54,
+    "predecessorId": "PSC-SC_proj_009_Main_power_t",
+    "successorId": "M-proj_009_procurement-WORK",
+    "type": 0,
+    "lag_days": 162
+  },
+  {
+    "id": 55,
+    "predecessorId": "PSC-NU-UP-VOG2::instrumentation_spares",
+    "successorId": "M-NU-UP-VOG2_MS6-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 56,
+    "predecessorId": "PSC-NU-UP-VOG2::outage_scaffolding_shielding",
+    "successorId": "M-NU-UP-VOG2_MS6-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 57,
+    "predecessorId": "PSC-Plant_28_retirement::general_mro_materials",
+    "successorId": "M-retire_Plant28_MS2-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 58,
+    "predecessorId": "PSC-HY-BARTLETT56-MOD::general_mro_materials",
+    "successorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 59,
+    "predecessorId": "PSC-HY-BARTLETT56-MOD::specialty_parts",
+    "successorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 60,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS1",
+    "successorId": "PSC-HY-BARTLETT56-MOD::general_mro_materials",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 61,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS1",
+    "successorId": "PSC-HY-BARTLETT56-MOD::specialty_parts",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 62,
+    "predecessorId": "M-hydro_mod_sinclair_MS1",
+    "successorId": "PSC-hydro_mod_sinclair::general_mro_materials",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 63,
+    "predecessorId": "M-hydro_mod_sinclair_MS1",
+    "successorId": "PSC-hydro_mod_sinclair::specialty_parts",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 64,
+    "predecessorId": "M-MCI-NGC5_MS1",
+    "successorId": "PSC-MCI-NGC5::gt_combustion_parts",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 65,
+    "predecessorId": "M-MCI-NGC5_MS1",
+    "successorId": "PSC-MCI-NGC5::hrsg_tube_panels",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 66,
+    "predecessorId": "M-MCI-NGC5_MS1",
+    "successorId": "PSC-MCI-NGC5::valves_actuators",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 67,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS1",
+    "successorId": "PSC-MCI-NGCC-10-11-7FA05::gt_combustion_parts",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 68,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS1",
+    "successorId": "PSC-MCI-NGCC-10-11-7FA05::hrsg_tube_panels",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 69,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS1",
+    "successorId": "PSC-MCI-NGCC-10-11-7FA05::valves_actuators",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 70,
+    "predecessorId": "M-NU-UP-retire_MS1",
+    "successorId": "PSC-NU-UP-retire::valve_actuator_kits",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 71,
+    "predecessorId": "M-NU-UP-retire_MS1",
+    "successorId": "PSC-NU-UP-retire::instrumentation_spares",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 72,
+    "predecessorId": "M-NU-UP-retire_MS1",
+    "successorId": "PSC-NU-UP-retire::outage_scaffolding_shielding",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 73,
+    "predecessorId": "M-NU-UP-VOG1_MS1",
+    "successorId": "PSC-NU-UP-VOG1::valve_actuator_kits",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 74,
+    "predecessorId": "M-NU-UP-VOG1_MS1",
+    "successorId": "PSC-NU-UP-VOG1::instrumentation_spares",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 75,
+    "predecessorId": "M-NU-UP-VOG1_MS1",
+    "successorId": "PSC-NU-UP-VOG1::outage_scaffolding_shielding",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 76,
+    "predecessorId": "M-NU-UP-VOG2_MS1",
+    "successorId": "PSC-NU-UP-VOG2::valve_actuator_kits",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 77,
+    "predecessorId": "M-NU-UP-VOG2_MS1",
+    "successorId": "PSC-NU-UP-VOG2::instrumentation_spares",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 78,
+    "predecessorId": "M-NU-UP-VOG2_MS1",
+    "successorId": "PSC-NU-UP-VOG2::outage_scaffolding_shielding",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 79,
+    "predecessorId": "M-retire_Plant28_MS1",
+    "successorId": "PSC-Plant_28_retirement::general_mro_materials",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 80,
+    "predecessorId": "M-retire_Plant28_MS1",
+    "successorId": "PSC-Plant_28_retirement::specialty_parts",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 81,
+    "predecessorId": "M-retire_bowen_1_2_MS1",
+    "successorId": "PSC-retire_bowen_1_2::general_mro_materials",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 82,
+    "predecessorId": "M-retire_bowen_1_2_MS1",
+    "successorId": "PSC-retire_bowen_1_2::specialty_parts",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 83,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_engineering",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 84,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "successorId": "M-BESS-PV-COLOC-200-200_construction",
+    "type": 0
+  },
+  {
+    "id": 85,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_construction",
+    "successorId": "M-BESS-PV-COLOC-200-200_interconnection",
+    "type": 0
+  },
+  {
+    "id": 86,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_interconnection",
+    "successorId": "M-BESS-PV-COLOC-200-200_commissioning",
+    "type": 0
+  },
+  {
+    "id": 87,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_engineering",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 1
+  },
+  {
+    "id": 88,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_construction",
+    "successorId": "M-BESS-PV-COLOC-200-200_commissioning",
+    "type": 2
+  },
+  {
+    "id": 89,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "successorId": "M-BESS-PV-COLOC-200-200_commissioning",
+    "type": 3
+  },
+  {
+    "id": 90,
+    "predecessorId": "M-Cape_Wind_new_build_engineering",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 91,
+    "predecessorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "successorId": "M-Cape_Wind_new_build_construction",
+    "type": 0
+  },
+  {
+    "id": 92,
+    "predecessorId": "M-Cape_Wind_new_build_construction",
+    "successorId": "M-Cape_Wind_new_build_interconnection",
+    "type": 0
+  },
+  {
+    "id": 93,
+    "predecessorId": "M-Cape_Wind_new_build_interconnection",
+    "successorId": "M-Cape_Wind_new_build_commissioning",
+    "type": 0
+  },
+  {
+    "id": 94,
+    "predecessorId": "M-Cape_Wind_new_build_engineering",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "type": 1
+  },
+  {
+    "id": 95,
+    "predecessorId": "M-Cape_Wind_new_build_construction",
+    "successorId": "M-Cape_Wind_new_build_commissioning",
+    "type": 2
+  },
+  {
+    "id": 96,
+    "predecessorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "successorId": "M-Cape_Wind_new_build_commissioning",
+    "type": 3
+  },
+  {
+    "id": 97,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS1",
+    "successorId": "M-HY-BARTLETT56-MOD_MS2",
+    "type": 0
+  },
+  {
+    "id": 98,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS2",
+    "successorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 99,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "successorId": "M-HY-BARTLETT56-MOD_MS4",
+    "type": 0
+  },
+  {
+    "id": 100,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS4",
+    "successorId": "M-HY-BARTLETT56-MOD_MS5",
+    "type": 0
+  },
+  {
+    "id": 101,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS5",
+    "successorId": "M-HY-BARTLETT56-MOD_MS6",
+    "type": 0
+  },
+  {
+    "id": 102,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS6",
+    "successorId": "M-HY-BARTLETT56-MOD_MS7",
+    "type": 0
+  },
+  {
+    "id": 103,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS7",
+    "successorId": "M-HY-BARTLETT56-MOD_MS8",
+    "type": 0
+  },
+  {
+    "id": 104,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS2",
+    "successorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "type": 1
+  },
+  {
+    "id": 105,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS6",
+    "successorId": "M-HY-BARTLETT56-MOD_MS7",
+    "type": 2
+  },
+  {
+    "id": 106,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "successorId": "M-HY-BARTLETT56-MOD_MS7",
+    "type": 3
+  },
+  {
+    "id": 107,
+    "predecessorId": "M-MCI-NGC5_MS1",
+    "successorId": "M-MCI-NGC5_MS2-WORK",
+    "type": 0
+  },
+  {
+    "id": 108,
+    "predecessorId": "M-MCI-NGC5_MS2-WORK",
+    "successorId": "M-MCI-NGC5_MS3",
+    "type": 0
+  },
+  {
+    "id": 109,
+    "predecessorId": "M-MCI-NGC5_MS3",
+    "successorId": "M-MCI-NGC5_MS4",
+    "type": 0
+  },
+  {
+    "id": 110,
+    "predecessorId": "M-MCI-NGC5_MS4",
+    "successorId": "M-MCI-NGC5_MS5-WORK",
+    "type": 0
+  },
+  {
+    "id": 111,
+    "predecessorId": "M-MCI-NGC5_MS5-WORK",
+    "successorId": "M-MCI-NGC5_MS6",
+    "type": 0
+  },
+  {
+    "id": 112,
+    "predecessorId": "M-MCI-NGC5_MS6",
+    "successorId": "M-MCI-NGC5_MS7",
+    "type": 0
+  },
+  {
+    "id": 113,
+    "predecessorId": "M-MCI-NGC5_MS7",
+    "successorId": "M-MCI-NGC5_MS8",
+    "type": 0
+  },
+  {
+    "id": 114,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS1",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS2",
+    "type": 0
+  },
+  {
+    "id": 115,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS2",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 116,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS4",
+    "type": 0
+  },
+  {
+    "id": 117,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS4",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS5",
+    "type": 0
+  },
+  {
+    "id": 118,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS5",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS6-WORK",
+    "type": 0
+  },
+  {
+    "id": 119,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS6-WORK",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS7",
+    "type": 0
+  },
+  {
+    "id": 120,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS7",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS8",
+    "type": 0
+  },
+  {
+    "id": 121,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS2",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "type": 1
+  },
+  {
+    "id": 122,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS6-WORK",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS7",
+    "type": 2
+  },
+  {
+    "id": 123,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS7",
+    "type": 3
+  },
+  {
+    "id": 124,
+    "predecessorId": "M-NU-UP-VOG1_MS1",
+    "successorId": "M-NU-UP-VOG1_MS2",
+    "type": 0
+  },
+  {
+    "id": 125,
+    "predecessorId": "M-NU-UP-VOG1_MS2",
+    "successorId": "M-NU-UP-VOG1_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 126,
+    "predecessorId": "M-NU-UP-VOG1_MS3-WORK",
+    "successorId": "M-NU-UP-VOG1_MS4",
+    "type": 0
+  },
+  {
+    "id": 127,
+    "predecessorId": "M-NU-UP-VOG1_MS4",
+    "successorId": "M-NU-UP-VOG1_MS5",
+    "type": 0
+  },
+  {
+    "id": 128,
+    "predecessorId": "M-NU-UP-VOG1_MS5",
+    "successorId": "M-NU-UP-VOG1_MS6-WORK",
+    "type": 0
+  },
+  {
+    "id": 129,
+    "predecessorId": "M-NU-UP-VOG1_MS6-WORK",
+    "successorId": "M-NU-UP-VOG1_MS7",
+    "type": 0
+  },
+  {
+    "id": 130,
+    "predecessorId": "M-NU-UP-VOG1_MS7",
+    "successorId": "M-NU-UP-VOG1_MS8",
+    "type": 0
+  },
+  {
+    "id": 131,
+    "predecessorId": "M-NU-UP-VOG1_MS2",
+    "successorId": "M-NU-UP-VOG1_MS3-WORK",
+    "type": 1
+  },
+  {
+    "id": 132,
+    "predecessorId": "M-NU-UP-VOG1_MS6-WORK",
+    "successorId": "M-NU-UP-VOG1_MS7",
+    "type": 2
+  },
+  {
+    "id": 133,
+    "predecessorId": "M-NU-UP-VOG1_MS3-WORK",
+    "successorId": "M-NU-UP-VOG1_MS7",
+    "type": 3
+  },
+  {
+    "id": 134,
+    "predecessorId": "M-NU-UP-VOG2_MS1",
+    "successorId": "M-NU-UP-VOG2_MS2",
+    "type": 0
+  },
+  {
+    "id": 135,
+    "predecessorId": "M-NU-UP-VOG2_MS2",
+    "successorId": "M-NU-UP-VOG2_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 136,
+    "predecessorId": "M-NU-UP-VOG2_MS3-WORK",
+    "successorId": "M-NU-UP-VOG2_MS4",
+    "type": 0
+  },
+  {
+    "id": 137,
+    "predecessorId": "M-NU-UP-VOG2_MS4",
+    "successorId": "M-NU-UP-VOG2_MS5",
+    "type": 0
+  },
+  {
+    "id": 138,
+    "predecessorId": "M-NU-UP-VOG2_MS5",
+    "successorId": "M-NU-UP-VOG2_MS6-WORK",
+    "type": 0
+  },
+  {
+    "id": 139,
+    "predecessorId": "M-NU-UP-VOG2_MS6-WORK",
+    "successorId": "M-NU-UP-VOG2_MS7",
+    "type": 0
+  },
+  {
+    "id": 140,
+    "predecessorId": "M-NU-UP-VOG2_MS7",
+    "successorId": "M-NU-UP-VOG2_MS8",
+    "type": 0
+  },
+  {
+    "id": 141,
+    "predecessorId": "M-NU-UP-VOG2_MS2",
+    "successorId": "M-NU-UP-VOG2_MS3-WORK",
+    "type": 1
+  },
+  {
+    "id": 142,
+    "predecessorId": "M-NU-UP-VOG2_MS6-WORK",
+    "successorId": "M-NU-UP-VOG2_MS7",
+    "type": 2
+  },
+  {
+    "id": 143,
+    "predecessorId": "M-NU-UP-VOG2_MS3-WORK",
+    "successorId": "M-NU-UP-VOG2_MS7",
+    "type": 3
+  },
+  {
+    "id": 144,
+    "predecessorId": "M-NU-UP-retire_MS1",
+    "successorId": "M-NU-UP-retire_MS2-WORK",
+    "type": 0
+  },
+  {
+    "id": 145,
+    "predecessorId": "M-NU-UP-retire_MS2-WORK",
+    "successorId": "M-NU-UP-retire_MS3",
+    "type": 0
+  },
+  {
+    "id": 146,
+    "predecessorId": "M-NU-UP-retire_MS3",
+    "successorId": "M-NU-UP-retire_MS4-WORK",
+    "type": 0
+  },
+  {
+    "id": 147,
+    "predecessorId": "M-NU-UP-retire_MS4-WORK",
+    "successorId": "M-NU-UP-retire_MS5",
+    "type": 0
+  },
+  {
+    "id": 148,
+    "predecessorId": "M-NU-UP-retire_MS5",
+    "successorId": "M-NU-UP-retire_MS6",
+    "type": 0
+  },
+  {
+    "id": 149,
+    "predecessorId": "M-NU-UP-retire_MS6",
+    "successorId": "M-NU-UP-retire_MS7",
+    "type": 0
+  },
+  {
+    "id": 150,
+    "predecessorId": "M-NU-UP-retire_MS7",
+    "successorId": "M-NU-UP-retire_MS8",
+    "type": 0
+  },
+  {
+    "id": 151,
+    "predecessorId": "M-hydro_mod_sinclair_MS1",
+    "successorId": "M-hydro_mod_sinclair_MS2",
+    "type": 0
+  },
+  {
+    "id": 152,
+    "predecessorId": "M-hydro_mod_sinclair_MS2",
+    "successorId": "M-hydro_mod_sinclair_MS3",
+    "type": 0
+  },
+  {
+    "id": 153,
+    "predecessorId": "M-hydro_mod_sinclair_MS3",
+    "successorId": "M-hydro_mod_sinclair_MS4",
+    "type": 0
+  },
+  {
+    "id": 154,
+    "predecessorId": "M-hydro_mod_sinclair_MS4",
+    "successorId": "M-hydro_mod_sinclair_MS5-WORK",
+    "type": 0
+  },
+  {
+    "id": 155,
+    "predecessorId": "M-hydro_mod_sinclair_MS5-WORK",
+    "successorId": "M-hydro_mod_sinclair_MS6-WORK",
+    "type": 0
+  },
+  {
+    "id": 156,
+    "predecessorId": "M-hydro_mod_sinclair_MS6-WORK",
+    "successorId": "M-hydro_mod_sinclair_MS7",
+    "type": 0
+  },
+  {
+    "id": 157,
+    "predecessorId": "M-hydro_mod_sinclair_MS7",
+    "successorId": "M-hydro_mod_sinclair_MS8",
+    "type": 0
+  },
+  {
+    "id": 158,
+    "predecessorId": "M-hydro_mod_sinclair_MS2",
+    "successorId": "M-hydro_mod_sinclair_MS3",
+    "type": 1
+  },
+  {
+    "id": 159,
+    "predecessorId": "M-hydro_mod_sinclair_MS6-WORK",
+    "successorId": "M-hydro_mod_sinclair_MS7",
+    "type": 2
+  },
+  {
+    "id": 160,
+    "predecessorId": "M-hydro_mod_sinclair_MS3",
+    "successorId": "M-hydro_mod_sinclair_MS7",
+    "type": 3
+  },
+  {
+    "id": 161,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_engineering",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 162,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "successorId": "M-ppa_dahlberg_1_3_5_construction",
+    "type": 0
+  },
+  {
+    "id": 163,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_construction",
+    "successorId": "M-ppa_dahlberg_1_3_5_interconnection",
+    "type": 0
+  },
+  {
+    "id": 164,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_interconnection",
+    "successorId": "M-ppa_dahlberg_1_3_5_commissioning",
+    "type": 0
+  },
+  {
+    "id": 165,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_engineering",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "type": 1
+  },
+  {
+    "id": 166,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_construction",
+    "successorId": "M-ppa_dahlberg_1_3_5_commissioning",
+    "type": 2
+  },
+  {
+    "id": 167,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "successorId": "M-ppa_dahlberg_1_3_5_commissioning",
+    "type": 3
+  },
+  {
+    "id": 168,
+    "predecessorId": "M-proj_009_engineering",
+    "successorId": "M-proj_009_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 169,
+    "predecessorId": "M-proj_009_procurement-WORK",
+    "successorId": "M-proj_009_construction",
+    "type": 0
+  },
+  {
+    "id": 170,
+    "predecessorId": "M-proj_009_construction",
+    "successorId": "M-proj_009_interconnection",
+    "type": 0
+  },
+  {
+    "id": 171,
+    "predecessorId": "M-proj_009_interconnection",
+    "successorId": "M-proj_009_commissioning",
+    "type": 0
+  },
+  {
+    "id": 172,
+    "predecessorId": "M-proj_009_engineering",
+    "successorId": "M-proj_009_procurement-WORK",
+    "type": 1
+  },
+  {
+    "id": 173,
+    "predecessorId": "M-proj_009_construction",
+    "successorId": "M-proj_009_commissioning",
+    "type": 2
+  },
+  {
+    "id": 174,
+    "predecessorId": "M-proj_009_procurement-WORK",
+    "successorId": "M-proj_009_commissioning",
+    "type": 3
+  },
+  {
+    "id": 175,
+    "predecessorId": "M-proj_011_decommissioning_start-WORK",
+    "successorId": "M-proj_011_demolition_start",
+    "type": 0
+  },
+  {
+    "id": 176,
+    "predecessorId": "M-proj_020_engineering",
+    "successorId": "M-proj_020_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 177,
+    "predecessorId": "M-proj_020_procurement-WORK",
+    "successorId": "M-proj_020_construction",
+    "type": 0
+  },
+  {
+    "id": 178,
+    "predecessorId": "M-proj_020_construction",
+    "successorId": "M-proj_020_interconnection",
+    "type": 0
+  },
+  {
+    "id": 179,
+    "predecessorId": "M-proj_020_interconnection",
+    "successorId": "M-proj_020_commissioning",
+    "type": 0
+  },
+  {
+    "id": 180,
+    "predecessorId": "M-proj_020_engineering",
+    "successorId": "M-proj_020_procurement-WORK",
+    "type": 1
+  },
+  {
+    "id": 181,
+    "predecessorId": "M-proj_020_construction",
+    "successorId": "M-proj_020_commissioning",
+    "type": 2
+  },
+  {
+    "id": 182,
+    "predecessorId": "M-proj_020_procurement-WORK",
+    "successorId": "M-proj_020_commissioning",
+    "type": 3
+  },
+  {
+    "id": 183,
+    "predecessorId": "M-proj_021_engineering",
+    "successorId": "M-proj_021_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 184,
+    "predecessorId": "M-proj_021_procurement-WORK",
+    "successorId": "M-proj_021_construction",
+    "type": 0
+  },
+  {
+    "id": 185,
+    "predecessorId": "M-proj_021_construction",
+    "successorId": "M-proj_021_interconnection",
+    "type": 0
+  },
+  {
+    "id": 186,
+    "predecessorId": "M-proj_021_interconnection",
+    "successorId": "M-proj_021_commissioning",
+    "type": 0
+  },
+  {
+    "id": 187,
+    "predecessorId": "M-proj_021_engineering",
+    "successorId": "M-proj_021_procurement-WORK",
+    "type": 1
+  },
+  {
+    "id": 188,
+    "predecessorId": "M-proj_021_construction",
+    "successorId": "M-proj_021_commissioning",
+    "type": 2
+  },
+  {
+    "id": 189,
+    "predecessorId": "M-proj_021_procurement-WORK",
+    "successorId": "M-proj_021_commissioning",
+    "type": 3
+  },
+  {
+    "id": 190,
+    "predecessorId": "M-proj_022_decommissioning_start-WORK",
+    "successorId": "M-proj_022_demolition_start",
+    "type": 0
+  },
+  {
+    "id": 191,
+    "predecessorId": "M-proj_022_demolition_start",
+    "successorId": "M-proj_022_closure___turnover",
+    "type": 0
+  },
+  {
+    "id": 192,
+    "predecessorId": "M-proj_022_retirement_plan_approved",
+    "successorId": "M-proj_022_fuel_isolation_&_purge_complete",
+    "type": 0
+  },
+  {
+    "id": 193,
+    "predecessorId": "M-proj_022_fuel_isolation_&_purge_complete",
+    "successorId": "M-proj_022_decommissioning_start-WORK",
+    "type": 0
+  },
+  {
+    "id": 194,
+    "predecessorId": "M-proj_022_decommissioning_start-WORK",
+    "successorId": "M-proj_022_hazmat_ash_handling_secured",
+    "type": 0
+  },
+  {
+    "id": 195,
+    "predecessorId": "M-proj_022_hazmat_ash_handling_secured",
+    "successorId": "M-proj_022_equipment_de-energized_&_cleared",
+    "type": 0
+  },
+  {
+    "id": 196,
+    "predecessorId": "M-proj_022_equipment_de-energized_&_cleared",
+    "successorId": "M-proj_022_demolition_start",
+    "type": 0
+  },
+  {
+    "id": 197,
+    "predecessorId": "M-proj_022_demolition_start",
+    "successorId": "M-proj_022_site_remediation_complete",
+    "type": 0
+  },
+  {
+    "id": 198,
+    "predecessorId": "M-proj_022_site_remediation_complete",
+    "successorId": "M-proj_022_closure___turnover",
+    "type": 0
+  },
+  {
+    "id": 199,
+    "predecessorId": "M-retire_bowen_1_2_MS1",
+    "successorId": "M-retire_bowen_1_2_MS2-WORK",
+    "type": 0
+  },
+  {
+    "id": 200,
+    "predecessorId": "M-retire_bowen_1_2_MS2-WORK",
+    "successorId": "M-retire_bowen_1_2_MS3",
+    "type": 0
+  },
+  {
+    "id": 201,
+    "predecessorId": "M-retire_bowen_1_2_MS3",
+    "successorId": "M-retire_bowen_1_2_MS4-WORK",
+    "type": 0
+  },
+  {
+    "id": 202,
+    "predecessorId": "M-retire_bowen_1_2_MS4-WORK",
+    "successorId": "M-retire_bowen_1_2_MS5",
+    "type": 0
+  },
+  {
+    "id": 203,
+    "predecessorId": "M-retire_bowen_1_2_MS5",
+    "successorId": "M-retire_bowen_1_2_MS6",
+    "type": 0
+  },
+  {
+    "id": 204,
+    "predecessorId": "M-retire_bowen_1_2_MS6",
+    "successorId": "M-retire_bowen_1_2_MS7",
+    "type": 0
+  },
+  {
+    "id": 205,
+    "predecessorId": "M-retire_bowen_1_2_MS7",
+    "successorId": "M-retire_bowen_1_2_MS8",
+    "type": 0
+  },
+  {
+    "id": 206,
+    "predecessorId": "M-tall_wind_demo_engineering",
+    "successorId": "M-tall_wind_demo_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 207,
+    "predecessorId": "M-tall_wind_demo_procurement-WORK",
+    "successorId": "M-tall_wind_demo_construction",
+    "type": 0
+  },
+  {
+    "id": 208,
+    "predecessorId": "M-tall_wind_demo_construction",
+    "successorId": "M-tall_wind_demo_interconnection",
+    "type": 0
+  },
+  {
+    "id": 209,
+    "predecessorId": "M-tall_wind_demo_interconnection",
+    "successorId": "M-tall_wind_demo_commissioning",
+    "type": 0
+  },
+  {
+    "id": 210,
+    "predecessorId": "M-tall_wind_demo_engineering",
+    "successorId": "M-tall_wind_demo_procurement-WORK",
+    "type": 1
+  },
+  {
+    "id": 211,
+    "predecessorId": "M-tall_wind_demo_construction",
+    "successorId": "M-tall_wind_demo_commissioning",
+    "type": 2
+  },
+  {
+    "id": 212,
+    "predecessorId": "M-tall_wind_demo_procurement-WORK",
+    "successorId": "M-tall_wind_demo_commissioning",
+    "type": 3
+  },
+  {
+    "id": 213,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_engineering",
+    "successorId": "M-BESS-PV-COLOC-200-200_commissioning",
+    "type": 0
+  },
+  {
+    "id": 214,
+    "predecessorId": "M-Cape_Wind_new_build_engineering",
+    "successorId": "M-Cape_Wind_new_build_commissioning",
+    "type": 0
+  },
+  {
+    "id": 215,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS2",
+    "successorId": "M-HY-BARTLETT56-MOD_MS7",
+    "type": 0
+  },
+  {
+    "id": 216,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS1",
+    "successorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 217,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS2",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS7",
+    "type": 0
+  },
+  {
+    "id": 218,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS1",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 219,
+    "predecessorId": "M-NU-UP-VOG1_MS2",
+    "successorId": "M-NU-UP-VOG1_MS7",
+    "type": 0
+  },
+  {
+    "id": 220,
+    "predecessorId": "M-NU-UP-VOG1_MS1",
+    "successorId": "M-NU-UP-VOG1_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 221,
+    "predecessorId": "M-NU-UP-VOG2_MS2",
+    "successorId": "M-NU-UP-VOG2_MS7",
+    "type": 0
+  },
+  {
+    "id": 222,
+    "predecessorId": "M-NU-UP-VOG2_MS1",
+    "successorId": "M-NU-UP-VOG2_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 223,
+    "predecessorId": "M-hydro_mod_sinclair_MS2",
+    "successorId": "M-hydro_mod_sinclair_MS7",
+    "type": 0
+  },
+  {
+    "id": 224,
+    "predecessorId": "M-hydro_mod_sinclair_MS1",
+    "successorId": "M-hydro_mod_sinclair_MS3",
+    "type": 0
+  },
+  {
+    "id": 225,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_engineering",
+    "successorId": "M-ppa_dahlberg_1_3_5_commissioning",
+    "type": 0
+  },
+  {
+    "id": 226,
+    "predecessorId": "M-proj_009_engineering",
+    "successorId": "M-proj_009_commissioning",
+    "type": 0
+  },
+  {
+    "id": 227,
+    "predecessorId": "M-proj_020_engineering",
+    "successorId": "M-proj_020_commissioning",
+    "type": 0
+  },
+  {
+    "id": 228,
+    "predecessorId": "M-proj_021_engineering",
+    "successorId": "M-proj_021_commissioning",
+    "type": 0
+  },
+  {
+    "id": 229,
+    "predecessorId": "M-tall_wind_demo_engineering",
+    "successorId": "M-tall_wind_demo_commissioning",
+    "type": 0
+  },
+  {
+    "id": 230,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_engineering",
+    "successorId": "M-BESS-PV-COLOC-200-200_commissioning",
+    "type": 0
+  },
+  {
+    "id": 231,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_engineering",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 232,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_engineering",
+    "successorId": "M-BESS-PV-COLOC-200-200_commissioning",
+    "type": 0
+  },
+  {
+    "id": 233,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_engineering",
+    "successorId": "M-BESS-PV-COLOC-200-200_commissioning",
+    "type": 0
+  },
+  {
+    "id": 234,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_engineering",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 235,
+    "predecessorId": "M-Cape_Wind_new_build_engineering",
+    "successorId": "M-Cape_Wind_new_build_commissioning",
+    "type": 0
+  },
+  {
+    "id": 236,
+    "predecessorId": "M-Cape_Wind_new_build_engineering",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 237,
+    "predecessorId": "M-Cape_Wind_new_build_engineering",
+    "successorId": "M-Cape_Wind_new_build_commissioning",
+    "type": 0
+  },
+  {
+    "id": 238,
+    "predecessorId": "M-Cape_Wind_new_build_engineering",
+    "successorId": "M-Cape_Wind_new_build_commissioning",
+    "type": 0
+  },
+  {
+    "id": 239,
+    "predecessorId": "M-Cape_Wind_new_build_engineering",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 240,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS2",
+    "successorId": "M-HY-BARTLETT56-MOD_MS7",
+    "type": 0
+  },
+  {
+    "id": 241,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS1",
+    "successorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 242,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS2",
+    "successorId": "M-HY-BARTLETT56-MOD_MS7",
+    "type": 0
+  },
+  {
+    "id": 243,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS2",
+    "successorId": "M-HY-BARTLETT56-MOD_MS7",
+    "type": 0
+  },
+  {
+    "id": 244,
+    "predecessorId": "M-HY-BARTLETT56-MOD_MS1",
+    "successorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 245,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS2",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS7",
+    "type": 0
+  },
+  {
+    "id": 246,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS1",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 247,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS2",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS7",
+    "type": 0
+  },
+  {
+    "id": 248,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS2",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS7",
+    "type": 0
+  },
+  {
+    "id": 249,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS1",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 250,
+    "predecessorId": "M-NU-UP-VOG1_MS2",
+    "successorId": "M-NU-UP-VOG1_MS7",
+    "type": 0
+  },
+  {
+    "id": 251,
+    "predecessorId": "M-NU-UP-VOG1_MS1",
+    "successorId": "M-NU-UP-VOG1_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 252,
+    "predecessorId": "M-NU-UP-VOG1_MS2",
+    "successorId": "M-NU-UP-VOG1_MS7",
+    "type": 0
+  },
+  {
+    "id": 253,
+    "predecessorId": "M-NU-UP-VOG1_MS2",
+    "successorId": "M-NU-UP-VOG1_MS7",
+    "type": 0
+  },
+  {
+    "id": 254,
+    "predecessorId": "M-NU-UP-VOG1_MS1",
+    "successorId": "M-NU-UP-VOG1_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 255,
+    "predecessorId": "M-NU-UP-VOG2_MS2",
+    "successorId": "M-NU-UP-VOG2_MS7",
+    "type": 0
+  },
+  {
+    "id": 256,
+    "predecessorId": "M-NU-UP-VOG2_MS1",
+    "successorId": "M-NU-UP-VOG2_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 257,
+    "predecessorId": "M-NU-UP-VOG2_MS2",
+    "successorId": "M-NU-UP-VOG2_MS7",
+    "type": 0
+  },
+  {
+    "id": 258,
+    "predecessorId": "M-NU-UP-VOG2_MS2",
+    "successorId": "M-NU-UP-VOG2_MS7",
+    "type": 0
+  },
+  {
+    "id": 259,
+    "predecessorId": "M-NU-UP-VOG2_MS1",
+    "successorId": "M-NU-UP-VOG2_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 260,
+    "predecessorId": "M-hydro_mod_sinclair_MS2",
+    "successorId": "M-hydro_mod_sinclair_MS7",
+    "type": 0
+  },
+  {
+    "id": 261,
+    "predecessorId": "M-hydro_mod_sinclair_MS1",
+    "successorId": "M-hydro_mod_sinclair_MS3",
+    "type": 0
+  },
+  {
+    "id": 262,
+    "predecessorId": "M-hydro_mod_sinclair_MS2",
+    "successorId": "M-hydro_mod_sinclair_MS7",
+    "type": 0
+  },
+  {
+    "id": 263,
+    "predecessorId": "M-hydro_mod_sinclair_MS2",
+    "successorId": "M-hydro_mod_sinclair_MS7",
+    "type": 0
+  },
+  {
+    "id": 264,
+    "predecessorId": "M-hydro_mod_sinclair_MS1",
+    "successorId": "M-hydro_mod_sinclair_MS3",
+    "type": 0
+  },
+  {
+    "id": 265,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_engineering",
+    "successorId": "M-ppa_dahlberg_1_3_5_commissioning",
+    "type": 0
+  },
+  {
+    "id": 266,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_engineering",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 267,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_engineering",
+    "successorId": "M-ppa_dahlberg_1_3_5_commissioning",
+    "type": 0
+  },
+  {
+    "id": 268,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_engineering",
+    "successorId": "M-ppa_dahlberg_1_3_5_commissioning",
+    "type": 0
+  },
+  {
+    "id": 269,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_engineering",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 270,
+    "predecessorId": "M-proj_009_engineering",
+    "successorId": "M-proj_009_commissioning",
+    "type": 0
+  },
+  {
+    "id": 271,
+    "predecessorId": "M-proj_009_engineering",
+    "successorId": "M-proj_009_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 272,
+    "predecessorId": "M-proj_009_engineering",
+    "successorId": "M-proj_009_commissioning",
+    "type": 0
+  },
+  {
+    "id": 273,
+    "predecessorId": "M-proj_009_engineering",
+    "successorId": "M-proj_009_commissioning",
+    "type": 0
+  },
+  {
+    "id": 274,
+    "predecessorId": "M-proj_009_engineering",
+    "successorId": "M-proj_009_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 275,
+    "predecessorId": "M-proj_020_engineering",
+    "successorId": "M-proj_020_commissioning",
+    "type": 0
+  },
+  {
+    "id": 276,
+    "predecessorId": "M-proj_020_engineering",
+    "successorId": "M-proj_020_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 277,
+    "predecessorId": "M-proj_020_engineering",
+    "successorId": "M-proj_020_commissioning",
+    "type": 0
+  },
+  {
+    "id": 278,
+    "predecessorId": "M-proj_020_engineering",
+    "successorId": "M-proj_020_commissioning",
+    "type": 0
+  },
+  {
+    "id": 279,
+    "predecessorId": "M-proj_020_engineering",
+    "successorId": "M-proj_020_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 280,
+    "predecessorId": "M-proj_021_engineering",
+    "successorId": "M-proj_021_commissioning",
+    "type": 0
+  },
+  {
+    "id": 281,
+    "predecessorId": "M-proj_021_engineering",
+    "successorId": "M-proj_021_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 282,
+    "predecessorId": "M-proj_021_engineering",
+    "successorId": "M-proj_021_commissioning",
+    "type": 0
+  },
+  {
+    "id": 283,
+    "predecessorId": "M-proj_021_engineering",
+    "successorId": "M-proj_021_commissioning",
+    "type": 0
+  },
+  {
+    "id": 284,
+    "predecessorId": "M-proj_021_engineering",
+    "successorId": "M-proj_021_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 285,
+    "predecessorId": "M-tall_wind_demo_engineering",
+    "successorId": "M-tall_wind_demo_commissioning",
+    "type": 0
+  },
+  {
+    "id": 286,
+    "predecessorId": "M-tall_wind_demo_engineering",
+    "successorId": "M-tall_wind_demo_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 287,
+    "predecessorId": "M-tall_wind_demo_engineering",
+    "successorId": "M-tall_wind_demo_commissioning",
+    "type": 0
+  },
+  {
+    "id": 288,
+    "predecessorId": "M-tall_wind_demo_engineering",
+    "successorId": "M-tall_wind_demo_commissioning",
+    "type": 0
+  },
+  {
+    "id": 289,
+    "predecessorId": "M-tall_wind_demo_engineering",
+    "successorId": "M-tall_wind_demo_procurement-WORK",
+    "type": 0
+  },
+  {
+    "id": 290,
+    "predecessorId": "M-proj_009_commissioning",
+    "successorId": "M-retire_Plant28_MS3",
+    "type": 0
+  },
+  {
+    "id": 291,
+    "predecessorId": "M-proj_020_commissioning",
+    "successorId": "M-retire_bowen_1_2_MS3",
+    "type": 0
+  },
+  {
+    "id": 292,
+    "predecessorId": "M-BESS-PV-COLOC-200-200_commissioning",
+    "successorId": "M-retire_bowen_1_2_MS3",
+    "type": 0
+  },
+  {
+    "id": 293,
+    "predecessorId": "M-proj_020_construction",
+    "successorId": "M-BESS-PV-COLOC-200-200_construction",
+    "type": 1
+  },
+  {
+    "id": 294,
+    "predecessorId": "M-NU-UP-VOG1_MS5",
+    "successorId": "M-NU-UP-VOG2_MS5",
+    "type": 1
+  },
+  {
+    "id": 295,
+    "predecessorId": "M-NU-UP-VOG1_MS7",
+    "successorId": "M-NU-UP-VOG2_MS7",
+    "type": 0
+  },
+  {
+    "id": 296,
+    "predecessorId": "M-hydro_mod_sinclair_MS7",
+    "successorId": "M-HY-BARTLETT56-MOD_MS7",
+    "type": 0
+  },
+  {
+    "id": 297,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_commissioning",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS7",
+    "type": 0
+  },
+  {
+    "id": 298,
+    "predecessorId": "M-proj_021_commissioning",
+    "successorId": "M-proj_020_interconnection",
+    "type": 0
+  },
+  {
+    "id": 299,
+    "predecessorId": "M-Cape_Wind_new_build_interconnection",
+    "successorId": "M-BESS-PV-COLOC-200-200_interconnection",
+    "type": 0
+  },
+  {
+    "id": 300,
+    "predecessorId": "M-MCI-NGCC-10-11-7FA05_MS5",
+    "successorId": "M-HY-BARTLETT56-MOD_MS5",
+    "type": 1
+  },
+  {
+    "id": 301,
+    "predecessorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "type": 0
+  },
+  {
+    "id": 302,
+    "predecessorId": "M-tall_wind_demo_commissioning",
+    "successorId": "M-Cape_Wind_new_build_construction",
+    "type": 0
+  },
+  {
+    "id": 303,
+    "predecessorId": "M-Cape_Wind_new_build_engineering",
+    "successorId": "M-tall_wind_demo_engineering",
+    "type": 1
+  },
+  {
+    "id": 304,
+    "predecessorId": "M-NU-UP-VOG1_MS8",
+    "successorId": "M-NU-UP-retire_MS3",
+    "type": 0
+  },
+  {
+    "id": 305,
+    "predecessorId": "M-NU-UP-VOG2_MS8",
+    "successorId": "M-NU-UP-retire_MS3",
+    "type": 0
+  },
+  {
+    "id": 306,
+    "predecessorId": "M-proj_019_commissioning_complete",
+    "successorId": "M-proj_021_construction",
+    "type": 0
+  }
+]

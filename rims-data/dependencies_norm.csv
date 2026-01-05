@@ -1,0 +1,374 @@
+source_work_item_id,target_work_item_id,type,min_lag_d,typ_lag_d,max_lag_d,critical,note,policy_dep_type,constraint_id,window_id
+MS_BESS-PV-COLOC-200-200_engineering,MS_BESS-PV-COLOC-200-200_procurement,FS,0,0,7,FALSE,sequential FS,,,
+MS_BESS-PV-COLOC-200-200_procurement,MS_BESS-PV-COLOC-200-200_construction,FS,14,45,120,TRUE,materials/LLP readiness,,,
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_interconnection,FS,0,7,30,TRUE,coord with utility/iso,,,
+MS_BESS-PV-COLOC-200-200_interconnection,MS_BESS-PV-COLOC-200-200_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_BESS-PV-COLOC-200-200_engineering,MS_BESS-PV-COLOC-200-200_procurement,SS,0,0,5,FALSE,parallel start,,,
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_commissioning,FF,0,0,0,TRUE,finish together,,,
+MS_BESS-PV-COLOC-200-200_procurement,MS_BESS-PV-COLOC-200-200_commissioning,SF,0,0,14,TRUE,last deliveries gate COD,,,
+Cape_Wind_new_build_engineering,Cape_Wind_new_build_procurement,FS,0,0,7,FALSE,sequential FS,,,
+Cape_Wind_new_build_procurement,Cape_Wind_new_build_construction,FS,14,45,120,TRUE,materials/LLP readiness,,,
+Cape_Wind_new_build_construction,Cape_Wind_new_build_interconnection,FS,0,7,30,TRUE,coord with utility/iso,,,
+Cape_Wind_new_build_interconnection,Cape_Wind_new_build_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+Cape_Wind_new_build_engineering,Cape_Wind_new_build_procurement,SS,0,0,5,FALSE,parallel start,,,
+Cape_Wind_new_build_construction,Cape_Wind_new_build_commissioning,FF,0,0,0,TRUE,finish together,,,
+Cape_Wind_new_build_procurement,Cape_Wind_new_build_commissioning,SF,0,0,14,TRUE,last deliveries gate COD,,,
+HY-BARTLETT56-MOD_MS1,HY-BARTLETT56-MOD_MS2,FS,0,0,7,FALSE,sequential FS,,,
+HY-BARTLETT56-MOD_MS2,HY-BARTLETT56-MOD_MS3,FS,0,0,7,FALSE,sequential FS,,,
+HY-BARTLETT56-MOD_MS3,HY-BARTLETT56-MOD_MS4,FS,0,0,7,FALSE,sequential FS,,,
+HY-BARTLETT56-MOD_MS4,HY-BARTLETT56-MOD_MS5,FS,0,0,7,FALSE,sequential FS,,,
+HY-BARTLETT56-MOD_MS5,HY-BARTLETT56-MOD_MS6,FS,0,0,7,FALSE,sequential FS,,,
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS7,FS,0,5,14,TRUE,buffer into commissioning,,,
+HY-BARTLETT56-MOD_MS7,HY-BARTLETT56-MOD_MS8,FS,0,0,7,FALSE,sequential FS,,,
+HY-BARTLETT56-MOD_MS2,HY-BARTLETT56-MOD_MS3,SS,0,0,5,FALSE,parallel start,,,
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS7,FF,0,0,7,FALSE,coordinated finish,,,
+HY-BARTLETT56-MOD_MS3,HY-BARTLETT56-MOD_MS7,SF,0,0,7,FALSE,succ finish gated by pred start,,,
+MCI-NGC5_MS1,MCI-NGC5_MS2,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGC5_MS2,MCI-NGC5_MS3,FS,0,5,14,TRUE,buffer into commissioning,,,
+MCI-NGC5_MS3,MCI-NGC5_MS4,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGC5_MS4,MCI-NGC5_MS5,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGC5_MS5,MCI-NGC5_MS6,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGC5_MS6,MCI-NGC5_MS7,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGC5_MS7,MCI-NGC5_MS8,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGCC-10-11-7FA05_MS1,MCI-NGCC-10-11-7FA05_MS2,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGCC-10-11-7FA05_MS2,MCI-NGCC-10-11-7FA05_MS3,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGCC-10-11-7FA05_MS3,MCI-NGCC-10-11-7FA05_MS4,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGCC-10-11-7FA05_MS4,MCI-NGCC-10-11-7FA05_MS5,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGCC-10-11-7FA05_MS5,MCI-NGCC-10-11-7FA05_MS6,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS7,FS,0,5,14,TRUE,buffer into commissioning,,,
+MCI-NGCC-10-11-7FA05_MS7,MCI-NGCC-10-11-7FA05_MS8,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGCC-10-11-7FA05_MS2,MCI-NGCC-10-11-7FA05_MS3,SS,0,0,5,FALSE,parallel start,,,
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS7,FF,0,0,7,FALSE,coordinated finish,,,
+MCI-NGCC-10-11-7FA05_MS3,MCI-NGCC-10-11-7FA05_MS7,SF,0,0,7,FALSE,succ finish gated by pred start,,,
+NU-UP-VOG1_MS1,NU-UP-VOG1_MS2,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG1_MS2,NU-UP-VOG1_MS3,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG1_MS3,NU-UP-VOG1_MS4,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG1_MS4,NU-UP-VOG1_MS5,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG1_MS5,NU-UP-VOG1_MS6,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS7,FS,0,5,14,TRUE,buffer into commissioning,,,
+NU-UP-VOG1_MS7,NU-UP-VOG1_MS8,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG1_MS2,NU-UP-VOG1_MS3,SS,0,0,5,FALSE,parallel start,,,
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS7,FF,0,0,7,FALSE,coordinated finish,,,
+NU-UP-VOG1_MS3,NU-UP-VOG1_MS7,SF,0,0,7,FALSE,succ finish gated by pred start,,,
+NU-UP-VOG2_MS1,NU-UP-VOG2_MS2,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG2_MS2,NU-UP-VOG2_MS3,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG2_MS3,NU-UP-VOG2_MS4,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG2_MS4,NU-UP-VOG2_MS5,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG2_MS5,NU-UP-VOG2_MS6,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS7,FS,0,5,14,TRUE,buffer into commissioning,,,
+NU-UP-VOG2_MS7,NU-UP-VOG2_MS8,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG2_MS2,NU-UP-VOG2_MS3,SS,0,0,5,FALSE,parallel start,,,
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS7,FF,0,0,7,FALSE,coordinated finish,,,
+NU-UP-VOG2_MS3,NU-UP-VOG2_MS7,SF,0,0,7,FALSE,succ finish gated by pred start,,,
+NU-UP-retire_MS1,NU-UP-retire_MS2,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-retire_MS2,NU-UP-retire_MS3,FS,0,5,14,TRUE,buffer into commissioning,,,
+NU-UP-retire_MS3,NU-UP-retire_MS4,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-retire_MS4,NU-UP-retire_MS5,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-retire_MS5,NU-UP-retire_MS6,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-retire_MS6,NU-UP-retire_MS7,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-retire_MS7,NU-UP-retire_MS8,FS,0,0,7,FALSE,sequential FS,,,
+hydro_mod_sinclair_MS1,hydro_mod_sinclair_MS2,FS,0,0,7,FALSE,sequential FS,,,
+hydro_mod_sinclair_MS2,hydro_mod_sinclair_MS3,FS,0,0,7,FALSE,sequential FS,,,
+hydro_mod_sinclair_MS3,hydro_mod_sinclair_MS4,FS,0,0,7,FALSE,sequential FS,,,
+hydro_mod_sinclair_MS4,hydro_mod_sinclair_MS5,FS,0,0,7,FALSE,sequential FS,,,
+hydro_mod_sinclair_MS5,hydro_mod_sinclair_MS6,FS,0,0,7,FALSE,sequential FS,,,
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS7,FS,0,5,14,TRUE,buffer into commissioning,,,
+hydro_mod_sinclair_MS7,hydro_mod_sinclair_MS8,FS,0,0,7,FALSE,sequential FS,,,
+hydro_mod_sinclair_MS2,hydro_mod_sinclair_MS3,SS,0,0,5,FALSE,parallel start,,,
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS7,FF,0,0,7,FALSE,coordinated finish,,,
+hydro_mod_sinclair_MS3,hydro_mod_sinclair_MS7,SF,0,0,7,FALSE,succ finish gated by pred start,,,
+MS_ppa_dahlberg_1_3_5_engineering,MS_ppa_dahlberg_1_3_5_procurement,FS,0,0,7,FALSE,sequential FS,,,
+MS_ppa_dahlberg_1_3_5_procurement,MS_ppa_dahlberg_1_3_5_construction,FS,14,45,120,TRUE,materials/LLP readiness,,,
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_interconnection,FS,0,7,30,TRUE,coord with utility/iso,,,
+MS_ppa_dahlberg_1_3_5_interconnection,MS_ppa_dahlberg_1_3_5_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_ppa_dahlberg_1_3_5_engineering,MS_ppa_dahlberg_1_3_5_procurement,SS,0,0,5,FALSE,parallel start,,,
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_commissioning,FF,0,0,0,TRUE,finish together,,,
+MS_ppa_dahlberg_1_3_5_procurement,MS_ppa_dahlberg_1_3_5_commissioning,SF,0,0,14,TRUE,last deliveries gate COD,,,
+MS_proj_009_engineering,MS_proj_009_procurement,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_009_procurement,MS_proj_009_construction,FS,14,45,120,TRUE,materials/LLP readiness,,,
+MS_proj_009_construction,MS_proj_009_interconnection,FS,0,7,30,TRUE,coord with utility/iso,,,
+MS_proj_009_interconnection,MS_proj_009_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_proj_009_engineering,MS_proj_009_procurement,SS,0,0,5,FALSE,parallel start,,,
+MS_proj_009_construction,MS_proj_009_commissioning,FF,0,0,0,TRUE,finish together,,,
+MS_proj_009_procurement,MS_proj_009_commissioning,SF,0,0,14,TRUE,last deliveries gate COD,,,
+MS_proj_011_decommissioning_start,MS_proj_011_demolition_start,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_011_demolition_start,MS_proj_011_closure,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_017_decommissioning_start,MS_proj_017_demolition_start,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_017_demolition_start,MS_proj_017_closure,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_019_project_kickoff,MS_proj_019_construction,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_019_construction,MS_proj_019_commissioning,FS,0,7,21,TRUE,punchlist & MECH complete,,,
+MS_proj_019_construction,MS_proj_019_commissioning,FF,0,0,0,TRUE,finish together,,,
+MS_proj_020_engineering,MS_proj_020_procurement,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_020_procurement,MS_proj_020_construction,FS,14,45,120,TRUE,materials/LLP readiness,,,
+MS_proj_020_construction,MS_proj_020_interconnection,FS,0,7,30,TRUE,coord with utility/iso,,,
+MS_proj_020_interconnection,MS_proj_020_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_proj_020_engineering,MS_proj_020_procurement,SS,0,0,5,FALSE,parallel start,,,
+MS_proj_020_construction,MS_proj_020_commissioning,FF,0,0,0,TRUE,finish together,,,
+MS_proj_020_procurement,MS_proj_020_commissioning,SF,0,0,14,TRUE,last deliveries gate COD,,,
+MS_proj_021_engineering,MS_proj_021_procurement,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_021_procurement,MS_proj_021_construction,FS,14,45,120,TRUE,materials/LLP readiness,,,
+MS_proj_021_construction,MS_proj_021_interconnection,FS,0,7,30,TRUE,coord with utility/iso,,,
+MS_proj_021_interconnection,MS_proj_021_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_proj_021_engineering,MS_proj_021_procurement,SS,0,0,5,FALSE,parallel start,,,
+MS_proj_021_construction,MS_proj_021_commissioning,FF,0,0,0,TRUE,finish together,,,
+MS_proj_021_procurement,MS_proj_021_commissioning,SF,0,0,14,TRUE,last deliveries gate COD,,,
+MS_proj_022_decommissioning_start,MS_proj_022_demolition_start,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_022_demolition_start,MS_proj_022_closure___turnover,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_022_retirement_plan_approved,MS_proj_022_fuel_isolation_&_purge_complete,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_022_fuel_isolation_&_purge_complete,MS_proj_022_decommissioning_start,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_proj_022_decommissioning_start,MS_proj_022_hazmat_ash_handling_secured,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_022_hazmat_ash_handling_secured,MS_proj_022_equipment_de-energized_&_cleared,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_022_equipment_de-energized_&_cleared,MS_proj_022_demolition_start,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_022_demolition_start,MS_proj_022_site_remediation_complete,FS,0,0,7,FALSE,sequential FS,,,
+MS_proj_022_site_remediation_complete,MS_proj_022_closure___turnover,FS,0,0,7,FALSE,sequential FS,,,
+retire_bowen_1_2_MS1,retire_bowen_1_2_MS2,FS,0,0,7,FALSE,sequential FS,,,
+retire_bowen_1_2_MS2,retire_bowen_1_2_MS3,FS,0,5,14,TRUE,buffer into commissioning,,,
+retire_bowen_1_2_MS3,retire_bowen_1_2_MS4,FS,0,0,7,FALSE,sequential FS,,,
+retire_bowen_1_2_MS4,retire_bowen_1_2_MS5,FS,0,0,7,FALSE,sequential FS,,,
+retire_bowen_1_2_MS5,retire_bowen_1_2_MS6,FS,0,0,7,FALSE,sequential FS,,,
+retire_bowen_1_2_MS6,retire_bowen_1_2_MS7,FS,0,0,7,FALSE,sequential FS,,,
+retire_bowen_1_2_MS7,retire_bowen_1_2_MS8,FS,0,0,7,FALSE,sequential FS,,,
+MS_tall_wind_demo_engineering,MS_tall_wind_demo_procurement,FS,0,0,7,FALSE,sequential FS,,,
+MS_tall_wind_demo_procurement,MS_tall_wind_demo_construction,FS,14,45,120,TRUE,materials/LLP readiness,,,
+MS_tall_wind_demo_construction,MS_tall_wind_demo_interconnection,FS,0,7,30,TRUE,coord with utility/iso,,,
+MS_tall_wind_demo_interconnection,MS_tall_wind_demo_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_tall_wind_demo_engineering,MS_tall_wind_demo_procurement,SS,0,0,5,FALSE,parallel start,,,
+MS_tall_wind_demo_construction,MS_tall_wind_demo_commissioning,FF,0,0,0,TRUE,finish together,,,
+MS_tall_wind_demo_procurement,MS_tall_wind_demo_commissioning,SF,0,0,14,TRUE,last deliveries gate COD,,,
+MS_BESS-PV-COLOC-200-200_engineering,MS_BESS-PV-COLOC-200-200_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_construction,FF,0,0,7,FALSE,coordinated finish,,,
+Cape_Wind_new_build_engineering,Cape_Wind_new_build_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+Cape_Wind_new_build_construction,Cape_Wind_new_build_construction,FF,0,0,7,FALSE,coordinated finish,,,
+HY-BARTLETT56-MOD_MS2,HY-BARTLETT56-MOD_MS7,FS,0,5,14,TRUE,buffer into commissioning,,,
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS6,FF,0,0,7,FALSE,coordinated finish,,,
+HY-BARTLETT56-MOD_MS1,HY-BARTLETT56-MOD_MS3,FS,0,0,7,FALSE,sequential FS,,,
+MCI-NGC5_MS3,MCI-NGC5_MS3,FF,0,0,7,FALSE,coordinated finish,,,
+MCI-NGCC-10-11-7FA05_MS2,MCI-NGCC-10-11-7FA05_MS7,FS,0,5,14,TRUE,buffer into commissioning,,,
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS6,FF,0,0,7,FALSE,coordinated finish,,,
+MCI-NGCC-10-11-7FA05_MS1,MCI-NGCC-10-11-7FA05_MS3,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG1_MS2,NU-UP-VOG1_MS7,FS,0,5,14,TRUE,buffer into commissioning,,,
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS6,FF,0,0,7,FALSE,coordinated finish,,,
+NU-UP-VOG1_MS1,NU-UP-VOG1_MS3,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-VOG2_MS2,NU-UP-VOG2_MS7,FS,0,5,14,TRUE,buffer into commissioning,,,
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS6,FF,0,0,7,FALSE,coordinated finish,,,
+NU-UP-VOG2_MS1,NU-UP-VOG2_MS3,FS,0,0,7,FALSE,sequential FS,,,
+NU-UP-retire_MS3,NU-UP-retire_MS3,FF,0,0,7,FALSE,coordinated finish,,,
+hydro_mod_sinclair_MS2,hydro_mod_sinclair_MS7,FS,0,5,14,TRUE,buffer into commissioning,,,
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS6,FF,0,0,7,FALSE,coordinated finish,,,
+hydro_mod_sinclair_MS1,hydro_mod_sinclair_MS3,FS,0,0,7,FALSE,sequential FS,,,
+MS_ppa_dahlberg_1_3_5_engineering,MS_ppa_dahlberg_1_3_5_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_construction,FF,0,0,7,FALSE,coordinated finish,,,
+MS_proj_009_engineering,MS_proj_009_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_proj_009_construction,MS_proj_009_construction,FF,0,0,7,FALSE,coordinated finish,,,
+MS_proj_011_decommissioning_start,MS_proj_011_decommissioning_start,FF,0,0,7,FALSE,coordinated finish,,,
+MS_proj_017_decommissioning_start,MS_proj_017_decommissioning_start,FF,0,0,7,FALSE,coordinated finish,,,
+MS_proj_019_construction,MS_proj_019_construction,FF,0,0,7,FALSE,coordinated finish,,,
+MS_proj_020_engineering,MS_proj_020_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_proj_020_construction,MS_proj_020_construction,FF,0,0,7,FALSE,coordinated finish,,,
+MS_proj_021_engineering,MS_proj_021_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_proj_021_construction,MS_proj_021_construction,FF,0,0,7,FALSE,coordinated finish,,,
+retire_bowen_1_2_MS3,retire_bowen_1_2_MS3,FF,0,0,7,FALSE,coordinated finish,,,
+MS_tall_wind_demo_engineering,MS_tall_wind_demo_commissioning,FS,0,5,14,TRUE,buffer into commissioning,,,
+MS_tall_wind_demo_construction,MS_tall_wind_demo_construction,FF,0,0,7,FALSE,coordinated finish,,,
+MS_BESS-PV-COLOC-200-200_engineering,MS_BESS-PV-COLOC-200-200_commissioning,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_construction,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+MS_BESS-PV-COLOC-200-200_engineering,MS_BESS-PV-COLOC-200-200_procurement,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+MS_BESS-PV-COLOC-200-200_engineering,MS_BESS-PV-COLOC-200-200_commissioning,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+MS_BESS-PV-COLOC-200-200_engineering,MS_BESS-PV-COLOC-200-200_commissioning,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+MS_BESS-PV-COLOC-200-200_engineering,MS_BESS-PV-COLOC-200-200_procurement,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_construction,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_construction,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_construction,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_construction,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_construction,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+MS_BESS-PV-COLOC-200-200_construction,MS_BESS-PV-COLOC-200-200_construction,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+Cape_Wind_new_build_engineering,Cape_Wind_new_build_commissioning,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+Cape_Wind_new_build_construction,Cape_Wind_new_build_construction,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+Cape_Wind_new_build_engineering,Cape_Wind_new_build_procurement,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+Cape_Wind_new_build_construction,Cape_Wind_new_build_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+Cape_Wind_new_build_construction,Cape_Wind_new_build_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+Cape_Wind_new_build_engineering,Cape_Wind_new_build_commissioning,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+Cape_Wind_new_build_engineering,Cape_Wind_new_build_commissioning,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+Cape_Wind_new_build_engineering,Cape_Wind_new_build_procurement,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+Cape_Wind_new_build_construction,Cape_Wind_new_build_construction,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+Cape_Wind_new_build_construction,Cape_Wind_new_build_construction,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+Cape_Wind_new_build_construction,Cape_Wind_new_build_construction,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+Cape_Wind_new_build_construction,Cape_Wind_new_build_construction,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+Cape_Wind_new_build_construction,Cape_Wind_new_build_construction,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+Cape_Wind_new_build_construction,Cape_Wind_new_build_construction,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+HY-BARTLETT56-MOD_MS2,HY-BARTLETT56-MOD_MS7,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+HY-BARTLETT56-MOD_MS1,HY-BARTLETT56-MOD_MS3,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+HY-BARTLETT56-MOD_MS2,HY-BARTLETT56-MOD_MS7,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+HY-BARTLETT56-MOD_MS2,HY-BARTLETT56-MOD_MS7,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+HY-BARTLETT56-MOD_MS1,HY-BARTLETT56-MOD_MS3,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS6,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS6,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS6,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS6,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS6,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+HY-BARTLETT56-MOD_MS6,HY-BARTLETT56-MOD_MS6,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+MCI-NGC5_MS3,MCI-NGC5_MS3,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+MCI-NGC5_MS3,MCI-NGC5_MS3,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+MCI-NGC5_MS3,MCI-NGC5_MS3,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+MCI-NGC5_MS3,MCI-NGC5_MS3,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+MCI-NGC5_MS3,MCI-NGC5_MS3,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+MCI-NGC5_MS3,MCI-NGC5_MS3,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+MCI-NGC5_MS3,MCI-NGC5_MS3,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+MCI-NGC5_MS3,MCI-NGC5_MS3,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+MCI-NGC5_MS3,MCI-NGC5_MS3,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+MCI-NGCC-10-11-7FA05_MS2,MCI-NGCC-10-11-7FA05_MS7,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+MCI-NGCC-10-11-7FA05_MS1,MCI-NGCC-10-11-7FA05_MS3,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+MCI-NGCC-10-11-7FA05_MS2,MCI-NGCC-10-11-7FA05_MS7,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+MCI-NGCC-10-11-7FA05_MS2,MCI-NGCC-10-11-7FA05_MS7,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+MCI-NGCC-10-11-7FA05_MS1,MCI-NGCC-10-11-7FA05_MS3,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS6,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS6,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS6,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS6,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS6,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+MCI-NGCC-10-11-7FA05_MS6,MCI-NGCC-10-11-7FA05_MS6,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+NU-UP-VOG1_MS2,NU-UP-VOG1_MS7,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+NU-UP-VOG1_MS1,NU-UP-VOG1_MS3,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+NU-UP-VOG1_MS2,NU-UP-VOG1_MS7,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+NU-UP-VOG1_MS2,NU-UP-VOG1_MS7,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+NU-UP-VOG1_MS1,NU-UP-VOG1_MS3,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS6,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS6,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS6,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS6,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS6,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+NU-UP-VOG1_MS6,NU-UP-VOG1_MS6,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+NU-UP-VOG2_MS2,NU-UP-VOG2_MS7,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+NU-UP-VOG2_MS1,NU-UP-VOG2_MS3,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+NU-UP-VOG2_MS2,NU-UP-VOG2_MS7,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+NU-UP-VOG2_MS2,NU-UP-VOG2_MS7,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+NU-UP-VOG2_MS1,NU-UP-VOG2_MS3,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS6,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS6,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS6,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS6,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS6,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+NU-UP-VOG2_MS6,NU-UP-VOG2_MS6,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+NU-UP-retire_MS3,NU-UP-retire_MS3,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+NU-UP-retire_MS3,NU-UP-retire_MS3,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+NU-UP-retire_MS3,NU-UP-retire_MS3,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+NU-UP-retire_MS3,NU-UP-retire_MS3,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+NU-UP-retire_MS3,NU-UP-retire_MS3,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+NU-UP-retire_MS3,NU-UP-retire_MS3,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+NU-UP-retire_MS3,NU-UP-retire_MS3,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+NU-UP-retire_MS3,NU-UP-retire_MS3,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+NU-UP-retire_MS3,NU-UP-retire_MS3,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+hydro_mod_sinclair_MS2,hydro_mod_sinclair_MS7,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+hydro_mod_sinclair_MS1,hydro_mod_sinclair_MS3,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS6,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+hydro_mod_sinclair_MS2,hydro_mod_sinclair_MS7,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+hydro_mod_sinclair_MS2,hydro_mod_sinclair_MS7,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+hydro_mod_sinclair_MS1,hydro_mod_sinclair_MS3,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS6,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS6,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS6,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS6,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS6,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+hydro_mod_sinclair_MS6,hydro_mod_sinclair_MS6,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+MS_ppa_dahlberg_1_3_5_engineering,MS_ppa_dahlberg_1_3_5_commissioning,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_construction,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+MS_ppa_dahlberg_1_3_5_engineering,MS_ppa_dahlberg_1_3_5_procurement,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+MS_ppa_dahlberg_1_3_5_engineering,MS_ppa_dahlberg_1_3_5_commissioning,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+MS_ppa_dahlberg_1_3_5_engineering,MS_ppa_dahlberg_1_3_5_commissioning,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+MS_ppa_dahlberg_1_3_5_engineering,MS_ppa_dahlberg_1_3_5_procurement,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_construction,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_construction,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_construction,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_construction,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_construction,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+MS_ppa_dahlberg_1_3_5_construction,MS_ppa_dahlberg_1_3_5_construction,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+MS_proj_009_engineering,MS_proj_009_commissioning,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+MS_proj_009_construction,MS_proj_009_construction,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+MS_proj_009_engineering,MS_proj_009_procurement,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+MS_proj_009_construction,MS_proj_009_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+MS_proj_009_construction,MS_proj_009_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+MS_proj_009_engineering,MS_proj_009_commissioning,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+MS_proj_009_engineering,MS_proj_009_commissioning,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+MS_proj_009_engineering,MS_proj_009_procurement,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+MS_proj_009_construction,MS_proj_009_construction,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+MS_proj_009_construction,MS_proj_009_construction,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+MS_proj_009_construction,MS_proj_009_construction,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+MS_proj_009_construction,MS_proj_009_construction,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+MS_proj_009_construction,MS_proj_009_construction,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+MS_proj_009_construction,MS_proj_009_construction,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+MS_proj_019_construction,MS_proj_019_commissioning,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+MS_proj_019_construction,MS_proj_019_construction,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+MS_proj_019_construction,MS_proj_019_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+MS_proj_019_construction,MS_proj_019_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+MS_proj_019_construction,MS_proj_019_commissioning,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+MS_proj_019_construction,MS_proj_019_commissioning,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+MS_proj_019_construction,MS_proj_019_construction,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+MS_proj_019_construction,MS_proj_019_construction,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+MS_proj_019_construction,MS_proj_019_construction,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+MS_proj_019_construction,MS_proj_019_construction,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+MS_proj_019_construction,MS_proj_019_construction,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+MS_proj_019_construction,MS_proj_019_construction,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+MS_proj_020_engineering,MS_proj_020_commissioning,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+MS_proj_020_construction,MS_proj_020_construction,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+MS_proj_020_engineering,MS_proj_020_procurement,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+MS_proj_020_construction,MS_proj_020_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+MS_proj_020_construction,MS_proj_020_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+MS_proj_020_engineering,MS_proj_020_commissioning,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+MS_proj_020_engineering,MS_proj_020_commissioning,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+MS_proj_020_engineering,MS_proj_020_procurement,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+MS_proj_021_engineering,MS_proj_021_commissioning,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+MS_proj_021_construction,MS_proj_021_construction,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+MS_proj_021_engineering,MS_proj_021_procurement,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+MS_proj_021_engineering,MS_proj_021_commissioning,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+MS_proj_021_engineering,MS_proj_021_commissioning,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+MS_proj_021_engineering,MS_proj_021_procurement,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+MS_tall_wind_demo_engineering,MS_tall_wind_demo_commissioning,FS,2,2,7,FALSE,policy_buffer +2d,POLICY_BUFFER,plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review,
+MS_tall_wind_demo_construction,MS_tall_wind_demo_construction,FF,0,0,0,FALSE,policy_blackout window=plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window,POLICY_BLACKOUT,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout,plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout__window
+MS_tall_wind_demo_engineering,MS_tall_wind_demo_procurement,FS,30,30,37,TRUE,policy_gate notice>=30d,POLICY_GATE,PLANT_DAHLBERG_CT_135__pipeline_coordination_notice,
+MS_tall_wind_demo_construction,MS_tall_wind_demo_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10015-0_0e2230__bat_migration_blackout__window,POLICY_BLACKOUT,plant_eia-10015-0_0e2230__bat_migration_blackout,plant_eia-10015-0_0e2230__bat_migration_blackout__window
+MS_tall_wind_demo_construction,MS_tall_wind_demo_construction,FF,0,0,0,FALSE,policy_blackout window=plant_eia-10020-0_6bff7e__workover_window_restriction__window,POLICY_BLACKOUT,plant_eia-10020-0_6bff7e__workover_window_restriction,plant_eia-10020-0_6bff7e__workover_window_restriction__window
+MS_tall_wind_demo_engineering,MS_tall_wind_demo_commissioning,FS,5,5,10,FALSE,policy_buffer +5d,POLICY_BUFFER,plant_eia-10020-0_6bff7e__h2s_emissions_controls,
+MS_tall_wind_demo_engineering,MS_tall_wind_demo_commissioning,FS,15,15,20,FALSE,policy_buffer +15d,POLICY_BUFFER,PLANT_GASTON_U2__refuel_outage_buffer,
+MS_tall_wind_demo_engineering,MS_tall_wind_demo_procurement,FS,14,14,21,TRUE,policy_gate notice>=14d,POLICY_GATE,PLANT_GASTON_U2__security_restrictions_heavy_lifts,
+MS_tall_wind_demo_construction,MS_tall_wind_demo_construction,FF,0,0,0,FALSE,policy_blackout window=PLANT_GASTON_U3__bat_migration_blackout__window,POLICY_BLACKOUT,PLANT_GASTON_U3__bat_migration_blackout,PLANT_GASTON_U3__bat_migration_blackout__window
+MS_tall_wind_demo_construction,MS_tall_wind_demo_construction,FF,0,0,0,FALSE,policy_blackout window=ERCOT__extreme_heat_emergency__window,POLICY_BLACKOUT,ERCOT__extreme_heat_emergency,ERCOT__extreme_heat_emergency__window
+MS_tall_wind_demo_construction,MS_tall_wind_demo_construction,FF,0,0,0,FALSE,policy_blackout window=MISO__extreme_heat_emergency__window,POLICY_BLACKOUT,MISO__extreme_heat_emergency,MISO__extreme_heat_emergency__window
+MS_tall_wind_demo_construction,MS_tall_wind_demo_construction,FF,0,0,0,FALSE,policy_blackout window=NEISO__extreme_heat_emergency__window,POLICY_BLACKOUT,NEISO__extreme_heat_emergency,NEISO__extreme_heat_emergency__window
+MS_tall_wind_demo_construction,MS_tall_wind_demo_construction,FF,0,0,0,FALSE,policy_blackout window=PJM__extreme_heat_emergency__window,POLICY_BLACKOUT,PJM__extreme_heat_emergency,PJM__extreme_heat_emergency__window
+MS_tall_wind_demo_construction,MS_tall_wind_demo_construction,FF,0,0,0,FALSE,policy_blackout window=SPP__extreme_heat_emergency__window,POLICY_BLACKOUT,SPP__extreme_heat_emergency,SPP__extreme_heat_emergency__window
+source_work_item_id,target_work_item_id,type,min_lag_d,typ_lag_d,max_lag_d,critical,note,policy_dep_type,constraint_id,window_id
+MS_proj_009_commissioning,retire_Plant28_MS3,FS,14,30,60,TRUE,Coal retirement gated by 400 MW replacement capacity online; regional adequacy requirement,reliability_constraint,PC-REL-001,
+MS_proj_020_commissioning,retire_bowen_1_2_MS3,FS,14,30,60,TRUE,100 MW solar must commission before 350 MW coal retirement; environmental offset requirement,environmental,PC-ENV-002,
+MS_BESS-PV-COLOC-200-200_commissioning,retire_bowen_1_2_MS3,FS,14,30,60,TRUE,200 MW BESS contributes to replacement capacity for coal retirement,reliability_constraint,PC-REL-002,
+MS_proj_020_construction,MS_BESS-PV-COLOC-200-200_construction,SS,90,120,180,FALSE,Both projects at Mountain Solar site; stagger construction to avoid laydown area conflicts,site_constraint,,WIN-MOUNTAIN-SOLAR
+NU-UP-VOG1_MS5,NU-UP-VOG2_MS5,SS,180,270,365,TRUE,Sequential outage windows at same nuclear plant to maintain regional adequacy,site_constraint,PC-SITE-001,WIN-GASTON-OUTAGES
+NU-UP-VOG1_MS7,NU-UP-VOG2_MS7,FS,60,90,120,TRUE,Shared NRC-certified nuclear commissioning team; sequential deployment required,resource_constraint,,RES-NUC-COMM-TEAM
+hydro_mod_sinclair_MS7,HY-BARTLETT56-MOD_MS7,FS,30,45,60,TRUE,Shared specialized hydro modernization contractor; sequential commissioning. CORRECTED: Sinclair finishes first (3/16/2027) then Bartlett (10/31/2032),resource_constraint,,RES-HYDRO-MOD-CREW
+MS_ppa_dahlberg_1_3_5_commissioning,MCI-NGCC-10-11-7FA05_MS7,FS,45,60,90,FALSE,Shared gas turbine commissioning team; preferably sequential for efficiency,resource_constraint,,RES-GAS-COMM-TEAM
+MS_proj_021_commissioning,MS_proj_020_interconnection,FS,14,21,45,TRUE,800 MW transmission project must energize before 100 MW solar can interconnect; grid capacity constraint,transmission_dependency,PC-TRANS-001,
+Cape_Wind_new_build_interconnection,MS_BESS-PV-COLOC-200-200_interconnection,FS,30,60,90,TRUE,ISO interconnection queue position sequencing; Cape Wind is first in queue,interconnection_queue,PC-ISO-QUEUE-001,
+MCI-NGCC-10-11-7FA05_MS5,HY-BARTLETT56-MOD_MS5,SS,180,210,240,TRUE,Regional reliability policy: max 2 major outages >100 MW simultaneously in region,regional_reliability,PC-MISO-OUTAGE-001,WIN-MISO-Q4-2032
+MS_ppa_dahlberg_1_3_5_procurement,MCI-NGCC-10-11-7FA05_MS3,FS,90,120,150,FALSE,GE 7FA turbine components on allocation; vendor can only fulfill one major order per quarter,supply_chain,,SC-GE-7FA-PARTS
+MS_tall_wind_demo_commissioning,Cape_Wind_new_build_construction,FS,180,270,365,FALSE,Tall wind technology demonstration must validate performance for 6-12 months before commercial-scale construction,technical_gate,,TECH-TALL-WIND-DEMO
+Cape_Wind_new_build_engineering,MS_tall_wind_demo_engineering,SS,90,120,180,FALSE,Stagger environmental permit submissions to avoid overwhelming regulatory staff; both require avian impact studies,regulatory_constraint,,REG-AVIAN-PERMITS
+NU-UP-VOG1_MS8,NU-UP-retire_MS3,FS,90,120,180,TRUE,Nuclear uprate 1 must return to service before Vogtle 3 retirement can begin decommissioning,reliability_constraint,PC-REL-003,
+NU-UP-VOG2_MS8,NU-UP-retire_MS3,FS,90,120,180,TRUE,Nuclear uprate 2 must return to service before Vogtle 3 retirement can begin decommissioning,reliability_constraint,PC-REL-003,
+MS_proj_019_commissioning_complete,MS_proj_021_construction,FS,30,60,90,FALSE,Phase 1 transmission upgrade provides construction access roads for Phase 2 transmission project,transmission_dependency,,TRANS-PHASE-SEQ

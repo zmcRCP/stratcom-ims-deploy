@@ -1,0 +1,14 @@
+plant_id,plant_name,fuel,baseline_mw,region,status
+1,Plant 1,coal,15,NEISO,modernizing
+2,Plant 2,gas,20,NEISO,planned
+3,Plant 3,nuclear,25,PJM,new build
+4,Plant 4,hydro,30,MISO,retiring
+5,Plant 5,solar,35,CAISO,planned
+6,Plant 6,wind,40,CAISO,planned
+8,Plant 8,coal,50,CAISO,retiring
+9,Plant 9,nuclear,20,PJM,planned
+10,Plant 10,nuclear,13,MISO,retiring
+11,Plant 11,nuclear,35,CAISO,moderizing
+12,Plant 12,wind,35,PJM,new build
+13,Plant 13,wind,45,MISO,new build
+

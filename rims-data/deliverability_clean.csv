@@ -1,0 +1,16 @@
+project_id,region,deliverable_by_p50,deliverable_by_p90,limiting_interface
+proj_006,ERCOT,2034-05-08,2035-06-13,ERCOT_main_interface
+proj_009,ERCOT,2034-09-03,2035-11-28,ERCOT_main_interface
+proj_020,WECC,2030-09-09,2032-05-29,WECC_main_interface
+proj_021,ISO-NE,2032-01-30,2033-05-15,ISO-NE_main_interface
+CT-YATES-TRANCHE,CAISO,2032-07-06,2033-11-26,CAISO_main_interface
+BESS-AFB-ROBINS-MOODY,PJM,2030-08-21,2032-01-17,PJM_main_interface
+BESS-PV-COLOC-200-200,WECC,2031-09-09,2033-05-29,WECC_main_interface
+WIND-TALL-DEM02,MISO,2030-01-14,2031-06-14,MISO_main_interface
+tall_wind_demo,WECC,2027-03-08,2028-07-06,WECC_main_interface
+ppa_harris2_cc,NYISO,2029-07-07,2030-12-27,NYISO_main_interface
+ppa_wansley7,PJM,2029-12-06,2031-04-28,PJM_main_interface
+ppa_dahlberg_1_3_5,SERC,2029-10-07,2030-12-29,SERC_main_interface
+ppa_dahlberg_2_6,NYISO,2030-01-05,2031-06-27,NYISO_main_interface
+ppa_dahlberg_8_10,WECC,2030-11-06,2032-02-27,WECC_main_interface
+ppa_monroe_1_2,ERCOT,2031-05-08,2032-08-28,ERCOT_main_interface

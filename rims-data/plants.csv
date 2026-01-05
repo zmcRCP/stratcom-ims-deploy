@@ -1,0 +1,18 @@
+plant_id,plant_name,eia_plant_id,fuel,status,nameplate_mw,reliable_mw,condition_score,annual_sustainment_opex_$,infra_backlog_$M,forced_outage_rate,age_years,id,name,capacity_mw,start_date,retire_date,owner,region
+plant_eia-10018-0_66d132,Plant 20,10023,solar,moderization,900,693,77,13967184,0,3.46,0,PL-N03,Solar New 3,336,12/30/2020,5/31/2034,North Ops,ERCOT
+PLANT_GASTON_U3,Plant Gaston U3,10012,wind,moderization,120,100.8,84,17215900,0,4.5,0,PL-N05,Wind New 5,340,12/31/2018,4/1/2036,East Ops,NEISO
+plant_gpc-bartletts-ferry-5-6_58bb51,Bartletts Ferry 5&6,10001,hydro,modernization,900,684,76,32155099,45.71,5.55,46.91,PL-L07,Hydro moderization1,491,2/25/2019,6/5/2028,West Ops,NEISO
+plant_gpc-mcintosh-10-11_5a49a9,McIntosh 10-11,10019,gas,modernization,194,133.86,69,60845756,20.7,21.8,11.79,PL-L03,Gas Legacy 3,694,9/1/2015,4/15/2027,North Ops,PJM
+plant_doe-lpo-nan_6ec756,Plant 1,10025,hydro,modernization,300,195,65,6616176,7.23,3.32,7.45,PL-L06,Hydro Legacy 6,87,11/3/2019,2/22/2034,North Ops,MISO
+PLANT_GASTON_U2,Plant Gaston U2,10015,nuclear,modernization,3000,1650,55,192001540,97.16,40.26,30.98,PL-N09,Nuclear New 9,1186,8/20/2000,10/26/2045,North Ops,ERCOT
+PLANT_DAHLBERG_CT_135,Dahlberg CTs 1/3/5,10018,gas,modernization,1000,828,92,45072170,0,1.5,0,PL-N08,Gas New 8,559,10/25/2020,9/24/2035,Independent,SPP
+plant_southern-power-gpc-sinclair_de80ca,Cape Wind,10005,wind,new build,900,774,86,15506262,0,13.91,0,PL-N04,Wind New 4,314,12/27/2029,10/23/2036,North Ops,SPP
+plant_eia-10020-0_6bff7e,Mountain Solar,10020,solar,new build,120,109.2,91,4698120,0,3.95,0,PL-N02,Solar New 2,119,6/11/2030,12/23/2055,Independent,PJM
+plant_eia-10015-0_0e2230,Plant 17,10005,wind,new build,400,400,100,8993255,10.34,7.51,7.47,PL-N06,Wind New 6,155,9/30/2031,1/5/2055,South Ops,MISO
+plant_eia-10009-0_97aed2,Plant 9,10009,coal,new build,400,400,100,104377458,0,3.2,0,PL-L02,Coal_new,400,1/1/2030,1/1/2055,East Ops,SPP
+plant_eia-22,Plant 22,10016,geothermal,retire,300,243,81,6091161,0,5.89,0,PL-N10,Geothermal New 10,71,10/25/2015,10/7/2032,East Ops,PJM
+plant_eia-10011-0_9f15f6,Plant 11,10011,hydro,retiring,200,130,65,4340100,150.8,4.6,43,PL-N11,Hydro Legacy,200,6/1/1980,5/6/2031,East Ops,NEISO
+plant_eia-10022-0_7eb25e,Plant 28,10022,coal,retiring,1800,1026,57,108923948,70.9,41.04,31.78,PL-L10,Coal Legacy 10,787,4/19/2016,12/1/2029,North Ops,MISO
+plant_eia-10023-0_8943bb,PLANT_BOWEN_U1,10024,coal,retiring,400,240,60,104377458,54.7,12.59,8.07,PL-L01,Coal Legacy 1,766,7/5/2013,5/20/2028,East Ops,SPP
+plant_gpc-morgan-falls_850259,Robins AFB; Moody AFB,10021,gas,retiring,120,94.8,79,6793262,1.53,6.44,8.04,PL-L09,Gas Legacy 2,103,1/4/2015,5/5/2029,West Ops,PJM
+plant_gpc-vogtle-3_f743db,Vogtle 3,10006,nuclear,retiring,4500,3825,85,292591512,35.7,35.42,51.68,PL-L05,Nuclear Legacy 5,4500,6/1/2015,7/14/2029/2029,Independent,ERCOT

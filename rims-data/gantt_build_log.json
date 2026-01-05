@@ -1,0 +1,56 @@
+{
+  "dropped_dependencies": [],
+  "alias_hits": 399,
+  "sustainment_needs_rekey_hits": 14,
+  "sustainment_needs_rekey_misses": 2,
+  "projects_added_count": 20,
+  "projects_added_sample": [
+    "P-BESS-PV-COLOC-200-200",
+    "P-Cape_Wind_new_build",
+    "P-HY-BARTLETT56-MOD",
+    "P-hydro_mod_sinclair",
+    "P-MCI-NGC5",
+    "P-MCI-NGCC-10-11-7FA05",
+    "P-NU-UP-retire",
+    "P-NU-UP-VOG1",
+    "P-NU-UP-VOG2",
+    "P-ppa_dahlberg_1_3_5"
+  ],
+  "sustainment_summary": {
+    "plants_with_needs": 15,
+    "total_needs": 49
+  },
+  "dropped_invalid_id_tasks": 0,
+  "counts_by_prefix": {
+    "P": 20,
+    "M": 119,
+    "SW": 0,
+    "PSC": 59,
+    "SSC": 0
+  },
+  "missing_plantId": 0,
+  "orphans_M": 0,
+  "dep_id_normalized": 399,
+  "plants_count": 17,
+  "plants_with_needs": 15,
+  "plants_with_policy": 17,
+  "procurement_lead_time": {
+    "total_procurement": 59,
+    "psc_with_lead_time": 0,
+    "ssc_with_lead_time": 0,
+    "psc_zero_or_missing": 59,
+    "ssc_zero_or_missing": 0
+  },
+  "load_forecast": {
+    "regions": 5,
+    "max_project_end": "2035-09-06",
+    "padded_days_by_region": {
+      "ERCOT": 279,
+      "MISO": 248,
+      "NEISO": 248,
+      "PJM": 2561,
+      "SPP": 248
+    },
+    "output": "C:\\Users\\sueco\\OneDrive\\Documents\\GitHub\\IMS\\stratcom-ims\\public\\rims-data\\load_forecast_by_region.json"
+  }
+}

@@ -1,0 +1,5571 @@
+[
+  {
+    "plant_id": "plant_eia-10018-0_66d132",
+    "plant_name": "Plant 20",
+    "eia_plant_id": 10023,
+    "fuel": "solar",
+    "status": "moderization",
+    "nameplate_mw": 900,
+    "reliable_mw": 693.0,
+    "condition_score": 77,
+    "annual_sustainment_opex_$": 13967184,
+    "infra_backlog_$M": 0.0,
+    "forced_outage_rate": 3.46,
+    "age_years": 0.0,
+    "id": "PL-N03",
+    "name": "Solar New 3",
+    "capacity_mw": 336,
+    "start_date": "2020-12-30",
+    "retire_date": "2034-05-31",
+    "owner": "North Ops",
+    "region": "ERCOT",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.0346
+    },
+    "baseline": {
+      "date": "2020-12-30",
+      "nameplate_mw": 900.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_plant_gpc-southern-power-nan_1ed779_inverter_preventative_ma",
+          "plant_id": "plant_eia-10018-0_66d132",
+          "category": "Inverter preventative maintenance",
+          "cadence_days": 360,
+          "default_duration_days": 24,
+          "occurrence_cost_usd": 5742.6,
+          "risk_if_deferred": "Low",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "solar:inverter_preventative_maintenance",
+          "id": "SUST_plant_eia-10018-0_66d132_inverter_preventative_maintenance",
+          "resources": [
+            {
+              "resource_id": "electrical",
+              "qty_per_day": 1.0,
+              "duration_days": 24,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Inverter fan module set",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 40,
+              "expedite_days": 11,
+              "unit_cost_estimate_usd": 2010
+            },
+            {
+              "component": "DC filter capacitors kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 53,
+              "expedite_days": 17,
+              "unit_cost_estimate_usd": 4365
+            },
+            {
+              "component": "Control/IGBT driver boards (spares)",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 68,
+              "expedite_days": 12,
+              "unit_cost_estimate_usd": 3196
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-southern-power-nan_1ed779_tracker_inspection_&_rea",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 24
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_plant_gpc-southern-power-nan_1ed779_pv_array_cleaning_&_repa",
+          "plant_id": "plant_eia-10018-0_66d132",
+          "category": "PV array cleaning & repair",
+          "cadence_days": 360,
+          "default_duration_days": 13,
+          "occurrence_cost_usd": 2620.2,
+          "risk_if_deferred": "Low",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "solar:pv_array_cleaning_and_repair",
+          "id": "SUST_plant_eia-10018-0_66d132_pv_array_cleaning_and_repair",
+          "resources": [
+            {
+              "resource_id": "technicians",
+              "qty_per_day": 1.0,
+              "duration_days": 13,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Deionized water supply (bulk tote)",
+              "vendor_type": "Specialty chemical",
+              "lead_time_days": 12,
+              "expedite_days": 2,
+              "unit_cost_estimate_usd": 1853
+            },
+            {
+              "component": "Wetting agent / surfactant",
+              "vendor_type": "Specialty chemical",
+              "lead_time_days": 10,
+              "expedite_days": 4,
+              "unit_cost_estimate_usd": 306
+            },
+            {
+              "component": "Rotary brush heads (array cleaning)",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 29,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 2208
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-southern-power-nan_1ed779_inverter_preventative_ma",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-southern-power-nan_1ed779_tracker_inspection_&_rea",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-southern-power-nan_1ed779_tracker_inspection_&_rea",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-southern-power-nan_1ed779_inverter_preventative_ma",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 13
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_plant_gpc-southern-power-nan_1ed779_tracker_inspection_&_rea",
+          "plant_id": "plant_eia-10018-0_66d132",
+          "category": "Tracker inspection & realignment",
+          "cadence_days": 540,
+          "default_duration_days": 23,
+          "occurrence_cost_usd": 5443.2,
+          "risk_if_deferred": "Low",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "solar:tracker_inspection_and_realignment",
+          "id": "SUST_plant_eia-10018-0_66d132_tracker_inspection_and_realignment",
+          "resources": [
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 9.0,
+              "duration_days": 23,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Tracker gearbox/actuator assembly",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 61,
+              "expedite_days": 19,
+              "unit_cost_estimate_usd": 7596
+            },
+            {
+              "component": "Limit switches & proximity sensors",
+              "vendor_type": "Instrumentation",
+              "lead_time_days": 26,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 393
+            },
+            {
+              "component": "Hinge pins & bushings kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 25,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 1083
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-southern-power-nan_1ed779_inverter_preventative_ma",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-southern-power-nan_1ed779_pv_array_cleaning_&_repa",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-southern-power-nan_1ed779_inverter_preventative_ma",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-southern-power-nan_1ed779_pv_array_cleaning_&_repa",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 23
+          },
+          "derate_pct": 0.06,
+          "for_bump": 0.015
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_eia-10018-0_66d132__prevailing_wage",
+          "scope": "plant",
+          "constraint_type": "Labor",
+          "constraint_name": "Prevailing wage requirement",
+          "pattern": "rate_multiplier",
+          "target": "resource",
+          "value": "elec_crew:1.15; mech_crew:1.10",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Apply multipliers to labor rates by craft."
+        },
+        {
+          "constraint_id": "plant_eia-10018-0_66d132__domestic_content_surcharge",
+          "scope": "plant",
+          "constraint_type": "Trade/Content",
+          "constraint_name": "Domestic content premium",
+          "pattern": "cost_adder",
+          "target": "supply_chain",
+          "value": "0.05",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Module/inverter domestic preference."
+        },
+        {
+          "constraint_id": "ERCOT__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "ERCOT__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "modernization",
+      "new build"
+    ]
+  },
+  {
+    "plant_id": "PLANT_GASTON_U3",
+    "plant_name": "Plant Gaston U3",
+    "eia_plant_id": 10012,
+    "fuel": "wind",
+    "status": "moderization",
+    "nameplate_mw": 120,
+    "reliable_mw": 100.8,
+    "condition_score": 84,
+    "annual_sustainment_opex_$": 17215900,
+    "infra_backlog_$M": 0.0,
+    "forced_outage_rate": 4.5,
+    "age_years": 0.0,
+    "id": "PL-N05",
+    "name": "Wind New 5",
+    "capacity_mw": 340,
+    "start_date": "2018-12-31",
+    "retire_date": "2036-04-01",
+    "owner": "East Ops",
+    "region": "NEISO",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.045
+    },
+    "baseline": {
+      "date": "2018-12-31",
+      "nameplate_mw": 120.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_PLANT_GASTON_U3_blade_inspection_&_repai",
+          "plant_id": "PLANT_GASTON_U3",
+          "category": "Blade inspection & repair",
+          "cadence_days": 360,
+          "default_duration_days": 23,
+          "occurrence_cost_usd": 647.4,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "wind:blade_inspection_and_repair",
+          "id": "SUST_PLANT_GASTON_U3_blade_inspection_and_repair",
+          "resources": [
+            {
+              "resource_id": "blade",
+              "qty_per_day": 1.0,
+              "duration_days": 23,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "rope",
+              "qty_per_day": 1.0,
+              "duration_days": 23,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 32,
+              "expedite_days": 14,
+              "unit_cost_estimate_usd": 364
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 24,
+              "expedite_days": 9,
+              "unit_cost_estimate_usd": 217
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 17,
+              "expedite_days": 3,
+              "unit_cost_estimate_usd": 498
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_GASTON_U3_main_bearing_inspection",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 23
+          },
+          "derate_pct": 0.06,
+          "for_bump": 0.015
+        },
+        {
+          "need_id": "SUST_PLANT_GASTON_U3_gearbox_oil_change",
+          "plant_id": "PLANT_GASTON_U3",
+          "category": "Gearbox oil change",
+          "cadence_days": 720,
+          "default_duration_days": 8,
+          "occurrence_cost_usd": 1033.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "wind:gearbox_oil_change",
+          "id": "SUST_PLANT_GASTON_U3_gearbox_oil_change",
+          "resources": [
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 8.0,
+              "duration_days": 8,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 45,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 837
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 16,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 516
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 8,
+              "expedite_days": 5,
+              "unit_cost_estimate_usd": 369
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_GASTON_U3_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_GASTON_U3_main_bearing_inspection",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_GASTON_U3_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 8
+          },
+          "derate_pct": 0.06,
+          "for_bump": 0.015
+        },
+        {
+          "need_id": "SUST_PLANT_GASTON_U3_main_bearing_inspection",
+          "plant_id": "PLANT_GASTON_U3",
+          "category": "Main bearing inspection",
+          "cadence_days": 720,
+          "default_duration_days": 10,
+          "occurrence_cost_usd": 718.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "wind:main_bearing_inspection",
+          "id": "SUST_PLANT_GASTON_U3_main_bearing_inspection",
+          "resources": [
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 9.0,
+              "duration_days": 10,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 41,
+              "expedite_days": 11,
+              "unit_cost_estimate_usd": 502
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 28,
+              "expedite_days": 6,
+              "unit_cost_estimate_usd": 470
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 18,
+              "expedite_days": 3,
+              "unit_cost_estimate_usd": 225
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_GASTON_U3_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_GASTON_U3_gearbox_oil_change",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_GASTON_U3_gearbox_oil_change",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_GASTON_U3_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 10
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "PLANT_GASTON_U3__bat_migration_blackout",
+          "scope": "plant",
+          "constraint_type": "Wildlife",
+          "constraint_name": "Bat migration curtailment",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "22:00-06:00; Aug01-Oct15",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Nighttime curtailment during bat migration season."
+        },
+        {
+          "constraint_id": "PLANT_GASTON_U3__domestic_content_surcharge",
+          "scope": "plant",
+          "constraint_type": "Trade/Content",
+          "constraint_name": "Domestic content premium",
+          "pattern": "cost_adder",
+          "target": "supply_chain",
+          "value": "0.05",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Prefer domestic components; cost premium expectation ~5%."
+        },
+        {
+          "constraint_id": "NEISO__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "NEISO__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "new build"
+    ]
+  },
+  {
+    "plant_id": "plant_gpc-bartletts-ferry-5-6_58bb51",
+    "plant_name": "Bartletts Ferry 5&6",
+    "eia_plant_id": 10001,
+    "fuel": "hydro",
+    "status": "modernization",
+    "nameplate_mw": 900,
+    "reliable_mw": 684.0,
+    "condition_score": 76,
+    "annual_sustainment_opex_$": 32155099,
+    "infra_backlog_$M": 45.71,
+    "forced_outage_rate": 5.55,
+    "age_years": 46.91,
+    "id": "PL-L07",
+    "name": "Hydro moderization1",
+    "capacity_mw": 491,
+    "start_date": "2019-02-25",
+    "retire_date": "2028-06-05",
+    "owner": "West Ops",
+    "region": "NEISO",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.0555
+    },
+    "baseline": {
+      "date": "2019-02-25",
+      "nameplate_mw": 900.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_plant_eia-10024-0_680a25_combustor_hardware_refre",
+          "plant_id": "plant_gpc-bartletts-ferry-5-6_58bb51",
+          "category": "Spillway & gate maintenance",
+          "cadence_days": 720,
+          "default_duration_days": 5,
+          "occurrence_cost_usd": 876.6,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "hydro:spillway_and_gate_maintenance",
+          "id": "SUST_plant_gpc-bartletts-ferry-5-6_58bb51_spillway_and_gate_maintenance",
+          "resources": [
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 1.0,
+              "duration_days": 4,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "electrician",
+              "qty_per_day": 1.0,
+              "duration_days": 4,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 42,
+              "expedite_days": 9,
+              "unit_cost_estimate_usd": 657
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 22,
+              "expedite_days": 5,
+              "unit_cost_estimate_usd": 594
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 7,
+              "expedite_days": 3,
+              "unit_cost_estimate_usd": 210
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "previous_occurrence",
+              "type": "FS",
+              "lag_days": 0,
+              "severity": "hard"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 5
+          },
+          "derate_pct": 0.07,
+          "for_bump": 0.02
+        },
+        {
+          "need_id": "SUST_plant_eia-10024-0_680a25_generator_inspection",
+          "plant_id": "plant_gpc-bartletts-ferry-5-6_58bb51",
+          "category": "Turbine/generator runner inspection",
+          "cadence_days": 720,
+          "default_duration_days": 9,
+          "occurrence_cost_usd": 16705.8,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "hydro:turbine_generator_runner_inspection",
+          "id": "SUST_plant_gpc-bartletts-ferry-5-6_58bb51_turbine_generator_runner_inspection",
+          "resources": [
+            {
+              "resource_id": "electrician",
+              "qty_per_day": 1.23,
+              "duration_days": 10,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 1.12,
+              "duration_days": 10,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "rigger_crew",
+              "qty_per_day": 1.26,
+              "duration_days": 11,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Hydrogen seal kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 57,
+              "expedite_days": 24,
+              "unit_cost_estimate_usd": 22656
+            },
+            {
+              "component": "Stator RTDs",
+              "vendor_type": "Instrumentation",
+              "lead_time_days": 31,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 194
+            },
+            {
+              "component": "Wedge/slot fillers",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 37,
+              "expedite_days": 16,
+              "unit_cost_estimate_usd": 4993
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "previous_occurrence",
+              "type": "FS",
+              "lag_days": 0,
+              "severity": "hard"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 9
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_gpc-bartletts-ferry-5-6_58bb51__general_env_review",
+          "scope": "plant",
+          "constraint_type": "Environmental",
+          "constraint_name": "General environmental review buffer",
+          "pattern": "buffer_days",
+          "target": "milestone",
+          "value": "2",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Default small buffer for site environmental review."
+        },
+        {
+          "constraint_id": "NEISO__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "NEISO__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "modernization"
+    ]
+  },
+  {
+    "plant_id": "plant_gpc-mcintosh-10-11_5a49a9",
+    "plant_name": "McIntosh 10-11",
+    "eia_plant_id": 10019,
+    "fuel": "gas",
+    "status": "modernization",
+    "nameplate_mw": 194,
+    "reliable_mw": 133.86,
+    "condition_score": 69,
+    "annual_sustainment_opex_$": 60845756,
+    "infra_backlog_$M": 20.7,
+    "forced_outage_rate": 21.8,
+    "age_years": 11.79,
+    "id": "PL-L03",
+    "name": "Gas Legacy 3",
+    "capacity_mw": 694,
+    "start_date": "2015-09-01",
+    "retire_date": "2027-04-15",
+    "owner": "North Ops",
+    "region": "PJM",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.218
+    },
+    "baseline": {
+      "date": "2015-09-01",
+      "nameplate_mw": 194.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_plant_gpc-mcintosh-8a_300994_combustor_hardware_refre",
+          "plant_id": "plant_gpc-mcintosh-10-11_5a49a9",
+          "category": "Combustor hardware refresh",
+          "cadence_days": 720,
+          "default_duration_days": 18,
+          "occurrence_cost_usd": 154048.8,
+          "risk_if_deferred": "High",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "gas:combustor_hardware_refresh",
+          "id": "SUST_plant_gpc-mcintosh-10-11_5a49a9_combustor_hardware_refresh",
+          "resources": [
+            {
+              "resource_id": "GT",
+              "qty_per_day": 1.0,
+              "duration_days": 27,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 7.0,
+              "duration_days": 10,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Combustor liner kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 177,
+              "expedite_days": 51,
+              "unit_cost_estimate_usd": 123893
+            },
+            {
+              "component": "Transition piece",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 119,
+              "expedite_days": 34,
+              "unit_cost_estimate_usd": 129673
+            },
+            {
+              "component": "Igniters & flame detectors",
+              "vendor_type": "Instrumentation",
+              "lead_time_days": 30,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 3182
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-mcintosh-8a_300994_gas_turbine_borescope_&_",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 18
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_plant_gpc-mcintosh-8a_300994_gas_turbine_borescope_&_",
+          "plant_id": "plant_gpc-mcintosh-10-11_5a49a9",
+          "category": "Gas turbine borescope & hot-section insp.",
+          "cadence_days": 360,
+          "default_duration_days": 13,
+          "occurrence_cost_usd": 5686.8,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "gas:gas_turbine_borescope_and_hot_section_insp_",
+          "id": "SUST_plant_gpc-mcintosh-10-11_5a49a9_gas_turbine_borescope_and_hot_section_in",
+          "resources": [
+            {
+              "resource_id": "GT",
+              "qty_per_day": 1.0,
+              "duration_days": 17,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 7.0,
+              "duration_days": 9,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Borescope probe",
+              "vendor_type": "NDT supplier",
+              "lead_time_days": 25,
+              "expedite_days": 11,
+              "unit_cost_estimate_usd": 7043
+            },
+            {
+              "component": "Borescope rental",
+              "vendor_type": "Rental services",
+              "lead_time_days": 10,
+              "expedite_days": 3,
+              "unit_cost_estimate_usd": 1789
+            },
+            {
+              "component": "Inspection port seals",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 27,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 646
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-mcintosh-8a_300994_combustor_hardware_refre",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-mcintosh-8a_300994_combustor_hardware_refre",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-mcintosh-8a_300994_generator_inspection",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 13
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        },
+        {
+          "need_id": "SUST_plant_gpc-mcintosh-8a_300994_generator_inspection",
+          "plant_id": "plant_gpc-mcintosh-10-11_5a49a9",
+          "category": "Generator inspection",
+          "cadence_days": 1080,
+          "default_duration_days": 23,
+          "occurrence_cost_usd": 13549.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "gas:generator_inspection",
+          "id": "SUST_plant_gpc-mcintosh-10-11_5a49a9_generator_inspection",
+          "resources": [
+            {
+              "resource_id": "electrical",
+              "qty_per_day": 1.0,
+              "duration_days": 23,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Hydrogen seal kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 70,
+              "expedite_days": 21,
+              "unit_cost_estimate_usd": 17617
+            },
+            {
+              "component": "Stator RTDs",
+              "vendor_type": "Instrumentation",
+              "lead_time_days": 28,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 457
+            },
+            {
+              "component": "Wedge/slot fillers",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 49,
+              "expedite_days": 12,
+              "unit_cost_estimate_usd": 4508
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-mcintosh-8a_300994_combustor_hardware_refre",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-mcintosh-8a_300994_gas_turbine_borescope_&_",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-mcintosh-8a_300994_combustor_hardware_refre",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-mcintosh-8a_300994_gas_turbine_borescope_&_",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 23
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_gpc-mcintosh-10-11_5a49a9__ozone_season_derate_gas",
+          "scope": "plant",
+          "constraint_type": "Air",
+          "constraint_name": "Ozone-season NOx derate",
+          "pattern": "derate_pct",
+          "target": "milestone",
+          "value": "0.05",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "June\u00e2\u20ac\u201cAug expected derate 5% on combustion activities."
+        },
+        {
+          "constraint_id": "plant_gpc-mcintosh-10-11_5a49a9__pipeline_coordination_notice",
+          "scope": "plant",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Pipeline maintenance coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=30d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Certain outages require 30-day notice to gas pipeline operator."
+        },
+        {
+          "constraint_id": "PJM__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "PJM__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "modernization"
+    ]
+  },
+  {
+    "plant_id": "plant_doe-lpo-nan_6ec756",
+    "plant_name": "Plant 1",
+    "eia_plant_id": 10025,
+    "fuel": "hydro",
+    "status": "modernization",
+    "nameplate_mw": 300,
+    "reliable_mw": 195.0,
+    "condition_score": 65,
+    "annual_sustainment_opex_$": 6616176,
+    "infra_backlog_$M": 7.23,
+    "forced_outage_rate": 3.32,
+    "age_years": 7.45,
+    "id": "PL-L06",
+    "name": "Hydro Legacy 6",
+    "capacity_mw": 87,
+    "start_date": "2019-11-03",
+    "retire_date": "2034-02-22",
+    "owner": "North Ops",
+    "region": "MISO",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.0332
+    },
+    "baseline": {
+      "date": "2019-11-03",
+      "nameplate_mw": 300.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_plant_doe-lpo-nan_6ec756_spillway_&_gate_maintena",
+          "plant_id": "plant_doe-lpo-nan_6ec756",
+          "category": "Spillway & gate maintenance",
+          "cadence_days": 720,
+          "default_duration_days": 8,
+          "occurrence_cost_usd": 962.4,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "hydro:spillway_and_gate_maintenance",
+          "id": "SUST_plant_doe-lpo-nan_6ec756_spillway_and_gate_maintenance",
+          "resources": [
+            {
+              "resource_id": "civil",
+              "qty_per_day": 1.0,
+              "duration_days": 7,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 8.0,
+              "duration_days": 10,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 35,
+              "expedite_days": 11,
+              "unit_cost_estimate_usd": 730
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 18,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 307
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 8,
+              "expedite_days": 2,
+              "unit_cost_estimate_usd": 567
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_boiler_tube_inspection_&",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_fgd/gypsum_handling_upke",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_scr_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_boiler_tube_inspection_&",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_fgd/gypsum_handling_upke",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_scr_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_turbine/generator_runner",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 8
+          },
+          "derate_pct": 0.07,
+          "for_bump": 0.02
+        },
+        {
+          "need_id": "SUST_plant_doe-lpo-nan_6ec756_turbine/generator_runner",
+          "plant_id": "plant_doe-lpo-nan_6ec756",
+          "category": "Turbine/generator runner inspection",
+          "cadence_days": 720,
+          "default_duration_days": 8,
+          "occurrence_cost_usd": 8980.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "hydro:turbine_generator_runner_inspection",
+          "id": "SUST_plant_doe-lpo-nan_6ec756_turbine_generator_runner_inspection",
+          "resources": [
+            {
+              "resource_id": "electrical",
+              "qty_per_day": 1.0,
+              "duration_days": 5,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 9.0,
+              "duration_days": 10,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Hydrogen seal kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 52,
+              "expedite_days": 19,
+              "unit_cost_estimate_usd": 12204
+            },
+            {
+              "component": "Stator RTDs",
+              "vendor_type": "Instrumentation",
+              "lead_time_days": 27,
+              "expedite_days": 12,
+              "unit_cost_estimate_usd": 159
+            },
+            {
+              "component": "Wedge/slot fillers",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 51,
+              "expedite_days": 20,
+              "unit_cost_estimate_usd": 2604
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_boiler_tube_inspection_&",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_fgd/gypsum_handling_upke",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_scr_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_spillway_&_gate_maintena",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_boiler_tube_inspection_&",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_fgd/gypsum_handling_upke",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_scr_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_doe-lpo-nan_6ec756_spillway_&_gate_maintena",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 8
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_doe-lpo-nan_6ec756__general_env_review",
+          "scope": "plant",
+          "constraint_type": "Environmental",
+          "constraint_name": "General environmental review buffer",
+          "pattern": "buffer_days",
+          "target": "milestone",
+          "value": "2",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Default small buffer for site environmental review."
+        },
+        {
+          "constraint_id": "MISO__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "MISO__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "modernization"
+    ]
+  },
+  {
+    "plant_id": "PLANT_GASTON_U2",
+    "plant_name": "Plant Gaston U2",
+    "eia_plant_id": 10015,
+    "fuel": "nuclear",
+    "status": "modernization",
+    "nameplate_mw": 3000,
+    "reliable_mw": 1650.0,
+    "condition_score": 55,
+    "annual_sustainment_opex_$": 192001540,
+    "infra_backlog_$M": 97.16,
+    "forced_outage_rate": 40.26,
+    "age_years": 30.98,
+    "id": "PL-N09",
+    "name": "Nuclear New 9",
+    "capacity_mw": 1186,
+    "start_date": "2000-08-20",
+    "retire_date": "2045-10-26",
+    "owner": "North Ops",
+    "region": "ERCOT",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.40259999999999996
+    },
+    "baseline": {
+      "date": "2000-08-20",
+      "nameplate_mw": 3000.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_PLANT_GASTON_U2_containment_inspection",
+          "plant_id": "PLANT_GASTON_U2",
+          "category": "Containment inspection",
+          "cadence_days": 720,
+          "default_duration_days": 16,
+          "occurrence_cost_usd": 624.6,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "nuclear:containment_inspection",
+          "id": "SUST_PLANT_GASTON_U2_containment_inspection",
+          "resources": [
+            {
+              "resource_id": "civil",
+              "qty_per_day": 1.0,
+              "duration_days": 16,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 1.0,
+              "duration_days": 16,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 37,
+              "expedite_days": 9,
+              "unit_cost_estimate_usd": 307
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 25,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 525
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 8,
+              "expedite_days": 2,
+              "unit_cost_estimate_usd": 209
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "previous_occurrence",
+              "type": "FS",
+              "lag_days": 0,
+              "severity": "hard"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 16
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_PLANT_GASTON_U2_refueling_outage_scope",
+          "plant_id": "PLANT_GASTON_U2",
+          "category": "Refueling outage scope",
+          "cadence_days": 540,
+          "default_duration_days": 13,
+          "occurrence_cost_usd": 783.6,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "nuclear:refueling_outage_scope",
+          "id": "SUST_PLANT_GASTON_U2_refueling_outage_scope",
+          "resources": [
+            {
+              "resource_id": "electrical",
+              "qty_per_day": 1.0,
+              "duration_days": 13,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 1.0,
+              "duration_days": 13,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "nuclear",
+              "qty_per_day": 1.0,
+              "duration_days": 13,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 37,
+              "expedite_days": 13,
+              "unit_cost_estimate_usd": 372
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 18,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 452
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 15,
+              "expedite_days": 2,
+              "unit_cost_estimate_usd": 482
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "previous_occurrence",
+              "type": "FS",
+              "lag_days": 0,
+              "severity": "hard"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 13
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_PLANT_GASTON_U2_steam_generator_tube_ins",
+          "plant_id": "PLANT_GASTON_U2",
+          "category": "Steam generator tube inspection",
+          "cadence_days": 720,
+          "default_duration_days": 20,
+          "occurrence_cost_usd": 20575.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "nuclear:steam_generator_tube_inspection",
+          "id": "SUST_PLANT_GASTON_U2_steam_generator_tube_inspection",
+          "resources": [
+            {
+              "resource_id": "NDT",
+              "qty_per_day": 1.0,
+              "duration_days": 20,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 1.0,
+              "duration_days": 20,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Hydrogen seal kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 62,
+              "expedite_days": 15,
+              "unit_cost_estimate_usd": 29302
+            },
+            {
+              "component": "Stator RTDs",
+              "vendor_type": "Instrumentation",
+              "lead_time_days": 29,
+              "expedite_days": 9,
+              "unit_cost_estimate_usd": 283
+            },
+            {
+              "component": "Wedge/slot fillers",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 60,
+              "expedite_days": 18,
+              "unit_cost_estimate_usd": 4707
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "previous_occurrence",
+              "type": "FS",
+              "lag_days": 0,
+              "severity": "hard"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 20
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "PLANT_GASTON_U2__refuel_outage_buffer",
+          "scope": "plant",
+          "constraint_type": "Regulatory",
+          "constraint_name": "Refueling outage planning buffer",
+          "pattern": "buffer_days",
+          "target": "sustainment",
+          "value": "15",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Nuclear refueling/outage scopes require extended planning buffer."
+        },
+        {
+          "constraint_id": "PLANT_GASTON_U2__security_restrictions_heavy_lifts",
+          "scope": "plant",
+          "constraint_type": "Security",
+          "constraint_name": "Heavy-lift security restriction",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "pre-approval",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Heavy lifts require pre-approval and security coordination."
+        },
+        {
+          "constraint_id": "ERCOT__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "ERCOT__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "modernization"
+    ]
+  },
+  {
+    "plant_id": "PLANT_DAHLBERG_CT_135",
+    "plant_name": "Dahlberg CTs 1/3/5",
+    "eia_plant_id": 10018,
+    "fuel": "gas",
+    "status": "modernization",
+    "nameplate_mw": 1000,
+    "reliable_mw": 828.0,
+    "condition_score": 92,
+    "annual_sustainment_opex_$": 45072170,
+    "infra_backlog_$M": 0.0,
+    "forced_outage_rate": 1.5,
+    "age_years": 0.0,
+    "id": "PL-N08",
+    "name": "Gas New 8",
+    "capacity_mw": 559,
+    "start_date": "2020-10-25",
+    "retire_date": "2035-09-24",
+    "owner": "Independent",
+    "region": "SPP",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.015
+    },
+    "baseline": {
+      "date": "2020-10-25",
+      "nameplate_mw": 1000.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_plant_eia-10001-0_063c52_gas_turbine_borescope_&_",
+          "plant_id": "PLANT_DAHLBERG_CT_135",
+          "category": "Gas turbine borescope & hot-section insp.",
+          "cadence_days": 360,
+          "default_duration_days": 10,
+          "occurrence_cost_usd": 5998.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "gas:gas_turbine_borescope_and_hot_section_insp_",
+          "id": "SUST_PLANT_DAHLBERG_CT_135_gas_turbine_borescope_and_hot_section_in",
+          "resources": [
+            {
+              "resource_id": "GT",
+              "qty_per_day": 1.0,
+              "duration_days": 9,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 8.0,
+              "duration_days": 11,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Borescope probe",
+              "vendor_type": "NDT supplier",
+              "lead_time_days": 34,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 8113
+            },
+            {
+              "component": "Borescope rental",
+              "vendor_type": "Rental services",
+              "lead_time_days": 14,
+              "expedite_days": 2,
+              "unit_cost_estimate_usd": 1665
+            },
+            {
+              "component": "Inspection port seals",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 19,
+              "expedite_days": 6,
+              "unit_cost_estimate_usd": 219
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "previous_occurrence",
+              "type": "FS",
+              "lag_days": 0,
+              "severity": "hard"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 10
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        },
+        {
+          "need_id": "SUST_plant_eia-10001-0_063c52_generator_inspection",
+          "plant_id": "PLANT_DAHLBERG_CT_135",
+          "category": "Generator inspection",
+          "cadence_days": 1080,
+          "default_duration_days": 20,
+          "occurrence_cost_usd": 11946.0,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "gas:generator_inspection",
+          "id": "SUST_PLANT_DAHLBERG_CT_135_generator_inspection",
+          "resources": [
+            {
+              "resource_id": "electrical",
+              "qty_per_day": 1.0,
+              "duration_days": 20,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Hydrogen seal kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 55,
+              "expedite_days": 23,
+              "unit_cost_estimate_usd": 13091
+            },
+            {
+              "component": "Stator RTDs",
+              "vendor_type": "Instrumentation",
+              "lead_time_days": 38,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 487
+            },
+            {
+              "component": "Wedge/slot fillers",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 48,
+              "expedite_days": 11,
+              "unit_cost_estimate_usd": 6332
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "previous_occurrence",
+              "type": "FS",
+              "lag_days": 0,
+              "severity": "hard"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 20
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_plant_eia-10001-0_063c52_hrsg_tube_cleaning_&_ins",
+          "plant_id": "PLANT_DAHLBERG_CT_135",
+          "category": "HRSG tube cleaning & inspection",
+          "cadence_days": 540,
+          "default_duration_days": 24,
+          "occurrence_cost_usd": 11024.4,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "gas:hrsg_tube_cleaning_and_inspection",
+          "id": "SUST_PLANT_DAHLBERG_CT_135_hrsg_tube_cleaning_and_inspection",
+          "resources": [
+            {
+              "resource_id": "NDT",
+              "qty_per_day": 1.0,
+              "duration_days": 29,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 8.0,
+              "duration_days": 18,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Sootblower nozzles",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 39,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 4199
+            },
+            {
+              "component": "HRSG cleaning solvent",
+              "vendor_type": "Specialty chemical",
+              "lead_time_days": 25,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 11509
+            },
+            {
+              "component": "HP wash pump rental",
+              "vendor_type": "Rental services",
+              "lead_time_days": 10,
+              "expedite_days": 3,
+              "unit_cost_estimate_usd": 2666
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "previous_occurrence",
+              "type": "FS",
+              "lag_days": 0,
+              "severity": "hard"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 24
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "PLANT_DAHLBERG_CT_135__ozone_season_derate_gas",
+          "scope": "plant",
+          "constraint_type": "Air",
+          "constraint_name": "Ozone-season NOx derate",
+          "pattern": "derate_pct",
+          "target": "milestone",
+          "value": "0.05",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "June through Aug expected derate 5% on combustion activities."
+        },
+        {
+          "constraint_id": "PLANT_DAHLBERG_CT_135__pipeline_coordination_notice",
+          "scope": "plant",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Pipeline maintenance coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=30d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Certain outages require 30-day notice to gas pipeline operator."
+        },
+        {
+          "constraint_id": "SPP__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "SPP__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "modernization"
+    ]
+  },
+  {
+    "plant_id": "plant_southern-power-gpc-sinclair_de80ca",
+    "plant_name": "Cape Wind",
+    "eia_plant_id": 10005,
+    "fuel": "wind",
+    "status": "new build",
+    "nameplate_mw": 900,
+    "reliable_mw": 774.0,
+    "condition_score": 86,
+    "annual_sustainment_opex_$": 15506262,
+    "infra_backlog_$M": 0.0,
+    "forced_outage_rate": 13.91,
+    "age_years": 0.0,
+    "id": "PL-N04",
+    "name": "Wind New 4",
+    "capacity_mw": 314,
+    "start_date": "2029-12-27",
+    "retire_date": "2036-10-23",
+    "owner": "North Ops",
+    "region": "SPP",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.1391
+    },
+    "baseline": {
+      "date": "2029-12-27",
+      "nameplate_mw": 900.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_plant_southern-power-gpc-sinclair_de80ca_blade_inspection_&_repai",
+          "plant_id": "plant_southern-power-gpc-sinclair_de80ca",
+          "category": "Blade inspection & repair",
+          "cadence_days": 360,
+          "default_duration_days": 20,
+          "occurrence_cost_usd": 755.4,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "wind:blade_inspection_and_repair",
+          "id": "SUST_plant_southern-power-gpc-sinclair_de80ca_blade_inspection_and_repair",
+          "resources": [
+            {
+              "resource_id": "blade",
+              "qty_per_day": 1.0,
+              "duration_days": 20,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "rope",
+              "qty_per_day": 1.0,
+              "duration_days": 20,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 41,
+              "expedite_days": 13,
+              "unit_cost_estimate_usd": 732
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 23,
+              "expedite_days": 6,
+              "unit_cost_estimate_usd": 200
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 21,
+              "expedite_days": 4,
+              "unit_cost_estimate_usd": 327
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_southern-power-gpc-sinclair_de80ca_main_bearing_inspection",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 20
+          },
+          "derate_pct": 0.06,
+          "for_bump": 0.015
+        },
+        {
+          "need_id": "SUST_plant_southern-power-gpc-sinclair_de80ca_gearbox_oil_change",
+          "plant_id": "plant_southern-power-gpc-sinclair_de80ca",
+          "category": "Gearbox oil change",
+          "cadence_days": 720,
+          "default_duration_days": 9,
+          "occurrence_cost_usd": 718.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "wind:gearbox_oil_change",
+          "id": "SUST_plant_southern-power-gpc-sinclair_de80ca_gearbox_oil_change",
+          "resources": [
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 8.0,
+              "duration_days": 9,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 42,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 396
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 26,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 218
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 14,
+              "expedite_days": 3,
+              "unit_cost_estimate_usd": 583
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_southern-power-gpc-sinclair_de80ca_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_southern-power-gpc-sinclair_de80ca_main_bearing_inspection",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_southern-power-gpc-sinclair_de80ca_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 9
+          },
+          "derate_pct": 0.06,
+          "for_bump": 0.015
+        },
+        {
+          "need_id": "SUST_plant_southern-power-gpc-sinclair_de80ca_main_bearing_inspection",
+          "plant_id": "plant_southern-power-gpc-sinclair_de80ca",
+          "category": "Main bearing inspection",
+          "cadence_days": 720,
+          "default_duration_days": 11,
+          "occurrence_cost_usd": 705.0,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "wind:main_bearing_inspection",
+          "id": "SUST_plant_southern-power-gpc-sinclair_de80ca_main_bearing_inspection",
+          "resources": [
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 9.0,
+              "duration_days": 11,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 32,
+              "expedite_days": 9,
+              "unit_cost_estimate_usd": 389
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 22,
+              "expedite_days": 5,
+              "unit_cost_estimate_usd": 382
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 8,
+              "expedite_days": 2,
+              "unit_cost_estimate_usd": 404
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_southern-power-gpc-sinclair_de80ca_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_southern-power-gpc-sinclair_de80ca_gearbox_oil_change",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_southern-power-gpc-sinclair_de80ca_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_southern-power-gpc-sinclair_de80ca_gearbox_oil_change",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 11
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_southern-power-gpc-sinclair_de80ca__bat_migration_blackout",
+          "scope": "plant",
+          "constraint_type": "Wildlife",
+          "constraint_name": "Bat migration curtailment",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "22:00-06:00; Aug01-Oct15",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Nighttime curtailment during bat migration season."
+        },
+        {
+          "constraint_id": "plant_southern-power-gpc-sinclair_de80ca__domestic_content_surcharge",
+          "scope": "plant",
+          "constraint_type": "Trade/Content",
+          "constraint_name": "Domestic content premium",
+          "pattern": "cost_adder",
+          "target": "supply_chain",
+          "value": "0.05",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Prefer domestic components; cost premium expectation ~5%."
+        },
+        {
+          "constraint_id": "SPP__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "SPP__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "new build"
+    ]
+  },
+  {
+    "plant_id": "plant_eia-10020-0_6bff7e",
+    "plant_name": "Mountain Solar",
+    "eia_plant_id": 10020,
+    "fuel": "solar",
+    "status": "new build",
+    "nameplate_mw": 120,
+    "reliable_mw": 109.2,
+    "condition_score": 91,
+    "annual_sustainment_opex_$": 4698120,
+    "infra_backlog_$M": 0.0,
+    "forced_outage_rate": 3.95,
+    "age_years": 0.0,
+    "id": "PL-N02",
+    "name": "Solar New 2",
+    "capacity_mw": 119,
+    "start_date": "2030-06-11",
+    "retire_date": "2055-12-23",
+    "owner": "Independent",
+    "region": "PJM",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.0395
+    },
+    "baseline": {
+      "date": "2030-06-11",
+      "nameplate_mw": 120.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_plant_eia-10018-0_66d132_inverter_preventative_ma",
+          "plant_id": "plant_eia-10020-0_6bff7e",
+          "category": "Inverter preventative maintenance",
+          "cadence_days": 360,
+          "default_duration_days": 22,
+          "occurrence_cost_usd": 4140.6,
+          "risk_if_deferred": "Low",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "solar:inverter_preventative_maintenance",
+          "id": "SUST_plant_eia-10020-0_6bff7e_inverter_preventative_maintenance",
+          "resources": [
+            {
+              "resource_id": "electrical",
+              "qty_per_day": 1.0,
+              "duration_days": 22,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Inverter fan module set",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 31,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 693
+            },
+            {
+              "component": "DC filter capacitors kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 73,
+              "expedite_days": 20,
+              "unit_cost_estimate_usd": 1843
+            },
+            {
+              "component": "Control/IGBT driver boards (spares)",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 46,
+              "expedite_days": 12,
+              "unit_cost_estimate_usd": 4365
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_tracker_inspection_&_rea",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 22
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_plant_eia-10018-0_66d132_pv_array_cleaning_&_repa",
+          "plant_id": "plant_eia-10020-0_6bff7e",
+          "category": "PV array cleaning & repair",
+          "cadence_days": 360,
+          "default_duration_days": 16,
+          "occurrence_cost_usd": 2133.0,
+          "risk_if_deferred": "Low",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "solar:pv_array_cleaning_and_repair",
+          "id": "SUST_plant_eia-10020-0_6bff7e_pv_array_cleaning_and_repair",
+          "resources": [
+            {
+              "resource_id": "technicians",
+              "qty_per_day": 1.0,
+              "duration_days": 16,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Deionized water supply (bulk tote)",
+              "vendor_type": "Specialty chemical",
+              "lead_time_days": 8,
+              "expedite_days": 4,
+              "unit_cost_estimate_usd": 748
+            },
+            {
+              "component": "Wetting agent / surfactant",
+              "vendor_type": "Specialty chemical",
+              "lead_time_days": 13,
+              "expedite_days": 4,
+              "unit_cost_estimate_usd": 380
+            },
+            {
+              "component": "Rotary brush heads (array cleaning)",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 22,
+              "expedite_days": 9,
+              "unit_cost_estimate_usd": 2427
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_inverter_preventative_ma",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_tracker_inspection_&_rea",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_tracker_inspection_&_rea",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10020-0_6bff7e_wellfield_inspection_&_w",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_inverter_preventative_ma",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 16
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_plant_eia-10018-0_66d132_tracker_inspection_&_rea",
+          "plant_id": "plant_eia-10020-0_6bff7e",
+          "category": "Tracker inspection & realignment",
+          "cadence_days": 540,
+          "default_duration_days": 16,
+          "occurrence_cost_usd": 2643.0,
+          "risk_if_deferred": "Low",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "solar:tracker_inspection_and_realignment",
+          "id": "SUST_plant_eia-10020-0_6bff7e_tracker_inspection_and_realignment",
+          "resources": [
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 8.0,
+              "duration_days": 16,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Tracker gearbox/actuator assembly",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 55,
+              "expedite_days": 16,
+              "unit_cost_estimate_usd": 2984
+            },
+            {
+              "component": "Limit switches & proximity sensors",
+              "vendor_type": "Instrumentation",
+              "lead_time_days": 28,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 376
+            },
+            {
+              "component": "Hinge pins & bushings kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 39,
+              "expedite_days": 9,
+              "unit_cost_estimate_usd": 1045
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_inverter_preventative_ma",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_pv_array_cleaning_&_repa",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_inverter_preventative_ma",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_pv_array_cleaning_&_repa",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 16
+          },
+          "derate_pct": 0.06,
+          "for_bump": 0.015
+        },
+        {
+          "need_id": "SUST_plant_eia-10020-0_6bff7e_brine_pumps/heat_exchang",
+          "plant_id": "plant_eia-10020-0_6bff7e",
+          "category": "Brine pumps/heat exchanger clean",
+          "cadence_days": 540,
+          "default_duration_days": 12,
+          "occurrence_cost_usd": 1001.4,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "solar:brine_pumps_heat_exchanger_clean",
+          "id": "SUST_plant_eia-10020-0_6bff7e_brine_pumps_heat_exchanger_clean",
+          "resources": [
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 9.0,
+              "duration_days": 12,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 39,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 994
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 22,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 355
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 8,
+              "expedite_days": 5,
+              "unit_cost_estimate_usd": 320
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_inverter_preventative_ma",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_pv_array_cleaning_&_repa",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_tracker_inspection_&_rea",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 12
+          },
+          "derate_pct": 0.03,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_plant_eia-10020-0_6bff7e_wellfield_inspection_&_w",
+          "plant_id": "plant_eia-10020-0_6bff7e",
+          "category": "Wellfield inspection & workover",
+          "cadence_days": 720,
+          "default_duration_days": 42,
+          "occurrence_cost_usd": 970.8,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "solar:wellfield_inspection_and_workover",
+          "id": "SUST_plant_eia-10020-0_6bff7e_wellfield_inspection_and_workover",
+          "resources": [
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 1.0,
+              "duration_days": 42,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 29,
+              "expedite_days": 14,
+              "unit_cost_estimate_usd": 1037
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 23,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 230
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 13,
+              "expedite_days": 2,
+              "unit_cost_estimate_usd": 351
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_tracker_inspection_&_rea",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_tracker_inspection_&_rea",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10018-0_66d132_tracker_inspection_&_rea",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10020-0_6bff7e_brine_pumps/heat_exchang",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 42
+          },
+          "derate_pct": 0.07,
+          "for_bump": 0.02
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_eia-10020-0_6bff7e__prevailing_wage",
+          "scope": "plant",
+          "constraint_type": "Labor",
+          "constraint_name": "Prevailing wage requirement",
+          "pattern": "rate_multiplier",
+          "target": "resource",
+          "value": "elec_crew:1.15; mech_crew:1.10",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Apply multipliers to labor rates by craft."
+        },
+        {
+          "constraint_id": "plant_eia-10020-0_6bff7e__domestic_content_surcharge",
+          "scope": "plant",
+          "constraint_type": "Trade/Content",
+          "constraint_name": "Domestic content premium",
+          "pattern": "cost_adder",
+          "target": "supply_chain",
+          "value": "0.05",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Module/inverter domestic preference."
+        },
+        {
+          "constraint_id": "plant_eia-10020-0_6bff7e__workover_window_restriction",
+          "scope": "plant",
+          "constraint_type": "Environmental",
+          "constraint_name": "Seasonal workover restriction",
+          "pattern": "blackout",
+          "target": "sustainment",
+          "value": "Mar01-Apr30",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Avoid sensitive season for wildlife/habitat during heavy well work."
+        },
+        {
+          "constraint_id": "plant_eia-10020-0_6bff7e__h2s_emissions_controls",
+          "scope": "plant",
+          "constraint_type": "Air",
+          "constraint_name": "H2S emissions control buffer",
+          "pattern": "buffer_days",
+          "target": "milestone",
+          "value": "5",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Add review/controls buffer around high-H2S activities."
+        },
+        {
+          "constraint_id": "PJM__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "PJM__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "new build"
+    ]
+  },
+  {
+    "plant_id": "plant_eia-10015-0_0e2230",
+    "plant_name": "Plant 17",
+    "eia_plant_id": 10005,
+    "fuel": "wind",
+    "status": "new build",
+    "nameplate_mw": 400,
+    "reliable_mw": 400.0,
+    "condition_score": 100,
+    "annual_sustainment_opex_$": 8993255,
+    "infra_backlog_$M": 10.34,
+    "forced_outage_rate": 7.51,
+    "age_years": 7.47,
+    "id": "PL-N06",
+    "name": "Wind New 6",
+    "capacity_mw": 155,
+    "start_date": "2031-09-30",
+    "retire_date": "2055-01-05",
+    "owner": "South Ops",
+    "region": "MISO",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.0751
+    },
+    "baseline": {
+      "date": "2031-09-30",
+      "nameplate_mw": 400.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_plant_eia-10015-0_0e2230_blade_inspection_&_repai",
+          "plant_id": "plant_eia-10015-0_0e2230",
+          "category": "Blade inspection & repair",
+          "cadence_days": 360,
+          "default_duration_days": 23,
+          "occurrence_cost_usd": 592.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "wind:blade_inspection_and_repair",
+          "id": "SUST_plant_eia-10015-0_0e2230_blade_inspection_and_repair",
+          "resources": [
+            {
+              "resource_id": "blade",
+              "qty_per_day": 1.0,
+              "duration_days": 23,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "rope",
+              "qty_per_day": 1.0,
+              "duration_days": 23,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 33,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 492
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 18,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 222
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 21,
+              "expedite_days": 4,
+              "unit_cost_estimate_usd": 273
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10015-0_0e2230_main_bearing_inspection",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 23
+          },
+          "derate_pct": 0.06,
+          "for_bump": 0.015
+        },
+        {
+          "need_id": "SUST_plant_eia-10015-0_0e2230_gearbox_oil_change",
+          "plant_id": "plant_eia-10015-0_0e2230",
+          "category": "Gearbox oil change",
+          "cadence_days": 720,
+          "default_duration_days": 10,
+          "occurrence_cost_usd": 942.0,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "wind:gearbox_oil_change",
+          "id": "SUST_plant_eia-10015-0_0e2230_gearbox_oil_change",
+          "resources": [
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 9.0,
+              "duration_days": 10,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 38,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 1090
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 22,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 211
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 17,
+              "expedite_days": 5,
+              "unit_cost_estimate_usd": 269
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10015-0_0e2230_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10015-0_0e2230_main_bearing_inspection",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10015-0_0e2230_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 10
+          },
+          "derate_pct": 0.06,
+          "for_bump": 0.015
+        },
+        {
+          "need_id": "SUST_plant_eia-10015-0_0e2230_main_bearing_inspection",
+          "plant_id": "plant_eia-10015-0_0e2230",
+          "category": "Main bearing inspection",
+          "cadence_days": 720,
+          "default_duration_days": 10,
+          "occurrence_cost_usd": 720.6,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "wind:main_bearing_inspection",
+          "id": "SUST_plant_eia-10015-0_0e2230_main_bearing_inspection",
+          "resources": [
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 8.0,
+              "duration_days": 10,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 32,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 434
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 14,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 284
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 14,
+              "expedite_days": 5,
+              "unit_cost_estimate_usd": 483
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10015-0_0e2230_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10015-0_0e2230_gearbox_oil_change",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10015-0_0e2230_blade_inspection_&_repai",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10015-0_0e2230_gearbox_oil_change",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 10
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_eia-10015-0_0e2230__bat_migration_blackout",
+          "scope": "plant",
+          "constraint_type": "Wildlife",
+          "constraint_name": "Bat migration curtailment",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "22:00-06:00; Aug01-Oct15",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Nighttime curtailment during bat migration season."
+        },
+        {
+          "constraint_id": "plant_eia-10015-0_0e2230__domestic_content_surcharge",
+          "scope": "plant",
+          "constraint_type": "Trade/Content",
+          "constraint_name": "Domestic content premium",
+          "pattern": "cost_adder",
+          "target": "supply_chain",
+          "value": "0.05",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Prefer domestic components; cost premium expectation ~5%."
+        },
+        {
+          "constraint_id": "MISO__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "MISO__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "new build"
+    ]
+  },
+  {
+    "plant_id": "plant_eia-10009-0_97aed2",
+    "plant_name": "Plant 9",
+    "eia_plant_id": 10009,
+    "fuel": "coal",
+    "status": "new build",
+    "nameplate_mw": 400,
+    "reliable_mw": 400.0,
+    "condition_score": 100,
+    "annual_sustainment_opex_$": 104377458,
+    "infra_backlog_$M": 0.0,
+    "forced_outage_rate": 3.2,
+    "age_years": 0.0,
+    "id": "PL-L02",
+    "name": "Coal_new",
+    "capacity_mw": 400,
+    "start_date": "2030-01-01",
+    "retire_date": "2055-01-01",
+    "owner": "East Ops",
+    "region": "SPP",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.032
+    },
+    "baseline": {
+      "date": "2030-01-01",
+      "nameplate_mw": 400.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_eia-10009-0_97aed2__general_env_review",
+          "scope": "plant",
+          "constraint_type": "Environmental",
+          "constraint_name": "General environmental review buffer",
+          "pattern": "buffer_days",
+          "target": "milestone",
+          "value": "2",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Default small buffer for site environmental review."
+        },
+        {
+          "constraint_id": "SPP__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "SPP__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "new build"
+    ]
+  },
+  {
+    "plant_id": "plant_eia-22",
+    "plant_name": "Plant 22",
+    "eia_plant_id": 10016,
+    "fuel": "geothermal",
+    "status": "retire",
+    "nameplate_mw": 300,
+    "reliable_mw": 243.0,
+    "condition_score": 81,
+    "annual_sustainment_opex_$": 6091161,
+    "infra_backlog_$M": 0.0,
+    "forced_outage_rate": 5.89,
+    "age_years": 0.0,
+    "id": "PL-N10",
+    "name": "Geothermal New 10",
+    "capacity_mw": 71,
+    "start_date": "2015-10-25",
+    "retire_date": "2032-10-07",
+    "owner": "East Ops",
+    "region": "PJM",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.058899999999999994
+    },
+    "baseline": {
+      "date": "2015-10-25",
+      "nameplate_mw": 300.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_eia-22__geothermal_well_plugging_permit",
+          "scope": "plant",
+          "constraint_type": "Regulatory",
+          "constraint_name": "Geothermal well plugging permit",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=30d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "EPA Underground Injection Control program approval required."
+        },
+        {
+          "constraint_id": "plant_eia-22__groundwater_monitoring",
+          "scope": "plant",
+          "constraint_type": "Environmental",
+          "constraint_name": "Groundwater contamination testing",
+          "pattern": "buffer_days",
+          "target": "milestone",
+          "value": "14",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Geothermal fluid contamination testing requirements."
+        },
+        {
+          "constraint_id": "plant_eia-22__seasonal_demolition_restriction",
+          "scope": "plant",
+          "constraint_type": "Environmental",
+          "constraint_name": "Seasonal demolition restriction",
+          "pattern": "blackout",
+          "target": "sustainment",
+          "value": "Nov01-Mar31",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Avoid winter conditions for geothermal demolition."
+        },
+        {
+          "constraint_id": "PJM__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "PJM__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "retiring"
+    ]
+  },
+  {
+    "plant_id": "plant_eia-10011-0_9f15f6",
+    "plant_name": "Plant 11",
+    "eia_plant_id": 10011,
+    "fuel": "hydro",
+    "status": "retiring",
+    "nameplate_mw": 200,
+    "reliable_mw": 130.0,
+    "condition_score": 65,
+    "annual_sustainment_opex_$": 4340100,
+    "infra_backlog_$M": 150.8,
+    "forced_outage_rate": 4.6,
+    "age_years": 43.0,
+    "id": "PL-N11",
+    "name": "Hydro Legacy",
+    "capacity_mw": 200,
+    "start_date": "1980-06-01",
+    "retire_date": "2031-05-06",
+    "owner": "East Ops",
+    "region": "NEISO",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.046
+    },
+    "baseline": {
+      "date": "1980-06-01",
+      "nameplate_mw": 200.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_plant_gpc-morgan-falls_850259_spillway_&_gate_maintena",
+          "plant_id": "plant_eia-10011-0_9f15f6",
+          "category": "Spillway & gate maintenance",
+          "cadence_days": 720,
+          "default_duration_days": 11,
+          "occurrence_cost_usd": 670.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "hydro:spillway_and_gate_maintenance",
+          "id": "SUST_plant_eia-10011-0_9f15f6_spillway_and_gate_maintenance",
+          "resources": [
+            {
+              "resource_id": "civil",
+              "qty_per_day": 1.0,
+              "duration_days": 11,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 7.0,
+              "duration_days": 11,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 45,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 368
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 17,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 532
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 20,
+              "expedite_days": 3,
+              "unit_cost_estimate_usd": 217
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_turbine/generator_runner",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_southern-power-hatch_586d93_spillway_&_gate_maintena",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_southern-power-hatch_586d93_turbine/generator_runner",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 11
+          },
+          "derate_pct": 0.07,
+          "for_bump": 0.02
+        },
+        {
+          "need_id": "SUST_plant_gpc-morgan-falls_850259_turbine/generator_runner",
+          "plant_id": "plant_eia-10011-0_9f15f6",
+          "category": "Turbine/generator runner inspection",
+          "cadence_days": 720,
+          "default_duration_days": 14,
+          "occurrence_cost_usd": 9638.4,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "hydro:turbine_generator_runner_inspection",
+          "id": "SUST_plant_eia-10011-0_9f15f6_turbine_generator_runner_inspection",
+          "resources": [
+            {
+              "resource_id": "electrical",
+              "qty_per_day": 1.0,
+              "duration_days": 16,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 9.0,
+              "duration_days": 12,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Hydrogen seal kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 61,
+              "expedite_days": 21,
+              "unit_cost_estimate_usd": 13047
+            },
+            {
+              "component": "Stator RTDs",
+              "vendor_type": "Instrumentation",
+              "lead_time_days": 34,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 442
+            },
+            {
+              "component": "Wedge/slot fillers",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 46,
+              "expedite_days": 17,
+              "unit_cost_estimate_usd": 2575
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_spillway_&_gate_maintena",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_southern-power-hatch_586d93_spillway_&_gate_maintena",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_spillway_&_gate_maintena",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 14
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_eia-10011-0_9f15f6__general_env_review",
+          "scope": "plant",
+          "constraint_type": "Environmental",
+          "constraint_name": "General environmental review buffer",
+          "pattern": "buffer_days",
+          "target": "milestone",
+          "value": "2",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Default small buffer for site environmental review."
+        },
+        {
+          "constraint_id": "NEISO__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "NEISO__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "retiring"
+    ]
+  },
+  {
+    "plant_id": "plant_eia-10022-0_7eb25e",
+    "plant_name": "Plant 28",
+    "eia_plant_id": 10022,
+    "fuel": "coal",
+    "status": "retiring",
+    "nameplate_mw": 1800,
+    "reliable_mw": 1026.0,
+    "condition_score": 57,
+    "annual_sustainment_opex_$": 108923948,
+    "infra_backlog_$M": 70.9,
+    "forced_outage_rate": 41.04,
+    "age_years": 31.78,
+    "id": "PL-L10",
+    "name": "Coal Legacy 10",
+    "capacity_mw": 787,
+    "start_date": "2016-04-19",
+    "retire_date": "2029-12-01",
+    "owner": "North Ops",
+    "region": "MISO",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.4104
+    },
+    "baseline": {
+      "date": "2016-04-19",
+      "nameplate_mw": 1800.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_eia-10022-0_7eb25e__general_env_review",
+          "scope": "plant",
+          "constraint_type": "Environmental",
+          "constraint_name": "General environmental review buffer",
+          "pattern": "buffer_days",
+          "target": "milestone",
+          "value": "2",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Default small buffer for site environmental review."
+        },
+        {
+          "constraint_id": "MISO__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "MISO__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "retiring"
+    ]
+  },
+  {
+    "plant_id": "plant_eia-10023-0_8943bb",
+    "plant_name": "PLANT_BOWEN_U1",
+    "eia_plant_id": 10024,
+    "fuel": "coal",
+    "status": "retiring",
+    "nameplate_mw": 400,
+    "reliable_mw": 240.0,
+    "condition_score": 60,
+    "annual_sustainment_opex_$": 104377458,
+    "infra_backlog_$M": 54.7,
+    "forced_outage_rate": 12.59,
+    "age_years": 8.07,
+    "id": "PL-L01",
+    "name": "Coal Legacy 1",
+    "capacity_mw": 766,
+    "start_date": "2013-07-05",
+    "retire_date": "2028-05-20",
+    "owner": "East Ops",
+    "region": "SPP",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.1259
+    },
+    "baseline": {
+      "date": "2013-07-05",
+      "nameplate_mw": 400.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_PLANT_BOWEN_U1_704",
+          "plant_id": "plant_eia-10023-0_8943bb",
+          "category": "Water Treatment & Chemistry Controls Modernization",
+          "cadence_days": 1800,
+          "default_duration_days": 9,
+          "occurrence_cost_usd": 23388.0,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Auto-filled defaults based on category: Water Treatment & Chemistry Controls Modernization",
+          "effect_key": "coal:water_treatment_and_chemistry_controls_modernization",
+          "id": "SUST_plant_eia-10023-0_8943bb_water_treatment_and_chemistry_controls_m",
+          "resources": [
+            {
+              "resource_id": "I&C",
+              "qty_per_day": 9.0,
+              "duration_days": 9,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "chem_crew",
+              "qty_per_day": 7.0,
+              "duration_days": 9,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 3.0,
+              "duration_days": 12,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Conductivity analyzers",
+              "vendor_type": "OEM/instrumentation",
+              "lead_time_days": 87,
+              "expedite_days": 23,
+              "unit_cost_estimate_usd": 3838
+            },
+            {
+              "component": "Chemical metering pumps",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 41,
+              "expedite_days": 9,
+              "unit_cost_estimate_usd": 1496
+            },
+            {
+              "component": "Sample conditioning skid components",
+              "vendor_type": "Fabricator",
+              "lead_time_days": 104,
+              "expedite_days": 25,
+              "unit_cost_estimate_usd": 33646
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_Pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_SCR_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_705",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_tube",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_boiler_tube_inspection_&",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_scr_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 9
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_PLANT_BOWEN_U1_705",
+          "plant_id": "plant_eia-10023-0_8943bb",
+          "category": "Ash Handling System Replacement",
+          "cadence_days": 2160,
+          "default_duration_days": 16,
+          "occurrence_cost_usd": 751.2,
+          "risk_if_deferred": "High",
+          "anchor": "plantStartPlusLead",
+          "notes": "Auto-filled defaults based on category: Ash Handling System Replacement",
+          "effect_key": "coal:ash_handling_system_replacement",
+          "id": "SUST_plant_eia-10023-0_8943bb_ash_handling_system_replacement",
+          "resources": [
+            {
+              "resource_id": "electrical",
+              "qty_per_day": 1.0,
+              "duration_days": 16,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "environmental",
+              "qty_per_day": 1.0,
+              "duration_days": 16,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 4.0,
+              "duration_days": 12,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 21,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 347
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 16,
+              "expedite_days": 5,
+              "unit_cost_estimate_usd": 456
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 13,
+              "expedite_days": 3,
+              "unit_cost_estimate_usd": 449
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_704",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_Pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_SCR_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_704",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_boiler_tube_inspection_&",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_706",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_tube",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_boiler_tube_inspection_&",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_scr_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 16
+          },
+          "derate_pct": 0.05,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_PLANT_BOWEN_U1_706",
+          "plant_id": "plant_eia-10023-0_8943bb",
+          "category": "Stack Liner & Breeching Inspection Program",
+          "cadence_days": 1080,
+          "default_duration_days": 9,
+          "occurrence_cost_usd": 883.8,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Auto-filled defaults based on category: Stack Liner & Breeching Inspection Program",
+          "effect_key": "coal:stack_liner_and_breeching_inspection_program",
+          "id": "SUST_plant_eia-10023-0_8943bb_stack_liner_and_breeching_inspection_pro",
+          "resources": [
+            {
+              "resource_id": "civil",
+              "qty_per_day": 1.0,
+              "duration_days": 9,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "inspection",
+              "qty_per_day": 1.0,
+              "duration_days": 9,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "materials",
+              "qty_per_day": 1.0,
+              "duration_days": 9,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 23,
+              "expedite_days": 9,
+              "unit_cost_estimate_usd": 473
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 19,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 538
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 9,
+              "expedite_days": 5,
+              "unit_cost_estimate_usd": 462
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_704",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_705",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_Pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_704",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_705",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_boiler_tube_inspection_&",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_scr_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 9
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_PLANT_BOWEN_U1_boiler_Pulverizer_overhaul",
+          "plant_id": "plant_eia-10023-0_8943bb",
+          "category": "Pulverizer overhaul",
+          "cadence_days": 720,
+          "default_duration_days": 16,
+          "occurrence_cost_usd": 475.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "coal:pulverizer_overhaul",
+          "id": "SUST_plant_eia-10023-0_8943bb_pulverizer_overhaul",
+          "resources": [
+            {
+              "resource_id": "materials",
+              "qty_per_day": 1.0,
+              "duration_days": 16,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 1.0,
+              "duration_days": 16,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 37,
+              "expedite_days": 12,
+              "unit_cost_estimate_usd": 322
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 14,
+              "expedite_days": 6,
+              "unit_cost_estimate_usd": 281
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 7,
+              "expedite_days": 3,
+              "unit_cost_estimate_usd": 189
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_704",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_705",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_706",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_705",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_704",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_boiler_tube_inspection_&",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_706",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_tube",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_706",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_boiler_tube_inspection_&",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_scr_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 16
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        },
+        {
+          "need_id": "SUST_PLANT_BOWEN_U1_boiler_tube",
+          "plant_id": "plant_eia-10023-0_8943bb",
+          "category": "Boiler tube inspection & repair",
+          "cadence_days": 360,
+          "default_duration_days": 12,
+          "occurrence_cost_usd": 3272.4,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "coal:boiler_tube_inspection_and_repair",
+          "id": "SUST_plant_eia-10023-0_8943bb_boiler_tube_inspection_and_repair",
+          "resources": [
+            {
+              "resource_id": "NDT",
+              "qty_per_day": 1.0,
+              "duration_days": 9,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 8.0,
+              "duration_days": 16,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "UT thickness probes",
+              "vendor_type": "NDT supplier",
+              "lead_time_days": 42,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 2456
+            },
+            {
+              "component": "Tube plugs (assorted)",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 19,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 314
+            },
+            {
+              "component": "Scaffold rental kit",
+              "vendor_type": "Rental services",
+              "lead_time_days": 10,
+              "expedite_days": 3,
+              "unit_cost_estimate_usd": 2684
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_704",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_705",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_706",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_Pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_Pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_SCR_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_705",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_704",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_boiler_tube_inspection_&",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_706",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_706",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_boiler_tube_inspection_&",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_scr_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 12
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        },
+        {
+          "need_id": "SUST_PLANT_BOWEN_U1_SCR_catalyst_changeout",
+          "plant_id": "plant_eia-10023-0_8943bb",
+          "category": "SCR catalyst changeout",
+          "cadence_days": 1080,
+          "default_duration_days": 11,
+          "occurrence_cost_usd": 6057.0,
+          "risk_if_deferred": "High",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "coal:scr_catalyst_changeout",
+          "id": "SUST_plant_eia-10023-0_8943bb_scr_catalyst_changeout",
+          "resources": [
+            {
+              "resource_id": "environmental",
+              "qty_per_day": 1.0,
+              "duration_days": 11,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 7.0,
+              "duration_days": 11,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Conveyor idlers & bearings set",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 42,
+              "expedite_days": 12,
+              "unit_cost_estimate_usd": 2575
+            },
+            {
+              "component": "Scraper blades / wear liners",
+              "vendor_type": "Fabricator",
+              "lead_time_days": 23,
+              "expedite_days": 9,
+              "unit_cost_estimate_usd": 2971
+            },
+            {
+              "component": "Chute ceramic liners",
+              "vendor_type": "Fabricator",
+              "lead_time_days": 32,
+              "expedite_days": 15,
+              "unit_cost_estimate_usd": 4549
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_704",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_705",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_706",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_Pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_tube",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_Pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_704",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_705",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_706",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_BOWEN_U1_boiler_tube",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_boiler_tube_inspection_&",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_pulverizer_overhaul",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_eia-10023-0_8943bb_scr_catalyst_changeout",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 11
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_eia-10023-0_8943bb__general_env_review",
+          "scope": "plant",
+          "constraint_type": "Environmental",
+          "constraint_name": "General environmental review buffer",
+          "pattern": "buffer_days",
+          "target": "milestone",
+          "value": "2",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Default small buffer for site environmental review."
+        },
+        {
+          "constraint_id": "SPP__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "SPP__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "retiring"
+    ]
+  },
+  {
+    "plant_id": "plant_gpc-morgan-falls_850259",
+    "plant_name": "Robins AFB; Moody AFB",
+    "eia_plant_id": 10021,
+    "fuel": "gas",
+    "status": "retiring",
+    "nameplate_mw": 120,
+    "reliable_mw": 94.8,
+    "condition_score": 79,
+    "annual_sustainment_opex_$": 6793262,
+    "infra_backlog_$M": 1.53,
+    "forced_outage_rate": 6.44,
+    "age_years": 8.04,
+    "id": "PL-L09",
+    "name": "Gas Legacy 2",
+    "capacity_mw": 103,
+    "start_date": "2015-01-04",
+    "retire_date": "2029-05-05",
+    "owner": "West Ops",
+    "region": "PJM",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.0644
+    },
+    "baseline": {
+      "date": "2015-01-04",
+      "nameplate_mw": 120.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_plant_gpc-morgan-falls_850259_gas_turbine_borescope_&_",
+          "plant_id": "plant_gpc-morgan-falls_850259",
+          "category": "Gas turbine borescope & hot-section insp.",
+          "cadence_days": 360,
+          "default_duration_days": 11,
+          "occurrence_cost_usd": 5222.4,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "gas:gas_turbine_borescope_and_hot_section_insp_",
+          "id": "SUST_plant_gpc-morgan-falls_850259_gas_turbine_borescope_and_hot_section_in",
+          "resources": [
+            {
+              "resource_id": "GT",
+              "qty_per_day": 1.0,
+              "duration_days": 13,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 8.0,
+              "duration_days": 9,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Borescope probe",
+              "vendor_type": "NDT supplier",
+              "lead_time_days": 31,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 6449
+            },
+            {
+              "component": "Borescope rental",
+              "vendor_type": "Rental services",
+              "lead_time_days": 13,
+              "expedite_days": 5,
+              "unit_cost_estimate_usd": 2055
+            },
+            {
+              "component": "Inspection port seals",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 15,
+              "expedite_days": 5,
+              "unit_cost_estimate_usd": 200
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_hrsg_tube_cleaning_&_ins",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_hrsg_tube_cleaning_&_ins",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_generator_inspection",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_hrsg_tube_cleaning_&_ins",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 11
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        },
+        {
+          "need_id": "SUST_plant_gpc-morgan-falls_850259_generator_inspection",
+          "plant_id": "plant_gpc-morgan-falls_850259",
+          "category": "Generator inspection",
+          "cadence_days": 1080,
+          "default_duration_days": 19,
+          "occurrence_cost_usd": 10594.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "gas:generator_inspection",
+          "id": "SUST_plant_gpc-morgan-falls_850259_generator_inspection",
+          "resources": [
+            {
+              "resource_id": "electrical",
+              "qty_per_day": 1.0,
+              "duration_days": 19,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Hydrogen seal kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 71,
+              "expedite_days": 21,
+              "unit_cost_estimate_usd": 12990
+            },
+            {
+              "component": "Stator RTDs",
+              "vendor_type": "Instrumentation",
+              "lead_time_days": 21,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 188
+            },
+            {
+              "component": "Wedge/slot fillers",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 54,
+              "expedite_days": 19,
+              "unit_cost_estimate_usd": 4479
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_gas_turbine_borescope_&_",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_gas_turbine_borescope_&_",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 19
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_plant_gpc-morgan-falls_850259_hrsg_tube_cleaning_&_ins",
+          "plant_id": "plant_gpc-morgan-falls_850259",
+          "category": "HRSG tube cleaning & inspection",
+          "cadence_days": 540,
+          "default_duration_days": 18,
+          "occurrence_cost_usd": 7570.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "gas:hrsg_tube_cleaning_and_inspection",
+          "id": "SUST_plant_gpc-morgan-falls_850259_hrsg_tube_cleaning_and_inspection",
+          "resources": [
+            {
+              "resource_id": "NDT",
+              "qty_per_day": 1.0,
+              "duration_days": 17,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 8.0,
+              "duration_days": 18,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Sootblower nozzles",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 58,
+              "expedite_days": 19,
+              "unit_cost_estimate_usd": 3102
+            },
+            {
+              "component": "HRSG cleaning solvent",
+              "vendor_type": "Specialty chemical",
+              "lead_time_days": 21,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 8175
+            },
+            {
+              "component": "HP wash pump rental",
+              "vendor_type": "Rental services",
+              "lead_time_days": 12,
+              "expedite_days": 5,
+              "unit_cost_estimate_usd": 1340
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_gas_turbine_borescope_&_",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_generator_inspection",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_generator_inspection",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "FS",
+              "lag_days": 3,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_gas_turbine_borescope_&_",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_plant_gpc-morgan-falls_850259_generator_inspection",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "previous_occurrence",
+              "to_ref": "nan",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 18
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_gpc-morgan-falls_850259__ozone_season_derate_gas",
+          "scope": "plant",
+          "constraint_type": "Air",
+          "constraint_name": "Ozone-season NOx derate",
+          "pattern": "derate_pct",
+          "target": "milestone",
+          "value": "0.05",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "June through Aug expected derate 5% on combustion activities."
+        },
+        {
+          "constraint_id": "plant_gpc-morgan-falls_850259__pipeline_coordination_notice",
+          "scope": "plant",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Pipeline maintenance coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=30d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Certain outages require 30-day notice to gas pipeline operator."
+        },
+        {
+          "constraint_id": "PJM__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "PJM__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "retiring"
+    ]
+  },
+  {
+    "plant_id": "plant_gpc-vogtle-3_f743db",
+    "plant_name": "Vogtle 3",
+    "eia_plant_id": 10006,
+    "fuel": "nuclear",
+    "status": "retiring",
+    "nameplate_mw": 4500,
+    "reliable_mw": 3825.0,
+    "condition_score": 85,
+    "annual_sustainment_opex_$": 292591512,
+    "infra_backlog_$M": 35.7,
+    "forced_outage_rate": 35.42,
+    "age_years": 51.68,
+    "id": "PL-L05",
+    "name": "Nuclear Legacy 5",
+    "capacity_mw": 4500,
+    "start_date": "2015-06-01",
+    "retire_date": "2029-07-14",
+    "owner": "Independent",
+    "region": "ERCOT",
+    "timezone": "America/New_York",
+    "reliability": {
+      "base_for": 0.3542
+    },
+    "baseline": {
+      "date": "2015-06-01",
+      "nameplate_mw": 4500.0
+    },
+    "profile_meta": {
+      "same_day_order": [
+        "retire",
+        "modernize",
+        "build"
+      ]
+    },
+    "sustainment": {
+      "needs": [
+        {
+          "need_id": "SUST_PLANT_Vogtle 3_containment_inspection",
+          "plant_id": "plant_gpc-vogtle-3_f743db",
+          "category": "Containment inspection",
+          "cadence_days": 720,
+          "default_duration_days": 12,
+          "occurrence_cost_usd": 506.4,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "nuclear:containment_inspection",
+          "id": "SUST_plant_gpc-vogtle-3_f743db_containment_inspection",
+          "resources": [
+            {
+              "resource_id": "civil",
+              "qty_per_day": 1.0,
+              "duration_days": 16,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 7.0,
+              "duration_days": 9,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 35,
+              "expedite_days": 14,
+              "unit_cost_estimate_usd": 463
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 20,
+              "expedite_days": 10,
+              "unit_cost_estimate_usd": 215
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 13,
+              "expedite_days": 4,
+              "unit_cost_estimate_usd": 166
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_Vogtle 3_refueling_outage_scope",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_Vogtle 32_steam_generator_tube_ins",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 12
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_PLANT_Vogtle 3_refueling_outage_scope",
+          "plant_id": "plant_gpc-vogtle-3_f743db",
+          "category": "Refueling outage scope",
+          "cadence_days": 540,
+          "default_duration_days": 13,
+          "occurrence_cost_usd": 679.2,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "nuclear:refueling_outage_scope",
+          "id": "SUST_plant_gpc-vogtle-3_f743db_refueling_outage_scope",
+          "resources": [
+            {
+              "resource_id": "electrical",
+              "qty_per_day": 1.0,
+              "duration_days": 13,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 1.0,
+              "duration_days": 13,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "nuclear",
+              "qty_per_day": 1.0,
+              "duration_days": 13,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Bearing kits",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 43,
+              "expedite_days": 8,
+              "unit_cost_estimate_usd": 517
+            },
+            {
+              "component": "Fasteners & gaskets kit",
+              "vendor_type": "Industrial distributor",
+              "lead_time_days": 19,
+              "expedite_days": 6,
+              "unit_cost_estimate_usd": 382
+            },
+            {
+              "component": "Electrical consumables",
+              "vendor_type": "Electrical distributor",
+              "lead_time_days": 20,
+              "expedite_days": 3,
+              "unit_cost_estimate_usd": 233
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_Vogtle 3_containment_inspection",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_Vogtle 32_steam_generator_tube_ins",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_Vogtle 3_containment_inspection",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 13
+          },
+          "derate_pct": 0.04,
+          "for_bump": 0.01
+        },
+        {
+          "need_id": "SUST_PLANT_Vogtle 32_steam_generator_tube_ins",
+          "plant_id": "plant_gpc-vogtle-3_f743db",
+          "category": "Steam generator tube inspection",
+          "cadence_days": 720,
+          "default_duration_days": 20,
+          "occurrence_cost_usd": 11933.4,
+          "risk_if_deferred": "Medium",
+          "anchor": "plantStartPlusLead",
+          "notes": "Generated from fuel-aligned catalog",
+          "effect_key": "nuclear:steam_generator_tube_inspection",
+          "id": "SUST_plant_gpc-vogtle-3_f743db_steam_generator_tube_inspection",
+          "resources": [
+            {
+              "resource_id": "NDT",
+              "qty_per_day": 1.0,
+              "duration_days": 20,
+              "start_offset_days": 0
+            },
+            {
+              "resource_id": "mech_crew",
+              "qty_per_day": 4.0,
+              "duration_days": 20,
+              "start_offset_days": 0
+            }
+          ],
+          "supply_chain": [
+            {
+              "component": "Hydrogen seal kit",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 58,
+              "expedite_days": 22,
+              "unit_cost_estimate_usd": 17039
+            },
+            {
+              "component": "Stator RTDs",
+              "vendor_type": "Instrumentation",
+              "lead_time_days": 22,
+              "expedite_days": 7,
+              "unit_cost_estimate_usd": 286
+            },
+            {
+              "component": "Wedge/slot fillers",
+              "vendor_type": "OEM/aftermarket",
+              "lead_time_days": 58,
+              "expedite_days": 11,
+              "unit_cost_estimate_usd": 2564
+            }
+          ],
+          "dep_templates": [
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_Vogtle 3_containment_inspection",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_Vogtle 3_refueling_outage_scope",
+              "type": "SS",
+              "lag_days": 0,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_Vogtle 3_refueling_outage_scope",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            },
+            {
+              "to_kind": "need",
+              "to_ref": "SUST_PLANT_Vogtle 3_containment_inspection",
+              "type": "SS",
+              "lag_days": 7,
+              "severity": "soft"
+            }
+          ],
+          "trigger_rules": {
+            "type": "calendar"
+          },
+          "task_template": {
+            "duration_days": 20
+          },
+          "derate_pct": 0.08,
+          "for_bump": 0.02
+        }
+      ],
+      "policy_constraints": [
+        {
+          "constraint_id": "plant_gpc-vogtle-3_f743db__refuel_outage_buffer",
+          "scope": "plant",
+          "constraint_type": "Regulatory",
+          "constraint_name": "Refueling outage planning buffer",
+          "pattern": "buffer_days",
+          "target": "sustainment",
+          "value": "15",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Nuclear refueling/outage scopes require extended planning buffer."
+        },
+        {
+          "constraint_id": "plant_gpc-vogtle-3_f743db__security_restrictions_heavy_lifts",
+          "scope": "plant",
+          "constraint_type": "Security",
+          "constraint_name": "Heavy-lift security restriction",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "pre-approval",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Heavy lifts require pre-approval and security coordination."
+        },
+        {
+          "constraint_id": "ERCOT__interconnection_outage_notice",
+          "scope": "region",
+          "constraint_type": "Interconnection",
+          "constraint_name": "Planned outage coordination",
+          "pattern": "permit_gate",
+          "target": "milestone",
+          "value": "notice>=14d",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Planned generation outages require a 14-day notice to ISO/BA."
+        },
+        {
+          "constraint_id": "ERCOT__extreme_heat_emergency",
+          "scope": "region",
+          "constraint_type": "Reliability",
+          "constraint_name": "Extreme heat emergency blackout",
+          "pattern": "blackout",
+          "target": "milestone",
+          "value": "No derates during NERC EEA Level 2+ alerts",
+          "effective_from": "1/1/2025",
+          "effective_to": "12/31/2029",
+          "notes": "Work that reduces capacity may be disallowed during grid emergencies."
+        }
+      ]
+    },
+    "projectTypes": [
+      "retiring"
+    ]
+  }
+]

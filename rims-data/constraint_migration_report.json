@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-11-24T12:49:03.977Z",
+  "total": 226,
+  "startLocked": 84,
+  "endLocked": 41,
+  "bothLocked": 14,
+  "byReason": {
+    "Task already started": 14,
+    "Regulatory retirement deadline": 5,
+    "Synchronized with capacity profile": 27,
+    "Seasonal outage window": 6,
+    "Procurement lead time": 59
+  },
+  "examples": [
+    {
+      "id": "P-hydro_mod_sinclair",
+      "title": "Hydro Modernization – Plant Sinclair",
+      "start_locked": true,
+      "end_locked": false,
+      "reason": "Task already started"
+    },
+    {
+      "id": "P-MCI-NGC5",
+      "title": "Morgans-Falls- retire",
+      "start_locked": false,
+      "end_locked": true,
+      "reason": "Regulatory retirement deadline"
+    },
+    {
+      "id": "P-NU-UP-retire",
+      "title": "Vogtle Unit 3 Retire",
+      "start_locked": false,
+      "end_locked": true,
+      "reason": "Regulatory retirement deadline"
+    },
+    {
+      "id": "P-NU-UP-VOG1",
+      "title": "Vogtle Unit 1 Uprate (EPU)",
+      "start_locked": true,
+      "end_locked": false,
+      "reason": "Task already started"
+    },
+    {
+      "id": "P-ppa_dahlberg_1_3_5",
+      "title": "Dahlberg 1,3,5 Executed PPA (CTs)",
+      "start_locked": true,
+      "end_locked": false,
+      "reason": "Task already started"
+    },
+    {
+      "id": "P-011",
+      "title": "Synthetic Project 11",
+      "start_locked": true,
+      "end_locked": true,
+      "reason": "Regulatory retirement deadline"
+    },
+    {
+      "id": "P-019",
+      "title": "Synthetic Project 19",
+      "start_locked": true,
+      "end_locked": false,
+      "reason": "Task already started"
+    },
+    {
+      "id": "P-022",
+      "title": "Synthetic Project 22",
+      "start_locked": true,
+      "end_locked": false,
+      "reason": "Task already started"
+    },
+    {
+      "id": "P-retire_bowen_1_2",
+      "title": "Retire Bowen 1–2",
+      "start_locked": false,
+      "end_locked": true,
+      "reason": "Regulatory retirement deadline"
+    },
+    {
+      "id": "P-retire_Plant28",
+      "title": "Plant_28_retirement",
+      "start_locked": false,
+      "end_locked": true,
+      "reason": "Regulatory retirement deadline"
+    }
+  ]
+}

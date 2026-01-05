@@ -1,0 +1,97 @@
+permit_id,project_id,authority,application_date,expected_approval_p50,expected_approval_p90,status,gating_milestone_id,notes
+PM_BESS-PV-COLOC-200-200_State/local_,BESS-PV-COLOC-200-200,State/local siting,12/31/2027,6/28/2028,10/26/2028,submitted,MS_BESS-PV-COLOC-200-200_interconnection,solar / WECC
+PM_BESS-PV-COLOC-200-200_Cultural/env,BESS-PV-COLOC-200-200,Cultural/environmental reviews,12/31/2027,6/28/2028,10/26/2028,submitted,MS_BESS-PV-COLOC-200-200_interconnection,solar / WECC
+PM_BESS-PV-COLOC-200-200_ISO_intercon,BESS-PV-COLOC-200-200,ISO interconnection approval,12/31/2027,6/23/2029,6/18/2030,submitted,MS_BESS-PV-COLOC-200-200_interconnection,solar / WECC
+BESS-PV-COLOC-200-200:building_electrical,BESS-PV-COLOC-200-200,Local AHJ / Building Dept.,5/24/2029,6/23/2029,6/30/2029,planned,MS_BESS-PV-COLOC-200-200_construction,IBC/NEC; NFPA 855 for ESS – anchored to milestone regex 'construction|mobilization'
+BESS-PV-COLOC-200-200:fire_op_permit,BESS-PV-COLOC-200-200,Local Fire Marshal,5/9/2029,6/23/2029,7/4/2029,planned,MS_BESS-PV-COLOC-200-200_construction,IFC/NFPA 855 HMA – anchored to milestone regex 'construction|commissioning'
+BESS-PV-COLOC-200-200:interconnection,BESS-PV-COLOC-200-200,Utility / ISO-RTO,9/16/2030,9/16/2030,9/16/2030,planned,MS_BESS-PV-COLOC-200-200_commissioning,Interconnection approval – anchored to milestone regex 'commissioning|cod|return to service'
+BESS-PV-COLOC-200-200:npdes_cgp,BESS-PV-COLOC-200-200,State Env. Agency / EPA,12/1/2027,12/31/2027,1/7/2028,planned,MS_BESS-PV-COLOC-200-200_engineering,CWA NPDES CGP – anchored to milestone regex 'construction start'
+HY-BARTLETT56-MOD:ferc_license_amend,HY-BARTLETT56-MOD,FERC,1/7/2027,7/6/2027,8/20/2027,planned,HY-BARTLETT56-MOD_MS2,FPA license amendment – anchored to milestone regex '30% design|90% design'
+HY-BARTLETT56-MOD:usace_404_10,HY-BARTLETT56-MOD,USACE,8/4/2026,12/2/2026,1/1/2027,planned,HY-BARTLETT56-MOD_MS1,CWA §404 / R&H §10 – anchored to milestone regex 'construction start|in-water'
+HY-BARTLETT56-MOD:state_401_wqc,HY-BARTLETT56-MOD,State Environmental Agency,9/3/2026,12/2/2026,12/24/2026,planned,HY-BARTLETT56-MOD_MS1,CWA §401 certification – anchored to milestone regex 'construction start|in-water'
+HY-BARTLETT56-MOD:section_106,HY-BARTLETT56-MOD,SHPO / Federal Lead,10/3/2026,12/2/2026,12/17/2026,planned,HY-BARTLETT56-MOD_MS1,NHPA Section 106 – anchored to milestone regex 'project kickoff|30% design'
+HY-BARTLETT56-MOD:npdes_cgp,HY-BARTLETT56-MOD,State Env. Agency / EPA,12/2/2026,1/1/2027,1/8/2027,planned,HY-BARTLETT56-MOD_MS1,CWA NPDES CGP – anchored to milestone regex 'construction start'
+hydro_mod_sinclair:ferc_license_amend,hydro_mod_sinclair,FERC,4/20/2024,10/17/2024,12/1/2024,submitted,hydro_mod_sinclair_MS2,FPA license amendment – anchored to milestone regex '30% design|90% design'
+hydro_mod_sinclair:usace_404_10,hydro_mod_sinclair,USACE,8/4/2023,12/2/2023,1/1/2024,submitted,hydro_mod_sinclair_MS1,CWA §404 / R&H §10 – anchored to milestone regex 'construction start|in-water'
+hydro_mod_sinclair:state_401_wqc,hydro_mod_sinclair,State Environmental Agency,9/3/2023,12/2/2023,12/24/2023,submitted,hydro_mod_sinclair_MS1,CWA §401 certification – anchored to milestone regex 'construction start|in-water'
+hydro_mod_sinclair:section_106,hydro_mod_sinclair,SHPO / Federal Lead,10/3/2023,12/2/2023,12/17/2023,submitted,hydro_mod_sinclair_MS1,NHPA Section 106 – anchored to milestone regex 'project kickoff|30% design'
+hydro_mod_sinclair:npdes_cgp,hydro_mod_sinclair,State Env. Agency / EPA,12/2/2023,1/1/2024,1/8/2024,submitted,hydro_mod_sinclair_MS1,CWA NPDES CGP – anchored to milestone regex 'construction start'
+MCI-NGCC-10-11-7FA05:air_minor_nsr_titleV,MCI-NGCC-10-11-7FA05,State Air Agency,2/12/2029,6/12/2029,7/12/2029,planned,MCI-NGCC-10-11-7FA05_MS4,CAA NSR/Title V revision – anchored to milestone regex '90% design|IFC'
+MCI-NGCC-10-11-7FA05:npdes_cgp,MCI-NGCC-10-11-7FA05,State Env. Agency / EPA,5/7/2029,6/6/2029,6/13/2029,planned,MCI-NGCC-10-11-7FA05_MS5,CWA NPDES CGP – anchored to milestone regex 'construction start|mobilization|outage start'
+MCI-NGCC-10-11-7FA05:spcc_amend,MCI-NGCC-10-11-7FA05,Owner (40 CFR 112),6/15/2029,6/15/2029,6/15/2029,planned,MCI-NGCC-10-11-7FA05_MS6,SPCC amendment within 6 months – anchored to milestone regex 'mechanical complete|commissioning'
+NU-UP-VOG1:nrc_50_90_amend,NU-UP-VOG1,NRC,11/30/2003,11/29/2004,2/28/2005,submitted,NU-UP-VOG1_MS2,10 CFR 50.90 License Amendment – anchored to milestone regex '30% design|90% design'
+NU-UP-VOG1:nepa_env_review,NU-UP-VOG1,NRC / Federal Lead,7/5/1999,1/1/2000,2/15/2000,submitted,NU-UP-VOG1_MS1,NEPA supplement/EA – anchored to milestone regex 'project kickoff|30% design'
+NU-UP-VOG1:air_titleV_rev,NU-UP-VOG1,State Air Agency,6/19/2013,10/17/2013,11/16/2013,submitted,NU-UP-VOG1_MS4,CAA Title V revision – anchored to milestone regex '90% design|IFC'
+NU-UP-VOG1:npdes_mod,NU-UP-VOG1,State Environmental Agency,4/6/2027,6/5/2027,6/20/2027,planned,NU-UP-VOG1_MS7,CWA NPDES modification – anchored to milestone regex 'commissioning|return to service'
+NU-UP-VOG2:nrc_50_90_amend,NU-UP-VOG2,NRC,8/18/2003,8/17/2004,11/16/2004,submitted,NU-UP-VOG2_MS2,10 CFR 50.90 License Amendment – anchored to milestone regex '30% design|90% design'
+NU-UP-VOG2:nepa_env_review,NU-UP-VOG2,NRC / Federal Lead,7/5/1999,1/1/2000,2/15/2000,submitted,NU-UP-VOG2_MS1,NEPA supplement/EA – anchored to milestone regex 'project kickoff|30% design'
+NU-UP-VOG2:air_titleV_rev,NU-UP-VOG2,State Air Agency,8/10/2012,12/8/2012,1/7/2013,submitted,NU-UP-VOG2_MS4,CAA Title V revision – anchored to milestone regex '90% design|IFC'
+NU-UP-VOG2:npdes_mod,NU-UP-VOG2,State Environmental Agency,7/19/2025,9/17/2025,10/2/2025,submitted,NU-UP-VOG2_MS7,CWA NPDES modification – anchored to milestone regex 'commissioning|return to service'
+PM_ppa_dahlberg_1_3_5_State_air_pe,ppa_dahlberg_1_3_5,State air permit,6/1/2025,11/28/2025,2/26/2026,submitted,MS_ppa_dahlberg_1_3_5_interconnection,gas / SERC
+PM_ppa_dahlberg_1_3_5_Water_use/di,ppa_dahlberg_1_3_5,Water use/discharge,6/1/2025,9/29/2025,1/27/2026,submitted,MS_ppa_dahlberg_1_3_5_interconnection,gas / SERC
+PM_ppa_dahlberg_1_3_5_Local_siting,ppa_dahlberg_1_3_5,Local siting/building,6/1/2025,9/29/2025,11/28/2025,submitted,MS_ppa_dahlberg_1_3_5_interconnection,gas / SERC
+PM_ppa_dahlberg_1_3_5_ISO_intercon,ppa_dahlberg_1_3_5,ISO interconnection approval,6/1/2025,11/23/2026,11/18/2027,submitted,MS_ppa_dahlberg_1_3_5_interconnection,gas / SERC
+ppa_dahlberg_1_3_5:air_minor_nsr_titleV,ppa_dahlberg_1_3_5,State Air Agency,3/18/2025,7/16/2025,8/15/2025,submitted,MS_ppa_dahlberg_1_3_5_engineering,CAA NSR/Title V revision – anchored to milestone regex '90% design|IFC'
+ppa_dahlberg_1_3_5:npdes_cgp,ppa_dahlberg_1_3_5,State Env. Agency / EPA,5/2/2025,6/1/2025,6/8/2025,submitted,MS_ppa_dahlberg_1_3_5_engineering,CWA NPDES CGP – anchored to milestone regex 'construction start|mobilization|outage start'
+ppa_dahlberg_1_3_5:spcc_amend,ppa_dahlberg_1_3_5,Owner (40 CFR 112),4/26/2029,4/26/2029,4/26/2029,planned,MS_ppa_dahlberg_1_3_5_commissioning,SPCC amendment within 6 months – anchored to milestone regex 'mechanical complete|commissioning'
+PM_proj_006_FERC_hydropo,proj_006,FERC hydropower licensing,12/31/2027,12/20/2029,12/15/2030,submitted,MS_proj_006_licensing,hydro / ERCOT
+PM_proj_006_USACE/USFWS_,proj_006,USACE/USFWS consults,12/31/2027,12/25/2028,6/23/2029,submitted,MS_proj_006_licensing,hydro / ERCOT
+PM_proj_006_ISO_intercon,proj_006,ISO interconnection approval,12/31/2027,6/23/2029,6/18/2030,submitted,MS_proj_006_licensing,hydro / ERCOT
+proj_006:ferc_license_amend,proj_006,FERC,8/3/2027,1/30/2028,3/15/2028,planned,MS_proj_006_licensing,FPA license amendment – anchored to milestone regex '30% design|90% design'
+proj_006:usace_404_10,proj_006,USACE,8/3/2027,12/1/2027,12/31/2027,planned,MS_proj_006_licensing,CWA §404 / R&H §10 – anchored to milestone regex 'construction start|in-water'
+proj_006:state_401_wqc,proj_006,State Environmental Agency,9/2/2027,12/1/2027,12/23/2027,planned,MS_proj_006_licensing,CWA §401 certification – anchored to milestone regex 'construction start|in-water'
+proj_006:section_106,proj_006,SHPO / Federal Lead,10/2/2027,12/1/2027,12/16/2027,planned,MS_proj_006_licensing,NHPA Section 106 – anchored to milestone regex 'project kickoff|30% design'
+proj_006:npdes_cgp,proj_006,State Env. Agency / EPA,12/1/2027,12/31/2027,1/7/2028,planned,MS_proj_006_licensing,CWA NPDES CGP – anchored to milestone regex 'construction start'
+PM_proj_009_State_air_pe,proj_009,State air permit,12/31/2028,8/28/2029,12/26/2029,submitted,MS_proj_009_interconnection,coal / ERCOT
+PM_proj_009_Water_use/di,proj_009,Water use/discharge,12/31/2028,6/29/2029,10/27/2029,submitted,MS_proj_009_interconnection,coal / ERCOT
+PM_proj_009_Local_siting,proj_009,Local siting/building,12/31/2028,6/29/2029,8/28/2029,submitted,MS_proj_009_interconnection,coal / ERCOT
+PM_proj_009_ISO_intercon,proj_009,ISO interconnection approval,12/31/2028,6/24/2030,6/19/2031,submitted,MS_proj_009_interconnection,coal / ERCOT
+proj_009:air_psd_nsr,proj_009,State Air Agency / EPA,9/2/2028,1/30/2029,3/8/2029,planned,MS_proj_009_engineering,CAA PSD/NSR construction permit – anchored to milestone regex '30% design'
+proj_009:npdes_cgp,proj_009,State Env. Agency / EPA,12/1/2028,12/31/2028,1/7/2029,planned,MS_proj_009_engineering,CWA NPDES CGP – anchored to milestone regex 'construction start'
+proj_009:usace_404_401,proj_009,USACE / State Env. Agency,8/3/2028,12/1/2028,12/31/2028,planned,MS_proj_009_engineering,CWA 404/401 – anchored to milestone regex 'construction start'
+proj_011:demo_permit,proj_011,Local Building Department,9/16/2025,10/16/2025,10/23/2025,submitted,MS_proj_011_demolition_start,Local demolition authorization – anchored to milestone regex 'demolition start'
+proj_011:asbestos_neshap,proj_011,State Air Program / EPA,10/2/2025,10/2/2025,10/2/2025,submitted,MS_proj_011_demolition_start,40 CFR 61 Subpart M – anchored to milestone regex 'demolition start|decommissioning start'
+proj_011:rcra_closure,proj_011,State/EPA RCRA Program,9/26/2025,11/25/2025,12/10/2025,submitted,MS_proj_011_decommissioning_start,RCRA closure notification/plan – anchored to milestone regex 'decommissioning start'
+proj_011:npdes_term,proj_011,State Env. Agency / EPA,10/6/2025,11/5/2025,11/12/2025,submitted,MS_proj_011_closure,NPDES termination/modification – anchored to milestone regex 'closure|turnover|remediation complete'
+proj_011:spcc_decom,proj_011,Owner (40 CFR 112),10/1/2025,10/1/2025,10/1/2025,submitted,MS_proj_011_decommissioning_start,SPCC update for decommissioning – anchored to milestone regex 'decommissioning start'
+proj_017:demo_permit,proj_017,Local Building Department,9/16/2025,10/16/2025,10/23/2025,submitted,MS_proj_017_demolition_start,Local demolition authorization – anchored to milestone regex 'demolition start'
+proj_017:asbestos_neshap,proj_017,State Air Program / EPA,10/2/2025,10/2/2025,10/2/2025,submitted,MS_proj_017_demolition_start,40 CFR 61 Subpart M – anchored to milestone regex 'demolition start|decommissioning start'
+proj_017:rcra_closure,proj_017,State/EPA RCRA Program,9/26/2025,11/25/2025,12/10/2025,submitted,MS_proj_017_decommissioning_start,RCRA closure notification/plan – anchored to milestone regex 'decommissioning start'
+proj_017:npdes_term,proj_017,State Env. Agency / EPA,10/6/2025,11/5/2025,11/12/2025,submitted,MS_proj_017_closure,NPDES termination/modification – anchored to milestone regex 'closure|turnover|remediation complete'
+proj_017:spcc_decom,proj_017,Owner (40 CFR 112),10/1/2025,10/1/2025,10/1/2025,submitted,MS_proj_017_decommissioning_start,SPCC update for decommissioning – anchored to milestone regex 'decommissioning start'
+proj_019:air_mod,proj_019,State Air Agency,8/2/2025,11/30/2025,12/30/2025,submitted,MS_proj_019_project_kickoff,CAA permit modification – anchored to milestone regex '90% design|IFC'
+proj_019:npdes_cgp,proj_019,State Env. Agency / EPA,9/16/2025,10/16/2025,10/23/2025,submitted,MS_proj_019_construction,CWA NPDES CGP – anchored to milestone regex 'construction start|outage start'
+PM_proj_020_State/local_,proj_020,State/local siting,12/31/2026,6/29/2027,10/27/2027,submitted,MS_proj_020_interconnection,solar / WECC
+PM_proj_020_Cultural/env,proj_020,Cultural/environmental reviews,12/31/2026,6/29/2027,10/27/2027,submitted,MS_proj_020_interconnection,solar / WECC
+PM_proj_020_ISO_intercon,proj_020,ISO interconnection approval,12/31/2026,6/23/2028,6/18/2029,submitted,MS_proj_020_interconnection,solar / WECC
+proj_020:air_psd_nsr,proj_020,State Air Agency / EPA,9/2/2026,1/30/2027,3/8/2027,planned,MS_proj_020_engineering,CAA PSD/NSR construction permit – anchored to milestone regex '30% design'
+proj_020:npdes_cgp,proj_020,State Env. Agency / EPA,12/1/2026,12/31/2026,1/7/2027,planned,MS_proj_020_engineering,CWA NPDES CGP – anchored to milestone regex 'construction start'
+proj_020:usace_404_401,proj_020,USACE / State Env. Agency,8/3/2026,12/1/2026,12/31/2026,planned,MS_proj_020_engineering,CWA 404/401 – anchored to milestone regex 'construction start'
+PM_proj_021_State/local_,proj_021,State/local siting,12/31/2027,6/28/2028,10/26/2028,submitted,MS_proj_021_interconnection,other / ISO-NE
+PM_proj_021_ISO_intercon,proj_021,ISO interconnection approval,12/31/2027,6/23/2029,6/18/2030,submitted,MS_proj_021_interconnection,other / ISO-NE
+proj_021:air_mod,proj_021,State Air Agency,10/17/2027,2/14/2028,3/15/2028,planned,MS_proj_021_engineering,CAA permit modification – anchored to milestone regex '90% design|IFC'
+proj_021:npdes_cgp,proj_021,State Env. Agency / EPA,12/1/2027,12/31/2027,1/7/2028,planned,MS_proj_021_engineering,CWA NPDES CGP – anchored to milestone regex 'construction start|outage start'
+proj_022:demo_permit,proj_022,Local Building Department,9/16/2025,10/16/2025,10/23/2025,submitted,MS_proj_022_demolition_start,Local demolition authorization – anchored to milestone regex 'demolition start'
+proj_022:asbestos_neshap,proj_022,State Air Program / EPA,10/2/2025,10/2/2025,10/2/2025,submitted,MS_proj_022_demolition_start,40 CFR 61 Subpart M – anchored to milestone regex 'demolition start|decommissioning start'
+proj_022:rcra_closure,proj_022,State/EPA RCRA Program,9/26/2025,11/25/2025,12/10/2025,submitted,MS_proj_022_decommissioning_start,RCRA closure notification/plan – anchored to milestone regex 'decommissioning start'
+proj_022:npdes_term,proj_022,State Env. Agency / EPA,10/6/2025,11/5/2025,11/12/2025,submitted,MS_proj_022_closure,NPDES termination/modification – anchored to milestone regex 'closure|turnover|remediation complete'
+proj_022:spcc_decom,proj_022,Owner (40 CFR 112),10/1/2025,10/1/2025,10/1/2025,submitted,MS_proj_022_decommissioning_start,SPCC update for decommissioning – anchored to milestone regex 'decommissioning start'
+retire_bowen_1_2:demo_permit,retire_bowen_1_2,Local Building Department,6/27/2027,7/27/2027,8/3/2027,planned,retire_bowen_1_2_MS6,Local demolition authorization – anchored to milestone regex 'demolition start'
+retire_bowen_1_2:asbestos_neshap,retire_bowen_1_2,State Air Program / EPA,11/19/2026,11/19/2026,11/19/2026,planned,retire_bowen_1_2_MS3,40 CFR 61 Subpart M – anchored to milestone regex 'demolition start|decommissioning start'
+retire_bowen_1_2:rcra_closure,retire_bowen_1_2,State/EPA RCRA Program,11/13/2026,1/12/2027,1/27/2027,planned,retire_bowen_1_2_MS3,RCRA closure notification/plan – anchored to milestone regex 'decommissioning start'
+retire_bowen_1_2:npdes_term,retire_bowen_1_2,State Env. Agency / EPA,10/3/2027,11/2/2027,11/9/2027,planned,retire_bowen_1_2_MS7,NPDES termination/modification – anchored to milestone regex 'closure|turnover|remediation complete'
+retire_bowen_1_2:spcc_decom,retire_bowen_1_2,Owner (40 CFR 112),11/18/2026,11/18/2026,11/18/2026,planned,retire_bowen_1_2_MS3,SPCC update for decommissioning – anchored to milestone regex 'decommissioning start'
+Cape_Wind_new_build_State/local_,Cape_Wind_new_build,State/local siting,4/1/2026,11/29/2026,3/27/2027,planned,Cape_Wind_new_build_interconnection,wind / WECC
+Cape_Wind_new_build_Wildlife_con,Cape_Wind_new_build,Wildlife consultations,4/1/2026,11/29/2026,3/27/2027,planned,Cape_Wind_new_build_interconnection,wind / WECC
+Cape_Wind_new_build_ISO_intercon,Cape_Wind_new_build,ISO interconnection approval,4/1/2026,9/24/2027,9/19/2028,planned,Cape_Wind_new_build_interconnection,wind / WECC
+Cape_Wind_new_build:faa_7460_1,Cape_Wind_new_build,FAA,2/2/2026,4/1/2026,4/16/2026,planned,Cape_Wind_new_build_engineering,14 CFR Part 77 notice – anchored to milestone regex 'project kickoff|construction start'
+Cape_Wind_new_build:siting_cup,Cape_Wind_new_build,State/Local Siting Board,1/3/2026,4/1/2026,4/23/2026,planned,Cape_Wind_new_build_engineering,Conditional use/siting approval – anchored to milestone regex 'construction start'
+Cape_Wind_new_build:wildlife_consult,Cape_Wind_new_build,USFWS / State Wildlife,2/2/2026,4/1/2026,4/16/2026,planned,Cape_Wind_new_build_engineering,Protected species consultation – anchored to milestone regex 'project kickoff|construction start'
+Cape_Wind_new_build:npdes_cgp,Cape_Wind_new_build,State Env. Agency / EPA,3/2/2026,4/1/2026,4/8/2026,planned,Cape_Wind_new_build_engineering,CWA NPDES CGP – anchored to milestone regex 'construction start'
+Cape_Wind_new_build_State/local_,Cape_Wind_new_build,State/local siting,4/1/2026,11/29/2026,3/27/2027,planned,Cape_Wind_new_build_interconnection,wind / WECC
+Cape_Wind_new_build_Wildlife_con,Cape_Wind_new_build,Wildlife consultations,4/1/2026,11/29/2026,3/27/2027,planned,Cape_Wind_new_build_interconnection,wind / WECC
+Cape_Wind_new_build_ISO_intercon,Cape_Wind_new_build,ISO interconnection approval,4/1/2026,9/24/2027,9/19/2028,planned,Cape_Wind_new_build_interconnection,wind / WECC
+Cape_Wind_new_build:faa_7460_1,Cape_Wind_new_build,FAA,2/2/2026,4/1/2026,4/16/2026,planned,Cape_Wind_new_build_engineering,14 CFR Part 77 notice – anchored to milestone regex 'project kickoff|construction start'
+Cape_Wind_new_build:siting_cup,Cape_Wind_new_build,State/Local Siting Board,1/3/2026,4/1/2026,4/23/2026,planned,Cape_Wind_new_build_engineering,Conditional use/siting approval – anchored to milestone regex 'construction start'
+Cape_Wind_new_build:wildlife_consult,Cape_Wind_new_build,USFWS / State Wildlife,2/2/2026,4/1/2026,4/16/2026,planned,Cape_Wind_new_build_engineering,Protected species consultation – anchored to milestone regex 'project kickoff|construction start'
+Cape_Wind_new_build:npdes_cgp,Cape_Wind_new_build,State Env. Agency / EPA,3/2/2026,4/1/2026,4/8/2026,planned,Cape_Wind_new_build_engineering,CWA NPDES CGP – anchored to milestone regex 'construction start'

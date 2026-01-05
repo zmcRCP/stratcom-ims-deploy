@@ -1,0 +1,22 @@
+source_work_item_id,target_work_item_id,type,min_lag_d,typ_lag_d,max_lag_d,critical,note,policy_dep_type,constraint_id,window_id
+Cape_Wind_new_build_engineering,MS_tall_wind_demo_engineering,SS,90,120,180,FALSE,Stagger environmental permit submissions to avoid overwhelming regulatory staff; both require avian impact studies,regulatory_constraint,,REG-AVIAN-PERMITS
+Cape_Wind_new_build_interconnection,MS_BESS-PV-COLOC-200-200_interconnection,FS,30,60,90,TRUE,ISO interconnection queue position sequencing; Cape Wind is first in queue,interconnection_queue,PC-ISO-QUEUE-001,
+HY-BARTLETT56-MOD_MS7,hydro_mod_sinclair_MS7,FS,30,45,60,TRUE,Shared specialized hydro modernization contractor; sequential commissioning,resource_constraint,,RES-HYDRO-MOD-CREW
+MCI-NGCC-10-11-7FA05_MS5,HY-BARTLETT56-MOD_MS5,SS,180,210,240,TRUE,Regional reliability policy: max 2 major outages >100 MW simultaneously in region,regional_reliability,PC-MISO-OUTAGE-001,WIN-MISO-Q4-2032
+MS_BESS-PV-COLOC-200-200_commissioning,retire_bowen_1_2_MS3,FS,14,30,60,TRUE,200 MW BESS contributes to replacement capacity for coal retirement,reliability_constraint,PC-REL-002,
+MS_ppa_dahlberg_1_3_5_commissioning,MCI-NGCC-10-11-7FA05_MS7,FS,45,60,90,FALSE,Shared gas turbine commissioning team; preferably sequential for efficiency,resource_constraint,,RES-GAS-COMM-TEAM
+
+MS_ppa_dahlberg_1_3_5_procurement,MCI-NGCC-10-11-7FA05_MS3,FS,90,120,150,FALSE,GE 7FA turbine components on allocation; vendor can only fulfill one major order per quarter,supply_chain,,SC-GE-7FA-PARTS
+MS_proj_009_commissioning,retire_Plant28_MS3,FS,14,30,60,TRUE,Coal retirement gated by 400 MW replacement capacity online; regional adequacy requirement,reliability_constraint,PC-REL-001,
+MS_proj_019_commissioning,MS_proj_021_construction,FS,30,60,90,FALSE,Phase 1 transmission upgrade provides construction access roads for Phase 2 transmission project,transmission_dependency,,TRANS-PHASE-SEQ
+MS_proj_020_commissioning,retire_bowen_1_2_MS3,FS,14,30,60,TRUE,100 MW solar must commission before 350 MW coal retirement; environmental offset requirement,environmental,PC-ENV-002,
+MS_proj_020_construction,MS_BESS-PV-COLOC-200-200_construction,SS,90,120,180,FALSE,Both projects at Mountain Solar site; stagger construction to avoid laydown area conflicts,site_constraint,,WIN-MOUNTAIN-SOLAR
+MS_proj_021_commissioning,MS_proj_020_interconnection,FS,14,21,45,TRUE,800 MW transmission project must energize before 100 MW solar can interconnect; grid capacity constraint,transmission_dependency,PC-TRANS-001,
+MS_proj_022_decommissioning_start,retire_bowen_1_2_MS3,SS,30,45,60,FALSE,Shared specialized decommissioning contractor; sequential deployment,resource_constraint,,RES-GEOTHERM-DECOM-CREW
+MS_proj_022_hazmat_ash_handling_secured,MCI-NGC5_MS4,SS,60,90,120,FALSE,Shared hazmat response team; geothermal and coal hazmat similar,resource_constraint,,RES-HAZMAT-TEAM
+MS_tall_wind_demo_commissioning,Cape_Wind_new_build_construction,FS,180,270,365,FALSE,Tall wind technology demonstration must validate performance for 6-12 months before commercial-scale construction,technical_gate,,TECH-TALL-WIND-DEMO
+MS_tall_wind_demo_commissioning,MS_proj_022_fuel_isolation_&_purge_complete,FS,14,30,60,FALSE,120 MW wind demo validates grid stability before geothermal retirement,technical_gate,,TECH-GEOTHERM-RETIRE
+NU-UP-VOG1_MS5,NU-UP-VOG2_MS5,SS,180,270,365,TRUE,Sequential outage windows at same nuclear plant to maintain regional adequacy,site_constraint,PC-SITE-001,WIN-GASTON-OUTAGES
+NU-UP-VOG1_MS7,NU-UP-VOG2_MS7,FS,60,90,120,TRUE,Shared NRC-certified nuclear commissioning team; sequential deployment required,resource_constraint,,RES-NUC-COMM-TEAM
+NU-UP-VOG1_MS8,NU-UP-retire_MS3,FS,90,120,180,TRUE,Nuclear uprate 1 must return to service before Vogtle 3 retirement can begin decommissioning,reliability_constraint,PC-REL-003,
+NU-UP-VOG2_MS8,NU-UP-retire_MS3,FS,90,120,180,TRUE,Nuclear uprate 2 must return to service before Vogtle 3 retirement can begin decommissioning,reliability_constraint,PC-REL-003,

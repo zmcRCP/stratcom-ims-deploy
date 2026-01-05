@@ -1,0 +1,44 @@
+risk_id,project_id,category,description,probability,impact_days_p50,impact_days_p90,impact_cost_$,affected_milestone_id,response,owner,notes
+RK_proj_006_policy_FERC licen,proj_006,policy,FERC licensing delay,0.3,180,360,2000000,MS_proj_006_interconnection,mitigate,PMO,Environmental consultations
+RK_proj_006_materials_runner fab,proj_006,materials,runner fabrication,0.2,120,240,3000000,MS_proj_006_procurement,mitigate,PMO,Specialty metals backlog
+RK_proj_006_paperwork_USACE appr,proj_006,paperwork,USACE approvals,0.25,90,180,1000000,MS_proj_006_interconnection,accept,PMO,Section 404/408 timing
+RK_proj_009_materials_boiler pre,proj_009,materials,boiler pressure parts delays,0.25,60,120,3000000,MS_proj_009_procurement,mitigate,PMO,Supply chain tightness
+RK_proj_009_policy_emissions ,proj_009,policy,emissions litigation,0.2,120,240,2000000,MS_proj_009_interconnection,mitigate,PMO,Policy changes
+RK_proj_009_paperwork_interconne,proj_009,paperwork,interconnection study rework,0.25,90,180,500000,MS_proj_009_interconnection,accept,PMO,Cluster restudies
+RK_proj_020_materials_inverter s,proj_020,materials,inverter supply,0.25,60,120,500000,MS_proj_020_procurement,mitigate,PMO,Electronics lead time
+RK_proj_020_policy_cultural r,proj_020,policy,cultural review,0.15,45,90,300000,MS_proj_020_interconnection,mitigate,PMO,Discovery extends timeline
+RK_proj_020_paperwork_cluster re,proj_020,paperwork,cluster restudies,0.3,120,240,500000,MS_proj_020_interconnection,accept,PMO,Queue delays
+RK_proj_021_materials_long-lead ,proj_021,materials,long-lead item,0.2,30,60,250000,MS_proj_021_procurement,mitigate,PMO,Generic delays
+RK_CT-YATES-TRANCHE_materials_GSU transf,CT-YATES-TRANCHE,materials,GSU transformer delays,0.35,120,240,5000000,MS_CT-YATES-TRANCHE_procurement,mitigate,PMO,Long global lead times
+RK_CT-YATES-TRANCHE_policy_air permit,CT-YATES-TRANCHE,policy,air permit appeal,0.15,60,120,1000000,MS_CT-YATES-TRANCHE_interconnection,mitigate,PMO,Third-party appeal risk
+RK_CT-YATES-TRANCHE_paperwork_interconne,CT-YATES-TRANCHE,paperwork,interconnection study rework,0.25,90,180,500000,MS_CT-YATES-TRANCHE_interconnection,accept,PMO,Cluster restudies
+RK_BESS-AFB-ROBINS-MOODY_materials_PCS/invert,BESS-AFB-ROBINS-MOODY,materials,PCS/inverter supply,0.25,60,120,500000,MS_BESS-AFB-ROBINS-MOODY_procurement,mitigate,PMO,Power electronics backlog
+RK_BESS-AFB-ROBINS-MOODY_policy_fire code ,BESS-AFB-ROBINS-MOODY,policy,fire code approval,0.15,45,90,250000,MS_BESS-AFB-ROBINS-MOODY_interconnection,mitigate,PMO,AHJ additional requirements
+RK_BESS-AFB-ROBINS-MOODY_paperwork_interconne,BESS-AFB-ROBINS-MOODY,paperwork,interconnection models,0.2,60,120,300000,MS_BESS-AFB-ROBINS-MOODY_interconnection,accept,PMO,ISO data requests
+RK_BESS-PV-COLOC-200-200_materials_inverter s,BESS-PV-COLOC-200-200,materials,inverter supply,0.25,60,120,500000,MS_BESS-PV-COLOC-200-200_procurement,mitigate,PMO,Electronics lead time
+RK_BESS-PV-COLOC-200-200_policy_cultural r,BESS-PV-COLOC-200-200,policy,cultural review,0.15,45,90,300000,MS_BESS-PV-COLOC-200-200_interconnection,mitigate,PMO,Discovery extends timeline
+RK_BESS-PV-COLOC-200-200_paperwork_cluster re,BESS-PV-COLOC-200-200,paperwork,cluster restudies,0.3,120,240,500000,MS_BESS-PV-COLOC-200-200_interconnection,accept,PMO,Queue delays
+RK_WIND-TALL-DEM02_materials_WTG logist,WIND-TALL-DEM02,materials,WTG logistics,0.3,60,150,2000000,MS_WIND-TALL-DEM02_procurement,mitigate,PMO,Port/transport constraints
+RK_WIND-TALL-DEM02_policy_wildlife l,WIND-TALL-DEM02,policy,wildlife litigation,0.2,90,180,1000000,MS_WIND-TALL-DEM02_interconnection,mitigate,PMO,EAs/EIS challenges
+RK_WIND-TALL-DEM02_paperwork_cluster re,WIND-TALL-DEM02,paperwork,cluster restudies,0.3,120,240,750000,MS_WIND-TALL-DEM02_interconnection,accept,PMO,Queue reforms timing
+RK_tall_wind_demo_materials_WTG logist,tall_wind_demo,materials,WTG logistics,0.3,60,150,2000000,MS_tall_wind_demo_procurement,mitigate,PMO,Port/transport constraints
+RK_tall_wind_demo_policy_wildlife l,tall_wind_demo,policy,wildlife litigation,0.2,90,180,1000000,MS_tall_wind_demo_interconnection,mitigate,PMO,EAs/EIS challenges
+RK_tall_wind_demo_paperwork_cluster re,tall_wind_demo,paperwork,cluster restudies,0.3,120,240,750000,MS_tall_wind_demo_interconnection,accept,PMO,Queue reforms timing
+RK_ppa_harris2_cc_materials_GSU transf,ppa_harris2_cc,materials,GSU transformer delays,0.35,120,240,5000000,MS_ppa_harris2_cc_procurement,mitigate,PMO,Long global lead times
+RK_ppa_harris2_cc_policy_air permit,ppa_harris2_cc,policy,air permit appeal,0.15,60,120,1000000,MS_ppa_harris2_cc_interconnection,mitigate,PMO,Third-party appeal risk
+RK_ppa_harris2_cc_paperwork_interconne,ppa_harris2_cc,paperwork,interconnection study rework,0.25,90,180,500000,MS_ppa_harris2_cc_interconnection,accept,PMO,Cluster restudies
+RK_ppa_wansley7_materials_GSU transf,ppa_wansley7,materials,GSU transformer delays,0.35,120,240,5000000,MS_ppa_wansley7_procurement,mitigate,PMO,Long global lead times
+RK_ppa_wansley7_policy_air permit,ppa_wansley7,policy,air permit appeal,0.15,60,120,1000000,MS_ppa_wansley7_interconnection,mitigate,PMO,Third-party appeal risk
+RK_ppa_wansley7_paperwork_interconne,ppa_wansley7,paperwork,interconnection study rework,0.25,90,180,500000,MS_ppa_wansley7_interconnection,accept,PMO,Cluster restudies
+RK_ppa_dahlberg_1_3_5_materials_GSU transf,ppa_dahlberg_1_3_5,materials,GSU transformer delays,0.35,120,240,5000000,MS_ppa_dahlberg_1_3_5_procurement,mitigate,PMO,Long global lead times
+RK_ppa_dahlberg_1_3_5_policy_air permit,ppa_dahlberg_1_3_5,policy,air permit appeal,0.15,60,120,1000000,MS_ppa_dahlberg_1_3_5_interconnection,mitigate,PMO,Third-party appeal risk
+RK_ppa_dahlberg_1_3_5_paperwork_interconne,ppa_dahlberg_1_3_5,paperwork,interconnection study rework,0.25,90,180,500000,MS_ppa_dahlberg_1_3_5_interconnection,accept,PMO,Cluster restudies
+RK_ppa_dahlberg_2_6_materials_GSU transf,ppa_dahlberg_2_6,materials,GSU transformer delays,0.35,120,240,5000000,MS_ppa_dahlberg_2_6_procurement,mitigate,PMO,Long global lead times
+RK_ppa_dahlberg_2_6_policy_air permit,ppa_dahlberg_2_6,policy,air permit appeal,0.15,60,120,1000000,MS_ppa_dahlberg_2_6_interconnection,mitigate,PMO,Third-party appeal risk
+RK_ppa_dahlberg_2_6_paperwork_interconne,ppa_dahlberg_2_6,paperwork,interconnection study rework,0.25,90,180,500000,MS_ppa_dahlberg_2_6_interconnection,accept,PMO,Cluster restudies
+RK_ppa_dahlberg_8_10_materials_GSU transf,ppa_dahlberg_8_10,materials,GSU transformer delays,0.35,120,240,5000000,MS_ppa_dahlberg_8_10_procurement,mitigate,PMO,Long global lead times
+RK_ppa_dahlberg_8_10_policy_air permit,ppa_dahlberg_8_10,policy,air permit appeal,0.15,60,120,1000000,MS_ppa_dahlberg_8_10_interconnection,mitigate,PMO,Third-party appeal risk
+RK_ppa_dahlberg_8_10_paperwork_interconne,ppa_dahlberg_8_10,paperwork,interconnection study rework,0.25,90,180,500000,MS_ppa_dahlberg_8_10_interconnection,accept,PMO,Cluster restudies
+RK_ppa_monroe_1_2_materials_GSU transf,ppa_monroe_1_2,materials,GSU transformer delays,0.35,120,240,5000000,MS_ppa_monroe_1_2_procurement,mitigate,PMO,Long global lead times
+RK_ppa_monroe_1_2_policy_air permit,ppa_monroe_1_2,policy,air permit appeal,0.15,60,120,1000000,MS_ppa_monroe_1_2_interconnection,mitigate,PMO,Third-party appeal risk
+RK_ppa_monroe_1_2_paperwork_interconne,ppa_monroe_1_2,paperwork,interconnection study rework,0.25,90,180,500000,MS_ppa_monroe_1_2_interconnection,accept,PMO,Cluster restudies
