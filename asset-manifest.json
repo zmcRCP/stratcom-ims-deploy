@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/stratcom-ims-deploy/static/css/main.5dc67b12.css",
-    "main.js": "/stratcom-ims-deploy/static/js/main.9321ecdf.js",
-    "static/js/685.0176a4b6.chunk.js": "/stratcom-ims-deploy/static/js/685.0176a4b6.chunk.js",
-    "static/media/Roboto-500.ttf": "/stratcom-ims-deploy/static/media/Roboto-500.0fcd45fbfc419c42c8b9.ttf",
-    "static/media/Roboto-400.ttf": "/stratcom-ims-deploy/static/media/Roboto-400.6bede58e856278b0f8f1.ttf",
-    "static/media/Roboto-700.ttf": "/stratcom-ims-deploy/static/media/Roboto-700.17451a4c1cd55e33ac57.ttf",
-    "static/media/Roboto-300.ttf": "/stratcom-ims-deploy/static/media/Roboto-300.ce61b8b68994802f2e55.ttf",
-    "static/media/Roboto-500.woff": "/stratcom-ims-deploy/static/media/Roboto-500.092c6130df8fd2199888.woff",
-    "static/media/Roboto-700.woff": "/stratcom-ims-deploy/static/media/Roboto-700.73288d91c325e82a5b92.woff",
-    "static/media/Roboto-400.woff": "/stratcom-ims-deploy/static/media/Roboto-400.e02e9d6ff5547f7e9962.woff",
-    "static/media/Roboto-300.woff": "/stratcom-ims-deploy/static/media/Roboto-300.d923dfafc0c5183b59aa.woff",
-    "static/media/Roboto-500.woff2": "/stratcom-ims-deploy/static/media/Roboto-500.1d3bced88509b0838984.woff2",
-    "static/media/Roboto-700.woff2": "/stratcom-ims-deploy/static/media/Roboto-700.92fbd4e93cf0a5dbebaa.woff2",
-    "static/media/Roboto-400.woff2": "/stratcom-ims-deploy/static/media/Roboto-400.64cfb66c866ea50cad47.woff2",
-    "static/media/Roboto-300.woff2": "/stratcom-ims-deploy/static/media/Roboto-300.c27d89ac77468ae18f28.woff2",
-    "static/media/dxiconsmaterial.woff": "/stratcom-ims-deploy/static/media/dxiconsmaterial.626e4c4383547bc14f1d.woff",
-    "static/media/dxiconsmaterial.ttf": "/stratcom-ims-deploy/static/media/dxiconsmaterial.8b2fdc1bb6962c650eaa.ttf",
-    "static/media/dxiconsmaterial.woff2": "/stratcom-ims-deploy/static/media/dxiconsmaterial.6f123c5a0a2209e449a8.woff2",
-    "index.html": "/stratcom-ims-deploy/index.html"
+    "main.css": "/IMS/static/css/main.360a6003.css",
+    "main.js": "/IMS/static/js/main.ed34d4e1.js",
+    "static/js/685.0176a4b6.chunk.js": "/IMS/static/js/685.0176a4b6.chunk.js",
+    "static/media/Roboto-500.ttf": "/IMS/static/media/Roboto-500.0fcd45fbfc419c42c8b9.ttf",
+    "static/media/Roboto-400.ttf": "/IMS/static/media/Roboto-400.6bede58e856278b0f8f1.ttf",
+    "static/media/Roboto-700.ttf": "/IMS/static/media/Roboto-700.17451a4c1cd55e33ac57.ttf",
+    "static/media/Roboto-300.ttf": "/IMS/static/media/Roboto-300.ce61b8b68994802f2e55.ttf",
+    "static/media/Roboto-500.woff": "/IMS/static/media/Roboto-500.092c6130df8fd2199888.woff",
+    "static/media/Roboto-700.woff": "/IMS/static/media/Roboto-700.73288d91c325e82a5b92.woff",
+    "static/media/Roboto-400.woff": "/IMS/static/media/Roboto-400.e02e9d6ff5547f7e9962.woff",
+    "static/media/Roboto-300.woff": "/IMS/static/media/Roboto-300.d923dfafc0c5183b59aa.woff",
+    "static/media/Roboto-500.woff2": "/IMS/static/media/Roboto-500.1d3bced88509b0838984.woff2",
+    "static/media/Roboto-700.woff2": "/IMS/static/media/Roboto-700.92fbd4e93cf0a5dbebaa.woff2",
+    "static/media/Roboto-400.woff2": "/IMS/static/media/Roboto-400.64cfb66c866ea50cad47.woff2",
+    "static/media/Roboto-300.woff2": "/IMS/static/media/Roboto-300.c27d89ac77468ae18f28.woff2",
+    "static/media/dxiconsmaterial.woff": "/IMS/static/media/dxiconsmaterial.626e4c4383547bc14f1d.woff",
+    "static/media/dxiconsmaterial.ttf": "/IMS/static/media/dxiconsmaterial.8b2fdc1bb6962c650eaa.ttf",
+    "static/media/dxiconsmaterial.woff2": "/IMS/static/media/dxiconsmaterial.6f123c5a0a2209e449a8.woff2",
+    "index.html": "/IMS/index.html"
   },
   "entrypoints": [
-    "static/css/main.5dc67b12.css",
-    "static/js/main.9321ecdf.js"
+    "static/css/main.360a6003.css",
+    "static/js/main.ed34d4e1.js"
   ]
 }
