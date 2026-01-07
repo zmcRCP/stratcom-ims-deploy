@@ -1,281 +1,281 @@
 [
   {
     "id": 1,
-    "predecessorId": "PSC-NU-UP-retire::instrumentation_spares",
-    "successorId": "M-NU-UP-retire_MS2-WORK",
+    "predecessorId": "PSC-NU-UP-VOG2::instrumentation_spares",
+    "successorId": "M-NU-UP-VOG2_MS6-WORK",
     "type": 0,
     "lag_days": 40
   },
   {
     "id": 2,
-    "predecessorId": "PSC-SC_proj_021_Long-lead_eq",
-    "successorId": "M-proj_021_procurement-WORK",
+    "predecessorId": "PSC-NU-UP-VOG2::outage_scaffolding_shielding",
+    "successorId": "M-NU-UP-VOG2_MS6-WORK",
     "type": 0,
-    "lag_days": 36
+    "lag_days": 40
   },
   {
     "id": 3,
-    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_PV_modules",
-    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
-    "type": 0,
-    "lag_days": 18
-  },
-  {
-    "id": 4,
-    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_Inverters",
-    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
-    "type": 0,
-    "lag_days": 27
-  },
-  {
-    "id": 5,
-    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_Tracker_syst",
-    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
-    "type": 0,
-    "lag_days": 22
-  },
-  {
-    "id": 6,
-    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_Main_power_t",
-    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
-    "type": 0,
-    "lag_days": 162
-  },
-  {
-    "id": 7,
-    "predecessorId": "PSC-SC_tall_wind_demo_WTG_nacelles",
-    "successorId": "M-tall_wind_demo_procurement-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
-    "id": 8,
-    "predecessorId": "PSC-SC_tall_wind_demo_Towers",
-    "successorId": "M-tall_wind_demo_procurement-WORK",
-    "type": 0,
-    "lag_days": 27
-  },
-  {
-    "id": 9,
-    "predecessorId": "PSC-SC_tall_wind_demo_Padmount/col",
-    "successorId": "M-tall_wind_demo_procurement-WORK",
-    "type": 0,
-    "lag_days": 81
-  },
-  {
-    "id": 10,
-    "predecessorId": "PSC-NU-UP-VOG1::valve_actuator_kits",
-    "successorId": "M-NU-UP-VOG1_MS3-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
-    "id": 11,
-    "predecessorId": "PSC-NU-UP-VOG1::outage_scaffolding_shielding",
-    "successorId": "M-NU-UP-VOG1_MS3-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
-    "id": 12,
     "predecessorId": "PSC-SC_proj_017_WTG_nacelles_&_blades",
     "successorId": "M-proj_017_procurement-WORK",
     "type": 0,
     "lag_days": 40
   },
   {
-    "id": 13,
+    "id": 4,
     "predecessorId": "PSC-SC_proj_017_Towers",
     "successorId": "M-proj_017_procurement-WORK",
     "type": 0,
     "lag_days": 27
   },
   {
-    "id": 14,
+    "id": 5,
     "predecessorId": "PSC-SC_proj_017_Padmount/collector_transformers",
     "successorId": "M-proj_017_procurement-WORK",
     "type": 0,
     "lag_days": 81
   },
   {
-    "id": 15,
-    "predecessorId": "PSC-Plant_28_retirement::specialty_parts",
-    "successorId": "M-retire_Plant28_MS5-WORK",
+    "id": 6,
+    "predecessorId": "PSC-SC_proj_021_Long-lead_eq",
+    "successorId": "M-proj_021_procurement-WORK",
     "type": 0,
-    "lag_days": 40
+    "lag_days": 36
   },
   {
-    "id": 16,
-    "predecessorId": "PSC-MCI-NGCC-10-11-7FA05::gt_combustion_parts",
-    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
-    "type": 0,
-    "lag_days": 44
-  },
-  {
-    "id": 17,
-    "predecessorId": "PSC-MCI-NGCC-10-11-7FA05::hrsg_tube_panels",
-    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
-    "type": 0,
-    "lag_days": 44
-  },
-  {
-    "id": 18,
-    "predecessorId": "PSC-022::hx_plate_pack",
-    "successorId": "M-proj_022_decommissioning_start-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
-    "id": 19,
-    "predecessorId": "PSC-022::pump_impeller_seal_kit",
-    "successorId": "M-proj_022_decommissioning_start-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
-    "id": 20,
-    "predecessorId": "PSC-022::filtration_cartridges",
-    "successorId": "M-proj_022_decommissioning_start-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
-    "id": 21,
-    "predecessorId": "PSC-hydro_mod_sinclair::general_mro_materials",
-    "successorId": "M-hydro_mod_sinclair_MS6-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
-    "id": 22,
-    "predecessorId": "PSC-MCI-NGC5::gt_combustion_parts",
-    "successorId": "M-MCI-NGC5_MS2-WORK",
-    "type": 0,
-    "lag_days": 44
-  },
-  {
-    "id": 23,
-    "predecessorId": "PSC-MCI-NGC5::valves_actuators",
-    "successorId": "M-MCI-NGC5_MS2-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
-    "id": 24,
+    "id": 7,
     "predecessorId": "PSC-NU-UP-VOG1::instrumentation_spares",
     "successorId": "M-NU-UP-VOG1_MS6-WORK",
     "type": 0,
     "lag_days": 40
   },
   {
-    "id": 25,
+    "id": 8,
+    "predecessorId": "PSC-022::hx_plate_pack",
+    "successorId": "M-proj_022_decommissioning_start-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 9,
+    "predecessorId": "PSC-022::pump_impeller_seal_kit",
+    "successorId": "M-proj_022_decommissioning_start-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 10,
+    "predecessorId": "PSC-022::filtration_cartridges",
+    "successorId": "M-proj_022_decommissioning_start-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 11,
+    "predecessorId": "PSC-SC_proj_019_Long-lead_equipment",
+    "successorId": "M-proj_019_long-lead_pos_placed-WORK",
+    "type": 0,
+    "lag_days": 36
+  },
+  {
+    "id": 12,
+    "predecessorId": "PSC-SC_proj_019_Long-lead_equipment",
+    "successorId": "M-proj_019_long-lead_pos_placed-WORK",
+    "type": 0,
+    "lag_days": 36
+  },
+  {
+    "id": 13,
     "predecessorId": "PSC-SC_proj_020_PV_modules",
     "successorId": "M-proj_020_procurement-WORK",
     "type": 0,
     "lag_days": 18
   },
   {
-    "id": 26,
+    "id": 14,
     "predecessorId": "PSC-SC_proj_020_Inverters",
     "successorId": "M-proj_020_procurement-WORK",
     "type": 0,
     "lag_days": 27
   },
   {
-    "id": 27,
+    "id": 15,
     "predecessorId": "PSC-SC_proj_020_Tracker_syst",
     "successorId": "M-proj_020_procurement-WORK",
     "type": 0,
     "lag_days": 22
   },
   {
-    "id": 28,
+    "id": 16,
     "predecessorId": "PSC-SC_proj_020_Main_power_t",
     "successorId": "M-proj_020_procurement-WORK",
     "type": 0,
     "lag_days": 162
   },
   {
-    "id": 29,
-    "predecessorId": "PSC-retire_bowen_1_2::specialty_parts",
-    "successorId": "M-retire_bowen_1_2_MS4-WORK",
+    "id": 17,
+    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_Gas_turbine_",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "type": 0,
+    "lag_days": 54
+  },
+  {
+    "id": 18,
+    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_HRSG_modules",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
     "type": 0,
     "lag_days": 40
   },
   {
+    "id": 19,
+    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_Generator_st",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "type": 0,
+    "lag_days": 162
+  },
+  {
+    "id": 20,
+    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_Main_power_t",
+    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "type": 0,
+    "lag_days": 162
+  },
+  {
+    "id": 21,
+    "predecessorId": "PSC-retire_bowen_1_2::general_mro_materials",
+    "successorId": "M-retire_bowen_1_2_MS2-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 22,
+    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_PV_modules",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 0,
+    "lag_days": 18
+  },
+  {
+    "id": 23,
+    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_Inverters",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 24,
+    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_Tracker_syst",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 0,
+    "lag_days": 22
+  },
+  {
+    "id": 25,
+    "predecessorId": "PSC-SC_BESS-PV-COLOC-200-200_Main_power_t",
+    "successorId": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "type": 0,
+    "lag_days": 162
+  },
+  {
+    "id": 26,
+    "predecessorId": "PSC-hydro_mod_sinclair::general_mro_materials",
+    "successorId": "M-hydro_mod_sinclair_MS6-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 27,
+    "predecessorId": "PSC-SC_tall_wind_demo_WTG_nacelles",
+    "successorId": "M-tall_wind_demo_procurement-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 28,
+    "predecessorId": "PSC-SC_tall_wind_demo_Towers",
+    "successorId": "M-tall_wind_demo_procurement-WORK",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 29,
+    "predecessorId": "PSC-SC_tall_wind_demo_Padmount/col",
+    "successorId": "M-tall_wind_demo_procurement-WORK",
+    "type": 0,
+    "lag_days": 81
+  },
+  {
     "id": 30,
-    "predecessorId": "PSC-SC_Cape_Wind_new_build_WTG_nacelles",
-    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "predecessorId": "PSC-Plant_28_retirement::specialty_parts",
+    "successorId": "M-retire_Plant28_MS5-WORK",
     "type": 0,
     "lag_days": 40
   },
   {
     "id": 31,
-    "predecessorId": "PSC-SC_Cape_Wind_new_build2_Towers",
-    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
-    "type": 0,
-    "lag_days": 27
-  },
-  {
-    "id": 32,
-    "predecessorId": "PSC-SC_Cape_Wind_new_build_Padmount/col",
-    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
-    "type": 0,
-    "lag_days": 81
-  },
-  {
-    "id": 33,
-    "predecessorId": "PSC-SC_Cape_Wind_new_build_WTG_nacelles",
-    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
-    "id": 34,
-    "predecessorId": "PSC-SC_Cape_Wind_new_build_Towers",
-    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
-    "type": 0,
-    "lag_days": 27
-  },
-  {
-    "id": 35,
-    "predecessorId": "PSC-SC_Cape_Wind_new_build_Padmount/col",
-    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
-    "type": 0,
-    "lag_days": 81
-  },
-  {
-    "id": 36,
-    "predecessorId": "PSC-MCI-NGC5::hrsg_tube_panels",
-    "successorId": "M-MCI-NGC5_MS5-WORK",
-    "type": 0,
-    "lag_days": 44
-  },
-  {
-    "id": 37,
-    "predecessorId": "PSC-NU-UP-retire::valve_actuator_kits",
-    "successorId": "M-NU-UP-retire_MS4-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
-    "id": 38,
-    "predecessorId": "PSC-NU-UP-retire::outage_scaffolding_shielding",
-    "successorId": "M-NU-UP-retire_MS4-WORK",
-    "type": 0,
-    "lag_days": 56
-  },
-  {
-    "id": 39,
     "predecessorId": "PSC-011::general_mro_materials",
     "successorId": "M-proj_011_decommissioning_start-WORK",
     "type": 0,
     "lag_days": 40
   },
   {
-    "id": 40,
+    "id": 32,
     "predecessorId": "PSC-011::specialty_parts",
     "successorId": "M-proj_011_decommissioning_start-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 33,
+    "predecessorId": "PSC-MCI-NGC5::hrsg_tube_panels",
+    "successorId": "M-MCI-NGC5_MS5-WORK",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 34,
+    "predecessorId": "PSC-NU-UP-VOG1::valve_actuator_kits",
+    "successorId": "M-NU-UP-VOG1_MS3-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 35,
+    "predecessorId": "PSC-NU-UP-VOG1::outage_scaffolding_shielding",
+    "successorId": "M-NU-UP-VOG1_MS3-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 36,
+    "predecessorId": "PSC-HY-BARTLETT56-MOD::general_mro_materials",
+    "successorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 37,
+    "predecessorId": "PSC-HY-BARTLETT56-MOD::specialty_parts",
+    "successorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 38,
+    "predecessorId": "PSC-NU-UP-VOG2::valve_actuator_kits",
+    "successorId": "M-NU-UP-VOG2_MS3-WORK",
+    "type": 0,
+    "lag_days": 28
+  },
+  {
+    "id": 39,
+    "predecessorId": "PSC-retire_bowen_1_2::specialty_parts",
+    "successorId": "M-retire_bowen_1_2_MS4-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 40,
+    "predecessorId": "PSC-Plant_28_retirement::general_mro_materials",
+    "successorId": "M-retire_Plant28_MS2-WORK",
     "type": 0,
     "lag_days": 40
   },
@@ -288,129 +288,129 @@
   },
   {
     "id": 42,
+    "predecessorId": "PSC-MCI-NGC5::gt_combustion_parts",
+    "successorId": "M-MCI-NGC5_MS2-WORK",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 43,
+    "predecessorId": "PSC-MCI-NGC5::valves_actuators",
+    "successorId": "M-MCI-NGC5_MS2-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 44,
+    "predecessorId": "PSC-NU-UP-retire::valve_actuator_kits",
+    "successorId": "M-NU-UP-retire_MS4-WORK",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 45,
+    "predecessorId": "PSC-NU-UP-retire::outage_scaffolding_shielding",
+    "successorId": "M-NU-UP-retire_MS4-WORK",
+    "type": 0,
+    "lag_days": 56
+  },
+  {
+    "id": 46,
+    "predecessorId": "PSC-MCI-NGCC-10-11-7FA05::gt_combustion_parts",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 47,
+    "predecessorId": "PSC-MCI-NGCC-10-11-7FA05::hrsg_tube_panels",
+    "successorId": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 48,
     "predecessorId": "PSC-hydro_mod_sinclair::specialty_parts",
     "successorId": "M-hydro_mod_sinclair_MS5-WORK",
     "type": 0,
     "lag_days": 40
   },
   {
-    "id": 43,
-    "predecessorId": "PSC-NU-UP-VOG2::valve_actuator_kits",
-    "successorId": "M-NU-UP-VOG2_MS3-WORK",
-    "type": 0,
-    "lag_days": 28
-  },
-  {
-    "id": 44,
-    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_Gas_turbine_",
-    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
-    "type": 0,
-    "lag_days": 54
-  },
-  {
-    "id": 45,
-    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_HRSG_modules",
-    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
-    "id": 46,
-    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_Generator_st",
-    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
-    "type": 0,
-    "lag_days": 162
-  },
-  {
-    "id": 47,
-    "predecessorId": "PSC-SC_ppa_dahlberg_1_3_5_Main_power_t",
-    "successorId": "M-ppa_dahlberg_1_3_5_procurement-WORK",
-    "type": 0,
-    "lag_days": 162
-  },
-  {
-    "id": 48,
-    "predecessorId": "PSC-retire_bowen_1_2::general_mro_materials",
-    "successorId": "M-retire_bowen_1_2_MS2-WORK",
-    "type": 0,
-    "lag_days": 40
-  },
-  {
     "id": 49,
-    "predecessorId": "PSC-SC_proj_019_Long-lead_equipment",
-    "successorId": "M-proj_019_long-lead_pos_placed-WORK",
+    "predecessorId": "PSC-NU-UP-retire::instrumentation_spares",
+    "successorId": "M-NU-UP-retire_MS2-WORK",
     "type": 0,
-    "lag_days": 36
+    "lag_days": 40
   },
   {
     "id": 50,
-    "predecessorId": "PSC-SC_proj_019_Long-lead_equipment",
-    "successorId": "M-proj_019_long-lead_pos_placed-WORK",
-    "type": 0,
-    "lag_days": 36
-  },
-  {
-    "id": 51,
     "predecessorId": "PSC-SC_proj_009_Steam_turbin",
     "successorId": "M-proj_009_procurement-WORK",
     "type": 0,
     "lag_days": 72
   },
   {
-    "id": 52,
+    "id": 51,
     "predecessorId": "PSC-SC_proj_009_Boiler_press",
     "successorId": "M-proj_009_procurement-WORK",
     "type": 0,
     "lag_days": 54
   },
   {
-    "id": 53,
+    "id": 52,
     "predecessorId": "PSC-SC_proj_009_FGD/SCR_equi",
     "successorId": "M-proj_009_procurement-WORK",
     "type": 0,
     "lag_days": 40
   },
   {
-    "id": 54,
+    "id": 53,
     "predecessorId": "PSC-SC_proj_009_Main_power_t",
     "successorId": "M-proj_009_procurement-WORK",
     "type": 0,
     "lag_days": 162
   },
   {
-    "id": 55,
-    "predecessorId": "PSC-NU-UP-VOG2::instrumentation_spares",
-    "successorId": "M-NU-UP-VOG2_MS6-WORK",
+    "id": 54,
+    "predecessorId": "PSC-SC_Cape_Wind_new_build_WTG_nacelles",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
     "type": 0,
     "lag_days": 40
+  },
+  {
+    "id": 55,
+    "predecessorId": "PSC-SC_Cape_Wind_new_build2_Towers",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
+    "type": 0,
+    "lag_days": 27
   },
   {
     "id": 56,
-    "predecessorId": "PSC-NU-UP-VOG2::outage_scaffolding_shielding",
-    "successorId": "M-NU-UP-VOG2_MS6-WORK",
+    "predecessorId": "PSC-SC_Cape_Wind_new_build_Padmount/col",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
     "type": 0,
-    "lag_days": 40
+    "lag_days": 81
   },
   {
     "id": 57,
-    "predecessorId": "PSC-Plant_28_retirement::general_mro_materials",
-    "successorId": "M-retire_Plant28_MS2-WORK",
+    "predecessorId": "PSC-SC_Cape_Wind_new_build_WTG_nacelles",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
     "type": 0,
     "lag_days": 40
   },
   {
     "id": 58,
-    "predecessorId": "PSC-HY-BARTLETT56-MOD::general_mro_materials",
-    "successorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "predecessorId": "PSC-SC_Cape_Wind_new_build_Towers",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
     "type": 0,
-    "lag_days": 40
+    "lag_days": 27
   },
   {
     "id": 59,
-    "predecessorId": "PSC-HY-BARTLETT56-MOD::specialty_parts",
-    "successorId": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "predecessorId": "PSC-SC_Cape_Wind_new_build_Padmount/col",
+    "successorId": "M-Cape_Wind_new_build_procurement-WORK",
     "type": 0,
-    "lag_days": 40
+    "lag_days": 81
   },
   {
     "id": 60,
