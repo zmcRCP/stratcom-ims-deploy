@@ -10,7 +10,13 @@
     "type": "modernization",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 1850000.0,
+    "cost_opex_annual_usd": 185000.0,
+    "cost_total_p50_usd": 2310000.0,
+    "cost_total_p90_usd": 2760000.0,
+    "cost_owners_usd": 100000.0,
+    "cost_per_day_usd": 1893.4426229508197
   },
   {
     "id": "P-019",
@@ -23,7 +29,13 @@
     "type": "modernization",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 1850000.0,
+    "cost_opex_annual_usd": 92500.0,
+    "cost_total_p50_usd": 2310000.0,
+    "cost_total_p90_usd": 2760000.0,
+    "cost_owners_usd": 100000.0,
+    "cost_per_day_usd": 1893.4426229508197
   },
   {
     "id": "P-NU-UP-VOG1",
@@ -36,7 +48,13 @@
     "type": "modernization",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 1850000.0,
+    "cost_opex_annual_usd": 462500.0,
+    "cost_total_p50_usd": 2310000.0,
+    "cost_total_p90_usd": 2760000.0,
+    "cost_owners_usd": 100000.0,
+    "cost_per_day_usd": 1215.7894736842106
   },
   {
     "id": "P-NU-UP-VOG2",
@@ -49,7 +67,13 @@
     "type": "modernization",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 1850000.0,
+    "cost_opex_annual_usd": 462500.0,
+    "cost_total_p50_usd": 2310000.0,
+    "cost_total_p90_usd": 2760000.0,
+    "cost_owners_usd": 100000.0,
+    "cost_per_day_usd": 1215.7894736842106
   },
   {
     "id": "P-HY-BARTLETT56-MOD",
@@ -62,7 +86,13 @@
     "type": "modernization",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 1850000.0,
+    "cost_opex_annual_usd": 92500.0,
+    "cost_total_p50_usd": 2310000.0,
+    "cost_total_p90_usd": 2760000.0,
+    "cost_owners_usd": 100000.0,
+    "cost_per_day_usd": 1008.7336244541485
   },
   {
     "id": "P-MCI-NGCC-10-11-7FA05",
@@ -75,7 +105,13 @@
     "type": "modernization",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 1850000.0,
+    "cost_opex_annual_usd": 120250.0,
+    "cost_total_p50_usd": 2310000.0,
+    "cost_total_p90_usd": 2760000.0,
+    "cost_owners_usd": 100000.0,
+    "cost_per_day_usd": 1215.7894736842106
   },
   {
     "id": "P-ppa_dahlberg_1_3_5",
@@ -88,7 +124,13 @@
     "type": "modernization",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 67500000.0,
+    "cost_opex_annual_usd": 3375000.0,
+    "cost_total_p50_usd": 84348000.0,
+    "cost_total_p90_usd": 96660375.0,
+    "cost_owners_usd": 5680000.0,
+    "cost_per_day_usd": 26482.888540031396
   },
   {
     "id": "P-009",
@@ -101,7 +143,13 @@
     "type": "new_build",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 21000000.0,
+    "cost_opex_annual_usd": 1050000.0,
+    "cost_total_p50_usd": 26136000.0,
+    "cost_total_p90_usd": 30026500.0,
+    "cost_owners_usd": 1760000.0,
+    "cost_per_day_usd": 19417.533432392273
   },
   {
     "id": "P-021",
@@ -114,7 +162,13 @@
     "type": "new_build",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 2850000.0,
+    "cost_opex_annual_usd": 142500.0,
+    "cost_total_p50_usd": 3564000.0,
+    "cost_total_p90_usd": 4188875.0,
+    "cost_owners_usd": 240000.0,
+    "cost_per_day_usd": 2383.9464882943143
   },
   {
     "id": "P-BESS-PV-COLOC-200-200",
@@ -127,7 +181,13 @@
     "type": "new_build",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 9000000.0,
+    "cost_opex_annual_usd": 450000.0,
+    "cost_total_p50_usd": 11226861.36,
+    "cost_total_p90_usd": 12960367.92,
+    "cost_owners_usd": 756017.6,
+    "cost_per_day_usd": 4582.3923918367345
   },
   {
     "id": "P-020",
@@ -140,7 +200,13 @@
     "type": "new_build",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 9000000.0,
+    "cost_opex_annual_usd": 450000.0,
+    "cost_total_p50_usd": 11226861.36,
+    "cost_total_p90_usd": 12960367.92,
+    "cost_owners_usd": 756017.6,
+    "cost_per_day_usd": 8840.04831496063
   },
   {
     "id": "P-tall_wind_demo",
@@ -153,7 +219,13 @@
     "type": "new_build",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 11600000.0,
+    "cost_opex_annual_usd": 580000.0,
+    "cost_total_p50_usd": 14493600.0,
+    "cost_total_p90_usd": 16699725.0,
+    "cost_owners_usd": 976000.0,
+    "cost_per_day_usd": 5032.5
   },
   {
     "id": "P-Cape_Wind_new_build",
@@ -166,7 +238,13 @@
     "type": "new_build",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 310000000.0,
+    "cost_opex_annual_usd": 15500000.0,
+    "cost_total_p50_usd": 387500000.0,
+    "cost_total_p90_usd": 445625000.0,
+    "cost_owners_usd": 26125000.0,
+    "cost_per_day_usd": 130691.39966273187
   },
   {
     "id": "P-011",
@@ -179,7 +257,13 @@
     "type": "retire",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 230000.0,
+    "cost_opex_annual_usd": 23000.0,
+    "cost_total_p50_usd": 286000.0,
+    "cost_total_p90_usd": 342125.0,
+    "cost_owners_usd": 10000.0,
+    "cost_per_day_usd": 139.5121951219512
   },
   {
     "id": "P-017",
@@ -192,7 +276,13 @@
     "type": "new_build",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 230000.0,
+    "cost_opex_annual_usd": 23000.0,
+    "cost_total_p50_usd": 286000.0,
+    "cost_total_p90_usd": 342125.0,
+    "cost_owners_usd": 10000.0,
+    "cost_per_day_usd": 260.0
   },
   {
     "id": "P-022",
@@ -205,7 +295,13 @@
     "type": "retire",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 230000.0,
+    "cost_opex_annual_usd": 23000.0,
+    "cost_total_p50_usd": 286000.0,
+    "cost_total_p90_usd": 342125.0,
+    "cost_owners_usd": 10000.0,
+    "cost_per_day_usd": 752.6315789473684
   },
   {
     "id": "P-retire_Plant28",
@@ -218,7 +314,13 @@
     "type": "retire",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 5400000.0,
+    "cost_opex_annual_usd": 540000.0,
+    "cost_total_p50_usd": 6750000.0,
+    "cost_total_p90_usd": 7763750.0,
+    "cost_owners_usd": 455000.0,
+    "cost_per_day_usd": 5400.0
   },
   {
     "id": "P-retire_bowen_1_2",
@@ -231,7 +333,13 @@
     "type": "retire",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 230000.0,
+    "cost_opex_annual_usd": 23000.0,
+    "cost_total_p50_usd": 286000.0,
+    "cost_total_p90_usd": 342125.0,
+    "cost_owners_usd": 10000.0,
+    "cost_per_day_usd": 414.4927536231884
   },
   {
     "id": "P-MCI-NGC5",
@@ -244,7 +352,13 @@
     "type": "retire",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 3090000.0,
+    "cost_opex_annual_usd": 309000.0,
+    "cost_total_p50_usd": 3862500.0,
+    "cost_total_p90_usd": 4441875.0,
+    "cost_owners_usd": 260250.0,
+    "cost_per_day_usd": 3165.9836065573772
   },
   {
     "id": "P-NU-UP-retire",
@@ -257,7 +371,13 @@
     "type": "retire",
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_capex_usd": 1850000.0,
+    "cost_opex_annual_usd": 462500.0,
+    "cost_total_p50_usd": 2310000.0,
+    "cost_total_p90_usd": 2760000.0,
+    "cost_owners_usd": 100000.0,
+    "cost_per_day_usd": 2497.2972972972975
   },
   {
     "id": "M-BESS-PV-COLOC-200-200_engineering",
@@ -278,7 +398,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-BESS-PV-COLOC-200-200_procurement",
@@ -299,7 +420,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 47500000.0
   },
   {
     "id": "M-BESS-PV-COLOC-200-200_construction",
@@ -320,7 +442,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-BESS-PV-COLOC-200-200_interconnection",
@@ -341,7 +464,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-BESS-PV-COLOC-200-200_commissioning",
@@ -362,7 +486,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-Cape_Wind_new_build_engineering",
@@ -383,7 +508,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-Cape_Wind_new_build_procurement",
@@ -404,7 +530,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 377000000.0
   },
   {
     "id": "M-Cape_Wind_new_build_construction",
@@ -425,7 +552,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-Cape_Wind_new_build_interconnection",
@@ -446,7 +574,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-Cape_Wind_new_build_commissioning",
@@ -467,7 +596,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-HY-BARTLETT56-MOD_MS1",
@@ -488,7 +618,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-HY-BARTLETT56-MOD_MS2",
@@ -509,7 +640,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-HY-BARTLETT56-MOD_MS3",
@@ -530,7 +662,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 2050000.0
   },
   {
     "id": "M-HY-BARTLETT56-MOD_MS4",
@@ -551,7 +684,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-HY-BARTLETT56-MOD_MS5",
@@ -572,7 +706,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-HY-BARTLETT56-MOD_MS6",
@@ -593,7 +728,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-HY-BARTLETT56-MOD_MS7",
@@ -614,7 +750,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-HY-BARTLETT56-MOD_MS8",
@@ -626,8 +763,8 @@
     "plantId": "plant_gpc-bartletts-ferry-5-6_58bb51",
     "kind": "build",
     "effective_date": "2033-04-09",
-    "delta_mw": 150.0,
-    "delta_reliable_mw": 150.0,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
     "condition_score_delta": null,
     "start_date": null,
     "end_date": null,
@@ -635,7 +772,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-hydro_mod_sinclair_MS1",
@@ -647,8 +785,8 @@
     "plantId": "plant_doe-lpo-nan_6ec756",
     "kind": "modernize",
     "effective_date": "2024-01-31",
-    "delta_mw": 150.0,
-    "delta_reliable_mw": 150.0,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
     "condition_score_delta": null,
     "start_date": null,
     "end_date": null,
@@ -656,7 +794,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-hydro_mod_sinclair_MS2",
@@ -668,8 +807,8 @@
     "plantId": "plant_doe-lpo-nan_6ec756",
     "kind": "modernize",
     "effective_date": "2025-02-14",
-    "delta_mw": 150.0,
-    "delta_reliable_mw": 150.0,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
     "condition_score_delta": null,
     "start_date": null,
     "end_date": null,
@@ -677,7 +816,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-hydro_mod_sinclair_MS3",
@@ -689,8 +829,8 @@
     "plantId": "plant_doe-lpo-nan_6ec756",
     "kind": "modernize",
     "effective_date": "2026-03-01",
-    "delta_mw": 150.0,
-    "delta_reliable_mw": 150.0,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
     "condition_score_delta": null,
     "start_date": null,
     "end_date": null,
@@ -698,7 +838,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-hydro_mod_sinclair_MS4",
@@ -710,8 +851,8 @@
     "plantId": "plant_doe-lpo-nan_6ec756",
     "kind": "modernize",
     "effective_date": "2026-08-18",
-    "delta_mw": 150.0,
-    "delta_reliable_mw": 150.0,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
     "condition_score_delta": null,
     "start_date": null,
     "end_date": null,
@@ -719,7 +860,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-hydro_mod_sinclair_MS5",
@@ -740,7 +882,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 950000.0
   },
   {
     "id": "M-hydro_mod_sinclair_MS6",
@@ -761,7 +904,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 650000.0
   },
   {
     "id": "M-hydro_mod_sinclair_MS7",
@@ -782,7 +926,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-hydro_mod_sinclair_MS8",
@@ -803,7 +948,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGC5_MS1",
@@ -824,7 +970,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGC5_MS2",
@@ -845,7 +992,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 3250000.0
   },
   {
     "id": "M-MCI-NGC5_MS3",
@@ -866,7 +1014,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGC5_MS4",
@@ -887,7 +1036,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGC5_MS5",
@@ -908,7 +1058,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 1500000.0
   },
   {
     "id": "M-MCI-NGC5_MS6",
@@ -929,7 +1080,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGC5_MS7",
@@ -950,7 +1102,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGC5_MS8",
@@ -971,7 +1124,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGCC-10-11-7FA05_MS1",
@@ -992,7 +1146,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGCC-10-11-7FA05_MS2",
@@ -1013,7 +1168,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGCC-10-11-7FA05_MS3",
@@ -1034,7 +1190,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 5000000.0
   },
   {
     "id": "M-MCI-NGCC-10-11-7FA05_MS4",
@@ -1055,7 +1212,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGCC-10-11-7FA05_MS5",
@@ -1076,7 +1234,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGCC-10-11-7FA05_MS6",
@@ -1097,7 +1256,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 520000.0
   },
   {
     "id": "M-MCI-NGCC-10-11-7FA05_MS7",
@@ -1118,7 +1278,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-MCI-NGCC-10-11-7FA05_MS8",
@@ -1139,7 +1300,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-retire_MS1",
@@ -1160,7 +1322,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-retire_MS2",
@@ -1181,7 +1344,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": true,
-    "lock_reason": "NRC mandated offline date - plant must cease operations"
+    "lock_reason": "NRC mandated offline date - plant must cease operations",
+    "cost_estimate_usd": 1200000.0
   },
   {
     "id": "M-NU-UP-retire_MS3",
@@ -1202,7 +1366,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-retire_MS4",
@@ -1223,7 +1388,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 1230000.0
   },
   {
     "id": "M-NU-UP-retire_MS5",
@@ -1244,7 +1410,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": true,
-    "lock_reason": "NRC mandated offline date - plant must cease operations"
+    "lock_reason": "NRC mandated offline date - plant must cease operations",
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-retire_MS6",
@@ -1265,7 +1432,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-retire_MS7",
@@ -1286,7 +1454,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-retire_MS8",
@@ -1307,7 +1476,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG1_MS1",
@@ -1328,7 +1498,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG1_MS2",
@@ -1349,7 +1520,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG1_MS3",
@@ -1370,7 +1542,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 1340000.0
   },
   {
     "id": "M-NU-UP-VOG1_MS4",
@@ -1391,7 +1564,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG1_MS5",
@@ -1412,7 +1586,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG1_MS6",
@@ -1433,7 +1608,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 1350000.0
   },
   {
     "id": "M-NU-UP-VOG1_MS7",
@@ -1454,7 +1630,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG1_MS8",
@@ -1475,7 +1652,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG2_MS1",
@@ -1496,7 +1674,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG2_MS2",
@@ -1517,7 +1696,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG2_MS3",
@@ -1538,7 +1718,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 420000.0
   },
   {
     "id": "M-NU-UP-VOG2_MS4",
@@ -1559,7 +1740,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG2_MS5",
@@ -1580,7 +1762,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG2_MS6",
@@ -1601,7 +1784,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 2270000.0
   },
   {
     "id": "M-NU-UP-VOG2_MS7",
@@ -1622,7 +1806,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-NU-UP-VOG2_MS8",
@@ -1643,7 +1828,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-ppa_dahlberg_1_3_5_engineering",
@@ -1664,7 +1850,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-ppa_dahlberg_1_3_5_procurement",
@@ -1685,7 +1872,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 86700000.0
   },
   {
     "id": "M-ppa_dahlberg_1_3_5_construction",
@@ -1706,7 +1894,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-ppa_dahlberg_1_3_5_interconnection",
@@ -1727,7 +1916,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-ppa_dahlberg_1_3_5_commissioning",
@@ -1748,7 +1938,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_009_engineering",
@@ -1769,7 +1960,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_009_procurement",
@@ -1790,7 +1982,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 65500000.0
   },
   {
     "id": "M-proj_009_construction",
@@ -1811,7 +2004,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_009_interconnection",
@@ -1832,7 +2026,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_009_commissioning",
@@ -1853,7 +2048,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_011_retirement_plan_approved",
@@ -1874,7 +2070,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_011_fuel_isolation_&_purge_complete",
@@ -1895,7 +2092,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_011_decommissioning_start",
@@ -1916,7 +2114,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 800000.0
   },
   {
     "id": "M-proj_011_hazmat_ash_handling_secured",
@@ -1937,7 +2136,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_011_equipment_de-energized_&_cleared",
@@ -1958,7 +2158,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_011_demolition_start",
@@ -1979,7 +2180,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_011_site_remediation_complete",
@@ -2000,7 +2202,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_011_closure___turnover",
@@ -2021,7 +2224,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_017_engineering",
@@ -2042,7 +2246,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_017_procurement",
@@ -2063,7 +2268,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 169000000.0
   },
   {
     "id": "M-proj_017_construction",
@@ -2084,7 +2290,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_017_interconnection",
@@ -2105,7 +2312,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_017_commissioning",
@@ -2126,7 +2334,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_019_project_kickoff",
@@ -2147,7 +2356,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_019_30%_design_complete",
@@ -2168,7 +2378,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_019_long-lead_pos_placed",
@@ -2189,7 +2400,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 3600000.0
   },
   {
     "id": "M-proj_019_90%_design___ifc",
@@ -2210,7 +2422,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_019_outage_start___mobilization",
@@ -2222,8 +2435,8 @@
     "plantId": "plant_eia-10018-0_66d132",
     "kind": "retire",
     "effective_date": "2027-06-28",
-    "delta_mw": 100.0,
-    "delta_reliable_mw": 90.0,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
     "condition_score_delta": null,
     "start_date": null,
     "end_date": null,
@@ -2231,7 +2444,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 700000.0
   },
   {
     "id": "M-proj_019_mechanical_complete",
@@ -2252,7 +2466,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_019_commissioning_complete",
@@ -2273,7 +2488,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_019_return_to_service",
@@ -2294,7 +2510,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_020_engineering",
@@ -2315,7 +2532,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_020_procurement",
@@ -2336,7 +2554,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 23800000.0
   },
   {
     "id": "M-proj_020_construction",
@@ -2357,7 +2576,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_020_interconnection",
@@ -2378,7 +2598,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_020_commissioning",
@@ -2399,7 +2620,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_021_engineering",
@@ -2420,7 +2642,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_021_procurement",
@@ -2441,7 +2664,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 5000000.0
   },
   {
     "id": "M-proj_021_construction",
@@ -2462,7 +2686,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_021_interconnection",
@@ -2483,7 +2708,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_021_commissioning",
@@ -2504,7 +2730,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_022_retirement_plan_approved",
@@ -2525,7 +2752,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_022_fuel_isolation_&_purge_complete",
@@ -2546,7 +2774,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_022_decommissioning_start",
@@ -2567,7 +2796,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 325000.0
   },
   {
     "id": "M-proj_022_hazmat_ash_handling_secured",
@@ -2588,7 +2818,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_022_equipment_de-energized_&_cleared",
@@ -2609,7 +2840,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_022_demolition_start",
@@ -2621,8 +2853,8 @@
     "plantId": "plant_eia-22",
     "kind": "retire",
     "effective_date": "2032-07-19",
-    "delta_mw": -300.0,
-    "delta_reliable_mw": -300.0,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
     "condition_score_delta": null,
     "start_date": null,
     "end_date": null,
@@ -2630,7 +2862,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_022_site_remediation_complete",
@@ -2651,7 +2884,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-proj_022_closure___turnover",
@@ -2672,7 +2906,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_bowen_1_2_MS1",
@@ -2693,7 +2928,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_bowen_1_2_MS2",
@@ -2714,7 +2950,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 380000.0
   },
   {
     "id": "M-retire_bowen_1_2_MS3",
@@ -2735,7 +2972,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_bowen_1_2_MS4",
@@ -2756,7 +2994,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 520000.0
   },
   {
     "id": "M-retire_bowen_1_2_MS5",
@@ -2777,7 +3016,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_bowen_1_2_MS6",
@@ -2798,7 +3038,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_bowen_1_2_MS7",
@@ -2819,7 +3060,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_bowen_1_2_MS8",
@@ -2840,7 +3082,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_Plant28_MS1",
@@ -2861,7 +3104,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_Plant28_MS2",
@@ -2882,7 +3126,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 450000.0
   },
   {
     "id": "M-retire_Plant28_MS3",
@@ -2903,7 +3148,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_Plant28_MS4",
@@ -2924,7 +3170,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_Plant28_MS5",
@@ -2945,7 +3192,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 680000.0
   },
   {
     "id": "M-retire_Plant28_MS6",
@@ -2957,8 +3205,8 @@
     "plantId": "plant_eia-10022-0_7eb25e",
     "kind": "retire",
     "effective_date": "2038-08-14",
-    "delta_mw": -1800.0,
-    "delta_reliable_mw": -1800.0,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
     "condition_score_delta": null,
     "start_date": null,
     "end_date": null,
@@ -2966,7 +3214,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_Plant28_MS7",
@@ -2987,7 +3236,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-retire_Plant28_MS8",
@@ -3008,7 +3258,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-tall_wind_demo_engineering",
@@ -3029,7 +3280,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-tall_wind_demo_procurement",
@@ -3050,7 +3302,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": 14000000.0
   },
   {
     "id": "M-tall_wind_demo_construction",
@@ -3071,7 +3324,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-tall_wind_demo_interconnection",
@@ -3092,7 +3346,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-tall_wind_demo_commissioning",
@@ -3113,7 +3368,8 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "PSC-SC_BESS-PV-COLOC-200-200_PV_modules",
@@ -3129,7 +3385,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (210 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (210 days) - vendor schedule fixed",
+    "cost_estimate_usd": 24000000.0,
+    "cost_expedite_premium_usd": 3600000.0
   },
   {
     "id": "PSC-SC_BESS-PV-COLOC-200-200_Inverters",
@@ -3145,7 +3403,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed",
+    "cost_estimate_usd": 8000000.0,
+    "cost_expedite_premium_usd": 1200000.0
   },
   {
     "id": "PSC-SC_BESS-PV-COLOC-200-200_Tracker_syst",
@@ -3161,7 +3421,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (240 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (240 days) - vendor schedule fixed",
+    "cost_estimate_usd": 12000000.0,
+    "cost_expedite_premium_usd": 1800000.0
   },
   {
     "id": "PSC-SC_BESS-PV-COLOC-200-200_Main_power_t",
@@ -3177,7 +3439,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (1560 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (1560 days) - vendor schedule fixed",
+    "cost_estimate_usd": 3500000.0,
+    "cost_expedite_premium_usd": 700000.0
   },
   {
     "id": "PSC-SC_Cape_Wind_new_build_WTG_nacelles",
@@ -3193,7 +3457,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed",
+    "cost_estimate_usd": 135000000.0,
+    "cost_expedite_premium_usd": 20250000.0
   },
   {
     "id": "PSC-SC_Cape_Wind_new_build2_Towers",
@@ -3209,7 +3475,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed",
+    "cost_estimate_usd": 45000000.0,
+    "cost_expedite_premium_usd": 6750000.0
   },
   {
     "id": "PSC-SC_Cape_Wind_new_build_Padmount/col",
@@ -3225,7 +3493,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (900 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (900 days) - vendor schedule fixed",
+    "cost_estimate_usd": 8500000.0,
+    "cost_expedite_premium_usd": 1700000.0
   },
   {
     "id": "PSC-SC_ppa_dahlberg_1_3_5_Gas_turbine_",
@@ -3241,7 +3511,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (540 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (540 days) - vendor schedule fixed",
+    "cost_estimate_usd": 65000000.0,
+    "cost_expedite_premium_usd": 9750000.0
   },
   {
     "id": "PSC-SC_ppa_dahlberg_1_3_5_HRSG_modules",
@@ -3257,7 +3529,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed",
+    "cost_estimate_usd": 12000000.0,
+    "cost_expedite_premium_usd": 1800000.0
   },
   {
     "id": "PSC-SC_ppa_dahlberg_1_3_5_Generator_st",
@@ -3273,7 +3547,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (1560 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (1560 days) - vendor schedule fixed",
+    "cost_estimate_usd": 4200000.0,
+    "cost_expedite_premium_usd": 840000.0
   },
   {
     "id": "PSC-SC_ppa_dahlberg_1_3_5_Main_power_t",
@@ -3289,7 +3565,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (1560 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (1560 days) - vendor schedule fixed",
+    "cost_estimate_usd": 5500000.0,
+    "cost_expedite_premium_usd": 1100000.0
   },
   {
     "id": "PSC-SC_proj_009_Steam_turbin",
@@ -3305,7 +3583,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (720 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (720 days) - vendor schedule fixed",
+    "cost_estimate_usd": 28000000.0,
+    "cost_expedite_premium_usd": 4200000.0
   },
   {
     "id": "PSC-SC_proj_009_Boiler_press",
@@ -3321,7 +3601,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (540 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (540 days) - vendor schedule fixed",
+    "cost_estimate_usd": 18000000.0,
+    "cost_expedite_premium_usd": 2700000.0
   },
   {
     "id": "PSC-SC_proj_009_FGD/SCR_equi",
@@ -3337,7 +3619,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed",
+    "cost_estimate_usd": 15000000.0,
+    "cost_expedite_premium_usd": 2250000.0
   },
   {
     "id": "PSC-SC_proj_009_Main_power_t",
@@ -3353,7 +3637,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (1560 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (1560 days) - vendor schedule fixed",
+    "cost_estimate_usd": 4500000.0,
+    "cost_expedite_premium_usd": 900000.0
   },
   {
     "id": "PSC-SC_proj_020_PV_modules",
@@ -3369,7 +3655,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (210 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (210 days) - vendor schedule fixed",
+    "cost_estimate_usd": 12000000.0,
+    "cost_expedite_premium_usd": 1800000.0
   },
   {
     "id": "PSC-SC_proj_020_Inverters",
@@ -3385,7 +3673,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed",
+    "cost_estimate_usd": 4000000.0,
+    "cost_expedite_premium_usd": 600000.0
   },
   {
     "id": "PSC-SC_proj_020_Tracker_syst",
@@ -3401,7 +3691,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (240 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (240 days) - vendor schedule fixed",
+    "cost_estimate_usd": 6000000.0,
+    "cost_expedite_premium_usd": 900000.0
   },
   {
     "id": "PSC-SC_proj_020_Main_power_t",
@@ -3417,7 +3709,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (1560 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (1560 days) - vendor schedule fixed",
+    "cost_estimate_usd": 1800000.0,
+    "cost_expedite_premium_usd": 360000.0
   },
   {
     "id": "PSC-SC_proj_021_Long-lead_eq",
@@ -3433,7 +3727,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (360 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (360 days) - vendor schedule fixed",
+    "cost_estimate_usd": 5000000.0,
+    "cost_expedite_premium_usd": 750000.0
   },
   {
     "id": "PSC-SC_tall_wind_demo_WTG_nacelles",
@@ -3449,7 +3745,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed",
+    "cost_estimate_usd": 9600000.0,
+    "cost_expedite_premium_usd": 1440000.0
   },
   {
     "id": "PSC-SC_tall_wind_demo_Towers",
@@ -3465,7 +3763,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed",
+    "cost_estimate_usd": 3200000.0,
+    "cost_expedite_premium_usd": 480000.0
   },
   {
     "id": "PSC-SC_tall_wind_demo_Padmount/col",
@@ -3481,7 +3781,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (900 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (900 days) - vendor schedule fixed",
+    "cost_estimate_usd": 1200000.0,
+    "cost_expedite_premium_usd": 240000.0
   },
   {
     "id": "PSC-SC_Cape_Wind_new_build_WTG_nacelles",
@@ -3497,7 +3799,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed",
+    "cost_estimate_usd": 135000000.0,
+    "cost_expedite_premium_usd": 20250000.0
   },
   {
     "id": "PSC-SC_Cape_Wind_new_build_Towers",
@@ -3513,7 +3817,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed",
+    "cost_estimate_usd": 45000000.0,
+    "cost_expedite_premium_usd": 6750000.0
   },
   {
     "id": "PSC-SC_Cape_Wind_new_build_Padmount/col",
@@ -3529,7 +3835,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (900 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (900 days) - vendor schedule fixed",
+    "cost_estimate_usd": 8500000.0,
+    "cost_expedite_premium_usd": 1700000.0
   },
   {
     "id": "PSC-HY-BARTLETT56-MOD::general_mro_materials",
@@ -3545,7 +3853,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 850000.0,
+    "cost_expedite_premium_usd": 127500.0
   },
   {
     "id": "PSC-HY-BARTLETT56-MOD::specialty_parts",
@@ -3561,7 +3871,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 1200000.0,
+    "cost_expedite_premium_usd": 180000.0
   },
   {
     "id": "PSC-hydro_mod_sinclair::general_mro_materials",
@@ -3577,7 +3889,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 650000.0,
+    "cost_expedite_premium_usd": 97500.0
   },
   {
     "id": "PSC-hydro_mod_sinclair::specialty_parts",
@@ -3593,7 +3907,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 950000.0,
+    "cost_expedite_premium_usd": 142500.0
   },
   {
     "id": "PSC-MCI-NGC5::gt_combustion_parts",
@@ -3609,7 +3925,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (504 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (504 days) - vendor schedule fixed",
+    "cost_estimate_usd": 2800000.0,
+    "cost_expedite_premium_usd": 420000.0
   },
   {
     "id": "PSC-MCI-NGC5::hrsg_tube_panels",
@@ -3625,7 +3943,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (504 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (504 days) - vendor schedule fixed",
+    "cost_estimate_usd": 1500000.0,
+    "cost_expedite_premium_usd": 225000.0
   },
   {
     "id": "PSC-MCI-NGC5::valves_actuators",
@@ -3641,7 +3961,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed",
+    "cost_estimate_usd": 450000.0,
+    "cost_expedite_premium_usd": 67500.0
   },
   {
     "id": "PSC-MCI-NGCC-10-11-7FA05::gt_combustion_parts",
@@ -3657,7 +3979,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (504 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (504 days) - vendor schedule fixed",
+    "cost_estimate_usd": 3200000.0,
+    "cost_expedite_premium_usd": 480000.0
   },
   {
     "id": "PSC-MCI-NGCC-10-11-7FA05::hrsg_tube_panels",
@@ -3673,7 +3997,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (504 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (504 days) - vendor schedule fixed",
+    "cost_estimate_usd": 1800000.0,
+    "cost_expedite_premium_usd": 270000.0
   },
   {
     "id": "PSC-MCI-NGCC-10-11-7FA05::valves_actuators",
@@ -3689,7 +4015,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed",
+    "cost_estimate_usd": 520000.0,
+    "cost_expedite_premium_usd": 78000.0
   },
   {
     "id": "PSC-NU-UP-retire::valve_actuator_kits",
@@ -3705,7 +4033,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed",
+    "cost_estimate_usd": 380000.0,
+    "cost_expedite_premium_usd": 57000.0
   },
   {
     "id": "PSC-NU-UP-retire::instrumentation_spares",
@@ -3721,7 +4051,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 1200000.0,
+    "cost_expedite_premium_usd": 180000.0
   },
   {
     "id": "PSC-NU-UP-retire::outage_scaffolding_shielding",
@@ -3737,7 +4069,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 850000.0,
+    "cost_expedite_premium_usd": 170000.0
   },
   {
     "id": "PSC-NU-UP-VOG1::valve_actuator_kits",
@@ -3753,7 +4087,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed",
+    "cost_estimate_usd": 420000.0,
+    "cost_expedite_premium_usd": 63000.0
   },
   {
     "id": "PSC-NU-UP-VOG1::instrumentation_spares",
@@ -3769,7 +4105,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 1350000.0,
+    "cost_expedite_premium_usd": 202500.0
   },
   {
     "id": "PSC-NU-UP-VOG1::outage_scaffolding_shielding",
@@ -3785,7 +4123,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 920000.0,
+    "cost_expedite_premium_usd": 138000.0
   },
   {
     "id": "PSC-NU-UP-VOG2::valve_actuator_kits",
@@ -3801,7 +4141,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed",
+    "cost_estimate_usd": 420000.0,
+    "cost_expedite_premium_usd": 63000.0
   },
   {
     "id": "PSC-NU-UP-VOG2::instrumentation_spares",
@@ -3817,7 +4159,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 1350000.0,
+    "cost_expedite_premium_usd": 202500.0
   },
   {
     "id": "PSC-NU-UP-VOG2::outage_scaffolding_shielding",
@@ -3833,7 +4177,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 920000.0,
+    "cost_expedite_premium_usd": 138000.0
   },
   {
     "id": "PSC-Plant_28_retirement::general_mro_materials",
@@ -3849,7 +4195,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 450000.0,
+    "cost_expedite_premium_usd": 67500.0
   },
   {
     "id": "PSC-Plant_28_retirement::specialty_parts",
@@ -3865,7 +4213,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 680000.0,
+    "cost_expedite_premium_usd": 102000.0
   },
   {
     "id": "PSC-011::general_mro_materials",
@@ -3881,7 +4231,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 320000.0,
+    "cost_expedite_premium_usd": 48000.0
   },
   {
     "id": "PSC-011::specialty_parts",
@@ -3897,14 +4249,16 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 480000.0,
+    "cost_expedite_premium_usd": 72000.0
   },
   {
     "id": "PSC-017::wtg_nacelles_blades",
-    "parentId": "P-017",
+    "parentId": "M-proj_017_procurement",
     "title": "Procure: WTG nacelles & blades",
-    "start": null,
-    "end": null,
+    "start": "2027-03-25",
+    "end": "2028-05-20",
     "risk_score": 10.0,
     "plantId": "plant_eia-10015-0_0e2230",
     "kind": "procurement",
@@ -3913,14 +4267,16 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed",
+    "cost_estimate_usd": 60000000.0,
+    "cost_expedite_premium_usd": 9000000.0
   },
   {
     "id": "PSC-017::towers",
-    "parentId": "P-017",
+    "parentId": "M-proj_017_procurement",
     "title": "Procure: Towers",
-    "start": null,
-    "end": null,
+    "start": "2027-03-25",
+    "end": "2028-06-13",
     "risk_score": 10.0,
     "plantId": "plant_eia-10015-0_0e2230",
     "kind": "procurement",
@@ -3929,15 +4285,17 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed",
+    "cost_estimate_usd": 20000000.0,
+    "cost_expedite_premium_usd": 3000000.0
   },
   {
     "id": "PSC-017::padmount_collector_transformer",
-    "parentId": "P-017",
+    "parentId": "M-proj_017_procurement",
     "title": "Procure: Padmount/collector transformer",
-    "start": null,
-    "end": null,
-    "risk_score": 10.0,
+    "start": "2024-04-05",
+    "end": "2028-02-02",
+    "risk_score": 50.0,
     "plantId": "plant_eia-10015-0_0e2230",
     "kind": "procurement",
     "expedite_days": 148,
@@ -3945,14 +4303,16 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (1546 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (1546 days) - vendor schedule fixed",
+    "cost_estimate_usd": 4500000.0,
+    "cost_expedite_premium_usd": 900000.0
   },
   {
     "id": "PSC-019::general_mro_materials",
-    "parentId": "P-019",
+    "parentId": "M-proj_019_outage_start___mobilization",
     "title": "Procure: General MRO materials",
-    "start": null,
-    "end": null,
+    "start": "2026-03-14",
+    "end": "2027-04-19",
     "risk_score": 10.0,
     "plantId": "plant_eia-10018-0_66d132",
     "kind": "procurement",
@@ -3961,14 +4321,16 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 280000.0,
+    "cost_expedite_premium_usd": 42000.0
   },
   {
     "id": "PSC-019::specialty_parts",
-    "parentId": "P-019",
+    "parentId": "M-proj_019_outage_start___mobilization",
     "title": "Procure: Specialty parts",
-    "start": null,
-    "end": null,
+    "start": "2026-03-14",
+    "end": "2027-04-19",
     "risk_score": 10.0,
     "plantId": "plant_eia-10018-0_66d132",
     "kind": "procurement",
@@ -3977,7 +4339,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 420000.0,
+    "cost_expedite_premium_usd": 63000.0
   },
   {
     "id": "PSC-022::hx_plate_pack",
@@ -3993,7 +4357,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed",
+    "cost_estimate_usd": 185000.0,
+    "cost_expedite_premium_usd": 27750.0
   },
   {
     "id": "PSC-022::pump_impeller_seal_kit",
@@ -4009,7 +4375,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (462 days) - vendor schedule fixed",
+    "cost_estimate_usd": 95000.0,
+    "cost_expedite_premium_usd": 14250.0
   },
   {
     "id": "PSC-022::filtration_cartridges",
@@ -4025,7 +4393,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 45000.0,
+    "cost_expedite_premium_usd": 6750.0
   },
   {
     "id": "PSC-retire_bowen_1_2::general_mro_materials",
@@ -4041,7 +4411,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 380000.0,
+    "cost_expedite_premium_usd": 57000.0
   },
   {
     "id": "PSC-retire_bowen_1_2::specialty_parts",
@@ -4057,7 +4429,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (441 days) - vendor schedule fixed",
+    "cost_estimate_usd": 520000.0,
+    "cost_expedite_premium_usd": 78000.0
   },
   {
     "id": "PSC-SC_proj_019_Long-lead_equipment",
@@ -4073,7 +4447,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (360 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (360 days) - vendor schedule fixed",
+    "cost_estimate_usd": 1800000.0,
+    "cost_expedite_premium_usd": 270000.0
   },
   {
     "id": "PSC-SC_proj_017_WTG_nacelles_&_blades",
@@ -4089,7 +4465,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (420 days) - vendor schedule fixed",
+    "cost_estimate_usd": 60000000.0,
+    "cost_expedite_premium_usd": 9000000.0
   },
   {
     "id": "PSC-SC_proj_017_Towers",
@@ -4105,7 +4483,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (270 days) - vendor schedule fixed",
+    "cost_estimate_usd": 20000000.0,
+    "cost_expedite_premium_usd": 3000000.0
   },
   {
     "id": "PSC-SC_proj_017_Padmount/collector_transformers",
@@ -4113,7 +4493,7 @@
     "title": "Procure: Padmount/collector transformers",
     "start": "2026-01-11",
     "end": "2028-04-09",
-    "risk_score": 10.0,
+    "risk_score": 50.0,
     "plantId": "plant_eia-10015-0_0e2230",
     "kind": "procurement",
     "expedite_days": 81,
@@ -4121,7 +4501,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (900 days) - vendor schedule fixed"
+    "lock_reason": "Long lead equipment (900 days) - vendor schedule fixed",
+    "cost_estimate_usd": 4500000.0,
+    "cost_expedite_premium_usd": 900000.0
   },
   {
     "id": "PSC-SC_proj_019_Long-lead_equipment",
@@ -4137,553 +4519,9 @@
     "procurement_start_date": null,
     "start_locked": true,
     "end_locked": null,
-    "lock_reason": "Long lead equipment (360 days) - vendor schedule fixed"
-  },
-  {
-    "id": "M-NU-UP-VOG2_MS6-WORK",
-    "parentId": "M-NU-UP-VOG2_MS6",
-    "title": "Mechanical complete - Execution",
-    "start": "2030-03-21",
-    "end": "2030-04-10",
-    "risk_score": 10.0,
-    "plantId": "PLANT_GASTON_U2",
-    "kind": "modernize",
-    "effective_date": "2030-04-10",
-    "delta_mw": 800.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-proj_017_procurement-WORK",
-    "parentId": "M-proj_017_procurement",
-    "title": "Procurement - Execution",
-    "start": "2028-06-29",
-    "end": "2029-02-24",
-    "risk_score": 10.0,
-    "plantId": "plant_eia-10015-0_0e2230",
-    "kind": "new_build",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-proj_021_procurement-WORK",
-    "parentId": "M-proj_021_procurement",
-    "title": "Procurement - Execution",
-    "start": "2028-07-08",
-    "end": "2029-03-05",
-    "risk_score": 10.0,
-    "plantId": "plant_eia-10018-0_66d132",
-    "kind": "new_build",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-NU-UP-VOG1_MS6-WORK",
-    "parentId": "M-NU-UP-VOG1_MS6",
-    "title": "Mechanical complete - Execution",
-    "start": "2029-03-21",
-    "end": "2029-04-10",
-    "risk_score": 10.0,
-    "plantId": "PLANT_GASTON_U2",
-    "kind": "modernize",
-    "effective_date": "2029-04-10",
-    "delta_mw": 500.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-proj_022_decommissioning_start-WORK",
-    "parentId": "M-proj_022_decommissioning_start",
-    "title": "Decommissioning start - Execution",
-    "start": "2031-12-02",
-    "end": "2032-01-01",
-    "risk_score": 10.0,
-    "plantId": "plant_eia-22",
-    "kind": "retire",
-    "effective_date": "2032-01-01",
-    "delta_mw": -30.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-proj_019_long-lead_pos_placed-WORK",
-    "parentId": "M-proj_019_long-lead_pos_placed",
-    "title": "Long-lead POs placed - Execution",
-    "start": "2026-05-04",
-    "end": "2027-01-09",
-    "risk_score": 10.0,
-    "plantId": "plant_eia-10018-0_66d132",
-    "kind": "modernization",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-proj_020_procurement-WORK",
-    "parentId": "M-proj_020_procurement",
-    "title": "Procurement - Execution",
-    "start": "2027-06-09",
-    "end": "2027-12-06",
-    "risk_score": 10.0,
-    "plantId": "plant_eia-10020-0_6bff7e",
-    "kind": "new_build",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-ppa_dahlberg_1_3_5_procurement-WORK",
-    "parentId": "M-ppa_dahlberg_1_3_5_procurement",
-    "title": "Procurement - Execution",
-    "start": "2026-08-15",
-    "end": "2027-04-12",
-    "risk_score": 0.0,
-    "plantId": "PLANT_DAHLBERG_CT_135",
-    "kind": "modernize",
-    "effective_date": "2027-04-12",
-    "delta_mw": -500.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-retire_bowen_1_2_MS2-WORK",
-    "parentId": "M-retire_bowen_1_2_MS2",
-    "title": "Fuel isolation & purge complete - Execution",
-    "start": "2035-03-24",
-    "end": "2035-05-13",
-    "risk_score": 0.0,
-    "plantId": "plant_eia-10023-0_8943bb",
-    "kind": "retire",
-    "effective_date": "2035-05-13",
-    "delta_mw": -105.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-BESS-PV-COLOC-200-200_procurement-WORK",
-    "parentId": "M-BESS-PV-COLOC-200-200_procurement",
-    "title": "Procurement - Execution",
-    "start": "2028-10-31",
-    "end": "2029-04-29",
-    "risk_score": 10.0,
-    "plantId": "plant_eia-10020-0_6bff7e",
-    "kind": "new_build",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-hydro_mod_sinclair_MS6-WORK",
-    "parentId": "M-hydro_mod_sinclair_MS6",
-    "title": "Mechanical complete - Execution",
-    "start": "2026-11-16",
-    "end": "2026-12-06",
-    "risk_score": 0.0,
-    "plantId": "plant_doe-lpo-nan_6ec756",
-    "kind": "modernize",
-    "effective_date": "2026-12-06",
-    "delta_mw": 50.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-tall_wind_demo_procurement-WORK",
-    "parentId": "M-tall_wind_demo_procurement",
-    "title": "Procurement - Execution",
-    "start": "2025-12-27",
-    "end": "2026-08-24",
-    "risk_score": 0.0,
-    "plantId": "PLANT_GASTON_U3",
-    "kind": "new_build",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-retire_Plant28_MS5-WORK",
-    "parentId": "M-retire_Plant28_MS5",
-    "title": "Equipment de-energized & cleared - Execution",
-    "start": "2037-09-27",
-    "end": "2038-01-05",
-    "risk_score": 10.0,
-    "plantId": "plant_eia-10022-0_7eb25e",
-    "kind": "retire",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-proj_011_decommissioning_start-WORK",
-    "parentId": "M-proj_011_decommissioning_start",
-    "title": "Decommissioning start - Execution",
-    "start": "2025-12-03",
-    "end": "2026-01-02",
-    "risk_score": 10.0,
-    "plantId": "plant_eia-10011-0_9f15f6",
-    "kind": "retire",
-    "effective_date": "2026-01-02",
-    "delta_mw": -60.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-MCI-NGC5_MS5-WORK",
-    "parentId": "M-MCI-NGC5_MS5",
-    "title": "Equipment de-energized & cleared - Execution",
-    "start": "2027-10-23",
-    "end": "2028-01-31",
-    "risk_score": 10.0,
-    "plantId": "plant_gpc-morgan-falls_850259",
-    "kind": "retire",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-NU-UP-VOG1_MS3-WORK",
-    "parentId": "M-NU-UP-VOG1_MS3",
-    "title": "Long-lead POs placed - Execution",
-    "start": "2027-07-10",
-    "end": "2027-07-30",
-    "risk_score": 10.0,
-    "plantId": "PLANT_GASTON_U2",
-    "kind": "modernization",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-HY-BARTLETT56-MOD_MS3-WORK",
-    "parentId": "M-HY-BARTLETT56-MOD_MS3",
-    "title": "Long-lead POs placed - Execution",
-    "start": "2029-06-19",
-    "end": "2030-02-24",
-    "risk_score": 10.0,
-    "plantId": "plant_gpc-bartletts-ferry-5-6_58bb51",
-    "kind": "modernization",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-NU-UP-VOG2_MS3-WORK",
-    "parentId": "M-NU-UP-VOG2_MS3",
-    "title": "Long-lead POs placed - Execution",
-    "start": "2028-07-09",
-    "end": "2028-07-29",
-    "risk_score": 10.0,
-    "plantId": "PLANT_GASTON_U2",
-    "kind": "modernization",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-retire_bowen_1_2_MS4-WORK",
-    "parentId": "M-retire_bowen_1_2_MS4",
-    "title": "Hazmat/ash handling secured - Execution",
-    "start": "2036-02-27",
-    "end": "2036-05-28",
-    "risk_score": 0.0,
-    "plantId": "plant_eia-10023-0_8943bb",
-    "kind": "retire",
-    "effective_date": "2036-05-28",
-    "delta_mw": -35.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-retire_Plant28_MS2-WORK",
-    "parentId": "M-retire_Plant28_MS2",
-    "title": "Fuel isolation & purge complete - Execution",
-    "start": "2036-03-15",
-    "end": "2036-05-04",
-    "risk_score": 10.0,
-    "plantId": "plant_eia-10022-0_7eb25e",
-    "kind": "retire",
-    "effective_date": "2036-05-04",
-    "delta_mw": -300.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-MCI-NGCC-10-11-7FA05_MS6-WORK",
-    "parentId": "M-MCI-NGCC-10-11-7FA05_MS6",
-    "title": "Mechanical complete - Execution",
-    "start": "2032-12-16",
-    "end": "2033-01-05",
-    "risk_score": 10.0,
-    "plantId": "plant_gpc-mcintosh-10-11_5a49a9",
-    "kind": "modernize",
-    "effective_date": "2033-01-05",
-    "delta_mw": 194.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-MCI-NGC5_MS2-WORK",
-    "parentId": "M-MCI-NGC5_MS2",
-    "title": "Fuel isolation & purge complete - Execution",
-    "start": "2026-05-01",
-    "end": "2026-06-20",
-    "risk_score": 10.0,
-    "plantId": "plant_gpc-morgan-falls_850259",
-    "kind": "retire",
-    "effective_date": "2026-06-20",
-    "delta_mw": -30.9,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-NU-UP-retire_MS4-WORK",
-    "parentId": "M-NU-UP-retire_MS4",
-    "title": "Hazmat/ash handling secured - Execution",
-    "start": "2032-11-05",
-    "end": "2033-01-14",
-    "risk_score": 10.0,
-    "plantId": "plant_gpc-vogtle-3_f743db",
-    "kind": "retire",
-    "effective_date": "2033-01-14",
-    "delta_mw": -450.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
-    "parentId": "M-MCI-NGCC-10-11-7FA05_MS3",
-    "title": "Long-lead POs placed - Execution",
-    "start": "2031-07-10",
-    "end": "2031-07-30",
-    "risk_score": 10.0,
-    "plantId": "plant_gpc-mcintosh-10-11_5a49a9",
-    "kind": "modernization",
-    "effective_date": null,
-    "delta_mw": null,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-hydro_mod_sinclair_MS5-WORK",
-    "parentId": "M-hydro_mod_sinclair_MS5",
-    "title": "Outage start / mobilization - Execution",
-    "start": "2026-09-17",
-    "end": "2026-10-17",
-    "risk_score": 0.0,
-    "plantId": "plant_doe-lpo-nan_6ec756",
-    "kind": "modernize",
-    "effective_date": "2026-10-17",
-    "delta_mw": 150.0,
-    "delta_reliable_mw": 150.0,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": null,
-    "lock_reason": null
-  },
-  {
-    "id": "M-NU-UP-retire_MS2-WORK",
-    "parentId": "M-NU-UP-retire_MS2",
-    "title": "Fuel isolation & purge complete - Execution",
-    "start": "2031-12-01",
-    "end": "2032-01-20",
-    "risk_score": 10.0,
-    "plantId": "plant_gpc-vogtle-3_f743db",
-    "kind": "retire",
-    "effective_date": "2032-01-20",
-    "delta_mw": -1350.0,
-    "delta_reliable_mw": null,
-    "condition_score_delta": null,
-    "start_date": null,
-    "end_date": null,
-    "derate_pct": null,
-    "for_bump": null,
-    "start_locked": null,
-    "end_locked": true,
-    "lock_reason": "NRC mandated offline date - plant must cease operations"
+    "lock_reason": "Long lead equipment (360 days) - vendor schedule fixed",
+    "cost_estimate_usd": 1800000.0,
+    "cost_expedite_premium_usd": 270000.0
   },
   {
     "id": "M-proj_009_procurement-WORK",
@@ -4704,7 +4542,558 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-NU-UP-retire_MS4-WORK",
+    "parentId": "M-NU-UP-retire_MS4",
+    "title": "Hazmat/ash handling secured - Execution",
+    "start": "2032-11-05",
+    "end": "2033-01-14",
+    "risk_score": 10.0,
+    "plantId": "plant_gpc-vogtle-3_f743db",
+    "kind": "retire",
+    "effective_date": "2033-01-14",
+    "delta_mw": -450.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-proj_021_procurement-WORK",
+    "parentId": "M-proj_021_procurement",
+    "title": "Procurement - Execution",
+    "start": "2028-07-08",
+    "end": "2029-03-05",
+    "risk_score": 10.0,
+    "plantId": "plant_eia-10018-0_66d132",
+    "kind": "new_build",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-MCI-NGC5_MS2-WORK",
+    "parentId": "M-MCI-NGC5_MS2",
+    "title": "Fuel isolation & purge complete - Execution",
+    "start": "2026-05-01",
+    "end": "2026-06-20",
+    "risk_score": 10.0,
+    "plantId": "plant_gpc-morgan-falls_850259",
+    "kind": "retire",
+    "effective_date": "2026-06-20",
+    "delta_mw": -30.9,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-MCI-NGCC-10-11-7FA05_MS3-WORK",
+    "parentId": "M-MCI-NGCC-10-11-7FA05_MS3",
+    "title": "Long-lead POs placed - Execution",
+    "start": "2031-07-10",
+    "end": "2031-07-30",
+    "risk_score": 10.0,
+    "plantId": "plant_gpc-mcintosh-10-11_5a49a9",
+    "kind": "modernization",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-tall_wind_demo_procurement-WORK",
+    "parentId": "M-tall_wind_demo_procurement",
+    "title": "Procurement - Execution",
+    "start": "2025-12-27",
+    "end": "2026-08-24",
+    "risk_score": 0.0,
+    "plantId": "PLANT_GASTON_U3",
+    "kind": "new_build",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-hydro_mod_sinclair_MS5-WORK",
+    "parentId": "M-hydro_mod_sinclair_MS5",
+    "title": "Outage start / mobilization - Execution",
+    "start": "2026-09-17",
+    "end": "2026-10-17",
+    "risk_score": 0.0,
+    "plantId": "plant_doe-lpo-nan_6ec756",
+    "kind": "modernize",
+    "effective_date": "2026-10-17",
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-proj_022_decommissioning_start-WORK",
+    "parentId": "M-proj_022_decommissioning_start",
+    "title": "Decommissioning start - Execution",
+    "start": "2031-12-02",
+    "end": "2032-01-01",
+    "risk_score": 10.0,
+    "plantId": "plant_eia-22",
+    "kind": "retire",
+    "effective_date": "2032-01-01",
+    "delta_mw": -30.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-NU-UP-VOG2_MS3-WORK",
+    "parentId": "M-NU-UP-VOG2_MS3",
+    "title": "Long-lead POs placed - Execution",
+    "start": "2028-07-09",
+    "end": "2028-07-29",
+    "risk_score": 10.0,
+    "plantId": "PLANT_GASTON_U2",
+    "kind": "modernization",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-BESS-PV-COLOC-200-200_procurement-WORK",
+    "parentId": "M-BESS-PV-COLOC-200-200_procurement",
+    "title": "Procurement - Execution",
+    "start": "2028-10-31",
+    "end": "2029-04-29",
+    "risk_score": 10.0,
+    "plantId": "plant_eia-10020-0_6bff7e",
+    "kind": "new_build",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-hydro_mod_sinclair_MS6-WORK",
+    "parentId": "M-hydro_mod_sinclair_MS6",
+    "title": "Mechanical complete - Execution",
+    "start": "2026-11-16",
+    "end": "2026-12-06",
+    "risk_score": 0.0,
+    "plantId": "plant_doe-lpo-nan_6ec756",
+    "kind": "modernize",
+    "effective_date": "2026-12-06",
+    "delta_mw": 50.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-retire_bowen_1_2_MS2-WORK",
+    "parentId": "M-retire_bowen_1_2_MS2",
+    "title": "Fuel isolation & purge complete - Execution",
+    "start": "2035-03-24",
+    "end": "2035-05-13",
+    "risk_score": 0.0,
+    "plantId": "plant_eia-10023-0_8943bb",
+    "kind": "retire",
+    "effective_date": "2035-05-13",
+    "delta_mw": -105.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-proj_019_outage_start___mobilization-WORK",
+    "parentId": "M-proj_019_outage_start___mobilization",
+    "title": "Outage start / mobilization - Execution",
+    "start": "2027-05-29",
+    "end": "2027-06-28",
+    "risk_score": 10.0,
+    "plantId": "plant_eia-10018-0_66d132",
+    "kind": "retire",
+    "effective_date": "2027-06-28",
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-retire_bowen_1_2_MS4-WORK",
+    "parentId": "M-retire_bowen_1_2_MS4",
+    "title": "Hazmat/ash handling secured - Execution",
+    "start": "2036-02-27",
+    "end": "2036-05-28",
+    "risk_score": 0.0,
+    "plantId": "plant_eia-10023-0_8943bb",
+    "kind": "retire",
+    "effective_date": "2036-05-28",
+    "delta_mw": -35.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-MCI-NGCC-10-11-7FA05_MS6-WORK",
+    "parentId": "M-MCI-NGCC-10-11-7FA05_MS6",
+    "title": "Mechanical complete - Execution",
+    "start": "2032-12-16",
+    "end": "2033-01-05",
+    "risk_score": 10.0,
+    "plantId": "plant_gpc-mcintosh-10-11_5a49a9",
+    "kind": "modernize",
+    "effective_date": "2033-01-05",
+    "delta_mw": 194.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-retire_Plant28_MS5-WORK",
+    "parentId": "M-retire_Plant28_MS5",
+    "title": "Equipment de-energized & cleared - Execution",
+    "start": "2037-09-27",
+    "end": "2038-01-05",
+    "risk_score": 10.0,
+    "plantId": "plant_eia-10022-0_7eb25e",
+    "kind": "retire",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-HY-BARTLETT56-MOD_MS3-WORK",
+    "parentId": "M-HY-BARTLETT56-MOD_MS3",
+    "title": "Long-lead POs placed - Execution",
+    "start": "2029-06-19",
+    "end": "2030-02-24",
+    "risk_score": 10.0,
+    "plantId": "plant_gpc-bartletts-ferry-5-6_58bb51",
+    "kind": "modernization",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-proj_017_procurement-WORK",
+    "parentId": "M-proj_017_procurement",
+    "title": "Procurement - Execution",
+    "start": "2028-06-29",
+    "end": "2029-02-24",
+    "risk_score": 10.0,
+    "plantId": "plant_eia-10015-0_0e2230",
+    "kind": "new_build",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-ppa_dahlberg_1_3_5_procurement-WORK",
+    "parentId": "M-ppa_dahlberg_1_3_5_procurement",
+    "title": "Procurement - Execution",
+    "start": "2026-08-15",
+    "end": "2027-04-12",
+    "risk_score": 0.0,
+    "plantId": "PLANT_DAHLBERG_CT_135",
+    "kind": "modernize",
+    "effective_date": "2027-04-12",
+    "delta_mw": -500.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-NU-UP-VOG1_MS6-WORK",
+    "parentId": "M-NU-UP-VOG1_MS6",
+    "title": "Mechanical complete - Execution",
+    "start": "2029-03-21",
+    "end": "2029-04-10",
+    "risk_score": 10.0,
+    "plantId": "PLANT_GASTON_U2",
+    "kind": "modernize",
+    "effective_date": "2029-04-10",
+    "delta_mw": 500.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-MCI-NGC5_MS5-WORK",
+    "parentId": "M-MCI-NGC5_MS5",
+    "title": "Equipment de-energized & cleared - Execution",
+    "start": "2027-10-23",
+    "end": "2028-01-31",
+    "risk_score": 10.0,
+    "plantId": "plant_gpc-morgan-falls_850259",
+    "kind": "retire",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-NU-UP-VOG2_MS6-WORK",
+    "parentId": "M-NU-UP-VOG2_MS6",
+    "title": "Mechanical complete - Execution",
+    "start": "2030-03-21",
+    "end": "2030-04-10",
+    "risk_score": 10.0,
+    "plantId": "PLANT_GASTON_U2",
+    "kind": "modernize",
+    "effective_date": "2030-04-10",
+    "delta_mw": 800.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-retire_Plant28_MS2-WORK",
+    "parentId": "M-retire_Plant28_MS2",
+    "title": "Fuel isolation & purge complete - Execution",
+    "start": "2036-03-15",
+    "end": "2036-05-04",
+    "risk_score": 10.0,
+    "plantId": "plant_eia-10022-0_7eb25e",
+    "kind": "retire",
+    "effective_date": "2036-05-04",
+    "delta_mw": -300.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-proj_011_decommissioning_start-WORK",
+    "parentId": "M-proj_011_decommissioning_start",
+    "title": "Decommissioning start - Execution",
+    "start": "2025-12-03",
+    "end": "2026-01-02",
+    "risk_score": 10.0,
+    "plantId": "plant_eia-10011-0_9f15f6",
+    "kind": "retire",
+    "effective_date": "2026-01-02",
+    "delta_mw": -60.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-NU-UP-retire_MS2-WORK",
+    "parentId": "M-NU-UP-retire_MS2",
+    "title": "Fuel isolation & purge complete - Execution",
+    "start": "2031-12-01",
+    "end": "2032-01-20",
+    "risk_score": 10.0,
+    "plantId": "plant_gpc-vogtle-3_f743db",
+    "kind": "retire",
+    "effective_date": "2032-01-20",
+    "delta_mw": -1350.0,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": true,
+    "lock_reason": "NRC mandated offline date - plant must cease operations",
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-proj_019_long-lead_pos_placed-WORK",
+    "parentId": "M-proj_019_long-lead_pos_placed",
+    "title": "Long-lead POs placed - Execution",
+    "start": "2026-05-04",
+    "end": "2027-01-09",
+    "risk_score": 10.0,
+    "plantId": "plant_eia-10018-0_66d132",
+    "kind": "modernization",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
   },
   {
     "id": "M-Cape_Wind_new_build_procurement-WORK",
@@ -4725,6 +5114,51 @@
     "for_bump": null,
     "start_locked": null,
     "end_locked": null,
-    "lock_reason": null
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-proj_020_procurement-WORK",
+    "parentId": "M-proj_020_procurement",
+    "title": "Procurement - Execution",
+    "start": "2027-06-09",
+    "end": "2027-12-06",
+    "risk_score": 10.0,
+    "plantId": "plant_eia-10020-0_6bff7e",
+    "kind": "new_build",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
+  },
+  {
+    "id": "M-NU-UP-VOG1_MS3-WORK",
+    "parentId": "M-NU-UP-VOG1_MS3",
+    "title": "Long-lead POs placed - Execution",
+    "start": "2027-07-10",
+    "end": "2027-07-30",
+    "risk_score": 10.0,
+    "plantId": "PLANT_GASTON_U2",
+    "kind": "modernization",
+    "effective_date": null,
+    "delta_mw": null,
+    "delta_reliable_mw": null,
+    "condition_score_delta": null,
+    "start_date": null,
+    "end_date": null,
+    "derate_pct": null,
+    "for_bump": null,
+    "start_locked": null,
+    "end_locked": null,
+    "lock_reason": null,
+    "cost_estimate_usd": null
   }
 ]

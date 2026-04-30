@@ -66,7 +66,35 @@
 - plants.csv.plant_id ↔ sustainment_needs.csv.plant_id
 - plants.csv.plant_id ↔ sustainment_work_aligned.csv.plant_id
 - plants.csv.plant_id ↔ milestone_resources.csv.plant_id
+- plants.csv.plant_id ↔ plant_major_components.csv.plant_id
 
+
+### plant_major_components.csv
+
+Tracks major equipment/components within each plant for lifecycle management, degradation modeling, and replacement planning.
+
+| Column | Type | Required | Description | How It's Used |
+|---|---|:---:|---|---|
+| plant_id | string | ✓ | Host plant identifier. Example: `PL-00123`. | Join key to `plants.csv`; groups components by facility. |
+| component_id | string | ✓ | Unique component identifier. Example: `GEN-001`, `XFMR-002`. | Primary key; used in replacement timeline tasks and cross-references. |
+| component_type | string | ✓ | Equipment category. Example: `generator`, `turbine`, `transformer`, `boiler`, `condenser`, `cooling_tower`. | Drives grouping, filtering, and type-specific degradation models. |
+| component_name | string | ✓ | Human-readable name. Example: `Main Generator Unit 1`, `Station Service Transformer`. | Displayed in dashboards, tooltips, and reports. |
+| install_date | date (YYYY-MM-DD) | | Original installation date. Example: `2005-03-15`. | Used to calculate `current_age_years` and remaining life projections. |
+| expected_lifespan_years | number | | Design life in years. Example: `40`. | Used to compute `remaining_life_years` and replacement windows. |
+| current_condition_score | number | | Current condition rating (0–100). Example: `72`. | May differ from plant-level score; used for component-specific risk assessment. |
+| replacement_cost_usd | number | | Full replacement cost (USD). Example: `15000000`. | Feeds capital planning and replacement decision modeling. |
+| overhaul_cost_usd | number | | Major overhaul cost (USD). Example: `3500000`. | Alternative to replacement; used in cost-benefit analysis. |
+| degradation_rate_pct_per_year | number | | Annual condition degradation without maintenance (%). Example: `1.5`. | Used to project future condition and failure risk. |
+| deferred_maintenance_penalty_pct | number | | Additional degradation per year of deferred maintenance (%). Example: `0.5`. | Models accelerated wear when maintenance is postponed. |
+| failure_probability_model | string | | Failure curve type. Example: `linear`, `weibull`, `exponential`. | Determines how failure probability is calculated over remaining life. |
+| mtbf_hours | number | | Mean time between failures (operating hours). Example: `50000`. | Optional reliability metric for availability modeling. |
+| linked_sustainment_id | string | | Related sustainment need ID. Example: `SUST_plant_xyz_generator_overhaul`. | Cross-references to `sustainment_needs_combined.csv` for coordinated planning. |
+| notes | string | | Free-form context or assumptions. Example: `Scheduled for major overhaul in 2028`. | Displayed in detail views and exports. |
+
+**Relationships**
+
+- plant_major_components.csv.plant_id ↔ plants.csv.plant_id
+- plant_major_components.csv.linked_sustainment_id ↔ sustainment_needs_combined.csv.need_id
 
 
 ## Policy & Constraints
