@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-03-04T12:00:00Z",
+  "scenario_id": "mpi_block2_demo_v1_baseline",
+  "inferred_edges": [
+    {
+      "edge_id": "edge:inferred:work:W-ENG-20->work:W-INT-10:deliverable_join.v1",
+      "rule_id": "deliverable_join.v1",
+      "status": "applied",
+      "provenance": {
+        "source_rows": [
+          "deliverables.csv#row=2"
+        ],
+        "evidence_ids": [
+          "ev:c947e2db3db4b32bea69d53c"
+        ]
+      },
+      "deliverable_id": "D-17"
+    }
+  ]
+}

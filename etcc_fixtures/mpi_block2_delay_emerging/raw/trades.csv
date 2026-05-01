@@ -1,0 +1,4 @@
+trade_id,trade_name,trade_domain,threshold_value,threshold_unit,aggregation_mode,constraint_mode
+T-THERM,Thermal Load,thermal,150,C,additive,hard_breach
+T-PWR,Power Load,power,250,W,additive,hard_breach
+T-RF,RF Interference,rf,40,dB,max,hard_breach

@@ -1,0 +1,18 @@
+{
+  "index_version": "0.1",
+  "artifacts": {
+    "assemblies.csv": "raw/assemblies.csv",
+    "assembly_component_map.csv": "raw/assembly_component_map.csv",
+    "assembly_milestone_map.csv": "raw/assembly_milestone_map.csv",
+    "component_trade_map.csv": "raw/component_trade_map.csv",
+    "components.csv": "raw/components.csv",
+    "deliverables.csv": "raw/deliverables.csv",
+    "part_assembly_map.csv": "raw/part_assembly_map.csv",
+    "part_procurement_map.csv": "raw/part_procurement_map.csv",
+    "parts.csv": "raw/parts.csv",
+    "schedule_deps.csv": "raw/schedule_deps.csv",
+    "schedule_work.csv": "raw/schedule_work.csv",
+    "suppliers.csv": "raw/suppliers.csv",
+    "trades.csv": "raw/trades.csv"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "scenario_id": "mpi_block2_delay_emerging",
+  "scenario_as_of_date": "2026-03-11",
+  "label": "MPI Block 2 - Delay Emerging (14-day slip on P-001)",
+  "domain_pack_id": "acquisition",
+  "shell_id": "acquisition"
+}

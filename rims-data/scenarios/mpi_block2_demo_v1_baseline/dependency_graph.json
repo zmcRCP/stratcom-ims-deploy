@@ -1,0 +1,322 @@
+{
+  "graph_version": "1.0.0",
+  "generated_at": "2026-03-04T12:00:00Z",
+  "inputs": {
+    "assemblies": {
+      "version_id": "bundle_mpi_block2_demo_v1_2026_03_04:assemblies.csv",
+      "content_hash": "sha256:2320640b4a5d36294148eb13888b3cb4606d9308529cf7a6ac833753fa8a5bcf"
+    },
+    "assembly_milestone_map": {
+      "version_id": "bundle_mpi_block2_demo_v1_2026_03_04:assembly_milestone_map.csv",
+      "content_hash": "sha256:4ba8424dace7515f928d11f10f9ba39164526a395ad1031c948bab07d7f2a8c9"
+    },
+    "deliverables": {
+      "version_id": "bundle_mpi_block2_demo_v1_2026_03_04:deliverables.csv",
+      "content_hash": "sha256:44241eee6bf667065ea7ebaf166cb775498a6ca204a9353a3184dbe770d3474c"
+    },
+    "part_assembly_map": {
+      "version_id": "bundle_mpi_block2_demo_v1_2026_03_04:part_assembly_map.csv",
+      "content_hash": "sha256:adeb8a484a8f31bc5531411f6d27bca93addac1cf2a0182e17665b22216f7c68"
+    },
+    "part_procurement_map": {
+      "version_id": "bundle_mpi_block2_demo_v1_2026_03_04:part_procurement_map.csv",
+      "content_hash": "sha256:ecf2468695b559da3dd2bc906c85cf059b5c5ca0180c60c41da6241038a7afcc"
+    },
+    "parts": {
+      "version_id": "bundle_mpi_block2_demo_v1_2026_03_04:parts.csv",
+      "content_hash": "sha256:15c045a6ac3720891409795df20e69b5d580ab919857445585e786f299518afa"
+    },
+    "schedule_deps": {
+      "version_id": "bundle_mpi_block2_demo_v1_2026_03_04:schedule_deps.csv",
+      "content_hash": "sha256:04860c9bbbba9b27d1575dfd00fa4badcd112c5365b46a6a1dcf8d4f38bb2657"
+    },
+    "schedule_work": {
+      "version_id": "bundle_mpi_block2_demo_v1_2026_03_04:schedule_work.csv",
+      "content_hash": "sha256:761980def3797a4086d4023f995d3ac8628b3eef59b93dcd0ba8d51909d4c9d6"
+    },
+    "suppliers": {
+      "version_id": "bundle_mpi_block2_demo_v1_2026_03_04:suppliers.csv",
+      "content_hash": "sha256:9598f1d1d5c79854d77ed5db0909e6146ca478ed611cf7dc2bff575df1135e82"
+    }
+  },
+  "bundle": {
+    "bundle_id": "mpi_block2_demo_v1",
+    "scenario_id": "mpi_block2_demo_v1_baseline",
+    "version_id": "bundle_mpi_block2_demo_v1_2026_03_04",
+    "retrieved_at": "2026-03-04T12:00:00Z",
+    "source_system": "snapshot_export",
+    "content_hash": "sha256:placeholder"
+  },
+  "nodes": [
+    {
+      "id": "assembly:A-CM",
+      "type": "assembly",
+      "label": "Compute Module",
+      "attributes": {
+        "assembly_id": "A-CM",
+        "assembly_name": "Compute Module"
+      },
+      "evidence_ids": [
+        "ev:0dfa4afbe701e038868113d5"
+      ]
+    },
+    {
+      "id": "part:P-001",
+      "type": "part",
+      "label": "Rad-tolerant Microcontroller",
+      "attributes": {
+        "part_id": "P-001",
+        "part_name": "Rad-tolerant Microcontroller",
+        "supplier_id": "S-ALPHA",
+        "lead_time_days": 180,
+        "current_delay_days": 90,
+        "single_source_flag": true,
+        "expedite_days": 30
+      },
+      "evidence_ids": [
+        "ev:ad440ca2c4848506bdb03889"
+      ]
+    },
+    {
+      "id": "supplier:S-ALPHA",
+      "type": "supplier",
+      "label": "Alpha Components LLC",
+      "attributes": {
+        "supplier_id": "S-ALPHA",
+        "supplier_name": "Alpha Components LLC"
+      },
+      "evidence_ids": [
+        "ev:28c27eae698153aa6d56c4ca"
+      ]
+    },
+    {
+      "id": "work:W-ENG-10",
+      "type": "work_item",
+      "label": "Preliminary Design Complete",
+      "attributes": {
+        "work_id": "W-ENG-10",
+        "program_id": "mpi_block2",
+        "work_type": "task",
+        "start_date": "2026-01-10",
+        "end_date": "2026-02-15",
+        "critical_flag": null,
+        "schedule_slack_days": null,
+        "source_team": "engineering",
+        "source_system": "primavera",
+        "deliverable_id": null
+      },
+      "evidence_ids": [
+        "ev:30decaa0e62011c88472f89a",
+        "ev:654a52da4deaa5bf4716772f",
+        "ev:85086472b93a404bd67d6cc7",
+        "ev:9d884c6621e8a9cbd8248b0e",
+        "ev:d77a8af15ef54aab04e495b3",
+        "ev:d7eaa70297b8e352e78561e4",
+        "ev:fc08f75d5022e145a42f117a",
+        "ev:fc560d859858c267e2c06080"
+      ]
+    },
+    {
+      "id": "work:W-ENG-20",
+      "type": "work_item",
+      "label": "Interface Control Document (ICD) Released",
+      "attributes": {
+        "work_id": "W-ENG-20",
+        "program_id": "mpi_block2",
+        "work_type": "task",
+        "start_date": "2026-02-16",
+        "end_date": "2026-03-10",
+        "critical_flag": null,
+        "schedule_slack_days": null,
+        "source_team": "engineering",
+        "source_system": "primavera",
+        "deliverable_id": "D-17"
+      },
+      "evidence_ids": [
+        "ev:02ebefdb070ddc415db40bc1",
+        "ev:1167c06dbb8100310b1eb73b",
+        "ev:2a0632dc77833a6889cf325d",
+        "ev:3273fbbbcf55d6805d7f0fea",
+        "ev:723b08a456d4a83c56cb7c17",
+        "ev:745be2c0e289f8b24d749444",
+        "ev:98d21af00f34878c88f67a61",
+        "ev:ca432d2c88fe8ad7c5151019",
+        "ev:f8310c0adc784447ba3e550a"
+      ]
+    },
+    {
+      "id": "work:W-INT-10",
+      "type": "work_item",
+      "label": "Integration Readiness Review",
+      "attributes": {
+        "work_id": "W-INT-10",
+        "program_id": "mpi_block2",
+        "work_type": "task",
+        "start_date": "2026-03-16",
+        "end_date": "2026-03-25",
+        "critical_flag": null,
+        "schedule_slack_days": null,
+        "source_team": "integration_test",
+        "source_system": "ms_project",
+        "deliverable_id": "D-17"
+      },
+      "evidence_ids": [
+        "ev:2bf5871ebd35910a5dc1cb3c",
+        "ev:3cba4795f929c71469c9809b",
+        "ev:4ad7350b634c263d2d43727d",
+        "ev:4b5831259423e83c824d4f71",
+        "ev:51df95c3b6c7be995d3d4de4",
+        "ev:7d31da2636c05915999f65ff",
+        "ev:8be6950be69993b2cfc4f80c",
+        "ev:8fddfaf1c58a84c4afc7adfc",
+        "ev:97b4f577a32122130e77a874"
+      ]
+    },
+    {
+      "id": "work:W-PROC-10",
+      "type": "work_item",
+      "label": "Order long-lead Part P-001",
+      "attributes": {
+        "work_id": "W-PROC-10",
+        "program_id": "mpi_block2",
+        "work_type": "procurement",
+        "start_date": "2026-03-11",
+        "end_date": "2026-03-15",
+        "critical_flag": null,
+        "schedule_slack_days": null,
+        "source_team": "supply",
+        "source_system": "erp_export",
+        "deliverable_id": null
+      },
+      "evidence_ids": [
+        "ev:09cc6d99e738f9c9a060faec",
+        "ev:1fcae2445bdb57ad44659b0b",
+        "ev:5f3ce887fc9d8a9ae5f67730",
+        "ev:8d69a53530a748edef0a0a04",
+        "ev:962264bb68c4ee3587b2fcea",
+        "ev:cb88c965ff506c1974c0563a",
+        "ev:ea58cc9f453a8de322ec9b4c",
+        "ev:eb505960454364ba9de76bd9"
+      ]
+    },
+    {
+      "id": "work:W-QUAL-10",
+      "type": "work_item",
+      "label": "Qualification Test Start",
+      "attributes": {
+        "work_id": "W-QUAL-10",
+        "program_id": "mpi_block2",
+        "work_type": "milestone",
+        "start_date": "2026-04-01",
+        "end_date": "2026-04-01",
+        "critical_flag": true,
+        "schedule_slack_days": 30,
+        "source_team": "integration_test",
+        "source_system": "ms_project",
+        "deliverable_id": null
+      },
+      "evidence_ids": [
+        "ev:1d6c0d57ca9728d74dd064d4",
+        "ev:5c888913cc457f206b0fa6a5",
+        "ev:613523bc26d3066bea12c944",
+        "ev:6510783dcfcc88acea505f11",
+        "ev:7b688fc912a9a3e6cdcc5e24",
+        "ev:a6dd47dbd47d0fb697933435",
+        "ev:c4858a57716ed4f9f0f32810",
+        "ev:dfa4c53b25297d0daad1a918",
+        "ev:e6d4bfc0da7a3a47d193cd6c",
+        "ev:fe650ea9d74df9a2386bda1c"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:assembly_milestone:assembly:A-CM->work:W-QUAL-10",
+      "type": "assembly_milestone",
+      "from": "assembly:A-CM",
+      "to": "work:W-QUAL-10",
+      "attributes": {},
+      "evidence_ids": [
+        "ev:559e5160cf70530aba63b9e9"
+      ]
+    },
+    {
+      "id": "edge:part_assembly:part:P-001->assembly:A-CM",
+      "type": "part_assembly",
+      "from": "part:P-001",
+      "to": "assembly:A-CM",
+      "attributes": {},
+      "evidence_ids": [
+        "ev:9ad4883e210bc0efd8aa943f"
+      ]
+    },
+    {
+      "id": "edge:part_procurement:part:P-001->work:W-PROC-10",
+      "type": "part_procurement",
+      "from": "part:P-001",
+      "to": "work:W-PROC-10",
+      "attributes": {},
+      "evidence_ids": [
+        "ev:21ec845bb1e6e15be580d65d"
+      ]
+    },
+    {
+      "id": "edge:part_supplier:part:P-001->supplier:S-ALPHA",
+      "type": "part_supplier",
+      "from": "part:P-001",
+      "to": "supplier:S-ALPHA",
+      "attributes": {},
+      "evidence_ids": [
+        "ev:ad440ca2c4848506bdb03889"
+      ]
+    },
+    {
+      "id": "edge:work_dependency:work:W-ENG-10->W-ENG-20:FS:0",
+      "type": "work_dependency",
+      "from": "work:W-ENG-10",
+      "to": "work:W-ENG-20",
+      "attributes": {
+        "dep_type": "FS",
+        "lag_days": 0
+      },
+      "evidence_ids": [
+        "ev:43dc72cba6e3daab3b62d705",
+        "ev:4902985694c8373faace405f",
+        "ev:96d2c41faa35b0d632e5d251",
+        "ev:b7dce24edb257e889233970a"
+      ]
+    },
+    {
+      "id": "edge:work_dependency:work:W-INT-10->W-QUAL-10:FS:7",
+      "type": "work_dependency",
+      "from": "work:W-INT-10",
+      "to": "work:W-QUAL-10",
+      "attributes": {
+        "dep_type": "FS",
+        "lag_days": 7
+      },
+      "evidence_ids": [
+        "ev:01675ab9886a4b6300fceac7",
+        "ev:398fae5cf63a83a8e744c51a",
+        "ev:d9f494abbc8194a85d7bb7ff",
+        "ev:ee9bddc39d0cb6200f7fd855"
+      ]
+    },
+    {
+      "id": "edge:work_dependency:work:W-PROC-10->W-INT-10:FS:0",
+      "type": "work_dependency",
+      "from": "work:W-PROC-10",
+      "to": "work:W-INT-10",
+      "attributes": {
+        "dep_type": "FS",
+        "lag_days": 0
+      },
+      "evidence_ids": [
+        "ev:5ae391dbcacaa72520011349",
+        "ev:788c685a48c3e6a017e7fb9d",
+        "ev:7fd67b23f129d7c3fe1a904d",
+        "ev:a351fe2ebfa94b9ac177dbe8"
+      ]
+    }
+  ]
+}

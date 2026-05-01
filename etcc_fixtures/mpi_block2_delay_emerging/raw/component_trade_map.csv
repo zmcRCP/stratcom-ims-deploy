@@ -1,0 +1,16 @@
+component_id,trade_id,contribution_value,contribution_unit,normalized_value
+C-STR,T-THERM,15,C,0.1
+C-STR,T-PWR,7,W,0.03
+C-STR,T-RF,8,dB,0.2
+C-PP,T-THERM,13,C,0.09
+C-PP,T-PWR,11,W,0.04
+C-PP,T-RF,9,dB,0.23
+C-AV,T-THERM,13,C,0.09
+C-AV,T-PWR,11,W,0.04
+C-AV,T-RF,8,dB,0.2
+C-EW,T-THERM,3,C,0.02
+C-EW,T-PWR,4,W,0.02
+C-EW,T-RF,7,dB,0.17
+C-COM,T-THERM,5,C,0.03
+C-COM,T-PWR,12,W,0.05
+C-COM,T-RF,7,dB,0.17

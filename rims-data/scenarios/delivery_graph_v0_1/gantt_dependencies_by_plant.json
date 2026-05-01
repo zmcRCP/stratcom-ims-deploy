@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "predecessorId": "add-delivery-graph-converter-v0_1-S1",
+    "successorId": "add-delivery-graph-converter-v0_1-S6",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 2,
+    "predecessorId": "add-dev-domain-adapter-v0_1",
+    "successorId": "add-delivery-graph-converter-v0_1",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": false
+  },
+  {
+    "id": 3,
+    "predecessorId": "add-delivery-graph-extraction-v0_1",
+    "successorId": "add-delivery-graph-converter-v0_1",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": false
+  },
+  {
+    "id": 4,
+    "predecessorId": "model-delivery-graph-workflow-work-S1",
+    "successorId": "model-delivery-graph-workflow-work-S2",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 5,
+    "predecessorId": "model-delivery-graph-workflow-work-S2",
+    "successorId": "model-delivery-graph-workflow-work-S3",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 6,
+    "predecessorId": "add-dev-domain-adapter-v0_1-S1",
+    "successorId": "add-dev-domain-adapter-v0_1-S2",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 7,
+    "predecessorId": "add-dev-domain-adapter-v0_1-S2",
+    "successorId": "add-dev-domain-adapter-v0_1-S3",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 8,
+    "predecessorId": "add-delivery-graph-extraction-v0_1-S1",
+    "successorId": "add-delivery-graph-extraction-v0_1-S2",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 9,
+    "predecessorId": "add-delivery-graph-extraction-v0_1-S2",
+    "successorId": "add-delivery-graph-extraction-v0_1-S3",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 10,
+    "predecessorId": "add-delivery-graph-extraction-v0_1-S3",
+    "successorId": "add-delivery-graph-extraction-v0_1-S4",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 11,
+    "predecessorId": "add-dev-domain-adapter-v0_1",
+    "successorId": "add-delivery-graph-extraction-v0_1",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": false
+  },
+  {
+    "id": 12,
+    "predecessorId": "improve-delivery-graph-extraction-v0_1a-S1",
+    "successorId": "improve-delivery-graph-extraction-v0_1a-S5",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 13,
+    "predecessorId": "improve-delivery-graph-extraction-v0_1a-S5",
+    "successorId": "improve-delivery-graph-extraction-v0_1a-S6",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 14,
+    "predecessorId": "improve-delivery-graph-extraction-v0_1a-S6",
+    "successorId": "improve-delivery-graph-extraction-v0_1a-S7",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 15,
+    "predecessorId": "add-delivery-graph-converter-v0_1",
+    "successorId": "improve-delivery-graph-extraction-v0_1a",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": false
+  },
+  {
+    "id": 16,
+    "predecessorId": "add-delivery-graph-extraction-v0_1",
+    "successorId": "improve-delivery-graph-extraction-v0_1a",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": false
+  }
+]

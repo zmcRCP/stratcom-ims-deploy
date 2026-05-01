@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0",
+  "scenarioId": "stratcom-triad-v0_1",
+  "label": "STRATCOM guided demo scenario controls",
+  "description": "Scenario-scripted sandbox events for demonstrating Sentinel Fielding slip, blocked Minuteman III Retirement delay, and B-2 Retirement bridge choices.",
+  "impactWindow": {
+    "start": "2030-06-17",
+    "end": "2033-06-16"
+  },
+  "highlightedTaskIds": [
+    "land-sentinel-fielding-21-m-bess-pv-coloc-200-200-commissioning"
+  ],
+  "highlightedAnchorIds": [
+    "land-sentinel-fielding-11-p-bess-pv-coloc-200-200"
+  ],
+  "highlightedConstraintIds": [
+    "land-sentinel-fielding-constraint-gates"
+  ],
+  "sourceBasis": [
+    {
+      "label": "Replacement fielding schedule",
+      "status": "Imported"
+    },
+    {
+      "label": "Minuteman III Retirement schedule",
+      "status": "Mapped"
+    },
+    {
+      "label": "B-2 sustainment parts plan",
+      "status": "Synthetic demo feed"
+    }
+  ],
+  "events": [
+    {
+      "id": "new-system-delivery-slips",
+      "label": "Update data: Sentinel Fielding slips",
+      "summary": "The refreshed Sentinel Fielding schedule slips 3 years, opening a gap against already-planned legacy retirements.",
+      "expectedGapState": "capacity gap opens because Sentinel Fielding does not arrive until 2033 while planned legacy retirements continue",
+      "mutations": [
+        {
+          "taskId": "land-sentinel-fielding-21-m-bess-pv-coloc-200-200-commissioning",
+          "label": "Sentinel Fielding capacity delayed",
+          "baseline": {
+            "start": "2030-05-17",
+            "end": "2030-06-16",
+            "effectiveDate": "2030-06-16"
+          },
+          "target": {
+            "start": "2033-05-17",
+            "end": "2033-06-16",
+            "effectiveDate": "2033-06-16"
+          },
+          "shiftDays": 1096,
+          "explanation": "Delivery slips by 1096 days, pushing Sentinel capacity past the Minuteman III first retirement step."
+        }
+      ],
+      "validationPoints": [
+        {
+          "taskId": "land-sentinel-fielding-21-m-bess-pv-coloc-200-200-commissioning",
+          "field": "effectiveDate",
+          "expected": "2033-06-16"
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "id": "delay-icbm-wing-drawdown-blocked",
+      "label": "Blocked: delay Minuteman III Retirement",
+      "outcome": "blocked",
+      "summary": "The largest obvious lever is unavailable in this scripted scenario.",
+      "expectedGapState": "Would close the gap, but blocked by extension constraints",
+      "mutations": [
+        {
+          "taskId": "land-legacy-wing-drawdown-08-m-nu-up-retire-ms3",
+          "label": "Minuteman III first block offline",
+          "baseline": {
+            "start": "2032-07-08",
+            "end": "2032-08-07",
+            "effectiveDate": "2032-07-08"
+          },
+          "target": {
+            "start": "2033-07-08",
+            "end": "2033-08-07",
+            "effectiveDate": "2033-07-08"
+          },
+          "shiftDays": 365,
+          "explanation": "Holding the first Minuteman III retirement block until after Sentinel arrives would close the modeled gap, but the extension path is blocked."
+        }
+      ],
+      "blockedReason": "The Minuteman III extension path is blocked because approval, inspection, crew, and spares windows are no longer available inside the modeled transition window.",
+      "evidenceReferences": [
+        {
+          "id": "minuteman-extension-constraint-2030-10-15",
+          "title": "Minuteman III Extension Feasibility Review",
+          "documentDate": "2030-10-15",
+          "sourceSystem": "Synthetic demo evidence register",
+          "href": "rims-data/scenarios/stratcom-triad-v0_1/evidence/minuteman-extension-constraint-2030-10-15.md",
+          "summary": "Records the approval, inspection, crew, and spares windows that make the one-year retirement hold unavailable in the demo scenario."
+        }
+      ],
+      "relatedTaskIds": [
+        "land-legacy-wing-drawdown-03-m-nu-up-retire-ms1",
+        "land-legacy-wing-drawdown-06-m-nu-up-retire-ms2",
+        "land-legacy-wing-drawdown-07-m-nu-up-retire-ms2-work",
+        "land-legacy-wing-drawdown-08-m-nu-up-retire-ms3"
+      ],
+      "explanation": "The demo should show this option as blocked and leave task dates unchanged."
+    },
+    {
+      "id": "delay-bomber-drawdown-bridge",
+      "label": "Works: delay B-2 Retirement",
+      "outcome": "allowed",
+      "summary": "Move the B-2 Retirement later to bridge the aggregate portfolio gap.",
+      "expectedGapState": "modeled floor restored after the B-2 Retirement moves outside the 2031-2033 gap window",
+      "mutations": [
+        {
+          "taskId": "air-legacy-penetrating-drawdown-10-m-proj-011-demolition-start",
+          "label": "B-2 first block offline",
+          "baseline": {
+            "start": "2031-05-08",
+            "end": "2031-06-07",
+            "effectiveDate": "2031-05-08"
+          },
+          "target": {
+            "start": "2033-06-17",
+            "end": "2033-07-17",
+            "effectiveDate": "2033-06-17"
+          },
+          "explanation": "The first B-2 retirement block moves after the delayed Sentinel Fielding capacity arrives."
+        },
+        {
+          "taskId": "air-legacy-penetrating-drawdown-12-m-proj-011-closure-turnover",
+          "label": "B-2 full retirement",
+          "baseline": {
+            "start": "2031-06-07",
+            "end": "2031-06-27",
+            "effectiveDate": "2031-06-07"
+          },
+          "target": {
+            "start": "2033-07-17",
+            "end": "2033-08-06",
+            "effectiveDate": "2033-07-17"
+          },
+          "explanation": "Full B-2 retirement moves out of the breach window to keep bridge capacity available."
+        }
+      ],
+      "requiresOptionIds": [
+        "order-bomber-sustainment-parts"
+      ],
+      "explanation": "This mitigation is synthetic portfolio availability modeling; it does not claim operational interchangeability across triad legs."
+    },
+    {
+      "id": "order-bomber-sustainment-parts",
+      "label": "Order B-2 sustainment parts",
+      "outcome": "required-action",
+      "summary": "Long-lead B-2 parts must be ordered soon for the B-2 Retirement delay to remain available.",
+      "requiredTasks": [
+        {
+          "taskId": "air-legacy-penetrating-drawdown-01-psc-011-general-mro-materials",
+          "label": "Order low-observable repair materials",
+          "start": "2030-01-23",
+          "end": "2031-02-28",
+          "lockedDate": "2030-01-23",
+          "lockReason": "Order by this date to keep the B-2 Retirement delay available."
+        },
+        {
+          "taskId": "air-legacy-penetrating-drawdown-02-psc-011-specialty-parts",
+          "label": "Order specialty sustainment parts",
+          "start": "2030-01-23",
+          "end": "2031-02-28",
+          "lockedDate": "2030-01-23",
+          "lockReason": "Order by this date to avoid losing the B-2 bridge option."
+        }
+      ],
+      "explanation": "This option does not move capacity directly; it names the parts-order actions that enable the B-2 Retirement delay."
+    }
+  ]
+}

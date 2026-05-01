@@ -1,0 +1,442 @@
+[
+  {
+    "plant_id": "land-sentinel-fielding",
+    "plant_name": "Sentinel Fielding",
+    "eia_plant_id": null,
+    "fuel": "land",
+    "category": "land",
+    "status": "new build",
+    "nameplate_mw": 70,
+    "reliable_mw": null,
+    "condition_score": 0.86,
+    "annual_sustainment_opex_$": 4698120,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 1,
+    "id": "land-sentinel-fielding",
+    "name": "Sentinel Fielding",
+    "capacity_mw": 0,
+    "start_date": "2030-06-11",
+    "retire_date": null,
+    "owner": null,
+    "region": "land",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "launcher integration kits",
+        "training pipeline",
+        "secure transport spares"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.04
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 0
+    }
+  },
+  {
+    "plant_id": "land-guidance-modernization",
+    "plant_name": "Guidance Mod",
+    "eia_plant_id": null,
+    "fuel": "land",
+    "category": "land",
+    "status": "modernization",
+    "nameplate_mw": 100,
+    "reliable_mw": null,
+    "condition_score": 0.68,
+    "annual_sustainment_opex_$": 192001540,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 38,
+    "id": "land-guidance-modernization",
+    "name": "Guidance Mod",
+    "capacity_mw": 90,
+    "start_date": "2000-08-20",
+    "retire_date": null,
+    "owner": null,
+    "region": "land",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "guidance refresh",
+        "facility cyber hardening",
+        "launcher sustainment"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.04
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 90
+    }
+  },
+  {
+    "plant_id": "land-legacy-wing-drawdown",
+    "plant_name": "Minuteman III Retirement",
+    "eia_plant_id": null,
+    "fuel": "land",
+    "category": "land",
+    "status": "retiring",
+    "nameplate_mw": 80,
+    "reliable_mw": null,
+    "condition_score": 0.58,
+    "annual_sustainment_opex_$": 292591512,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 47,
+    "id": "land-legacy-wing-drawdown",
+    "name": "Minuteman III Retirement",
+    "capacity_mw": 80,
+    "start_date": "2015-06-01",
+    "retire_date": "2031-06-14",
+    "owner": null,
+    "region": "land",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "launch facility transition",
+        "security sustainment bridge"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.04
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 80
+    }
+  },
+  {
+    "plant_id": "sea-columbia-fielding",
+    "plant_name": "Columbia Fielding",
+    "eia_plant_id": null,
+    "fuel": "sea",
+    "category": "sea",
+    "status": "new build",
+    "nameplate_mw": 6,
+    "reliable_mw": null,
+    "condition_score": 0.9,
+    "annual_sustainment_opex_$": 15506262,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 1,
+    "id": "sea-columbia-fielding",
+    "name": "Columbia Fielding",
+    "capacity_mw": 0,
+    "start_date": "2029-12-27",
+    "retire_date": null,
+    "owner": null,
+    "region": "sea",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "crew training pipeline",
+        "strategic payload integration",
+        "shipyard slot alignment"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.08
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 0
+    }
+  },
+  {
+    "plant_id": "sea-fire-control-modernization",
+    "plant_name": "SSBN FCS Mod",
+    "eia_plant_id": null,
+    "fuel": "sea",
+    "category": "sea",
+    "status": "modernization",
+    "nameplate_mw": 12,
+    "reliable_mw": null,
+    "condition_score": 0.72,
+    "annual_sustainment_opex_$": 60845756,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 25,
+    "id": "sea-fire-control-modernization",
+    "name": "SSBN FCS Mod",
+    "capacity_mw": 10,
+    "start_date": "2015-09-01",
+    "retire_date": null,
+    "owner": null,
+    "region": "sea",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "navigation suite refresh",
+        "fire-control sustainment",
+        "shipyard availability"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.08
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 10
+    }
+  },
+  {
+    "plant_id": "sea-ohio-drawdown",
+    "plant_name": "Ohio Retirement",
+    "eia_plant_id": null,
+    "fuel": "sea",
+    "category": "sea",
+    "status": "retiring",
+    "nameplate_mw": 8,
+    "reliable_mw": null,
+    "condition_score": 0.63,
+    "annual_sustainment_opex_$": 6793262,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 31,
+    "id": "sea-ohio-drawdown",
+    "name": "Ohio Retirement",
+    "capacity_mw": 8,
+    "start_date": "2015-01-04",
+    "retire_date": "2032-01-01",
+    "owner": null,
+    "region": "sea",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "dry dock slot",
+        "strategic communications mast sustainment"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.08
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 8
+    }
+  },
+  {
+    "plant_id": "air-advanced-bomber-fielding",
+    "plant_name": "B-21 Fielding",
+    "eia_plant_id": null,
+    "fuel": "air",
+    "category": "air",
+    "status": "new build",
+    "nameplate_mw": 18,
+    "reliable_mw": null,
+    "condition_score": 0.88,
+    "annual_sustainment_opex_$": 8993255,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 1,
+    "id": "air-advanced-bomber-fielding",
+    "name": "B-21 Fielding",
+    "capacity_mw": 0,
+    "start_date": "2031-09-30",
+    "retire_date": null,
+    "owner": null,
+    "region": "air",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "mission data pipeline",
+        "training devices",
+        "low observable depot readiness"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.1
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 0
+    }
+  },
+  {
+    "plant_id": "air-standoff-modernization",
+    "plant_name": "B-52 Standoff Mod",
+    "eia_plant_id": null,
+    "fuel": "air",
+    "category": "air",
+    "status": "modernization",
+    "nameplate_mw": 60,
+    "reliable_mw": null,
+    "condition_score": 0.7,
+    "annual_sustainment_opex_$": 32155099,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 32,
+    "id": "air-standoff-modernization",
+    "name": "B-52 Standoff Mod",
+    "capacity_mw": 53,
+    "start_date": "2019-02-25",
+    "retire_date": null,
+    "owner": null,
+    "region": "air",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "weapons bay refresh",
+        "engine sustainment",
+        "avionics obsolescence bridge"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.1
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 53
+    }
+  },
+  {
+    "plant_id": "air-legacy-penetrating-drawdown",
+    "plant_name": "B-2 Retirement",
+    "eia_plant_id": null,
+    "fuel": "air",
+    "category": "air",
+    "status": "retiring",
+    "nameplate_mw": 45,
+    "reliable_mw": null,
+    "condition_score": 0.57,
+    "annual_sustainment_opex_$": 4340100,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 39,
+    "id": "air-legacy-penetrating-drawdown",
+    "name": "B-2 Retirement",
+    "capacity_mw": 45,
+    "start_date": "1980-06-01",
+    "retire_date": "2033-09-01",
+    "owner": null,
+    "region": "air",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "low observable repair bridge",
+        "depot workforce transition"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.1
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 45
+    }
+  },
+  {
+    "plant_id": "nc3-satcom-fielding",
+    "plant_name": "Resilient SATCOM",
+    "eia_plant_id": null,
+    "fuel": "nc3",
+    "category": "nc3",
+    "status": "new build",
+    "nameplate_mw": 8,
+    "reliable_mw": null,
+    "condition_score": 0.87,
+    "annual_sustainment_opex_$": 104377458,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 1,
+    "id": "nc3-satcom-fielding",
+    "name": "Resilient SATCOM",
+    "capacity_mw": 0,
+    "start_date": "2030-01-01",
+    "retire_date": null,
+    "owner": null,
+    "region": "nc3",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "payload integration lab",
+        "ground entry point refresh",
+        "crypto key path validation"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.05
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 0
+    }
+  },
+  {
+    "plant_id": "nc3-ground-segment-modernization",
+    "plant_name": "NC3 Ground Mod",
+    "eia_plant_id": null,
+    "fuel": "nc3",
+    "category": "nc3",
+    "status": "modernization",
+    "nameplate_mw": 14,
+    "reliable_mw": null,
+    "condition_score": 0.69,
+    "annual_sustainment_opex_$": 6616176,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 28,
+    "id": "nc3-ground-segment-modernization",
+    "name": "NC3 Ground Mod",
+    "capacity_mw": 10,
+    "start_date": "2019-11-03",
+    "retire_date": null,
+    "owner": null,
+    "region": "nc3",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "ground terminal spares",
+        "crypto modernization bridge",
+        "resilient routing lab"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.05
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 10
+    }
+  },
+  {
+    "plant_id": "nc3-legacy-command-drawdown",
+    "plant_name": "Legacy NC3 Decom",
+    "eia_plant_id": null,
+    "fuel": "nc3",
+    "category": "nc3",
+    "status": "retiring",
+    "nameplate_mw": 8,
+    "reliable_mw": null,
+    "condition_score": 0.56,
+    "annual_sustainment_opex_$": 108923948,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": 34,
+    "id": "nc3-legacy-command-drawdown",
+    "name": "Legacy NC3 Decom",
+    "capacity_mw": 8,
+    "start_date": "2016-04-19",
+    "retire_date": "2032-04-01",
+    "owner": null,
+    "region": "nc3",
+    "timezone": null,
+    "sustainment": {
+      "needs": [
+        "ground terminal transition",
+        "crypto boundary sustainment"
+      ]
+    },
+    "reliability": {
+      "base_for": 0.05
+    },
+    "baseline": {
+      "date": "2025-01-01",
+      "nameplate_mw": 8
+    }
+  }
+]

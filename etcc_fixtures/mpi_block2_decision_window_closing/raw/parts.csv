@@ -1,0 +1,81 @@
+part_id,part_name,supplier_id,lead_time_days,current_delay_days,single_source_flag,expedite_days
+P-001,Rad-tolerant Microcontroller,S-ALPHA,180,35,Y,30
+P-002,Micro Signal Conditioner Mk I,S-002,62,0,Y,10
+P-003,Sensor Memory Module Series A,S-003,170,0,N,15
+P-004,High Temp Data Bus V2,S-004,138,0,N,15
+P-005,Precision Chassis V2,S-005,81,0,N,10
+P-006,Integrated RF Amplifier Gen 3,S-006,125,0,N,15
+P-007,Fiber Power Supply Mk I,S-007,145,0,Y,0
+P-008,Low Noise Accelerometer Series A,S-008,46,0,N,15
+P-009,Environmental Relay Mk I,S-009,171,0,N,0
+P-010,Integrated Gyro V2,S-010,31,0,Y,20
+P-011,Micro Enclosure Gen 2,S-011,45,0,N,0
+P-012,Fiber Temperature Sensor Rev 2,S-012,114,0,Y,0
+P-013,Modular Memory Module Block A,S-013,101,0,N,0
+P-014,Adaptive Telemetry Unit Block A,S-014,168,0,Y,15
+P-015,Secure Enclosure Rev 1,S-015,177,0,N,10
+P-016,Shielded Memory Module Mk III,S-016,134,0,N,0
+P-017,Wideband Harness Block A,S-017,140,0,N,10
+P-018,Shielded Transceiver Mk II,S-018,149,0,N,0
+P-019,High Voltage Transceiver Series C,S-019,55,0,Y,20
+P-020,High Current Relay Series B,S-020,116,0,N,0
+P-021,Power Power Supply V2,S-021,93,0,N,15
+P-022,Multi Channel Antenna Mk II,S-022,144,0,Y,0
+P-023,High Voltage RF Amplifier Gen 2,S-023,101,0,N,0
+P-024,Redundant Waveguide V1,S-024,143,0,N,15
+P-025,High Torque Load Bank Block B,S-025,55,0,Y,15
+P-026,High Current Encryption Module Series A,S-026,33,0,N,0
+P-027,Analog DC-DC Converter Mk I,S-027,72,0,N,10
+P-028,Digital Temperature Sensor Block A,S-028,84,0,N,0
+P-029,Redundant RF Amplifier Block B,S-029,72,0,N,10
+P-030,High Temp Impedance Matcher Mk II,S-030,97,0,N,10
+P-031,High Voltage Memory Module Rev 2,S-002,103,0,N,20
+P-032,Micro Waveguide Series C,S-003,172,0,N,10
+P-033,Secure EMI Shield Series C,S-004,69,0,N,0
+P-034,Wideband Backplane Series B,S-005,44,0,N,15
+P-035,Analog Control Panel V1,S-006,45,0,N,0
+P-036,Micro DC-DC Converter Gen 3,S-007,42,0,N,15
+P-037,Micro Sensor Array Gen 2,S-008,165,0,N,15
+P-038,Sensor Pressure Sensor Mk III,S-009,50,0,N,0
+P-039,Multi Channel Connector Harness Series B,S-010,47,0,N,0
+P-040,High Temp Chassis Series C,S-011,133,0,Y,15
+P-041,Control Receiver Mk I,S-012,93,0,N,0
+P-042,High Temp Filter Mk I,S-013,50,0,N,15
+P-043,Power Timing Module Rev 1,S-014,174,0,N,0
+P-044,Low Power DC-DC Converter Series A,S-015,82,0,N,0
+P-045,Modular Load Bank V2,S-016,91,0,N,0
+P-046,Shielded Accelerometer V1,S-017,106,0,N,0
+P-047,Flight Critical Actuator V1,S-018,32,0,N,15
+P-048,Multi Channel Interface Board Series B,S-019,55,0,Y,0
+P-049,Ruggedized Pressure Sensor V2,S-020,159,0,N,0
+P-050,Integrated Antenna Series B,S-021,47,0,N,0
+P-051,Sensor Switch Rev 1,S-022,102,0,N,15
+P-052,Modular Actuator Series C,S-023,107,0,N,20
+P-053,High Temp Data Bus Gen 2,S-024,165,0,Y,15
+P-054,Flight Critical RF Amplifier Block A,S-025,106,0,N,0
+P-055,High Speed Impedance Matcher Mk II,S-026,64,0,N,0
+P-056,Ruggedized Test Adapter Mk III,S-027,171,0,N,0
+P-057,Power Chassis Rev 1,S-028,83,0,N,0
+P-058,High Torque DC-DC Converter Rev 1,S-029,97,0,N,0
+P-059,High Voltage Relay Rev 2,S-030,43,0,Y,10
+P-060,Environmental Flow Sensor Gen 2,S-002,100,0,Y,0
+P-061,Adaptive Chassis V2,S-003,63,0,N,0
+P-062,Precision Chassis Gen 2,S-004,71,0,N,15
+P-063,Control Memory Module Block A,S-005,139,0,N,0
+P-064,Micro Clock Oscillator Mk II,S-006,49,0,N,20
+P-065,Redundant Motor Mk III,S-007,68,0,N,0
+P-066,Multi Channel Processor V2,S-008,179,0,N,10
+P-067,Sensor Flow Sensor Gen 2,S-009,62,0,Y,0
+P-068,Control Inertial Unit Gen 2,S-010,40,0,N,0
+P-069,Precision Impedance Matcher V1,S-011,93,0,N,0
+P-070,Environmental Relay Series A,S-012,173,0,N,10
+P-071,Ruggedized EMI Shield Block A,S-013,69,0,N,0
+P-072,Secure Antenna Block A,S-014,71,0,N,0
+P-073,Environmental Sensor Interface Mk I,S-015,135,0,Y,20
+P-074,High Torque Timing Module Rev 2,S-016,115,0,N,10
+P-075,Adaptive Signal Conditioner Series C,S-017,93,0,N,20
+P-076,Power DSP Board Series A,S-018,57,0,N,0
+P-077,High Speed Pressure Sensor Gen 3,S-019,150,0,N,10
+P-078,Low Noise RF Amplifier V2,S-020,119,0,N,0
+P-079,Flight Critical Filter Mk II,S-021,87,0,Y,0
+P-080,Control Antenna Block A,S-022,132,0,N,0

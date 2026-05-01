@@ -1,0 +1,23 @@
+{
+  "manifest_version": "0.1",
+  "run_id": "etcc_run_2026_03_02_001",
+  "run_timestamp": "2026-03-02T14:22:00Z",
+  "source_system": "MS_PROJECT_EXPORT",
+  "new_versions": [
+    {
+      "doc_id": "schedule_export_ims_block2",
+      "version_id": "schedule_export_ims_block2_v2026_03_02",
+      "artifact_path": "snapshots/schedule_tasks.csv",
+      "meta_path": "meta/schedule_export_meta.json",
+      "content_hash": "sha256:abc123..."
+    },
+    {
+      "doc_id": "supplier_export_block2",
+      "version_id": "supplier_export_block2_v2026_03_02",
+      "artifact_path": "snapshots/supplier_export.csv",
+      "meta_path": "meta/supplier_export_meta.json",
+      "content_hash": "sha256:def456..."
+    }
+  ],
+  "unchanged_versions": []
+}

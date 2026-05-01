@@ -1,0 +1,13 @@
+[
+  {
+    "plant_id": "A-001",
+    "plant_name": "Project Alpha",
+    "fuel": "program",
+    "status": "active",
+    "reliable_mw": 100,
+    "nameplate_mw": 100,
+    "region": "Test Region",
+    "timezone": "America/New_York",
+    "owner": "Evidence Ingestion Fixture"
+  }
+]

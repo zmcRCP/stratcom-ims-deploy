@@ -1,0 +1,7 @@
+{
+  "scenario_id": "mpi_block2_decision_window_closing",
+  "scenario_as_of_date": "2026-03-11",
+  "label": "MPI Block 2 - Decision Window Closing (35-day slip exceeds expedite)",
+  "domain_pack_id": "acquisition",
+  "shell_id": "acquisition"
+}

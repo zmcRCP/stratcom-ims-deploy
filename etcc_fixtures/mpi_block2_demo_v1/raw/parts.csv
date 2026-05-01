@@ -1,0 +1,2 @@
+part_id,part_name,supplier_id,lead_time_days,current_delay_days,single_source_flag,expedite_days
+P-001,Rad-tolerant Microcontroller,S-ALPHA,180,90,Y,30

@@ -1,0 +1,21 @@
+assembly_id,assembly_name
+A-CM,Compute Module
+A-002,Navigation Suite
+A-003,Power Distribution Unit
+A-004,Flight Control Module
+A-005,Sensor Fusion Bay
+A-006,Communications Rack
+A-007,RF Front-End Assembly
+A-008,Thermal Management Loop
+A-009,Guidance Processor Stack
+A-010,Payload Interface Unit
+A-011,Data Recorder Module
+A-012,Power Conditioning Assembly
+A-013,Antenna Steering Mechanism
+A-014,Actuation Control Pack
+A-015,Environmental Control Module
+A-016,Structural Mounting Frame
+A-017,Hydraulic Pump Assembly
+A-018,Cooling Manifold
+A-019,Diagnostics and Health Monitor
+A-020,I/O Expansion Module

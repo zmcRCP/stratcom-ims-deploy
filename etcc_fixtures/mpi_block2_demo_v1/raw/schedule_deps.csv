@@ -1,0 +1,4 @@
+edge_id,predecessor_work_id,successor_work_id,dep_type,lag_days
+E-001,W-ENG-10,W-ENG-20,FS,0
+E-002,W-PROC-10,W-INT-10,FS,0
+E-003,W-INT-10,W-QUAL-10,FS,7

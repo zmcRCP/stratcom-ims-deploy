@@ -1,0 +1,27 @@
+{
+  "id": "airline",
+  "version": "0.1.0",
+  "vocabulary": {
+    "anchorSingular": "Fleet Segment",
+    "anchorPlural": "Fleet Segments",
+    "categoryLabel": "Fleet Type",
+    "categoryPlaceholder": "Fleet Type",
+    "capacityLabel": "Available Aircraft",
+    "requirementLabel": "Minimum Profitable Floor",
+    "portfolioTitle": "Fleet Availability",
+    "dependencyTitle": "Fleet Segment Project & Dependencies",
+    "dependencyDescription": "Select a fleet segment graph or choose from a dropdown to view and edit dependencies.",
+    "emptyTimelineSelection": "Select a fleet segment to view timeline and dependencies"
+  },
+  "units": {
+    "capacityShort": "aircraft",
+    "capacityLong": "available aircraft"
+  },
+  "thresholds": {
+    "capacityDelta": {
+      "small": 2,
+      "medium": 6,
+      "large": 7
+    }
+  }
+}

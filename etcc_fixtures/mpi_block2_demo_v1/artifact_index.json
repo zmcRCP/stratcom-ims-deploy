@@ -1,0 +1,14 @@
+{
+  "index_version": "0.1",
+  "artifacts": {
+    "schedule_work.csv": "raw/schedule_work.csv",
+    "schedule_deps.csv": "raw/schedule_deps.csv",
+    "parts.csv": "raw/parts.csv",
+    "suppliers.csv": "raw/suppliers.csv",
+    "assemblies.csv": "raw/assemblies.csv",
+    "part_assembly_map.csv": "raw/part_assembly_map.csv",
+    "assembly_milestone_map.csv": "raw/assembly_milestone_map.csv",
+    "part_procurement_map.csv": "raw/part_procurement_map.csv",
+    "deliverables.csv": "raw/deliverables.csv"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "plant_id": "prd-delivery-graph",
+    "plant_name": "Delivery Graph",
+    "eia_plant_id": null,
+    "fuel": null,
+    "status": "Approved",
+    "nameplate_mw": null,
+    "reliable_mw": null,
+    "condition_score": null,
+    "annual_sustainment_opex_$": null,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": null,
+    "id": "prd-delivery-graph",
+    "name": "Delivery Graph",
+    "capacity_mw": null,
+    "start_date": null,
+    "retire_date": null,
+    "owner": "Zanne",
+    "region": null,
+    "timezone": null,
+    "prd_status": "Approved",
+    "phase": null
+  }
+]

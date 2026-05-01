@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-04-06T15:10:39.422Z",
+  "scenarios": [
+    {
+      "scenario_id": "delivery_graph_v0_1",
+      "label": "Delivery Graph v0.1",
+      "generated_at": "2026-04-06T15:10:39.422Z"
+    },
+    {
+      "scenario_id": "energy_demo_v1",
+      "label": "Energy Demo V1 (converter output)",
+      "generated_at": "2026-03-09T00:00:00Z"
+    },
+    {
+      "scenario_id": "evidence_ingestion_test",
+      "label": "Evidence Ingestion Test (Project Alpha)",
+      "generated_at": "2026-03-09T00:00:00Z"
+    },
+    {
+      "scenario_id": "mpi_block2_baseline",
+      "generated_at": "2026-03-11T15:00:00Z",
+      "label": "mpi_block2_baseline"
+    },
+    {
+      "scenario_id": "mpi_block2_decision_window_closing",
+      "generated_at": "2026-03-11T15:00:00Z",
+      "label": "mpi_block2_decision_window_closing"
+    },
+    {
+      "scenario_id": "mpi_block2_delay_emerging",
+      "generated_at": "2026-03-11T15:00:00Z",
+      "label": "mpi_block2_delay_emerging"
+    },
+    {
+      "scenario_id": "stratcom-triad-v0_1",
+      "label": "STRATCOM Triad Synthetic Demo v0.1",
+      "generated_at": "2026-04-29T00:00:00.000Z"
+    }
+  ]
+}

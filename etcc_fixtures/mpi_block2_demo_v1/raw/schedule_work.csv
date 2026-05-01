@@ -1,0 +1,6 @@
+work_id,program_id,work_type,title,start_date,end_date,critical_flag,schedule_slack_days,source_team,source_system,deliverable_id
+W-ENG-10,mpi_block2,task,Preliminary Design Complete,2026-01-10,2026-02-15,,,"engineering",primavera,
+W-ENG-20,mpi_block2,task,Interface Control Document (ICD) Released,2026-02-16,2026-03-10,,,"engineering",primavera,D-17
+W-PROC-10,mpi_block2,procurement,Order long-lead Part P-001,2026-03-11,2026-03-15,,,"supply",erp_export,
+W-INT-10,mpi_block2,task,Integration Readiness Review,2026-03-16,2026-03-25,,,"integration_test",ms_project,D-17
+W-QUAL-10,mpi_block2,milestone,Qualification Test Start,2026-04-01,2026-04-01,Y,30,"integration_test",ms_project,

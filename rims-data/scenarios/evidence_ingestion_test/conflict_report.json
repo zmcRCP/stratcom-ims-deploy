@@ -1,0 +1,56 @@
+{
+  "scenario_id": "evidence_ingestion_test",
+  "generated_at": "2026-03-13T00:00:00Z",
+  "schema_id": "ims.schedule.v1",
+  "policy_profile": {
+    "breach_driver_fields": [
+      "start_date",
+      "end_date",
+      "dependency_type"
+    ],
+    "default_resolution": "highest_confidence"
+  },
+  "conflicts": [
+    {
+      "entity_type": "work_item",
+      "entity_id": "W-004",
+      "field_id": "start_date",
+      "breach_driver": true,
+      "selected_evidence_id": "ev-t004-start-b",
+      "candidate_evidence_ids": [
+        "ev-t004-start-a",
+        "ev-t004-start-b"
+      ],
+      "selected_value": "2026-07-16",
+      "reason": "Selected highest-confidence breach-driver candidate while preserving review visibility."
+    },
+    {
+      "entity_type": "dependency",
+      "entity_id": "D-003",
+      "field_id": "dependency_type",
+      "breach_driver": true,
+      "selected_evidence_id": "ev-d003-type-b",
+      "candidate_evidence_ids": [
+        "ev-d003-type-a",
+        "ev-d003-type-b"
+      ],
+      "selected_value": "SS",
+      "reason": "Selected highest-confidence breach-driver candidate while preserving review visibility."
+    }
+  ],
+  "suppressed_conflicts": [
+    {
+      "entity_type": "work_item",
+      "entity_id": "W-002",
+      "field_id": "work_title",
+      "breach_driver": false,
+      "selected_evidence_id": "ev-t002-title-b",
+      "candidate_evidence_ids": [
+        "ev-t002-title-a",
+        "ev-t002-title-b"
+      ],
+      "selected_value": "System Design",
+      "reason": "Resolved silently via default policy because the field is not a breach driver."
+    }
+  ]
+}

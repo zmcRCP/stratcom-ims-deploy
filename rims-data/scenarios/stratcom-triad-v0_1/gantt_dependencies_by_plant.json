@@ -1,0 +1,1780 @@
+[
+  {
+    "id": 1,
+    "predecessorId": "nc3-satcom-fielding-02-psc-sc-proj-009-steam-turbin",
+    "successorId": "nc3-satcom-fielding-08-m-proj-009-procurement-work",
+    "type": 0,
+    "lag_days": 72
+  },
+  {
+    "id": 2,
+    "predecessorId": "nc3-satcom-fielding-03-psc-sc-proj-009-boiler-press",
+    "successorId": "nc3-satcom-fielding-08-m-proj-009-procurement-work",
+    "type": 0,
+    "lag_days": 54
+  },
+  {
+    "id": 3,
+    "predecessorId": "nc3-satcom-fielding-04-psc-sc-proj-009-fgd-scr-equi",
+    "successorId": "nc3-satcom-fielding-08-m-proj-009-procurement-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 4,
+    "predecessorId": "nc3-satcom-fielding-01-psc-sc-proj-009-main-power-t",
+    "successorId": "nc3-satcom-fielding-08-m-proj-009-procurement-work",
+    "type": 0,
+    "lag_days": 162
+  },
+  {
+    "id": 5,
+    "predecessorId": "land-legacy-wing-drawdown-04-psc-nu-up-retire-valve-actuator-kits",
+    "successorId": "land-legacy-wing-drawdown-10-m-nu-up-retire-ms4-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 6,
+    "predecessorId": "land-legacy-wing-drawdown-05-psc-nu-up-retire-outage-scaffolding-shielding",
+    "successorId": "land-legacy-wing-drawdown-10-m-nu-up-retire-ms4-work",
+    "type": 0,
+    "lag_days": 56
+  },
+  {
+    "id": 7,
+    "predecessorId": "sea-ohio-drawdown-01-psc-mci-ngc5-gt-combustion-parts",
+    "successorId": "sea-ohio-drawdown-06-m-mci-ngc5-ms2-work",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 8,
+    "predecessorId": "sea-ohio-drawdown-02-psc-mci-ngc5-valves-actuators",
+    "successorId": "sea-ohio-drawdown-06-m-mci-ngc5-ms2-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 9,
+    "predecessorId": "sea-fire-control-modernization-04-psc-mci-ngcc-10-11-7fa05-gt-combustion-parts",
+    "successorId": "sea-fire-control-modernization-07-m-mci-ngcc-10-11-7fa05-ms3-work",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 10,
+    "predecessorId": "sea-fire-control-modernization-05-psc-mci-ngcc-10-11-7fa05-hrsg-tube-panels",
+    "successorId": "sea-fire-control-modernization-07-m-mci-ngcc-10-11-7fa05-ms3-work",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 11,
+    "predecessorId": "nc3-ground-segment-modernization-05-psc-hydro-mod-sinclair-specialty-parts",
+    "successorId": "nc3-ground-segment-modernization-09-m-hydro-mod-sinclair-ms5-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 12,
+    "predecessorId": "land-guidance-modernization-09-psc-nu-up-vog2-valve-actuator-kits",
+    "successorId": "land-guidance-modernization-15-m-nu-up-vog2-ms3-work",
+    "type": 0,
+    "lag_days": 28
+  },
+  {
+    "id": 13,
+    "predecessorId": "land-sentinel-fielding-15-psc-sc-bess-pv-coloc-200-200-pv-modules",
+    "successorId": "land-sentinel-fielding-17-m-bess-pv-coloc-200-200-procurement-work",
+    "type": 0,
+    "lag_days": 18
+  },
+  {
+    "id": 14,
+    "predecessorId": "land-sentinel-fielding-13-psc-sc-bess-pv-coloc-200-200-inverters",
+    "successorId": "land-sentinel-fielding-17-m-bess-pv-coloc-200-200-procurement-work",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 15,
+    "predecessorId": "land-sentinel-fielding-14-psc-sc-bess-pv-coloc-200-200-tracker-syst",
+    "successorId": "land-sentinel-fielding-17-m-bess-pv-coloc-200-200-procurement-work",
+    "type": 0,
+    "lag_days": 22
+  },
+  {
+    "id": 16,
+    "predecessorId": "land-sentinel-fielding-02-psc-sc-bess-pv-coloc-200-200-main-power-t",
+    "successorId": "land-sentinel-fielding-17-m-bess-pv-coloc-200-200-procurement-work",
+    "type": 0,
+    "lag_days": 162
+  },
+  {
+    "id": 17,
+    "predecessorId": "nc3-ground-segment-modernization-06-psc-hydro-mod-sinclair-general-mro-materials",
+    "successorId": "nc3-ground-segment-modernization-11-m-hydro-mod-sinclair-ms6-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 18,
+    "predecessorId": "sea-fire-control-modernization-08-psc-mci-ngcc-10-11-7fa05-valves-actuators",
+    "successorId": "sea-fire-control-modernization-12-m-mci-ngcc-10-11-7fa05-ms6-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 19,
+    "predecessorId": "nc3-legacy-command-drawdown-06-psc-plant-28-retirement-specialty-parts",
+    "successorId": "nc3-legacy-command-drawdown-10-m-retire-plant28-ms5-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 20,
+    "predecessorId": "air-standoff-modernization-04-psc-hy-bartlett56-mod-general-mro-materials",
+    "successorId": "air-standoff-modernization-07-m-hy-bartlett56-mod-ms3-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 21,
+    "predecessorId": "air-standoff-modernization-05-psc-hy-bartlett56-mod-specialty-parts",
+    "successorId": "air-standoff-modernization-07-m-hy-bartlett56-mod-ms3-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 22,
+    "predecessorId": "air-advanced-bomber-fielding-04-psc-017-wtg-nacelles-blades",
+    "successorId": "air-advanced-bomber-fielding-10-m-proj-017-procurement-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 23,
+    "predecessorId": "air-advanced-bomber-fielding-03-psc-017-towers",
+    "successorId": "air-advanced-bomber-fielding-10-m-proj-017-procurement-work",
+    "type": 0,
+    "lag_days": 16
+  },
+  {
+    "id": 24,
+    "predecessorId": "air-advanced-bomber-fielding-01-psc-017-padmount-collector-transformer",
+    "successorId": "air-advanced-bomber-fielding-10-m-proj-017-procurement-work",
+    "type": 0,
+    "lag_days": 148
+  },
+  {
+    "id": 25,
+    "predecessorId": "air-advanced-bomber-fielding-05-psc-sc-proj-017-wtg-nacelles-blades",
+    "successorId": "air-advanced-bomber-fielding-10-m-proj-017-procurement-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 26,
+    "predecessorId": "air-advanced-bomber-fielding-06-psc-sc-proj-017-towers",
+    "successorId": "air-advanced-bomber-fielding-10-m-proj-017-procurement-work",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 27,
+    "predecessorId": "air-advanced-bomber-fielding-02-psc-sc-proj-017-padmount-collector-transformers",
+    "successorId": "air-advanced-bomber-fielding-10-m-proj-017-procurement-work",
+    "type": 0,
+    "lag_days": 81
+  },
+  {
+    "id": 28,
+    "predecessorId": "land-guidance-modernization-13-psc-nu-up-vog1-instrumentation-spares",
+    "successorId": "land-guidance-modernization-21-m-nu-up-vog1-ms6-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 29,
+    "predecessorId": "sea-ohio-drawdown-07-psc-mci-ngc5-hrsg-tube-panels",
+    "successorId": "sea-ohio-drawdown-11-m-mci-ngc5-ms5-work",
+    "type": 0,
+    "lag_days": 44
+  },
+  {
+    "id": 30,
+    "predecessorId": "land-guidance-modernization-18-psc-nu-up-vog2-instrumentation-spares",
+    "successorId": "land-guidance-modernization-26-m-nu-up-vog2-ms6-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 31,
+    "predecessorId": "land-guidance-modernization-19-psc-nu-up-vog2-outage-scaffolding-shielding",
+    "successorId": "land-guidance-modernization-26-m-nu-up-vog2-ms6-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 32,
+    "predecessorId": "nc3-legacy-command-drawdown-02-psc-plant-28-retirement-general-mro-materials",
+    "successorId": "nc3-legacy-command-drawdown-05-m-retire-plant28-ms2-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 33,
+    "predecessorId": "air-legacy-penetrating-drawdown-01-psc-011-general-mro-materials",
+    "successorId": "air-legacy-penetrating-drawdown-07-m-proj-011-decommissioning-start-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 34,
+    "predecessorId": "air-legacy-penetrating-drawdown-02-psc-011-specialty-parts",
+    "successorId": "air-legacy-penetrating-drawdown-07-m-proj-011-decommissioning-start-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 35,
+    "predecessorId": "land-legacy-wing-drawdown-02-psc-nu-up-retire-instrumentation-spares",
+    "successorId": "land-legacy-wing-drawdown-10-m-nu-up-retire-ms4-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 36,
+    "predecessorId": "sea-columbia-fielding-04-psc-sc-cape-wind-new-build-wtg-nacelles",
+    "successorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 37,
+    "predecessorId": "sea-columbia-fielding-06-psc-sc-cape-wind-new-build2-towers",
+    "successorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 38,
+    "predecessorId": "sea-columbia-fielding-01-psc-sc-cape-wind-new-build-padmount-col",
+    "successorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "type": 0,
+    "lag_days": 81
+  },
+  {
+    "id": 39,
+    "predecessorId": "sea-columbia-fielding-04-psc-sc-cape-wind-new-build-wtg-nacelles",
+    "successorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 40,
+    "predecessorId": "sea-columbia-fielding-05-psc-sc-cape-wind-new-build-towers",
+    "successorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 41,
+    "predecessorId": "sea-columbia-fielding-01-psc-sc-cape-wind-new-build-padmount-col",
+    "successorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "type": 0,
+    "lag_days": 81
+  },
+  {
+    "id": 42,
+    "predecessorId": "land-sentinel-fielding-05-psc-sc-proj-020-pv-modules",
+    "successorId": "land-sentinel-fielding-09-m-proj-020-procurement-work",
+    "type": 0,
+    "lag_days": 18
+  },
+  {
+    "id": 43,
+    "predecessorId": "land-sentinel-fielding-03-psc-sc-proj-020-inverters",
+    "successorId": "land-sentinel-fielding-09-m-proj-020-procurement-work",
+    "type": 0,
+    "lag_days": 27
+  },
+  {
+    "id": 44,
+    "predecessorId": "land-sentinel-fielding-04-psc-sc-proj-020-tracker-syst",
+    "successorId": "land-sentinel-fielding-09-m-proj-020-procurement-work",
+    "type": 0,
+    "lag_days": 22
+  },
+  {
+    "id": 45,
+    "predecessorId": "land-sentinel-fielding-01-psc-sc-proj-020-main-power-t",
+    "successorId": "land-sentinel-fielding-09-m-proj-020-procurement-work",
+    "type": 0,
+    "lag_days": 162
+  },
+  {
+    "id": 46,
+    "predecessorId": "land-guidance-modernization-06-psc-nu-up-vog1-valve-actuator-kits",
+    "successorId": "land-guidance-modernization-11-m-nu-up-vog1-ms3-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 47,
+    "predecessorId": "land-guidance-modernization-07-psc-nu-up-vog1-outage-scaffolding-shielding",
+    "successorId": "land-guidance-modernization-11-m-nu-up-vog1-ms3-work",
+    "type": 0,
+    "lag_days": 40
+  },
+  {
+    "id": 48,
+    "predecessorId": "land-sentinel-fielding-10-m-bess-pv-coloc-200-200-engineering",
+    "successorId": "land-sentinel-fielding-15-psc-sc-bess-pv-coloc-200-200-pv-modules",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 49,
+    "predecessorId": "land-sentinel-fielding-10-m-bess-pv-coloc-200-200-engineering",
+    "successorId": "land-sentinel-fielding-13-psc-sc-bess-pv-coloc-200-200-inverters",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 50,
+    "predecessorId": "land-sentinel-fielding-10-m-bess-pv-coloc-200-200-engineering",
+    "successorId": "land-sentinel-fielding-14-psc-sc-bess-pv-coloc-200-200-tracker-syst",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 51,
+    "predecessorId": "land-sentinel-fielding-10-m-bess-pv-coloc-200-200-engineering",
+    "successorId": "land-sentinel-fielding-02-psc-sc-bess-pv-coloc-200-200-main-power-t",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 52,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-04-psc-sc-cape-wind-new-build-wtg-nacelles",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 53,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-06-psc-sc-cape-wind-new-build2-towers",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 54,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-01-psc-sc-cape-wind-new-build-padmount-col",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 55,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-04-psc-sc-cape-wind-new-build-wtg-nacelles",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 56,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-05-psc-sc-cape-wind-new-build-towers",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 57,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-01-psc-sc-cape-wind-new-build-padmount-col",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 58,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-02-psc-sc-proj-009-steam-turbin",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 59,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-03-psc-sc-proj-009-boiler-press",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 60,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-04-psc-sc-proj-009-fgd-scr-equi",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 61,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-01-psc-sc-proj-009-main-power-t",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 62,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-05-psc-sc-proj-020-pv-modules",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 63,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-03-psc-sc-proj-020-inverters",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 64,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-04-psc-sc-proj-020-tracker-syst",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 65,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-01-psc-sc-proj-020-main-power-t",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 66,
+    "predecessorId": "air-standoff-modernization-01-m-hy-bartlett56-mod-ms1",
+    "successorId": "air-standoff-modernization-04-psc-hy-bartlett56-mod-general-mro-materials",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 67,
+    "predecessorId": "air-standoff-modernization-01-m-hy-bartlett56-mod-ms1",
+    "successorId": "air-standoff-modernization-05-psc-hy-bartlett56-mod-specialty-parts",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 68,
+    "predecessorId": "nc3-ground-segment-modernization-01-m-hydro-mod-sinclair-ms1",
+    "successorId": "nc3-ground-segment-modernization-06-psc-hydro-mod-sinclair-general-mro-materials",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 69,
+    "predecessorId": "nc3-ground-segment-modernization-01-m-hydro-mod-sinclair-ms1",
+    "successorId": "nc3-ground-segment-modernization-05-psc-hydro-mod-sinclair-specialty-parts",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 70,
+    "predecessorId": "sea-ohio-drawdown-01-psc-mci-ngc5-gt-combustion-parts",
+    "successorId": "sea-ohio-drawdown-03-m-mci-ngc5-ms1",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 71,
+    "predecessorId": "sea-ohio-drawdown-07-psc-mci-ngc5-hrsg-tube-panels",
+    "successorId": "sea-ohio-drawdown-03-m-mci-ngc5-ms1",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 72,
+    "predecessorId": "sea-ohio-drawdown-02-psc-mci-ngc5-valves-actuators",
+    "successorId": "sea-ohio-drawdown-03-m-mci-ngc5-ms1",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 73,
+    "predecessorId": "sea-fire-control-modernization-01-m-mci-ngcc-10-11-7fa05-ms1",
+    "successorId": "sea-fire-control-modernization-04-psc-mci-ngcc-10-11-7fa05-gt-combustion-parts",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 74,
+    "predecessorId": "sea-fire-control-modernization-01-m-mci-ngcc-10-11-7fa05-ms1",
+    "successorId": "sea-fire-control-modernization-05-psc-mci-ngcc-10-11-7fa05-hrsg-tube-panels",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 75,
+    "predecessorId": "sea-fire-control-modernization-01-m-mci-ngcc-10-11-7fa05-ms1",
+    "successorId": "sea-fire-control-modernization-08-psc-mci-ngcc-10-11-7fa05-valves-actuators",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 76,
+    "predecessorId": "land-legacy-wing-drawdown-03-m-nu-up-retire-ms1",
+    "successorId": "land-legacy-wing-drawdown-04-psc-nu-up-retire-valve-actuator-kits",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 77,
+    "predecessorId": "land-legacy-wing-drawdown-03-m-nu-up-retire-ms1",
+    "successorId": "land-legacy-wing-drawdown-02-psc-nu-up-retire-instrumentation-spares",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 78,
+    "predecessorId": "land-legacy-wing-drawdown-03-m-nu-up-retire-ms1",
+    "successorId": "land-legacy-wing-drawdown-05-psc-nu-up-retire-outage-scaffolding-shielding",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 79,
+    "predecessorId": "land-guidance-modernization-01-m-nu-up-vog1-ms1",
+    "successorId": "land-guidance-modernization-06-psc-nu-up-vog1-valve-actuator-kits",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 80,
+    "predecessorId": "land-guidance-modernization-01-m-nu-up-vog1-ms1",
+    "successorId": "land-guidance-modernization-13-psc-nu-up-vog1-instrumentation-spares",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 81,
+    "predecessorId": "land-guidance-modernization-01-m-nu-up-vog1-ms1",
+    "successorId": "land-guidance-modernization-07-psc-nu-up-vog1-outage-scaffolding-shielding",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 82,
+    "predecessorId": "land-guidance-modernization-04-m-nu-up-vog2-ms1",
+    "successorId": "land-guidance-modernization-09-psc-nu-up-vog2-valve-actuator-kits",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 83,
+    "predecessorId": "land-guidance-modernization-04-m-nu-up-vog2-ms1",
+    "successorId": "land-guidance-modernization-18-psc-nu-up-vog2-instrumentation-spares",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 84,
+    "predecessorId": "land-guidance-modernization-04-m-nu-up-vog2-ms1",
+    "successorId": "land-guidance-modernization-19-psc-nu-up-vog2-outage-scaffolding-shielding",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 85,
+    "predecessorId": "nc3-legacy-command-drawdown-03-m-retire-plant28-ms1",
+    "successorId": "nc3-legacy-command-drawdown-02-psc-plant-28-retirement-general-mro-materials",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 86,
+    "predecessorId": "nc3-legacy-command-drawdown-03-m-retire-plant28-ms1",
+    "successorId": "nc3-legacy-command-drawdown-06-psc-plant-28-retirement-specialty-parts",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 87,
+    "predecessorId": "air-legacy-penetrating-drawdown-05-m-proj-011-fuel-isolation-purge-complete",
+    "successorId": "air-legacy-penetrating-drawdown-01-psc-011-general-mro-materials",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 88,
+    "predecessorId": "air-legacy-penetrating-drawdown-05-m-proj-011-fuel-isolation-purge-complete",
+    "successorId": "air-legacy-penetrating-drawdown-02-psc-011-specialty-parts",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 89,
+    "predecessorId": "air-advanced-bomber-fielding-07-m-proj-017-engineering",
+    "successorId": "air-advanced-bomber-fielding-04-psc-017-wtg-nacelles-blades",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 90,
+    "predecessorId": "air-advanced-bomber-fielding-07-m-proj-017-engineering",
+    "successorId": "air-advanced-bomber-fielding-03-psc-017-towers",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 91,
+    "predecessorId": "air-advanced-bomber-fielding-07-m-proj-017-engineering",
+    "successorId": "air-advanced-bomber-fielding-01-psc-017-padmount-collector-transformer",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 92,
+    "predecessorId": "air-advanced-bomber-fielding-07-m-proj-017-engineering",
+    "successorId": "air-advanced-bomber-fielding-05-psc-sc-proj-017-wtg-nacelles-blades",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 93,
+    "predecessorId": "air-advanced-bomber-fielding-07-m-proj-017-engineering",
+    "successorId": "air-advanced-bomber-fielding-06-psc-sc-proj-017-towers",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 94,
+    "predecessorId": "air-advanced-bomber-fielding-07-m-proj-017-engineering",
+    "successorId": "air-advanced-bomber-fielding-02-psc-sc-proj-017-padmount-collector-transformers",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 95,
+    "predecessorId": "land-sentinel-fielding-10-m-bess-pv-coloc-200-200-engineering",
+    "successorId": "land-sentinel-fielding-17-m-bess-pv-coloc-200-200-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 96,
+    "predecessorId": "land-sentinel-fielding-17-m-bess-pv-coloc-200-200-procurement-work",
+    "successorId": "land-sentinel-fielding-18-m-bess-pv-coloc-200-200-construction",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 97,
+    "predecessorId": "land-sentinel-fielding-18-m-bess-pv-coloc-200-200-construction",
+    "successorId": "land-sentinel-fielding-19-m-bess-pv-coloc-200-200-interconnection",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 99,
+    "predecessorId": "land-sentinel-fielding-10-m-bess-pv-coloc-200-200-engineering",
+    "successorId": "land-sentinel-fielding-17-m-bess-pv-coloc-200-200-procurement-work",
+    "type": 1,
+    "lag_days": 0
+  },
+  {
+    "id": 102,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 103,
+    "predecessorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "successorId": "sea-columbia-fielding-09-m-cape-wind-new-build-construction",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 104,
+    "predecessorId": "sea-columbia-fielding-09-m-cape-wind-new-build-construction",
+    "successorId": "sea-columbia-fielding-10-m-cape-wind-new-build-interconnection",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 105,
+    "predecessorId": "sea-columbia-fielding-10-m-cape-wind-new-build-interconnection",
+    "successorId": "sea-columbia-fielding-11-m-cape-wind-new-build-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 106,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "type": 1,
+    "lag_days": 0
+  },
+  {
+    "id": 107,
+    "predecessorId": "sea-columbia-fielding-09-m-cape-wind-new-build-construction",
+    "successorId": "sea-columbia-fielding-11-m-cape-wind-new-build-commissioning",
+    "type": 2,
+    "lag_days": 0
+  },
+  {
+    "id": 108,
+    "predecessorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "successorId": "sea-columbia-fielding-11-m-cape-wind-new-build-commissioning",
+    "type": 3,
+    "lag_days": 0
+  },
+  {
+    "id": 109,
+    "predecessorId": "air-standoff-modernization-01-m-hy-bartlett56-mod-ms1",
+    "successorId": "air-standoff-modernization-03-m-hy-bartlett56-mod-ms2",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 110,
+    "predecessorId": "air-standoff-modernization-03-m-hy-bartlett56-mod-ms2",
+    "successorId": "air-standoff-modernization-07-m-hy-bartlett56-mod-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 111,
+    "predecessorId": "air-standoff-modernization-07-m-hy-bartlett56-mod-ms3-work",
+    "successorId": "air-standoff-modernization-08-m-hy-bartlett56-mod-ms4",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 112,
+    "predecessorId": "air-standoff-modernization-08-m-hy-bartlett56-mod-ms4",
+    "successorId": "air-standoff-modernization-09-m-hy-bartlett56-mod-ms5",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 113,
+    "predecessorId": "air-standoff-modernization-09-m-hy-bartlett56-mod-ms5",
+    "successorId": "air-standoff-modernization-10-m-hy-bartlett56-mod-ms6",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 114,
+    "predecessorId": "air-standoff-modernization-10-m-hy-bartlett56-mod-ms6",
+    "successorId": "air-standoff-modernization-11-m-hy-bartlett56-mod-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 115,
+    "predecessorId": "air-standoff-modernization-11-m-hy-bartlett56-mod-ms7",
+    "successorId": "air-standoff-modernization-12-m-hy-bartlett56-mod-ms8",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 116,
+    "predecessorId": "air-standoff-modernization-03-m-hy-bartlett56-mod-ms2",
+    "successorId": "air-standoff-modernization-07-m-hy-bartlett56-mod-ms3-work",
+    "type": 1,
+    "lag_days": 0
+  },
+  {
+    "id": 117,
+    "predecessorId": "air-standoff-modernization-10-m-hy-bartlett56-mod-ms6",
+    "successorId": "air-standoff-modernization-11-m-hy-bartlett56-mod-ms7",
+    "type": 2,
+    "lag_days": 0
+  },
+  {
+    "id": 118,
+    "predecessorId": "air-standoff-modernization-07-m-hy-bartlett56-mod-ms3-work",
+    "successorId": "air-standoff-modernization-11-m-hy-bartlett56-mod-ms7",
+    "type": 3,
+    "lag_days": 0
+  },
+  {
+    "id": 119,
+    "predecessorId": "sea-ohio-drawdown-03-m-mci-ngc5-ms1",
+    "successorId": "sea-ohio-drawdown-06-m-mci-ngc5-ms2-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 120,
+    "predecessorId": "sea-ohio-drawdown-06-m-mci-ngc5-ms2-work",
+    "successorId": "sea-ohio-drawdown-08-m-mci-ngc5-ms3",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 121,
+    "predecessorId": "sea-ohio-drawdown-08-m-mci-ngc5-ms3",
+    "successorId": "sea-ohio-drawdown-09-m-mci-ngc5-ms4",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 122,
+    "predecessorId": "sea-ohio-drawdown-09-m-mci-ngc5-ms4",
+    "successorId": "sea-ohio-drawdown-11-m-mci-ngc5-ms5-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 123,
+    "predecessorId": "sea-ohio-drawdown-11-m-mci-ngc5-ms5-work",
+    "successorId": "sea-ohio-drawdown-12-m-mci-ngc5-ms6",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 124,
+    "predecessorId": "sea-ohio-drawdown-12-m-mci-ngc5-ms6",
+    "successorId": "sea-ohio-drawdown-13-m-mci-ngc5-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 125,
+    "predecessorId": "sea-ohio-drawdown-13-m-mci-ngc5-ms7",
+    "successorId": "sea-ohio-drawdown-14-m-mci-ngc5-ms8",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 126,
+    "predecessorId": "sea-fire-control-modernization-01-m-mci-ngcc-10-11-7fa05-ms1",
+    "successorId": "sea-fire-control-modernization-03-m-mci-ngcc-10-11-7fa05-ms2",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 127,
+    "predecessorId": "sea-fire-control-modernization-03-m-mci-ngcc-10-11-7fa05-ms2",
+    "successorId": "sea-fire-control-modernization-07-m-mci-ngcc-10-11-7fa05-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 128,
+    "predecessorId": "sea-fire-control-modernization-07-m-mci-ngcc-10-11-7fa05-ms3-work",
+    "successorId": "sea-fire-control-modernization-09-m-mci-ngcc-10-11-7fa05-ms4",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 129,
+    "predecessorId": "sea-fire-control-modernization-09-m-mci-ngcc-10-11-7fa05-ms4",
+    "successorId": "sea-fire-control-modernization-10-m-mci-ngcc-10-11-7fa05-ms5",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 130,
+    "predecessorId": "sea-fire-control-modernization-10-m-mci-ngcc-10-11-7fa05-ms5",
+    "successorId": "sea-fire-control-modernization-12-m-mci-ngcc-10-11-7fa05-ms6-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 131,
+    "predecessorId": "sea-fire-control-modernization-12-m-mci-ngcc-10-11-7fa05-ms6-work",
+    "successorId": "sea-fire-control-modernization-13-m-mci-ngcc-10-11-7fa05-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 132,
+    "predecessorId": "sea-fire-control-modernization-13-m-mci-ngcc-10-11-7fa05-ms7",
+    "successorId": "sea-fire-control-modernization-14-m-mci-ngcc-10-11-7fa05-ms8",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 133,
+    "predecessorId": "sea-fire-control-modernization-03-m-mci-ngcc-10-11-7fa05-ms2",
+    "successorId": "sea-fire-control-modernization-07-m-mci-ngcc-10-11-7fa05-ms3-work",
+    "type": 1,
+    "lag_days": 0
+  },
+  {
+    "id": 134,
+    "predecessorId": "sea-fire-control-modernization-12-m-mci-ngcc-10-11-7fa05-ms6-work",
+    "successorId": "sea-fire-control-modernization-13-m-mci-ngcc-10-11-7fa05-ms7",
+    "type": 2,
+    "lag_days": 0
+  },
+  {
+    "id": 135,
+    "predecessorId": "sea-fire-control-modernization-07-m-mci-ngcc-10-11-7fa05-ms3-work",
+    "successorId": "sea-fire-control-modernization-13-m-mci-ngcc-10-11-7fa05-ms7",
+    "type": 3,
+    "lag_days": 0
+  },
+  {
+    "id": 136,
+    "predecessorId": "land-guidance-modernization-01-m-nu-up-vog1-ms1",
+    "successorId": "land-guidance-modernization-03-m-nu-up-vog1-ms2",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 137,
+    "predecessorId": "land-guidance-modernization-03-m-nu-up-vog1-ms2",
+    "successorId": "land-guidance-modernization-11-m-nu-up-vog1-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 138,
+    "predecessorId": "land-guidance-modernization-11-m-nu-up-vog1-ms3-work",
+    "successorId": "land-guidance-modernization-12-m-nu-up-vog1-ms4",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 139,
+    "predecessorId": "land-guidance-modernization-12-m-nu-up-vog1-ms4",
+    "successorId": "land-guidance-modernization-16-m-nu-up-vog1-ms5",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 140,
+    "predecessorId": "land-guidance-modernization-16-m-nu-up-vog1-ms5",
+    "successorId": "land-guidance-modernization-21-m-nu-up-vog1-ms6-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 141,
+    "predecessorId": "land-guidance-modernization-21-m-nu-up-vog1-ms6-work",
+    "successorId": "land-guidance-modernization-22-m-nu-up-vog1-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 142,
+    "predecessorId": "land-guidance-modernization-22-m-nu-up-vog1-ms7",
+    "successorId": "land-guidance-modernization-24-m-nu-up-vog1-ms8",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 143,
+    "predecessorId": "land-guidance-modernization-03-m-nu-up-vog1-ms2",
+    "successorId": "land-guidance-modernization-11-m-nu-up-vog1-ms3-work",
+    "type": 1,
+    "lag_days": 0
+  },
+  {
+    "id": 144,
+    "predecessorId": "land-guidance-modernization-21-m-nu-up-vog1-ms6-work",
+    "successorId": "land-guidance-modernization-22-m-nu-up-vog1-ms7",
+    "type": 2,
+    "lag_days": 0
+  },
+  {
+    "id": 145,
+    "predecessorId": "land-guidance-modernization-11-m-nu-up-vog1-ms3-work",
+    "successorId": "land-guidance-modernization-22-m-nu-up-vog1-ms7",
+    "type": 3,
+    "lag_days": 0
+  },
+  {
+    "id": 146,
+    "predecessorId": "land-guidance-modernization-04-m-nu-up-vog2-ms1",
+    "successorId": "land-guidance-modernization-08-m-nu-up-vog2-ms2",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 147,
+    "predecessorId": "land-guidance-modernization-08-m-nu-up-vog2-ms2",
+    "successorId": "land-guidance-modernization-15-m-nu-up-vog2-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 148,
+    "predecessorId": "land-guidance-modernization-15-m-nu-up-vog2-ms3-work",
+    "successorId": "land-guidance-modernization-17-m-nu-up-vog2-ms4",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 149,
+    "predecessorId": "land-guidance-modernization-17-m-nu-up-vog2-ms4",
+    "successorId": "land-guidance-modernization-23-m-nu-up-vog2-ms5",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 150,
+    "predecessorId": "land-guidance-modernization-23-m-nu-up-vog2-ms5",
+    "successorId": "land-guidance-modernization-26-m-nu-up-vog2-ms6-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 151,
+    "predecessorId": "land-guidance-modernization-26-m-nu-up-vog2-ms6-work",
+    "successorId": "land-guidance-modernization-27-m-nu-up-vog2-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 152,
+    "predecessorId": "land-guidance-modernization-27-m-nu-up-vog2-ms7",
+    "successorId": "land-guidance-modernization-28-m-nu-up-vog2-ms8",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 153,
+    "predecessorId": "land-guidance-modernization-08-m-nu-up-vog2-ms2",
+    "successorId": "land-guidance-modernization-15-m-nu-up-vog2-ms3-work",
+    "type": 1,
+    "lag_days": 0
+  },
+  {
+    "id": 154,
+    "predecessorId": "land-guidance-modernization-26-m-nu-up-vog2-ms6-work",
+    "successorId": "land-guidance-modernization-27-m-nu-up-vog2-ms7",
+    "type": 2,
+    "lag_days": 0
+  },
+  {
+    "id": 155,
+    "predecessorId": "land-guidance-modernization-15-m-nu-up-vog2-ms3-work",
+    "successorId": "land-guidance-modernization-27-m-nu-up-vog2-ms7",
+    "type": 3,
+    "lag_days": 0
+  },
+  {
+    "id": 156,
+    "predecessorId": "land-legacy-wing-drawdown-03-m-nu-up-retire-ms1",
+    "successorId": "land-legacy-wing-drawdown-07-m-nu-up-retire-ms2-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 157,
+    "predecessorId": "land-legacy-wing-drawdown-07-m-nu-up-retire-ms2-work",
+    "successorId": "land-legacy-wing-drawdown-08-m-nu-up-retire-ms3",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 158,
+    "predecessorId": "land-legacy-wing-drawdown-08-m-nu-up-retire-ms3",
+    "successorId": "land-legacy-wing-drawdown-10-m-nu-up-retire-ms4-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 159,
+    "predecessorId": "land-legacy-wing-drawdown-10-m-nu-up-retire-ms4-work",
+    "successorId": "land-legacy-wing-drawdown-11-m-nu-up-retire-ms5",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 160,
+    "predecessorId": "land-legacy-wing-drawdown-11-m-nu-up-retire-ms5",
+    "successorId": "land-legacy-wing-drawdown-12-m-nu-up-retire-ms6",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 161,
+    "predecessorId": "land-legacy-wing-drawdown-12-m-nu-up-retire-ms6",
+    "successorId": "land-legacy-wing-drawdown-13-m-nu-up-retire-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 162,
+    "predecessorId": "land-legacy-wing-drawdown-13-m-nu-up-retire-ms7",
+    "successorId": "land-legacy-wing-drawdown-14-m-nu-up-retire-ms8",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 163,
+    "predecessorId": "nc3-ground-segment-modernization-01-m-hydro-mod-sinclair-ms1",
+    "successorId": "nc3-ground-segment-modernization-03-m-hydro-mod-sinclair-ms2",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 164,
+    "predecessorId": "nc3-ground-segment-modernization-03-m-hydro-mod-sinclair-ms2",
+    "successorId": "nc3-ground-segment-modernization-04-m-hydro-mod-sinclair-ms3",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 165,
+    "predecessorId": "nc3-ground-segment-modernization-04-m-hydro-mod-sinclair-ms3",
+    "successorId": "nc3-ground-segment-modernization-07-m-hydro-mod-sinclair-ms4",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 166,
+    "predecessorId": "nc3-ground-segment-modernization-07-m-hydro-mod-sinclair-ms4",
+    "successorId": "nc3-ground-segment-modernization-09-m-hydro-mod-sinclair-ms5-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 167,
+    "predecessorId": "nc3-ground-segment-modernization-09-m-hydro-mod-sinclair-ms5-work",
+    "successorId": "nc3-ground-segment-modernization-11-m-hydro-mod-sinclair-ms6-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 168,
+    "predecessorId": "nc3-ground-segment-modernization-11-m-hydro-mod-sinclair-ms6-work",
+    "successorId": "nc3-ground-segment-modernization-12-m-hydro-mod-sinclair-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 169,
+    "predecessorId": "nc3-ground-segment-modernization-12-m-hydro-mod-sinclair-ms7",
+    "successorId": "nc3-ground-segment-modernization-13-m-hydro-mod-sinclair-ms8",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 170,
+    "predecessorId": "nc3-ground-segment-modernization-03-m-hydro-mod-sinclair-ms2",
+    "successorId": "nc3-ground-segment-modernization-04-m-hydro-mod-sinclair-ms3",
+    "type": 1,
+    "lag_days": 0
+  },
+  {
+    "id": 171,
+    "predecessorId": "nc3-ground-segment-modernization-11-m-hydro-mod-sinclair-ms6-work",
+    "successorId": "nc3-ground-segment-modernization-12-m-hydro-mod-sinclair-ms7",
+    "type": 2,
+    "lag_days": 0
+  },
+  {
+    "id": 172,
+    "predecessorId": "nc3-ground-segment-modernization-04-m-hydro-mod-sinclair-ms3",
+    "successorId": "nc3-ground-segment-modernization-12-m-hydro-mod-sinclair-ms7",
+    "type": 3,
+    "lag_days": 0
+  },
+  {
+    "id": 173,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-08-m-proj-009-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 174,
+    "predecessorId": "nc3-satcom-fielding-08-m-proj-009-procurement-work",
+    "successorId": "nc3-satcom-fielding-09-m-proj-009-construction",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 175,
+    "predecessorId": "nc3-satcom-fielding-09-m-proj-009-construction",
+    "successorId": "nc3-satcom-fielding-10-m-proj-009-interconnection",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 176,
+    "predecessorId": "nc3-satcom-fielding-10-m-proj-009-interconnection",
+    "successorId": "nc3-satcom-fielding-11-m-proj-009-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 177,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-08-m-proj-009-procurement-work",
+    "type": 1,
+    "lag_days": 0
+  },
+  {
+    "id": 178,
+    "predecessorId": "nc3-satcom-fielding-09-m-proj-009-construction",
+    "successorId": "nc3-satcom-fielding-11-m-proj-009-commissioning",
+    "type": 2,
+    "lag_days": 0
+  },
+  {
+    "id": 179,
+    "predecessorId": "nc3-satcom-fielding-08-m-proj-009-procurement-work",
+    "successorId": "nc3-satcom-fielding-11-m-proj-009-commissioning",
+    "type": 3,
+    "lag_days": 0
+  },
+  {
+    "id": 180,
+    "predecessorId": "air-legacy-penetrating-drawdown-07-m-proj-011-decommissioning-start-work",
+    "successorId": "air-legacy-penetrating-drawdown-10-m-proj-011-demolition-start",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 181,
+    "predecessorId": "air-legacy-penetrating-drawdown-10-m-proj-011-demolition-start",
+    "successorId": "air-legacy-penetrating-drawdown-12-m-proj-011-closure-turnover",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 182,
+    "predecessorId": "air-advanced-bomber-fielding-07-m-proj-017-engineering",
+    "successorId": "air-advanced-bomber-fielding-10-m-proj-017-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 183,
+    "predecessorId": "air-advanced-bomber-fielding-10-m-proj-017-procurement-work",
+    "successorId": "air-advanced-bomber-fielding-13-m-proj-017-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 184,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-09-m-proj-020-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 185,
+    "predecessorId": "land-sentinel-fielding-09-m-proj-020-procurement-work",
+    "successorId": "land-sentinel-fielding-12-m-proj-020-construction",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 186,
+    "predecessorId": "land-sentinel-fielding-12-m-proj-020-construction",
+    "successorId": "land-sentinel-fielding-20-m-proj-020-interconnection",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 187,
+    "predecessorId": "land-sentinel-fielding-20-m-proj-020-interconnection",
+    "successorId": "land-sentinel-fielding-22-m-proj-020-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 188,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-09-m-proj-020-procurement-work",
+    "type": 1,
+    "lag_days": 0
+  },
+  {
+    "id": 189,
+    "predecessorId": "land-sentinel-fielding-12-m-proj-020-construction",
+    "successorId": "land-sentinel-fielding-22-m-proj-020-commissioning",
+    "type": 2,
+    "lag_days": 0
+  },
+  {
+    "id": 190,
+    "predecessorId": "land-sentinel-fielding-09-m-proj-020-procurement-work",
+    "successorId": "land-sentinel-fielding-22-m-proj-020-commissioning",
+    "type": 3,
+    "lag_days": 0
+  },
+  {
+    "id": 192,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-11-m-cape-wind-new-build-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 193,
+    "predecessorId": "air-standoff-modernization-03-m-hy-bartlett56-mod-ms2",
+    "successorId": "air-standoff-modernization-11-m-hy-bartlett56-mod-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 194,
+    "predecessorId": "air-standoff-modernization-01-m-hy-bartlett56-mod-ms1",
+    "successorId": "air-standoff-modernization-07-m-hy-bartlett56-mod-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 195,
+    "predecessorId": "sea-fire-control-modernization-03-m-mci-ngcc-10-11-7fa05-ms2",
+    "successorId": "sea-fire-control-modernization-13-m-mci-ngcc-10-11-7fa05-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 196,
+    "predecessorId": "sea-fire-control-modernization-01-m-mci-ngcc-10-11-7fa05-ms1",
+    "successorId": "sea-fire-control-modernization-07-m-mci-ngcc-10-11-7fa05-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 197,
+    "predecessorId": "land-guidance-modernization-03-m-nu-up-vog1-ms2",
+    "successorId": "land-guidance-modernization-22-m-nu-up-vog1-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 198,
+    "predecessorId": "land-guidance-modernization-01-m-nu-up-vog1-ms1",
+    "successorId": "land-guidance-modernization-11-m-nu-up-vog1-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 199,
+    "predecessorId": "land-guidance-modernization-08-m-nu-up-vog2-ms2",
+    "successorId": "land-guidance-modernization-27-m-nu-up-vog2-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 200,
+    "predecessorId": "land-guidance-modernization-04-m-nu-up-vog2-ms1",
+    "successorId": "land-guidance-modernization-15-m-nu-up-vog2-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 201,
+    "predecessorId": "nc3-ground-segment-modernization-03-m-hydro-mod-sinclair-ms2",
+    "successorId": "nc3-ground-segment-modernization-12-m-hydro-mod-sinclair-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 202,
+    "predecessorId": "nc3-ground-segment-modernization-01-m-hydro-mod-sinclair-ms1",
+    "successorId": "nc3-ground-segment-modernization-04-m-hydro-mod-sinclair-ms3",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 203,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-11-m-proj-009-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 204,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-22-m-proj-020-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 206,
+    "predecessorId": "land-sentinel-fielding-10-m-bess-pv-coloc-200-200-engineering",
+    "successorId": "land-sentinel-fielding-17-m-bess-pv-coloc-200-200-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 209,
+    "predecessorId": "land-sentinel-fielding-10-m-bess-pv-coloc-200-200-engineering",
+    "successorId": "land-sentinel-fielding-17-m-bess-pv-coloc-200-200-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 210,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-11-m-cape-wind-new-build-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 211,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 212,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-11-m-cape-wind-new-build-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 213,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-11-m-cape-wind-new-build-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 214,
+    "predecessorId": "sea-columbia-fielding-02-m-cape-wind-new-build-engineering",
+    "successorId": "sea-columbia-fielding-08-m-cape-wind-new-build-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 215,
+    "predecessorId": "air-standoff-modernization-03-m-hy-bartlett56-mod-ms2",
+    "successorId": "air-standoff-modernization-11-m-hy-bartlett56-mod-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 216,
+    "predecessorId": "air-standoff-modernization-01-m-hy-bartlett56-mod-ms1",
+    "successorId": "air-standoff-modernization-07-m-hy-bartlett56-mod-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 217,
+    "predecessorId": "air-standoff-modernization-03-m-hy-bartlett56-mod-ms2",
+    "successorId": "air-standoff-modernization-11-m-hy-bartlett56-mod-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 218,
+    "predecessorId": "air-standoff-modernization-03-m-hy-bartlett56-mod-ms2",
+    "successorId": "air-standoff-modernization-11-m-hy-bartlett56-mod-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 219,
+    "predecessorId": "air-standoff-modernization-01-m-hy-bartlett56-mod-ms1",
+    "successorId": "air-standoff-modernization-07-m-hy-bartlett56-mod-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 220,
+    "predecessorId": "sea-fire-control-modernization-03-m-mci-ngcc-10-11-7fa05-ms2",
+    "successorId": "sea-fire-control-modernization-13-m-mci-ngcc-10-11-7fa05-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 221,
+    "predecessorId": "sea-fire-control-modernization-01-m-mci-ngcc-10-11-7fa05-ms1",
+    "successorId": "sea-fire-control-modernization-07-m-mci-ngcc-10-11-7fa05-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 222,
+    "predecessorId": "sea-fire-control-modernization-03-m-mci-ngcc-10-11-7fa05-ms2",
+    "successorId": "sea-fire-control-modernization-13-m-mci-ngcc-10-11-7fa05-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 223,
+    "predecessorId": "sea-fire-control-modernization-03-m-mci-ngcc-10-11-7fa05-ms2",
+    "successorId": "sea-fire-control-modernization-13-m-mci-ngcc-10-11-7fa05-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 224,
+    "predecessorId": "sea-fire-control-modernization-01-m-mci-ngcc-10-11-7fa05-ms1",
+    "successorId": "sea-fire-control-modernization-07-m-mci-ngcc-10-11-7fa05-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 225,
+    "predecessorId": "land-guidance-modernization-03-m-nu-up-vog1-ms2",
+    "successorId": "land-guidance-modernization-22-m-nu-up-vog1-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 226,
+    "predecessorId": "land-guidance-modernization-01-m-nu-up-vog1-ms1",
+    "successorId": "land-guidance-modernization-11-m-nu-up-vog1-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 227,
+    "predecessorId": "land-guidance-modernization-03-m-nu-up-vog1-ms2",
+    "successorId": "land-guidance-modernization-22-m-nu-up-vog1-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 228,
+    "predecessorId": "land-guidance-modernization-03-m-nu-up-vog1-ms2",
+    "successorId": "land-guidance-modernization-22-m-nu-up-vog1-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 229,
+    "predecessorId": "land-guidance-modernization-01-m-nu-up-vog1-ms1",
+    "successorId": "land-guidance-modernization-11-m-nu-up-vog1-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 230,
+    "predecessorId": "land-guidance-modernization-08-m-nu-up-vog2-ms2",
+    "successorId": "land-guidance-modernization-27-m-nu-up-vog2-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 231,
+    "predecessorId": "land-guidance-modernization-04-m-nu-up-vog2-ms1",
+    "successorId": "land-guidance-modernization-15-m-nu-up-vog2-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 232,
+    "predecessorId": "land-guidance-modernization-08-m-nu-up-vog2-ms2",
+    "successorId": "land-guidance-modernization-27-m-nu-up-vog2-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 233,
+    "predecessorId": "land-guidance-modernization-08-m-nu-up-vog2-ms2",
+    "successorId": "land-guidance-modernization-27-m-nu-up-vog2-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 234,
+    "predecessorId": "land-guidance-modernization-04-m-nu-up-vog2-ms1",
+    "successorId": "land-guidance-modernization-15-m-nu-up-vog2-ms3-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 235,
+    "predecessorId": "nc3-ground-segment-modernization-03-m-hydro-mod-sinclair-ms2",
+    "successorId": "nc3-ground-segment-modernization-12-m-hydro-mod-sinclair-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 236,
+    "predecessorId": "nc3-ground-segment-modernization-01-m-hydro-mod-sinclair-ms1",
+    "successorId": "nc3-ground-segment-modernization-04-m-hydro-mod-sinclair-ms3",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 237,
+    "predecessorId": "nc3-ground-segment-modernization-03-m-hydro-mod-sinclair-ms2",
+    "successorId": "nc3-ground-segment-modernization-12-m-hydro-mod-sinclair-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 238,
+    "predecessorId": "nc3-ground-segment-modernization-03-m-hydro-mod-sinclair-ms2",
+    "successorId": "nc3-ground-segment-modernization-12-m-hydro-mod-sinclair-ms7",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 239,
+    "predecessorId": "nc3-ground-segment-modernization-01-m-hydro-mod-sinclair-ms1",
+    "successorId": "nc3-ground-segment-modernization-04-m-hydro-mod-sinclair-ms3",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 240,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-11-m-proj-009-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 241,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-08-m-proj-009-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 242,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-11-m-proj-009-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 243,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-11-m-proj-009-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 244,
+    "predecessorId": "nc3-satcom-fielding-05-m-proj-009-engineering",
+    "successorId": "nc3-satcom-fielding-08-m-proj-009-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 245,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-22-m-proj-020-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 246,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-09-m-proj-020-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 247,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-22-m-proj-020-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 248,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-22-m-proj-020-commissioning",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 249,
+    "predecessorId": "land-sentinel-fielding-06-m-proj-020-engineering",
+    "successorId": "land-sentinel-fielding-09-m-proj-020-procurement-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 268,
+    "predecessorId": "land-sentinel-fielding-resource-transition-crews",
+    "successorId": "land-legacy-wing-drawdown-10-m-nu-up-retire-ms4-work",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 274,
+    "predecessorId": "air-standoff-modernization-depot-lo-capacity",
+    "successorId": "air-legacy-penetrating-drawdown-10-m-proj-011-demolition-start",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 283,
+    "predecessorId": "sea-columbia-fielding-industrial-base-funding-decision",
+    "successorId": "sea-columbia-fielding-shipyard-workforce-ramp",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 285,
+    "predecessorId": "air-advanced-bomber-fielding-basing-eis-decision",
+    "successorId": "air-advanced-bomber-fielding-flight-test-capacity",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 286,
+    "predecessorId": "air-advanced-bomber-fielding-flight-test-capacity",
+    "successorId": "air-advanced-bomber-fielding-nuclear-certification-policy-gate",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 288,
+    "predecessorId": "nc3-ground-segment-modernization-crypto-accreditation",
+    "successorId": "nc3-ground-segment-modernization-cyber-ato-policy-gate",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 293,
+    "predecessorId": "land-sentinel-fielding-appropriation-release",
+    "successorId": "land-sentinel-fielding-procurement-obligation-deadline",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 295,
+    "predecessorId": "sea-columbia-fielding-industrial-base-funding-decision",
+    "successorId": "sea-columbia-fielding-material-buy-obligation-deadline",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 296,
+    "predecessorId": "sea-columbia-fielding-material-buy-obligation-deadline",
+    "successorId": "sea-columbia-fielding-shipyard-workforce-ramp",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 297,
+    "predecessorId": "air-advanced-bomber-fielding-basing-eis-decision",
+    "successorId": "air-advanced-bomber-fielding-production-lot-obligation-deadline",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 298,
+    "predecessorId": "air-advanced-bomber-fielding-production-lot-obligation-deadline",
+    "successorId": "air-advanced-bomber-fielding-flight-test-capacity",
+    "type": 0,
+    "lag_days": 0
+  },
+  {
+    "id": 299,
+    "predecessorId": "nc3-ground-segment-modernization-cyber-ato-policy-gate",
+    "successorId": "nc3-ground-segment-modernization-ato-support-obligation-deadline",
+    "type": 0,
+    "lag_days": 0
+  }
+]

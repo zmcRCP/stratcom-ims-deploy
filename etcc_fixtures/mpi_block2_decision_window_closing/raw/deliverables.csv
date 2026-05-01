@@ -1,0 +1,8 @@
+deliverable_id,producer_work_id,consumer_work_id,deliverable_name,source_team,source_system,interface_id
+D-01,W-ENG-CM,W-INTEG-CM,ICD Package,engineering,primavera,IF-ICD-01
+D-02,W-PROC-CM,W-FAB-CM,Long-lead Order Complete,supply,erp_export,IF-PROC-01
+D-03,W-TEST-CM,W-INTEG-002,Test Results - Compute Module,test,primavera,IF-TEST-01
+D-04,W-TEST-002,W-INTEG-003,Test Results - Navigation Suite,test,primavera,IF-TEST-02
+D-05,W-TEST-003,W-INTEG-004,Test Results - Power Distribution Unit,test,primavera,IF-TEST-03
+D-06,W-TEST-004,W-INTEG-005,Test Results - Flight Control Module,test,primavera,IF-TEST-04
+D-07,W-TEST-005,W-INTEG-006,Test Results - Sensor Fusion Bay,test,primavera,IF-TEST-05

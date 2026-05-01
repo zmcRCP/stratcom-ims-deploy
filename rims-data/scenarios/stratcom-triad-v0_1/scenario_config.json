@@ -1,0 +1,14 @@
+{
+  "scenario_id": "stratcom-triad-v0_1",
+  "label": "STRATCOM Triad Synthetic Demo v0.1",
+  "shell_id": "portfolio",
+  "domain_pack_id": "portfolio",
+  "description": "Synthetic, unclassified STRATCOM-adjacent modernization scenario using the existing portfolio shell.",
+  "synthetic_demo_data": true,
+  "classification": "UNCLASSIFIED_SYNTHETIC",
+  "data_guardrails": [
+    "Fictional composite names",
+    "Illustrative dates and values",
+    "No classified, FOUO, CUI, or operationally sensitive source data"
+  ]
+}

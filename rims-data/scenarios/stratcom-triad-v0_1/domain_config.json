@@ -1,0 +1,47 @@
+{
+  "id": "stratcom",
+  "version": "0.1.0",
+  "vocabulary": {
+    "anchorSingular": "Program Thread",
+    "anchorPlural": "Program Threads",
+    "regionLabel": "Region",
+    "regionPlaceholder": "Region",
+    "categoryLabel": "Triad Leg",
+    "categoryPlaceholder": "Triad Leg",
+    "capacityLabel": "Available Deterrence Capacity",
+    "requirementLabel": "Minimum Deterrence Floor",
+    "portfolioTitle": "Available Deterrence Capacity",
+    "dependencyTitle": "Platform Modernization Dependencies",
+    "dependencyDescription": "Select a program thread to inspect modernization, retirement, and fielding dependencies.",
+    "emptyTimelineSelection": "Select a program thread to view modernization dependencies"
+  },
+  "units": {
+    "capacityShort": "DAP",
+    "capacityLong": "deterrence availability points"
+  },
+  "thresholds": {
+    "capacityDelta": {
+      "small": 5,
+      "medium": 20,
+      "large": 21
+    }
+  },
+  "displayNames": {
+    "regions": {},
+    "categories": {
+      "land": "Land",
+      "sea": "Sea",
+      "air": "Air",
+      "nc3": "NC3",
+      "other": "Other"
+    },
+    "statuses": {
+      "new build": "New Build / Fielding",
+      "modernization": "Modernization",
+      "retiring": "Retirement / Drawdown"
+    }
+  },
+  "filters": {
+    "showRegion": false
+  }
+}

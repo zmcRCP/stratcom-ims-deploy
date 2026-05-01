@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-03-11T15:00:00Z",
+  "scenario_id": "mpi_block2_decision_window_closing",
+  "inferred_edges": [
+    {
+      "edge_id": "edge:inferred:work:W-ENG-CM->work:W-INTEG-CM:deliverable_join.v1",
+      "rule_id": "deliverable_join.v1",
+      "status": "applied",
+      "provenance": {
+        "source_rows": [
+          "deliverables.csv#row=2"
+        ],
+        "evidence_ids": [
+          "ev:1a0a0c46eaf5235328d6924d"
+        ]
+      },
+      "deliverable_id": "D-01"
+    },
+    {
+      "edge_id": "edge:inferred:work:W-PROC-CM->work:W-FAB-CM:deliverable_join.v1",
+      "rule_id": "deliverable_join.v1",
+      "status": "applied",
+      "provenance": {
+        "source_rows": [
+          "deliverables.csv#row=3"
+        ],
+        "evidence_ids": [
+          "ev:cc19b9783fb9a0e7fe68043b"
+        ]
+      },
+      "deliverable_id": "D-02"
+    },
+    {
+      "edge_id": "edge:inferred:work:W-TEST-002->work:W-INTEG-003:deliverable_join.v1",
+      "rule_id": "deliverable_join.v1",
+      "status": "applied",
+      "provenance": {
+        "source_rows": [
+          "deliverables.csv#row=5"
+        ],
+        "evidence_ids": [
+          "ev:a3d1303cc03046f14d449663"
+        ]
+      },
+      "deliverable_id": "D-04"
+    },
+    {
+      "edge_id": "edge:inferred:work:W-TEST-003->work:W-INTEG-004:deliverable_join.v1",
+      "rule_id": "deliverable_join.v1",
+      "status": "applied",
+      "provenance": {
+        "source_rows": [
+          "deliverables.csv#row=6"
+        ],
+        "evidence_ids": [
+          "ev:e0dd6c69944d25dd3b284cc8"
+        ]
+      },
+      "deliverable_id": "D-05"
+    },
+    {
+      "edge_id": "edge:inferred:work:W-TEST-004->work:W-INTEG-005:deliverable_join.v1",
+      "rule_id": "deliverable_join.v1",
+      "status": "applied",
+      "provenance": {
+        "source_rows": [
+          "deliverables.csv#row=7"
+        ],
+        "evidence_ids": [
+          "ev:1df7837ff8a27b07798ba6c9"
+        ]
+      },
+      "deliverable_id": "D-06"
+    },
+    {
+      "edge_id": "edge:inferred:work:W-TEST-005->work:W-INTEG-006:deliverable_join.v1",
+      "rule_id": "deliverable_join.v1",
+      "status": "applied",
+      "provenance": {
+        "source_rows": [
+          "deliverables.csv#row=8"
+        ],
+        "evidence_ids": [
+          "ev:5feda8aebd06707858f29e92"
+        ]
+      },
+      "deliverable_id": "D-07"
+    },
+    {
+      "edge_id": "edge:inferred:work:W-TEST-CM->work:W-INTEG-002:deliverable_join.v1",
+      "rule_id": "deliverable_join.v1",
+      "status": "applied",
+      "provenance": {
+        "source_rows": [
+          "deliverables.csv#row=4"
+        ],
+        "evidence_ids": [
+          "ev:40a139d2b0b064036fe2a83d"
+        ]
+      },
+      "deliverable_id": "D-03"
+    }
+  ]
+}

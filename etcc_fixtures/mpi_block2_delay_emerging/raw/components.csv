@@ -1,0 +1,6 @@
+component_id,component_name,component_domain
+C-STR,Structure,structure
+C-PP,Powerplant,powerplant
+C-AV,Avionics,avionics
+C-EW,Electronic Warfare,electronics
+C-COM,Communications,comms
