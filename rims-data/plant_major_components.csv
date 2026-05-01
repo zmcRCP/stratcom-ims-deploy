@@ -1,0 +1,52 @@
+plant_id,component_id,component_type,component_name,install_date,expected_lifespan_years,current_condition_score,replacement_cost_usd,overhaul_cost_usd,degradation_rate_pct_per_year,deferred_maintenance_penalty_pct,failure_probability_model,mtbf_hours,linked_sustainment_id,notes
+PLANT_GASTON_U2,COMP-NU2-GEN-001,generator,Main Generator Unit 2,2000-08-20,40,58,85000000,18000000,1.2,0.4,weibull,120000,,Hydrogen-cooled; scheduled for stator rewind 2028
+PLANT_GASTON_U2,COMP-NU2-RCP-001,reactor_coolant_pump,RCP Train A,2000-08-20,30,62,12000000,3500000,1.5,0.6,linear,80000,,Vibration trending upward; monitoring closely
+PLANT_GASTON_U2,COMP-NU2-RCP-002,reactor_coolant_pump,RCP Train B,2000-08-20,30,65,12000000,3500000,1.5,0.6,linear,80000,,Normal wear patterns
+PLANT_GASTON_U2,COMP-NU2-XFMR-001,transformer,Main Step-Up Transformer,2000-08-20,45,71,25000000,5000000,0.8,0.3,exponential,200000,,DGA trending normal; last oil change 2023
+plant_gpc-vogtle-3_f743db,COMP-V3-GEN-001,generator,Main Generator,2015-06-01,40,82,95000000,22000000,1.0,0.4,weibull,130000,,Upgraded exciter in 2022
+plant_gpc-vogtle-3_f743db,COMP-V3-TURB-001,turbine,HP Turbine,2015-06-01,35,78,45000000,12000000,1.3,0.5,weibull,90000,,Last inspection: minor blade erosion noted
+plant_gpc-vogtle-3_f743db,COMP-V3-COND-001,condenser,Main Condenser,2015-06-01,50,85,18000000,4000000,0.6,0.2,linear,250000,,Tube plugging at 2.1%
+PLANT_DAHLBERG_CT_135,COMP-CT135-GT-001,gas_turbine,Combustion Turbine Unit 1,2020-10-25,25,94,32000000,8000000,1.8,0.7,weibull,60000,,Frame 7FA; hot gas path inspection due 2026
+PLANT_DAHLBERG_CT_135,COMP-CT135-GT-003,gas_turbine,Combustion Turbine Unit 3,2020-10-25,25,92,32000000,8000000,1.8,0.7,weibull,60000,,Frame 7FA; 12000 fired hours
+PLANT_DAHLBERG_CT_135,COMP-CT135-HRSG-001,hrsg,Heat Recovery Steam Generator 1,2020-10-25,30,91,22000000,5500000,1.2,0.4,linear,100000,,Duct burner operational
+plant_gpc-mcintosh-10-11_5a49a9,COMP-MCI-GT-010,gas_turbine,Combustion Turbine Unit 10,2015-09-01,25,65,28000000,7000000,2.0,0.8,weibull,55000,,Older frame; combustor liners showing wear
+plant_gpc-mcintosh-10-11_5a49a9,COMP-MCI-GEN-010,generator,Generator Unit 10,2015-09-01,35,68,15000000,4000000,1.4,0.5,linear,85000,,Rotor rewind recommended within 3 years
+plant_eia-10022-0_7eb25e,COMP-CL10-BOIL-001,boiler,Main Boiler Unit A,2016-04-19,40,52,65000000,15000000,1.6,0.6,linear,70000,,Tube wall thinning; increased inspection frequency
+plant_eia-10022-0_7eb25e,COMP-CL10-TURB-001,turbine,HP/IP Turbine,2016-04-19,35,55,40000000,10000000,1.5,0.5,weibull,75000,,Blade erosion; overhaul planned 2027
+plant_eia-10022-0_7eb25e,COMP-CL10-GEN-001,generator,Main Generator,2016-04-19,40,58,22000000,5500000,1.2,0.4,exponential,95000,,Stator wedge loosening detected
+plant_gpc-bartletts-ferry-5-6_58bb51,COMP-BF-TURB-005,turbine,Francis Turbine Unit 5,1977-02-25,60,70,8000000,2000000,0.7,0.3,linear,180000,,Runner cavitation repairs completed 2021
+plant_gpc-bartletts-ferry-5-6_58bb51,COMP-BF-TURB-006,turbine,Francis Turbine Unit 6,1977-02-25,60,68,8000000,2000000,0.7,0.3,linear,180000,,Wicket gate bushing wear noted
+plant_gpc-bartletts-ferry-5-6_58bb51,COMP-BF-GEN-005,generator,Generator Unit 5,1977-02-25,50,72,6000000,1500000,0.9,0.3,exponential,150000,,Rewind completed 2018
+plant_eia-10018-0_66d132,COMP-SOL20-INV-001,inverter,Central Inverter Bank A,2020-12-30,15,88,4500000,800000,2.5,0.8,linear,50000,,900 MW utility-scale; inverter firmware updated 2024
+plant_eia-10018-0_66d132,COMP-SOL20-INV-002,inverter,Central Inverter Bank B,2020-12-30,15,86,4500000,800000,2.5,0.8,linear,50000,,Thermal management system nominal
+plant_eia-10018-0_66d132,COMP-SOL20-XFMR-001,transformer,Main Step-Up Transformer,2020-12-30,40,92,12000000,2500000,0.7,0.3,exponential,180000,,DGA normal; 900 MVA rated
+PLANT_GASTON_U3,COMP-WND3-WTG-001,wind_turbine,Wind Turbine Generator 1,2018-12-31,25,81,3200000,650000,1.6,0.5,weibull,65000,,120 MW demo project; gearbox oil analysis normal
+PLANT_GASTON_U3,COMP-WND3-WTG-002,wind_turbine,Wind Turbine Generator 2,2018-12-31,25,79,3200000,650000,1.6,0.5,weibull,65000,,Blade leading edge erosion noted
+PLANT_GASTON_U3,COMP-WND3-XFMR-001,transformer,Collector Substation Transformer,2018-12-31,35,85,5500000,1200000,0.8,0.3,linear,160000,,34.5/115 kV step-up
+plant_doe-lpo-nan_6ec756,COMP-HY1-TURB-001,turbine,Kaplan Turbine Unit 1,2019-11-03,50,68,9000000,2200000,0.8,0.3,linear,170000,,300 MW; wicket gate refurbishment 2022
+plant_doe-lpo-nan_6ec756,COMP-HY1-TURB-002,turbine,Kaplan Turbine Unit 2,2019-11-03,50,71,9000000,2200000,0.8,0.3,linear,170000,,Runner blade inspection due 2026
+plant_doe-lpo-nan_6ec756,COMP-HY1-GEN-001,generator,Synchronous Generator 1,2019-11-03,45,74,7500000,1800000,0.9,0.3,exponential,140000,,Exciter thyristor replaced 2023
+plant_southern-power-gpc-sinclair_de80ca,COMP-CW-WTG-001,wind_turbine,Offshore WTG Array A (15 units),2029-12-27,25,100,180000000,35000000,1.4,0.5,weibull,70000,,900 MW offshore; 15x 6MW turbines per array
+plant_southern-power-gpc-sinclair_de80ca,COMP-CW-WTG-002,wind_turbine,Offshore WTG Array B (15 units),2029-12-27,25,100,180000000,35000000,1.4,0.5,weibull,70000,,Foundation monopiles rated for 50-year life
+plant_southern-power-gpc-sinclair_de80ca,COMP-CW-XFMR-001,transformer,Offshore Substation Transformer,2029-12-27,40,100,45000000,9000000,0.6,0.2,exponential,200000,,66/345 kV export cable rated
+plant_eia-10020-0_6bff7e,COMP-MS-INV-001,inverter,String Inverter Array,2030-06-11,12,100,2800000,500000,3.0,1.0,linear,45000,,120 MW; distributed string architecture
+plant_eia-10020-0_6bff7e,COMP-MS-BESS-001,battery,BESS Module Bank A,2030-06-11,15,100,25000000,5000000,2.2,0.8,linear,55000,,200 MW/4h lithium-ion; co-located with solar
+plant_eia-10020-0_6bff7e,COMP-MS-XFMR-001,transformer,Plant Step-Up Transformer,2030-06-11,35,100,8000000,1600000,0.8,0.3,exponential,170000,,Shared solar+BESS interconnection
+plant_eia-10015-0_0e2230,COMP-WND17-WTG-001,wind_turbine,WTG Fleet A (20 units),2031-09-30,25,100,64000000,12000000,1.5,0.5,weibull,68000,,400 MW onshore; 20x 5MW direct-drive
+plant_eia-10015-0_0e2230,COMP-WND17-WTG-002,wind_turbine,WTG Fleet B (20 units),2031-09-30,25,100,64000000,12000000,1.5,0.5,weibull,68000,,Advanced blade pitch control
+plant_eia-10015-0_0e2230,COMP-WND17-XFMR-001,transformer,Collector Substation,2031-09-30,40,100,15000000,3000000,0.7,0.3,linear,175000,,34.5/230 kV; 500 MVA capacity
+plant_eia-10009-0_97aed2,COMP-CL9-BOIL-001,boiler,Supercritical Boiler,2030-01-01,35,100,75000000,18000000,1.4,0.5,linear,75000,,400 MW new coal; advanced emission controls
+plant_eia-10009-0_97aed2,COMP-CL9-TURB-001,turbine,HP/IP/LP Turbine Train,2030-01-01,35,100,55000000,14000000,1.3,0.5,weibull,80000,,Single-shaft configuration
+plant_eia-10009-0_97aed2,COMP-CL9-GEN-001,generator,Main Generator,2030-01-01,40,100,28000000,7000000,1.1,0.4,exponential,100000,,Hydrogen-cooled; 470 MVA rated
+plant_eia-22,COMP-GEO22-TURB-001,turbine,Geothermal Steam Turbine,2015-10-25,30,78,18000000,4500000,1.4,0.5,linear,85000,,300 MW flash steam; scaling maintenance required
+plant_eia-22,COMP-GEO22-GEN-001,generator,Geothermal Generator,2015-10-25,35,82,12000000,3000000,1.1,0.4,exponential,95000,,Air-cooled; hydrogen seal upgrade 2023
+plant_eia-22,COMP-GEO22-COND-001,condenser,Surface Condenser,2015-10-25,40,75,6000000,1500000,1.2,0.4,linear,110000,,H2S corrosion mitigation ongoing
+plant_eia-10011-0_9f15f6,COMP-HY11-TURB-001,turbine,Francis Turbine Unit 1,1980-06-01,55,58,7000000,1800000,0.9,0.4,linear,160000,,200 MW legacy hydro; cavitation repairs needed
+plant_eia-10011-0_9f15f6,COMP-HY11-TURB-002,turbine,Francis Turbine Unit 2,1980-06-01,55,55,7000000,1800000,0.9,0.4,linear,160000,,Seal ring wear; scheduled for 2026 outage
+plant_eia-10011-0_9f15f6,COMP-HY11-GEN-001,generator,Synchronous Generator 1,1980-06-01,50,52,5500000,1400000,1.0,0.4,exponential,140000,,Stator rewind overdue; operating on waiver
+plant_eia-10023-0_8943bb,COMP-BW1-BOIL-001,boiler,Subcritical Boiler Unit 1,2013-07-05,35,62,55000000,13000000,1.5,0.6,linear,70000,,400 MW coal; tube wall thinning monitored
+plant_eia-10023-0_8943bb,COMP-BW1-TURB-001,turbine,HP/IP Turbine Unit 1,2013-07-05,35,65,35000000,9000000,1.4,0.5,weibull,75000,,Blade erosion; next inspection 2025
+plant_eia-10023-0_8943bb,COMP-BW1-GEN-001,generator,Main Generator Unit 1,2013-07-05,40,68,18000000,4500000,1.2,0.4,exponential,90000,,Rotor vibration trending stable
+plant_gpc-morgan-falls_850259,COMP-MF-GT-001,gas_turbine,Aeroderivative Gas Turbine,2015-01-04,25,76,22000000,5500000,1.9,0.7,weibull,55000,,120 MW peaker; LM6000 frame
+plant_gpc-morgan-falls_850259,COMP-MF-GEN-001,generator,Generator Unit,2015-01-04,30,78,8000000,2000000,1.3,0.5,linear,80000,,Air-cooled; exciter brushes replaced 2024
+plant_gpc-morgan-falls_850259,COMP-MF-XFMR-001,transformer,Step-Up Transformer,2015-01-04,40,82,6500000,1300000,0.7,0.3,exponential,175000,,DGA trending normal
