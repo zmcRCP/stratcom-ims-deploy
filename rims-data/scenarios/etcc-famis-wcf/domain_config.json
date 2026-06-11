@@ -1,0 +1,43 @@
+{
+  "id": "etcc",
+  "version": "0.1.0",
+  "vocabulary": {
+    "anchorSingular": "Program",
+    "anchorPlural": "Programs",
+    "regionLabel": "Agency",
+    "regionPlaceholder": "Agency",
+    "categoryLabel": "Domain",
+    "categoryPlaceholder": "Domain",
+    "capacityLabel": "Evidence Coverage",
+    "requirementLabel": "Required Coverage",
+    "portfolioTitle": "ETCC Schedule Reconciliation",
+    "dependencyTitle": "FAMIS-WCF ETCC Analysis",
+    "dependencyDescription": "Schedule reconciliation findings across government schedule, contractor IMS, and contract records.",
+    "emptyTimelineSelection": "Select a program to view schedule reconciliation findings"
+  },
+  "units": {
+    "capacityShort": "items",
+    "capacityLong": "evidence items"
+  },
+  "thresholds": {
+    "capacityDelta": {
+      "small": 1,
+      "medium": 3,
+      "large": 5
+    }
+  },
+  "displayNames": {
+    "regions": {
+      "DISA": "Defense Information Systems Agency"
+    },
+    "categories": {
+      "etcc": "ETCC Schedule Reconciliation"
+    },
+    "statuses": {
+      "schedule reconciliation": "Schedule Reconciliation"
+    }
+  },
+  "filters": {
+    "showRegion": false
+  }
+}

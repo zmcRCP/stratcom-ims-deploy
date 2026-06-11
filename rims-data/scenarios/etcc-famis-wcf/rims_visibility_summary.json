@@ -1,0 +1,903 @@
+{
+  "claim_groups": [
+    {
+      "claim_group_id": "1ab8d913-aa2e-5bf9-be38-6f1a810cb5b3",
+      "claim_summary": "Government tracking shows Release 3.0 development and integration testing slipping past the contractor baseline finish.",
+      "evidence_record_ids": [
+        "cd8b9d16-8388-538d-add8-7f449bbf7723"
+      ],
+      "finding_id": "schedule.release_3_dev_baseline_drift",
+      "is_synthesized_assessment": true,
+      "projection_role": "conflict_driver",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "release-3-dev-baseline-drift",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "56109383-0a2f-5d20-808b-486ca28b24dc",
+        "9f00305c-72aa-5241-bada-8ee5dbfdcfd8"
+      ]
+    },
+    {
+      "claim_group_id": "c7a2727f-bb35-5d18-8d52-2b0c06dd3102",
+      "claim_summary": "Government tracking and the contractor IMS disagree on percent complete for Release 3.0 development and integration testing.",
+      "evidence_record_ids": [
+        "f06e240b-5879-58d0-adb3-7dde79e69162"
+      ],
+      "finding_id": "schedule.release_3_dev_percent_complete",
+      "is_synthesized_assessment": true,
+      "projection_role": "conflict_driver",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "release-3-dev-percent-complete-mismatch",
+      "schema_target_field": "percent_complete",
+      "source_detail_refs": [
+        "64b3d344-6c8e-5135-86d4-5f9ab3b8d3ca",
+        "09fe380b-e8de-5f23-87d2-467e5d266687"
+      ]
+    },
+    {
+      "claim_group_id": "47c37fc7-7195-527f-bf3e-a2893d8c9493",
+      "claim_summary": "Government and contractor schedules disagree on the Release 3.0 deployment milestone date.",
+      "evidence_record_ids": [
+        "08b1e5f9-6b76-58ac-b36d-e787891b6663"
+      ],
+      "finding_id": "schedule.release_3_deploy_date",
+      "is_synthesized_assessment": true,
+      "projection_role": "conflict_driver",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "release-3-deploy-date-slip",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "a75da107-546b-571c-9150-f4cfc3686e36",
+        "2dd98047-9519-5859-be06-8c5f903362a0"
+      ]
+    },
+    {
+      "claim_group_id": "adbf4c2b-ae31-55c5-8044-89302a8f85ef",
+      "claim_summary": "Government tracking and the contractor IMS disagree on percent complete for Release 4.0 development and integration testing.",
+      "evidence_record_ids": [
+        "6ceee49e-8158-53a8-b4e3-5ef551bb7a45"
+      ],
+      "finding_id": "schedule.release_4_dev_percent_complete",
+      "is_synthesized_assessment": true,
+      "projection_role": "conflict_driver",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "release-4-dev-percent-complete-mismatch",
+      "schema_target_field": "percent_complete",
+      "source_detail_refs": [
+        "3e5a74eb-f375-5805-b51b-bb3d0a5ede75",
+        "3f310f9d-ee67-53c6-8965-1fe3f704007d"
+      ]
+    },
+    {
+      "claim_group_id": "0d937ea7-25ee-5a67-abbd-cab6cb0bbe08",
+      "claim_summary": "Government and contractor schedules disagree on the Release 4.0 deployment date.",
+      "evidence_record_ids": [
+        "700da3dd-ed65-50e4-99f4-f5dac79c0f8a"
+      ],
+      "finding_id": "schedule.release_4_deploy_date",
+      "is_synthesized_assessment": true,
+      "projection_role": "conflict_driver",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "release-4-deploy-date-slip",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "fb91f34a-8c35-5d00-81e5-7217fc2e5b33",
+        "b0244d3b-336a-565a-a87f-aa2e188a6c21"
+      ]
+    },
+    {
+      "claim_group_id": "373563b4-2139-55ba-83ac-e420cff773fa",
+      "claim_summary": "Government tracking shows the ATO review accepted and closed while the contractor IMS still shows it in progress.",
+      "evidence_record_ids": [
+        "53505196-728c-5ec0-abea-b887f9ce83ce"
+      ],
+      "finding_id": "schedule.ato_review_status_mismatch",
+      "is_synthesized_assessment": true,
+      "projection_role": "conflict_driver",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "ato-review-status-mismatch",
+      "schema_target_field": "status_label",
+      "source_detail_refs": [
+        "c7999935-f5c8-5195-8267-8d97ee80af98",
+        "0f823821-c6c0-53c1-a94d-ee17fdb34dee"
+      ]
+    },
+    {
+      "claim_group_id": "ea7b6a74-ee34-5446-bb15-03333e121286",
+      "claim_summary": "P00010-funded work is present in the government schedule but missing from the contractor IMS.",
+      "evidence_record_ids": [
+        "cb6aafc6-167d-51c8-a8a4-db0b8e5f2108"
+      ],
+      "finding_id": "schedule.funded_scope_p00010",
+      "is_synthesized_assessment": true,
+      "projection_role": "missing_support_driver",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "funded-scope-missing-from-contractor-ims",
+      "schema_target_field": "contract_event_ref",
+      "source_detail_refs": [
+        "c837fa2c-ceb6-5206-9161-b907d2e1be4f",
+        "9c6367f5-40c3-5e49-bffd-11e6d1672b57",
+        "6594c53a-dc96-5ce5-a5dd-5292830d85fd"
+      ]
+    },
+    {
+      "claim_group_id": "b53898dd-5732-5736-bf7e-e10b4d273f41",
+      "claim_summary": "The Year 5 option appears in the government schedule but not in the contractor IMS.",
+      "evidence_record_ids": [
+        "2d64e288-8b70-5c88-828b-7199fa042faa"
+      ],
+      "finding_id": "schedule.year_5_option",
+      "is_synthesized_assessment": true,
+      "projection_role": "missing_support_driver",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "year-5-option-not-reflected-in-contractor-ims",
+      "schema_target_field": "contract_event_ref",
+      "source_detail_refs": [
+        "e0c13d66-7b0b-536d-9ce6-b861e3b50b5d",
+        "1d809a3a-a422-55da-a836-3383b163d3c1",
+        "6594c53a-dc96-5ce5-a5dd-5292830d85fd"
+      ]
+    },
+    {
+      "claim_group_id": "a6edfb55-866e-59b6-90eb-e14e7bef6e9e",
+      "claim_summary": "The government schedule records the ATO review as accepted and closed.",
+      "evidence_record_ids": [
+        "8a591bef-1dbf-5bcd-bfa5-93e4574c207c"
+      ],
+      "finding_id": "schedule.accepted_ato_review",
+      "is_synthesized_assessment": false,
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "accepted-ato-review",
+      "schema_target_field": "status_label",
+      "source_detail_refs": [
+        "c7999935-f5c8-5195-8267-8d97ee80af98"
+      ]
+    },
+    {
+      "claim_group_id": "0df9381f-f60d-573f-b430-2e44d3330901",
+      "claim_summary": "The government schedule records the Year 2 option exercise milestone.",
+      "evidence_record_ids": [
+        "75edafcf-e2c8-5a91-8f84-84c42a37c038"
+      ],
+      "finding_id": "schedule.year_2_option_exercised",
+      "is_synthesized_assessment": false,
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "year-2-option-exercised",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "4c6c8cd7-9c28-5df7-952e-385ce9aaf2bb"
+      ]
+    },
+    {
+      "claim_group_id": "48dde6be-d32d-519b-99c1-11d461eea3b5",
+      "claim_summary": "The government schedule records the Year 3 option exercise milestone.",
+      "evidence_record_ids": [
+        "dbf49dd8-e41c-531d-8213-33483d09874a"
+      ],
+      "finding_id": "schedule.year_3_option_exercised",
+      "is_synthesized_assessment": false,
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "year-3-option-exercised",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "c396ed26-c815-5a80-8d8b-1df9ce7ecee6"
+      ]
+    },
+    {
+      "claim_group_id": "3da634e0-95a5-5bec-a339-6443cfdb69d7",
+      "claim_summary": "The government schedule records the Year 4 option exercise milestone.",
+      "evidence_record_ids": [
+        "b1fbafad-3c18-52cb-81dc-734b7f882c66"
+      ],
+      "finding_id": "schedule.year_4_option_exercised",
+      "is_synthesized_assessment": false,
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "year-4-option-exercised",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "a16bd932-aca5-57a9-a675-4687af67a1d7"
+      ]
+    },
+    {
+      "claim_group_id": "a942f206-6edb-5ecd-9c9e-6441f890478c",
+      "claim_summary": "The government schedule records the Release 2.0 production deployment milestone.",
+      "evidence_record_ids": [
+        "0eaeb389-decd-5030-b8d4-962e96d9eeb3"
+      ],
+      "finding_id": "schedule.release_2_deploy_complete",
+      "is_synthesized_assessment": false,
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "release-2-deploy-complete",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "31f36914-d44b-5cf2-aa86-6aba2f28adfd"
+      ]
+    },
+    {
+      "claim_group_id": "e7f7cd8b-dad2-5d45-aad8-f248c5c40367",
+      "claim_summary": "The USAspending award record states the current period of performance end date directly.",
+      "evidence_record_ids": [
+        "64841cfc-970d-5981-bb89-4f7ca044631b"
+      ],
+      "finding_id": "contract.period_of_performance_end",
+      "is_synthesized_assessment": false,
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "current-period-of-performance-end",
+      "schema_target_field": "period_of_performance.end_date",
+      "source_detail_refs": [
+        "4c494a62-8c4c-541b-8959-1e0e4a0ed81a"
+      ]
+    },
+    {
+      "claim_group_id": "bfbc0e8b-07ad-56e3-96c7-41e36a7f4628",
+      "claim_summary": "The USAspending award record states the current total obligation directly.",
+      "evidence_record_ids": [
+        "a1ed3987-6427-5ea9-b969-2eb2a85f816d"
+      ],
+      "finding_id": "contract.total_obligation",
+      "is_synthesized_assessment": false,
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "current-total-obligation",
+      "schema_target_field": "total_obligation",
+      "source_detail_refs": [
+        "8f5fc4ff-ccf8-5fca-a470-a0f5814b16ad"
+      ]
+    }
+  ],
+  "coverage_report_path": "etcc-enriched-proof-fresh/coverage_report.json",
+  "created_at": "2026-05-06T00:00:00Z",
+  "decision_readiness_report": {
+    "count_policy": "Counts are computed from ETCC Evidence Records only; projected R-IMS rows, public analog rows, and synthetic scaffold rows are excluded.",
+    "counts": {
+      "conflict_count": 6,
+      "evidence_record_count": 15,
+      "missing_support_count": 2,
+      "supporting_fact_count": 7
+    },
+    "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+    "driver_categories": {
+      "conflict": [
+        "cd8b9d16-8388-538d-add8-7f449bbf7723",
+        "f06e240b-5879-58d0-adb3-7dde79e69162",
+        "08b1e5f9-6b76-58ac-b36d-e787891b6663",
+        "6ceee49e-8158-53a8-b4e3-5ef551bb7a45",
+        "700da3dd-ed65-50e4-99f4-f5dac79c0f8a",
+        "53505196-728c-5ec0-abea-b887f9ce83ce"
+      ],
+      "missing_support": [
+        "cb6aafc6-167d-51c8-a8a4-db0b8e5f2108",
+        "2d64e288-8b70-5c88-828b-7199fa042faa"
+      ],
+      "supporting_fact": [
+        "8a591bef-1dbf-5bcd-bfa5-93e4574c207c",
+        "75edafcf-e2c8-5a91-8f84-84c42a37c038",
+        "dbf49dd8-e41c-531d-8213-33483d09874a",
+        "b1fbafad-3c18-52cb-81dc-734b7f882c66",
+        "0eaeb389-decd-5030-b8d4-962e96d9eeb3",
+        "64841cfc-970d-5981-bb89-4f7ca044631b",
+        "a1ed3987-6427-5ea9-b969-2eb2a85f816d"
+      ]
+    },
+    "state": "review_required"
+  },
+  "intent_id": "ssup-run-delta-etcc",
+  "materialization_manifest": {
+    "coverage_report_path": "etcc-enriched-proof-fresh/coverage_report.json",
+    "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+    "records_path": "etcc-enriched-proof-fresh/evidence_records.jsonl",
+    "visibility_summary_path": "etcc-enriched-proof-fresh/rims_visibility_summary.json"
+  },
+  "packet_preview": {
+    "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+    "sections": [
+      {
+        "evidence_record_ids": [
+          "cd8b9d16-8388-538d-add8-7f449bbf7723",
+          "f06e240b-5879-58d0-adb3-7dde79e69162",
+          "08b1e5f9-6b76-58ac-b36d-e787891b6663",
+          "6ceee49e-8158-53a8-b4e3-5ef551bb7a45",
+          "700da3dd-ed65-50e4-99f4-f5dac79c0f8a",
+          "53505196-728c-5ec0-abea-b887f9ce83ce"
+        ],
+        "section_id": "conflict"
+      },
+      {
+        "evidence_record_ids": [
+          "cb6aafc6-167d-51c8-a8a4-db0b8e5f2108",
+          "2d64e288-8b70-5c88-828b-7199fa042faa"
+        ],
+        "section_id": "missing_support"
+      },
+      {
+        "evidence_record_ids": [
+          "8a591bef-1dbf-5bcd-bfa5-93e4574c207c",
+          "75edafcf-e2c8-5a91-8f84-84c42a37c038",
+          "dbf49dd8-e41c-531d-8213-33483d09874a",
+          "b1fbafad-3c18-52cb-81dc-734b7f882c66",
+          "0eaeb389-decd-5030-b8d4-962e96d9eeb3",
+          "64841cfc-970d-5981-bb89-4f7ca044631b",
+          "a1ed3987-6427-5ea9-b969-2eb2a85f816d"
+        ],
+        "section_id": "supporting_fact"
+      }
+    ]
+  },
+  "projected_references": [
+    {
+      "claim_group_id": "1ab8d913-aa2e-5bf9-be38-6f1a810cb5b3",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "cd8b9d16-8388-538d-add8-7f449bbf7723",
+      "finding_id": "schedule.release_3_dev_baseline_drift",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "conflict_driver",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "release-3-dev-baseline-drift",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "56109383-0a2f-5d20-808b-486ca28b24dc",
+        "9f00305c-72aa-5241-bada-8ee5dbfdcfd8"
+      ]
+    },
+    {
+      "claim_group_id": "c7a2727f-bb35-5d18-8d52-2b0c06dd3102",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "f06e240b-5879-58d0-adb3-7dde79e69162",
+      "finding_id": "schedule.release_3_dev_percent_complete",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "conflict_driver",
+      "row_role": "meta_mismatch",
+      "scenario_finding_id": "release-3-dev-percent-complete-mismatch",
+      "schema_target_field": "percent_complete",
+      "source_detail_refs": [
+        "64b3d344-6c8e-5135-86d4-5f9ab3b8d3ca",
+        "09fe380b-e8de-5f23-87d2-467e5d266687"
+      ],
+      "row_role_target_task_id": "etcc-group-release-3"
+    },
+    {
+      "claim_group_id": "47c37fc7-7195-527f-bf3e-a2893d8c9493",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "08b1e5f9-6b76-58ac-b36d-e787891b6663",
+      "finding_id": "schedule.release_3_deploy_date",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "conflict_driver",
+      "row_role": "finding_annotation",
+      "scenario_finding_id": "release-3-deploy-date-slip",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "a75da107-546b-571c-9150-f4cfc3686e36",
+        "2dd98047-9519-5859-be06-8c5f903362a0"
+      ],
+      "row_role_target_task_id": "etcc-group-release-3"
+    },
+    {
+      "claim_group_id": "adbf4c2b-ae31-55c5-8044-89302a8f85ef",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "6ceee49e-8158-53a8-b4e3-5ef551bb7a45",
+      "finding_id": "schedule.release_4_dev_percent_complete",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "conflict_driver",
+      "row_role": "meta_mismatch",
+      "scenario_finding_id": "release-4-dev-percent-complete-mismatch",
+      "schema_target_field": "percent_complete",
+      "source_detail_refs": [
+        "3e5a74eb-f375-5805-b51b-bb3d0a5ede75",
+        "3f310f9d-ee67-53c6-8965-1fe3f704007d"
+      ],
+      "row_role_target_task_id": "etcc-group-release-4"
+    },
+    {
+      "claim_group_id": "0d937ea7-25ee-5a67-abbd-cab6cb0bbe08",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "700da3dd-ed65-50e4-99f4-f5dac79c0f8a",
+      "finding_id": "schedule.release_4_deploy_date",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "conflict_driver",
+      "row_role": "finding_annotation",
+      "scenario_finding_id": "release-4-deploy-date-slip",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "fb91f34a-8c35-5d00-81e5-7217fc2e5b33",
+        "b0244d3b-336a-565a-a87f-aa2e188a6c21"
+      ],
+      "row_role_target_task_id": "etcc-group-release-4"
+    },
+    {
+      "claim_group_id": "373563b4-2139-55ba-83ac-e420cff773fa",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "53505196-728c-5ec0-abea-b887f9ce83ce",
+      "finding_id": "schedule.ato_review_status_mismatch",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "conflict_driver",
+      "row_role": "meta_mismatch",
+      "scenario_finding_id": "ato-review-status-mismatch",
+      "schema_target_field": "status_label",
+      "source_detail_refs": [
+        "c7999935-f5c8-5195-8267-8d97ee80af98",
+        "0f823821-c6c0-53c1-a94d-ee17fdb34dee"
+      ],
+      "row_role_target_task_id": "etcc-schedule-accepted-ato-review"
+    },
+    {
+      "claim_group_id": "ea7b6a74-ee34-5446-bb15-03333e121286",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "cb6aafc6-167d-51c8-a8a4-db0b8e5f2108",
+      "finding_id": "schedule.funded_scope_p00010",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "missing_support_driver",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "funded-scope-missing-from-contractor-ims",
+      "schema_target_field": "contract_event_ref",
+      "source_detail_refs": [
+        "c837fa2c-ceb6-5206-9161-b907d2e1be4f",
+        "9c6367f5-40c3-5e49-bffd-11e6d1672b57",
+        "6594c53a-dc96-5ce5-a5dd-5292830d85fd"
+      ]
+    },
+    {
+      "claim_group_id": "b53898dd-5732-5736-bf7e-e10b4d273f41",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "2d64e288-8b70-5c88-828b-7199fa042faa",
+      "finding_id": "schedule.year_5_option",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "missing_support_driver",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "year-5-option-not-reflected-in-contractor-ims",
+      "schema_target_field": "contract_event_ref",
+      "source_detail_refs": [
+        "e0c13d66-7b0b-536d-9ce6-b861e3b50b5d",
+        "1d809a3a-a422-55da-a836-3383b163d3c1",
+        "6594c53a-dc96-5ce5-a5dd-5292830d85fd"
+      ]
+    },
+    {
+      "claim_group_id": "a6edfb55-866e-59b6-90eb-e14e7bef6e9e",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "8a591bef-1dbf-5bcd-bfa5-93e4574c207c",
+      "finding_id": "schedule.accepted_ato_review",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "accepted-ato-review",
+      "schema_target_field": "status_label",
+      "source_detail_refs": [
+        "c7999935-f5c8-5195-8267-8d97ee80af98"
+      ]
+    },
+    {
+      "claim_group_id": "0df9381f-f60d-573f-b430-2e44d3330901",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "75edafcf-e2c8-5a91-8f84-84c42a37c038",
+      "finding_id": "schedule.year_2_option_exercised",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "year-2-option-exercised",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "4c6c8cd7-9c28-5df7-952e-385ce9aaf2bb"
+      ]
+    },
+    {
+      "claim_group_id": "48dde6be-d32d-519b-99c1-11d461eea3b5",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "dbf49dd8-e41c-531d-8213-33483d09874a",
+      "finding_id": "schedule.year_3_option_exercised",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "year-3-option-exercised",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "c396ed26-c815-5a80-8d8b-1df9ce7ecee6"
+      ]
+    },
+    {
+      "claim_group_id": "3da634e0-95a5-5bec-a339-6443cfdb69d7",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "b1fbafad-3c18-52cb-81dc-734b7f882c66",
+      "finding_id": "schedule.year_4_option_exercised",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "year-4-option-exercised",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "a16bd932-aca5-57a9-a675-4687af67a1d7"
+      ]
+    },
+    {
+      "claim_group_id": "a942f206-6edb-5ecd-9c9e-6441f890478c",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "0eaeb389-decd-5030-b8d4-962e96d9eeb3",
+      "finding_id": "schedule.release_2_deploy_complete",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "release-2-deploy-complete",
+      "schema_target_field": "finish_date",
+      "source_detail_refs": [
+        "31f36914-d44b-5cf2-aa86-6aba2f28adfd"
+      ]
+    },
+    {
+      "claim_group_id": "e7f7cd8b-dad2-5d45-aad8-f248c5c40367",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "64841cfc-970d-5981-bb89-4f7ca044631b",
+      "finding_id": "contract.period_of_performance_end",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "current-period-of-performance-end",
+      "schema_target_field": "period_of_performance.end_date",
+      "source_detail_refs": [
+        "4c494a62-8c4c-541b-8959-1e0e4a0ed81a"
+      ]
+    },
+    {
+      "claim_group_id": "bfbc0e8b-07ad-56e3-96c7-41e36a7f4628",
+      "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+      "evidence_record_id": "a1ed3987-6427-5ea9-b969-2eb2a85f816d",
+      "finding_id": "contract.total_obligation",
+      "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+      "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+      "projection_role": "supporting_fact",
+      "row_role": "etcc_direct",
+      "scenario_finding_id": "current-total-obligation",
+      "schema_target_field": "total_obligation",
+      "source_detail_refs": [
+        "8f5fc4ff-ccf8-5fca-a470-a0f5814b16ad"
+      ]
+    }
+  ],
+  "projection_contract": {
+    "consumer": "r-ims",
+    "contract_version": "0.1",
+    "display_contract": "projected_references_only",
+    "excluded_row_roles": [
+      "public_analog",
+      "synthetic_scaffold"
+    ],
+    "truth_surface": "evidence_records"
+  },
+  "records_path": "etcc-enriched-proof-fresh/evidence_records.jsonl",
+  "run_id": "etcc-enriched-proof-fresh",
+  "run_root_rel_path": "etcc-enriched-proof-fresh",
+  "summary": {
+    "conflicted_elements": [
+      {
+        "field": "finish_date",
+        "finding_id": "schedule.release_3_dev_baseline_drift",
+        "projected_reference": {
+          "claim_group_id": "1ab8d913-aa2e-5bf9-be38-6f1a810cb5b3",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "cd8b9d16-8388-538d-add8-7f449bbf7723",
+          "finding_id": "schedule.release_3_dev_baseline_drift",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "conflict_driver",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "release-3-dev-baseline-drift",
+          "schema_target_field": "finish_date",
+          "source_detail_refs": [
+            "56109383-0a2f-5d20-808b-486ca28b24dc",
+            "9f00305c-72aa-5241-bada-8ee5dbfdcfd8"
+          ]
+        },
+        "reason": "Government tracking shows Release 3.0 development and integration testing slipping past the contractor baseline finish."
+      },
+      {
+        "field": "percent_complete",
+        "finding_id": "schedule.release_3_dev_percent_complete",
+        "projected_reference": {
+          "claim_group_id": "c7a2727f-bb35-5d18-8d52-2b0c06dd3102",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "f06e240b-5879-58d0-adb3-7dde79e69162",
+          "finding_id": "schedule.release_3_dev_percent_complete",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "conflict_driver",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "release-3-dev-percent-complete-mismatch",
+          "schema_target_field": "percent_complete",
+          "source_detail_refs": [
+            "64b3d344-6c8e-5135-86d4-5f9ab3b8d3ca",
+            "09fe380b-e8de-5f23-87d2-467e5d266687"
+          ]
+        },
+        "reason": "Government tracking and the contractor IMS disagree on percent complete for Release 3.0 development and integration testing."
+      },
+      {
+        "field": "finish_date",
+        "finding_id": "schedule.release_3_deploy_date",
+        "projected_reference": {
+          "claim_group_id": "47c37fc7-7195-527f-bf3e-a2893d8c9493",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "08b1e5f9-6b76-58ac-b36d-e787891b6663",
+          "finding_id": "schedule.release_3_deploy_date",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "conflict_driver",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "release-3-deploy-date-slip",
+          "schema_target_field": "finish_date",
+          "source_detail_refs": [
+            "a75da107-546b-571c-9150-f4cfc3686e36",
+            "2dd98047-9519-5859-be06-8c5f903362a0"
+          ]
+        },
+        "reason": "Government and contractor schedules disagree on the Release 3.0 deployment milestone date."
+      },
+      {
+        "field": "percent_complete",
+        "finding_id": "schedule.release_4_dev_percent_complete",
+        "projected_reference": {
+          "claim_group_id": "adbf4c2b-ae31-55c5-8044-89302a8f85ef",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "6ceee49e-8158-53a8-b4e3-5ef551bb7a45",
+          "finding_id": "schedule.release_4_dev_percent_complete",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "conflict_driver",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "release-4-dev-percent-complete-mismatch",
+          "schema_target_field": "percent_complete",
+          "source_detail_refs": [
+            "3e5a74eb-f375-5805-b51b-bb3d0a5ede75",
+            "3f310f9d-ee67-53c6-8965-1fe3f704007d"
+          ]
+        },
+        "reason": "Government tracking and the contractor IMS disagree on percent complete for Release 4.0 development and integration testing."
+      },
+      {
+        "field": "finish_date",
+        "finding_id": "schedule.release_4_deploy_date",
+        "projected_reference": {
+          "claim_group_id": "0d937ea7-25ee-5a67-abbd-cab6cb0bbe08",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "700da3dd-ed65-50e4-99f4-f5dac79c0f8a",
+          "finding_id": "schedule.release_4_deploy_date",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "conflict_driver",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "release-4-deploy-date-slip",
+          "schema_target_field": "finish_date",
+          "source_detail_refs": [
+            "fb91f34a-8c35-5d00-81e5-7217fc2e5b33",
+            "b0244d3b-336a-565a-a87f-aa2e188a6c21"
+          ]
+        },
+        "reason": "Government and contractor schedules disagree on the Release 4.0 deployment date."
+      },
+      {
+        "field": "status_label",
+        "finding_id": "schedule.ato_review_status_mismatch",
+        "projected_reference": {
+          "claim_group_id": "373563b4-2139-55ba-83ac-e420cff773fa",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "53505196-728c-5ec0-abea-b887f9ce83ce",
+          "finding_id": "schedule.ato_review_status_mismatch",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "conflict_driver",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "ato-review-status-mismatch",
+          "schema_target_field": "status_label",
+          "source_detail_refs": [
+            "c7999935-f5c8-5195-8267-8d97ee80af98",
+            "0f823821-c6c0-53c1-a94d-ee17fdb34dee"
+          ]
+        },
+        "reason": "Government tracking shows the ATO review accepted and closed while the contractor IMS still shows it in progress."
+      }
+    ],
+    "incomplete_elements": [
+      {
+        "finding_id": "schedule.funded_scope_p00010",
+        "projected_reference": {
+          "claim_group_id": "ea7b6a74-ee34-5446-bb15-03333e121286",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "cb6aafc6-167d-51c8-a8a4-db0b8e5f2108",
+          "finding_id": "schedule.funded_scope_p00010",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "missing_support_driver",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "funded-scope-missing-from-contractor-ims",
+          "schema_target_field": "contract_event_ref",
+          "source_detail_refs": [
+            "c837fa2c-ceb6-5206-9161-b907d2e1be4f",
+            "9c6367f5-40c3-5e49-bffd-11e6d1672b57",
+            "6594c53a-dc96-5ce5-a5dd-5292830d85fd"
+          ]
+        },
+        "summary": "P00010-funded work is present in the government schedule but missing from the contractor IMS."
+      },
+      {
+        "finding_id": "schedule.year_5_option",
+        "projected_reference": {
+          "claim_group_id": "b53898dd-5732-5736-bf7e-e10b4d273f41",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "2d64e288-8b70-5c88-828b-7199fa042faa",
+          "finding_id": "schedule.year_5_option",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "missing_support_driver",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "year-5-option-not-reflected-in-contractor-ims",
+          "schema_target_field": "contract_event_ref",
+          "source_detail_refs": [
+            "e0c13d66-7b0b-536d-9ce6-b861e3b50b5d",
+            "1d809a3a-a422-55da-a836-3383b163d3c1",
+            "6594c53a-dc96-5ce5-a5dd-5292830d85fd"
+          ]
+        },
+        "summary": "The Year 5 option appears in the government schedule but not in the contractor IMS."
+      }
+    ],
+    "weak_support_elements": [
+      {
+        "confidence": 0.95,
+        "finding_id": "schedule.accepted_ato_review",
+        "projected_reference": {
+          "claim_group_id": "a6edfb55-866e-59b6-90eb-e14e7bef6e9e",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "8a591bef-1dbf-5bcd-bfa5-93e4574c207c",
+          "finding_id": "schedule.accepted_ato_review",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "supporting_fact",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "accepted-ato-review",
+          "schema_target_field": "status_label",
+          "source_detail_refs": [
+            "c7999935-f5c8-5195-8267-8d97ee80af98"
+          ]
+        },
+        "statement": "The government schedule records the ATO review as accepted and closed."
+      },
+      {
+        "confidence": 0.95,
+        "finding_id": "schedule.year_2_option_exercised",
+        "projected_reference": {
+          "claim_group_id": "0df9381f-f60d-573f-b430-2e44d3330901",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "75edafcf-e2c8-5a91-8f84-84c42a37c038",
+          "finding_id": "schedule.year_2_option_exercised",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "supporting_fact",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "year-2-option-exercised",
+          "schema_target_field": "finish_date",
+          "source_detail_refs": [
+            "4c6c8cd7-9c28-5df7-952e-385ce9aaf2bb"
+          ]
+        },
+        "statement": "The government schedule records the Year 2 option exercise milestone."
+      },
+      {
+        "confidence": 0.95,
+        "finding_id": "schedule.year_3_option_exercised",
+        "projected_reference": {
+          "claim_group_id": "48dde6be-d32d-519b-99c1-11d461eea3b5",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "dbf49dd8-e41c-531d-8213-33483d09874a",
+          "finding_id": "schedule.year_3_option_exercised",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "supporting_fact",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "year-3-option-exercised",
+          "schema_target_field": "finish_date",
+          "source_detail_refs": [
+            "c396ed26-c815-5a80-8d8b-1df9ce7ecee6"
+          ]
+        },
+        "statement": "The government schedule records the Year 3 option exercise milestone."
+      },
+      {
+        "confidence": 0.95,
+        "finding_id": "schedule.year_4_option_exercised",
+        "projected_reference": {
+          "claim_group_id": "3da634e0-95a5-5bec-a339-6443cfdb69d7",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "b1fbafad-3c18-52cb-81dc-734b7f882c66",
+          "finding_id": "schedule.year_4_option_exercised",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "supporting_fact",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "year-4-option-exercised",
+          "schema_target_field": "finish_date",
+          "source_detail_refs": [
+            "a16bd932-aca5-57a9-a675-4687af67a1d7"
+          ]
+        },
+        "statement": "The government schedule records the Year 4 option exercise milestone."
+      },
+      {
+        "confidence": 0.95,
+        "finding_id": "schedule.release_2_deploy_complete",
+        "projected_reference": {
+          "claim_group_id": "a942f206-6edb-5ecd-9c9e-6441f890478c",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "0eaeb389-decd-5030-b8d4-962e96d9eeb3",
+          "finding_id": "schedule.release_2_deploy_complete",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "supporting_fact",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "release-2-deploy-complete",
+          "schema_target_field": "finish_date",
+          "source_detail_refs": [
+            "31f36914-d44b-5cf2-aa86-6aba2f28adfd"
+          ]
+        },
+        "statement": "The government schedule records the Release 2.0 production deployment milestone."
+      },
+      {
+        "confidence": 0.95,
+        "finding_id": "contract.period_of_performance_end",
+        "projected_reference": {
+          "claim_group_id": "e7f7cd8b-dad2-5d45-aad8-f248c5c40367",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "64841cfc-970d-5981-bb89-4f7ca044631b",
+          "finding_id": "contract.period_of_performance_end",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "supporting_fact",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "current-period-of-performance-end",
+          "schema_target_field": "period_of_performance.end_date",
+          "source_detail_refs": [
+            "4c494a62-8c4c-541b-8959-1e0e4a0ed81a"
+          ]
+        },
+        "statement": "The USAspending award record states the current period of performance end date directly."
+      },
+      {
+        "confidence": 0.95,
+        "finding_id": "contract.total_obligation",
+        "projected_reference": {
+          "claim_group_id": "bfbc0e8b-07ad-56e3-96c7-41e36a7f4628",
+          "decision_readiness_id": "d669158e-e41a-52f7-b1f1-c770eb82dd37",
+          "evidence_record_id": "a1ed3987-6427-5ea9-b969-2eb2a85f816d",
+          "finding_id": "contract.total_obligation",
+          "manifest_ref": "56b06afe-b94a-5957-ac58-b0368d37e04e",
+          "packet_ref": "dce57010-d162-528c-9926-eb1d55e1a39e",
+          "projection_role": "supporting_fact",
+          "row_role": "etcc_direct",
+          "scenario_finding_id": "current-total-obligation",
+          "schema_target_field": "total_obligation",
+          "source_detail_refs": [
+            "8f5fc4ff-ccf8-5fca-a470-a0f5814b16ad"
+          ]
+        },
+        "statement": "The USAspending award record states the current total obligation directly."
+      }
+    ]
+  }
+}

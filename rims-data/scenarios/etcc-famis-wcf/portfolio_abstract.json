@@ -1,0 +1,1437 @@
+{
+  "schema_id": "modernization_portfolio_abstract",
+  "schema_version": "0.1.0",
+  "bundle_id": "etcc-famis-wcf",
+  "bundle_version": "0.1.0",
+  "domain_id": "etcc",
+  "created_at": "2026-04-16T00:00:00Z",
+  "generated_by": "scripts/etcc/materialize_etcc_rims_bundle.js",
+  "sources": [
+    {
+      "source_id": "src-etcc-proof-artifacts",
+      "label": "Data-Normalization ETCC proof artifacts",
+      "snapshot_date": "2026-04-16"
+    },
+    {
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "label": "row=16,task_uid=16,wbs_id=3.2.2,task_name=Release 3.0 Dev & Integration Test,field=finish_date",
+      "snapshot_date": "2026-05-06",
+      "uri": "data-normalization://testbeds/etcc_program_schedule_v0/fixtures/gov_tracking_schedule_v1.xlsx",
+      "hash": "ee2a5d9d38c69de807e7a9577441bd5f0e42ba82dbaf0630cbb2eedaf8cf454b"
+    },
+    {
+      "source_id": "contractor-ims-v1-xlsx",
+      "label": "row=16,task_uid=16,wbs_id=3.2.2,task_name=Release 3.0 Dev & Integration Test,field=finish_date",
+      "snapshot_date": "2026-05-06",
+      "uri": "data-normalization://testbeds/etcc_program_schedule_v0/fixtures/contractor_ims_v1.xlsx",
+      "hash": "8fc010f2066c5d9f7cb37878c9c1baed6a5a539faee3737d25441f9b81edde0e"
+    },
+    {
+      "source_id": "usaspending-hc104722f0001-award-json",
+      "label": "record=award_json,field=contract_event_ref",
+      "snapshot_date": "2026-05-06",
+      "uri": "data-normalization://testbeds/etcc_program_schedule_v0/fixtures/usaspending_HC104722F0001_award.json",
+      "hash": "3b9f772ec53ac144f64935d71a5d727e8570395cf0ec3cdbeb82da5ff2b3f1d1"
+    },
+    {
+      "source_id": "src-etcc-synthetic-scaffold",
+      "label": "Synthetic ETCC PM decision-readiness scaffold",
+      "snapshot_date": "2026-05-13",
+      "uri": "openspec://refine-etcc-findings-workspace-ux-v0_1/dataset-shaping-plan.md"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "A-famis-wcf",
+      "legacy_short_id": "famis-wcf",
+      "name": "FAMIS-WCF ETCC Analysis",
+      "region": "DISA",
+      "category": "etcc",
+      "status": "schedule reconciliation",
+      "owner": "Defense Information Systems Agency",
+      "start_date": "2021-12-21",
+      "retire_date": "2026-12-20",
+      "meta": {
+        "contract_id": "HC104722F0001",
+        "program": "Financial Accounting Management Information System - Working Capital Fund",
+        "coverage_status": "partial",
+        "proof_run_id": "etcc-enriched-proof-fresh"
+      }
+    }
+  ],
+  "work_items": [
+    {
+      "id": "W-etcc-program-schedule",
+      "anchor_id": "A-famis-wcf",
+      "title": "ETCC Program Schedule",
+      "kind": "assembly",
+      "start": "2022-09-15",
+      "end": "2026-12-20",
+      "source_id": "src-etcc-proof-artifacts",
+      "meta": {
+        "group_source": "etcc_wbs_phase",
+        "knowledge_confidence": "red"
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "container",
+      "source_lane": "proof_artifact"
+    },
+    {
+      "id": "W-etcc-group-release-3",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-program-schedule",
+      "title": "Release 3.0",
+      "kind": "assembly",
+      "start": "2023-06-01",
+      "end": "2024-11-15",
+      "source_id": "src-etcc-proof-artifacts",
+      "meta": {
+        "group_source": "etcc_wbs_phase",
+        "knowledge_confidence": "red"
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "container",
+      "source_lane": "proof_artifact"
+    },
+    {
+      "id": "W-etcc-group-release-4",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-program-schedule",
+      "title": "Release 4.0",
+      "kind": "assembly",
+      "start": "2025-04-01",
+      "end": "2025-11-30",
+      "source_id": "src-etcc-proof-artifacts",
+      "meta": {
+        "group_source": "etcc_wbs_phase",
+        "knowledge_confidence": "red"
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "container",
+      "source_lane": "proof_artifact"
+    },
+    {
+      "id": "W-etcc-group-ato-governance",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-program-schedule",
+      "title": "ATO / Governance",
+      "kind": "assembly",
+      "start": "2023-07-01",
+      "end": "2024-03-31",
+      "source_id": "src-etcc-proof-artifacts",
+      "meta": {
+        "group_source": "etcc_wbs_phase",
+        "knowledge_confidence": "red"
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "container",
+      "source_lane": "proof_artifact"
+    },
+    {
+      "id": "W-etcc-group-contract-options",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-program-schedule",
+      "title": "Contract Milestones",
+      "kind": "assembly",
+      "start": "2022-12-19",
+      "end": "2026-12-20",
+      "source_id": "src-etcc-proof-artifacts",
+      "meta": {
+        "group_source": "etcc_wbs_phase",
+        "knowledge_confidence": "red"
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "container",
+      "source_lane": "proof_artifact"
+    },
+    {
+      "id": "W-etcc-schedule-release-3-dev-baseline-drift",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-group-release-3",
+      "title": "Release 3.0 development baseline drift",
+      "kind": "execution",
+      "start": "2023-06-01",
+      "end": "2024-10-31",
+      "risk_score": 50,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-3-dev-baseline-drift",
+        "evidence_id": "cd8b9d16-8388-538d-add8-7f449bbf7723",
+        "scenario_finding_id": "release-3-dev-baseline-drift",
+        "schema_target_id": "schedule.release_3_dev_baseline_drift",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.release_3_dev_baseline_drift",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "conflict"
+        ],
+        "knowledge_confidence": "red",
+        "conflict": true,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx",
+          "contractor-ims-v1-xlsx"
+        ],
+        "source_role": null,
+        "reason": "Government tracking shows Release 3.0 development and integration testing slipping past the contractor baseline finish.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "summary",
+      "source_lane": "proof_artifact"
+    },
+    {
+      "id": "W-etcc-schedule-release-3-dev-baseline-drift-gov",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-schedule-release-3-dev-baseline-drift",
+      "title": "Government schedule",
+      "kind": "execution",
+      "start": "2023-06-01",
+      "end": "2024-10-31",
+      "risk_score": null,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-3-dev-baseline-drift",
+        "evidence_id": "cd8b9d16-8388-538d-add8-7f449bbf7723",
+        "scenario_finding_id": "release-3-dev-baseline-drift",
+        "schema_target_id": "schedule.release_3_dev_baseline_drift",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.release_3_dev_baseline_drift",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "source_specific"
+        ],
+        "knowledge_confidence": null,
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx"
+        ],
+        "source_role": "gov",
+        "reason": "Government schedule value",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "government"
+    },
+    {
+      "id": "W-etcc-schedule-release-3-dev-baseline-drift-contractor",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-schedule-release-3-dev-baseline-drift",
+      "title": "Contractor schedule",
+      "kind": "execution",
+      "start": "2023-06-01",
+      "end": "2024-08-31",
+      "risk_score": null,
+      "source_id": "contractor-ims-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-3-dev-baseline-drift",
+        "evidence_id": "cd8b9d16-8388-538d-add8-7f449bbf7723",
+        "scenario_finding_id": "release-3-dev-baseline-drift",
+        "schema_target_id": "schedule.release_3_dev_baseline_drift",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.release_3_dev_baseline_drift",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "source_specific"
+        ],
+        "knowledge_confidence": null,
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "contractor-ims-v1-xlsx"
+        ],
+        "source_role": "contractor",
+        "reason": "Contractor schedule value",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "contractor"
+    },
+    {
+      "id": "W-etcc-schedule-release-3-dev-percent-complete",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-group-release-3",
+      "title": "Release 3.0 percent complete mismatch",
+      "kind": "execution",
+      "start": "2023-06-01",
+      "end": "2024-10-31",
+      "risk_score": 50,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-3-dev-percent-complete-mismatch",
+        "evidence_id": "f06e240b-5879-58d0-adb3-7dde79e69162",
+        "scenario_finding_id": "release-3-dev-percent-complete-mismatch",
+        "schema_target_id": "schedule.release_3_dev_percent_complete",
+        "schema_target_field": "percent_complete",
+        "finding_id": "schedule.release_3_dev_percent_complete",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "conflict"
+        ],
+        "knowledge_confidence": "red",
+        "conflict": true,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx",
+          "contractor-ims-v1-xlsx"
+        ],
+        "source_role": null,
+        "reason": "Government tracking and the contractor IMS disagree on percent complete for Release 3.0 development and integration testing.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "summary",
+      "source_lane": "proof_artifact",
+      "row_role": "meta_mismatch",
+      "annotation_target_task_id": "etcc-group-release-3"
+    },
+    {
+      "id": "W-etcc-schedule-release-3-deploy-date",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-group-release-3",
+      "title": "Release 3.0 deployment date conflict",
+      "kind": "milestone",
+      "start": "2024-11-15",
+      "end": "2024-11-15",
+      "risk_score": 60,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-3-deploy-date-slip",
+        "evidence_id": "08b1e5f9-6b76-58ac-b36d-e787891b6663",
+        "scenario_finding_id": "release-3-deploy-date-slip",
+        "schema_target_id": "schedule.release_3_deploy_date",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.release_3_deploy_date",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "conflict"
+        ],
+        "knowledge_confidence": "red",
+        "conflict": true,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx",
+          "contractor-ims-v1-xlsx"
+        ],
+        "source_role": null,
+        "reason": "Government and contractor schedules disagree on the Release 3.0 deployment milestone date.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "summary",
+      "source_lane": "proof_artifact",
+      "row_role": "finding_annotation",
+      "annotation_target_task_id": "etcc-group-release-3"
+    },
+    {
+      "id": "W-etcc-schedule-release-3-deploy-date-gov",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-schedule-release-3-deploy-date",
+      "title": "Government schedule",
+      "kind": "milestone",
+      "start": "2024-11-15",
+      "end": "2024-11-15",
+      "risk_score": null,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-3-deploy-date-slip",
+        "evidence_id": "08b1e5f9-6b76-58ac-b36d-e787891b6663",
+        "scenario_finding_id": "release-3-deploy-date-slip",
+        "schema_target_id": "schedule.release_3_deploy_date",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.release_3_deploy_date",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "source_specific"
+        ],
+        "knowledge_confidence": null,
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx"
+        ],
+        "source_role": "gov",
+        "reason": "Government schedule value",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "government",
+      "row_role": "finding_annotation",
+      "annotation_target_task_id": "etcc-group-release-3"
+    },
+    {
+      "id": "W-etcc-schedule-release-3-deploy-date-contractor",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-schedule-release-3-deploy-date",
+      "title": "Contractor schedule",
+      "kind": "milestone",
+      "start": "2024-09-30",
+      "end": "2024-09-30",
+      "risk_score": null,
+      "source_id": "contractor-ims-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-3-deploy-date-slip",
+        "evidence_id": "08b1e5f9-6b76-58ac-b36d-e787891b6663",
+        "scenario_finding_id": "release-3-deploy-date-slip",
+        "schema_target_id": "schedule.release_3_deploy_date",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.release_3_deploy_date",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "source_specific"
+        ],
+        "knowledge_confidence": null,
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "contractor-ims-v1-xlsx"
+        ],
+        "source_role": "contractor",
+        "reason": "Contractor schedule value",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "contractor",
+      "row_role": "finding_annotation",
+      "annotation_target_task_id": "etcc-group-release-3"
+    },
+    {
+      "id": "W-etcc-schedule-release-4-dev-percent-complete",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-group-release-4",
+      "title": "Release 4.0 percent complete mismatch",
+      "kind": "execution",
+      "start": "2025-04-01",
+      "end": "2025-08-29",
+      "risk_score": 50,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-4-dev-percent-complete-mismatch",
+        "evidence_id": "6ceee49e-8158-53a8-b4e3-5ef551bb7a45",
+        "scenario_finding_id": "release-4-dev-percent-complete-mismatch",
+        "schema_target_id": "schedule.release_4_dev_percent_complete",
+        "schema_target_field": "percent_complete",
+        "finding_id": "schedule.release_4_dev_percent_complete",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "conflict"
+        ],
+        "knowledge_confidence": "red",
+        "conflict": true,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx",
+          "contractor-ims-v1-xlsx"
+        ],
+        "source_role": null,
+        "reason": "Government tracking and the contractor IMS disagree on percent complete for Release 4.0 development and integration testing.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "summary",
+      "source_lane": "proof_artifact",
+      "row_role": "meta_mismatch",
+      "annotation_target_task_id": "etcc-group-release-4"
+    },
+    {
+      "id": "W-etcc-schedule-release-4-deploy-date",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-group-release-4",
+      "title": "Release 4.0 deployment date conflict",
+      "kind": "milestone",
+      "start": "2025-09-15",
+      "end": "2025-11-30",
+      "risk_score": 90,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-4-deploy-date-slip",
+        "evidence_id": "700da3dd-ed65-50e4-99f4-f5dac79c0f8a",
+        "scenario_finding_id": "release-4-deploy-date-slip",
+        "schema_target_id": "schedule.release_4_deploy_date",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.release_4_deploy_date",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "conflict"
+        ],
+        "knowledge_confidence": "red",
+        "conflict": true,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx",
+          "contractor-ims-v1-xlsx"
+        ],
+        "source_role": null,
+        "reason": "Government and contractor schedules disagree on the Release 4.0 deployment date.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "summary",
+      "source_lane": "proof_artifact",
+      "row_role": "finding_annotation",
+      "annotation_target_task_id": "etcc-group-release-4"
+    },
+    {
+      "id": "W-etcc-schedule-release-4-deploy-date-gov",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-schedule-release-4-deploy-date",
+      "title": "Government schedule",
+      "kind": "milestone",
+      "start": "2025-09-15",
+      "end": "2025-09-15",
+      "risk_score": null,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-4-deploy-date-slip",
+        "evidence_id": "700da3dd-ed65-50e4-99f4-f5dac79c0f8a",
+        "scenario_finding_id": "release-4-deploy-date-slip",
+        "schema_target_id": "schedule.release_4_deploy_date",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.release_4_deploy_date",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "source_specific"
+        ],
+        "knowledge_confidence": null,
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx"
+        ],
+        "source_role": "gov",
+        "reason": "Government schedule value",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "government",
+      "row_role": "finding_annotation",
+      "annotation_target_task_id": "etcc-group-release-4"
+    },
+    {
+      "id": "W-etcc-schedule-release-4-deploy-date-contractor",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-schedule-release-4-deploy-date",
+      "title": "Contractor schedule",
+      "kind": "milestone",
+      "start": "2025-11-30",
+      "end": "2025-11-30",
+      "risk_score": null,
+      "source_id": "contractor-ims-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-4-deploy-date-slip",
+        "evidence_id": "700da3dd-ed65-50e4-99f4-f5dac79c0f8a",
+        "scenario_finding_id": "release-4-deploy-date-slip",
+        "schema_target_id": "schedule.release_4_deploy_date",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.release_4_deploy_date",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "source_specific"
+        ],
+        "knowledge_confidence": null,
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "contractor-ims-v1-xlsx"
+        ],
+        "source_role": "contractor",
+        "reason": "Contractor schedule value",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "contractor",
+      "row_role": "finding_annotation",
+      "annotation_target_task_id": "etcc-group-release-4"
+    },
+    {
+      "id": "W-etcc-schedule-ato-review-status-mismatch",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-group-ato-governance",
+      "title": "ATO review status mismatch",
+      "kind": "execution",
+      "start": "2023-07-01",
+      "end": "2024-03-31",
+      "risk_score": 50,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "ato-review-status-mismatch",
+        "evidence_id": "53505196-728c-5ec0-abea-b887f9ce83ce",
+        "scenario_finding_id": "ato-review-status-mismatch",
+        "schema_target_id": "schedule.ato_review_status_mismatch",
+        "schema_target_field": "status_label",
+        "finding_id": "schedule.ato_review_status_mismatch",
+        "finding_type": "metadata_observation",
+        "finding_classification": [
+          "conflict"
+        ],
+        "knowledge_confidence": "red",
+        "conflict": true,
+        "gap": false,
+        "weak_support": false,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx",
+          "contractor-ims-v1-xlsx"
+        ],
+        "source_role": null,
+        "reason": "Government tracking shows the ATO review accepted and closed while the contractor IMS still shows it in progress.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "summary",
+      "source_lane": "proof_artifact",
+      "row_role": "meta_mismatch",
+      "annotation_target_task_id": "etcc-schedule-accepted-ato-review"
+    },
+    {
+      "id": "W-etcc-schedule-accepted-ato-review",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-group-ato-governance",
+      "title": "ATO review accepted in government schedule",
+      "kind": "milestone",
+      "start": "2024-03-31",
+      "end": "2024-03-31",
+      "risk_score": 35,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "accepted-ato-review",
+        "evidence_id": "8a591bef-1dbf-5bcd-bfa5-93e4574c207c",
+        "scenario_finding_id": "accepted-ato-review",
+        "schema_target_id": "schedule.accepted_ato_review",
+        "schema_target_field": "status_label",
+        "finding_id": "schedule.accepted_ato_review",
+        "finding_type": "source_fact",
+        "finding_classification": [
+          "weak_support"
+        ],
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": true,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx"
+        ],
+        "source_role": "gov",
+        "reason": "The government schedule records the ATO review as accepted and closed.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "government"
+    },
+    {
+      "id": "W-etcc-schedule-year-2-option-exercised",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-group-contract-options",
+      "title": "Year 2 option exercised",
+      "kind": "milestone",
+      "start": "2022-12-19",
+      "end": "2022-12-19",
+      "risk_score": 15,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "year-2-option-exercised",
+        "evidence_id": "75edafcf-e2c8-5a91-8f84-84c42a37c038",
+        "scenario_finding_id": "year-2-option-exercised",
+        "schema_target_id": "schedule.year_2_option_exercised",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.year_2_option_exercised",
+        "finding_type": "source_fact",
+        "finding_classification": [
+          "weak_support"
+        ],
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": true,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx"
+        ],
+        "source_role": "gov",
+        "reason": "The government schedule records the Year 2 option exercise milestone.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "government"
+    },
+    {
+      "id": "W-etcc-schedule-year-3-option-exercised",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-group-contract-options",
+      "title": "Year 3 option exercised",
+      "kind": "milestone",
+      "start": "2023-12-11",
+      "end": "2023-12-11",
+      "risk_score": 15,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "year-3-option-exercised",
+        "evidence_id": "dbf49dd8-e41c-531d-8213-33483d09874a",
+        "scenario_finding_id": "year-3-option-exercised",
+        "schema_target_id": "schedule.year_3_option_exercised",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.year_3_option_exercised",
+        "finding_type": "source_fact",
+        "finding_classification": [
+          "weak_support"
+        ],
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": true,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx"
+        ],
+        "source_role": "gov",
+        "reason": "The government schedule records the Year 3 option exercise milestone.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "government"
+    },
+    {
+      "id": "W-etcc-schedule-year-4-option-exercised",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-group-contract-options",
+      "title": "Year 4 option exercised",
+      "kind": "milestone",
+      "start": "2024-12-10",
+      "end": "2024-12-10",
+      "risk_score": 15,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "year-4-option-exercised",
+        "evidence_id": "b1fbafad-3c18-52cb-81dc-734b7f882c66",
+        "scenario_finding_id": "year-4-option-exercised",
+        "schema_target_id": "schedule.year_4_option_exercised",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.year_4_option_exercised",
+        "finding_type": "source_fact",
+        "finding_classification": [
+          "weak_support"
+        ],
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": true,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx"
+        ],
+        "source_role": "gov",
+        "reason": "The government schedule records the Year 4 option exercise milestone.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "government"
+    },
+    {
+      "id": "W-etcc-schedule-release-2-deploy-complete",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-program-schedule",
+      "title": "Release 2.0 deployment complete",
+      "kind": "milestone",
+      "start": "2022-09-15",
+      "end": "2022-09-15",
+      "risk_score": 20,
+      "source_id": "gov-tracking-schedule-v1-xlsx",
+      "meta": {
+        "detail_ref": "release-2-deploy-complete",
+        "evidence_id": "0eaeb389-decd-5030-b8d4-962e96d9eeb3",
+        "scenario_finding_id": "release-2-deploy-complete",
+        "schema_target_id": "schedule.release_2_deploy_complete",
+        "schema_target_field": "finish_date",
+        "finding_id": "schedule.release_2_deploy_complete",
+        "finding_type": "source_fact",
+        "finding_classification": [
+          "weak_support"
+        ],
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": true,
+        "source_refs": [
+          "gov-tracking-schedule-v1-xlsx"
+        ],
+        "source_role": "gov",
+        "reason": "The government schedule records the Release 2.0 production deployment milestone.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "government"
+    },
+    {
+      "id": "W-etcc-contract-period-of-performance-end",
+      "anchor_id": "A-famis-wcf",
+      "parent_id": "W-etcc-group-contract-options",
+      "title": "Contract period of performance end date",
+      "kind": "milestone",
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "risk_score": 30,
+      "source_id": "usaspending-hc104722f0001-award-json",
+      "meta": {
+        "detail_ref": "current-period-of-performance-end",
+        "evidence_id": "64841cfc-970d-5981-bb89-4f7ca044631b",
+        "scenario_finding_id": "current-period-of-performance-end",
+        "schema_target_id": "contract.period_of_performance_end",
+        "schema_target_field": "period_of_performance.end_date",
+        "finding_id": "contract.period_of_performance_end",
+        "finding_type": "source_fact",
+        "finding_classification": [
+          "weak_support"
+        ],
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": true,
+        "source_refs": [
+          "usaspending-hc104722f0001-award-json"
+        ],
+        "source_role": "usaspending",
+        "reason": "The USAspending award record states the current period of performance end date directly.",
+        "progress_pct": null
+      },
+      "provenance_tier": "etcc_direct",
+      "content_role": "evidence",
+      "source_lane": "usaspending"
+    },
+    {
+      "id": "W-etcc-scaffold-release-3-scope-baseline",
+      "parent_id": "W-etcc-group-release-3",
+      "title": "Release 3.0 scope baseline",
+      "kind": "execution",
+      "start": "2023-06-01",
+      "end": "2023-06-30",
+      "decision_relevance": [
+        "decision.release_3_scope"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "summary",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "deferred",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-release-3-integration-complete",
+      "parent_id": "W-etcc-group-release-3",
+      "title": "Release 3.0 integration complete",
+      "kind": "milestone",
+      "start": "2024-10-15",
+      "end": "2024-10-15",
+      "decision_relevance": [
+        "decision.release_3_deploy"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "review_action",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "needs_review",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-release-4-scope-baseline",
+      "parent_id": "W-etcc-group-release-4",
+      "title": "Release 4.0 scope baseline",
+      "kind": "execution",
+      "start": "2025-04-01",
+      "end": "2025-04-18",
+      "decision_relevance": [
+        "decision.release_4_scope"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "summary",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "deferred",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-release-4-fielding-readiness-review",
+      "parent_id": "W-etcc-group-release-4",
+      "title": "Release 4.0 fielding readiness review",
+      "kind": "milestone",
+      "start": "2025-09-01",
+      "end": "2025-09-01",
+      "decision_relevance": [
+        "decision.release_4_fielding"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "review_action",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "needs_review",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-ato-controls-implemented",
+      "parent_id": "W-etcc-group-ato-governance",
+      "title": "Security controls implemented",
+      "kind": "milestone",
+      "start": "2023-11-30",
+      "end": "2023-11-30",
+      "decision_relevance": [
+        "decision.ato_authorization"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "review_action",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "needs_review",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-ato-validation-environment-ready",
+      "parent_id": "W-etcc-group-ato-governance",
+      "title": "ATO validation environment ready",
+      "kind": "milestone",
+      "start": "2023-12-15",
+      "end": "2023-12-15",
+      "decision_relevance": [
+        "decision.ato_authorization"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "review_action",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "needs_review",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-ato-integrated-test-window",
+      "parent_id": "W-etcc-group-ato-governance",
+      "title": "Integrated ATO test window",
+      "kind": "execution",
+      "start": "2024-01-08",
+      "end": "2024-02-16",
+      "decision_relevance": [
+        "decision.ato_authorization"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "summary",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "deferred",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-ato-assessment-complete",
+      "parent_id": "W-etcc-group-ato-governance",
+      "title": "Security assessment and POA&M triage complete",
+      "kind": "milestone",
+      "start": "2024-02-23",
+      "end": "2024-02-23",
+      "decision_relevance": [
+        "decision.ato_authorization"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "review_action",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "needs_review",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-ato-authorization-package",
+      "parent_id": "W-etcc-group-ato-governance",
+      "title": "Authorization package assembled",
+      "kind": "milestone",
+      "start": "2024-03-15",
+      "end": "2024-03-15",
+      "decision_relevance": [
+        "decision.ato_authorization",
+        "decision.pm_packet"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "review_action",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "needs_review",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-option-performance-review",
+      "parent_id": "W-etcc-group-contract-options",
+      "title": "Option exercise performance evidence review",
+      "kind": "execution",
+      "start": "2024-10-01",
+      "end": "2024-11-15",
+      "decision_relevance": [
+        "decision.option_year_4"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "summary",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "deferred",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-option-funding-confirmed",
+      "parent_id": "W-etcc-group-contract-options",
+      "title": "Option year funding availability confirmed",
+      "kind": "milestone",
+      "start": "2024-11-20",
+      "end": "2024-11-20",
+      "decision_relevance": [
+        "decision.option_year_4"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "review_action",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "needs_review",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-option-determination",
+      "parent_id": "W-etcc-group-contract-options",
+      "title": "Written option exercise determination",
+      "kind": "milestone",
+      "start": "2024-12-02",
+      "end": "2024-12-02",
+      "decision_relevance": [
+        "decision.option_year_4"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "review_action",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "needs_review",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-pm-monthly-ims-drop",
+      "parent_id": "W-etcc-program-schedule",
+      "title": "Monthly IMS data drop received",
+      "kind": "milestone",
+      "start": "2025-08-01",
+      "end": "2025-08-01",
+      "decision_relevance": [
+        "decision.pm_packet"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "review_action",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "needs_review",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-pm-decision-packet",
+      "parent_id": "W-etcc-program-schedule",
+      "title": "PM decision packet assembled",
+      "kind": "execution",
+      "start": "2025-08-18",
+      "end": "2025-09-05",
+      "decision_relevance": [
+        "decision.pm_packet",
+        "decision.release_4_fielding"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "summary",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "deferred",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    },
+    {
+      "id": "W-etcc-scaffold-ato-continuous-monitoring-start",
+      "parent_id": "W-etcc-group-ato-governance",
+      "title": "Continuous monitoring handoff starts",
+      "kind": "milestone",
+      "start": "2024-04-01",
+      "end": "2024-04-01",
+      "decision_relevance": [
+        "decision.ato_authorization"
+      ],
+      "anchor_id": "A-famis-wcf",
+      "source_id": "src-etcc-synthetic-scaffold",
+      "provenance_tier": "synthetic_scaffold",
+      "content_role": "review_action",
+      "source_lane": "scaffold",
+      "authority_state": "unestablished",
+      "freshness_state": "unknown",
+      "access_state": "accessible",
+      "review_state": "needs_review",
+      "meta": {
+        "scaffold": true,
+        "scaffold_reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence.",
+        "knowledge_confidence": "yellow",
+        "conflict": false,
+        "gap": false,
+        "weak_support": false,
+        "source_role": "scaffold",
+        "reason": "Synthetic PM decision-readiness scaffold row; not direct ETCC evidence."
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "D-etcc-demo-dep-release-3-to-release-4-dev",
+      "predecessor_id": "W-etcc-scaffold-release-3-integration-complete",
+      "successor_id": "W-etcc-scaffold-release-4-scope-baseline",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "Release 3.0 integration posture precedes Release 4.0 scope planning."
+    },
+    {
+      "id": "D-etcc-demo-dep-release-4-dev-to-deploy",
+      "predecessor_id": "W-etcc-scaffold-release-4-scope-baseline",
+      "successor_id": "W-etcc-scaffold-release-4-fielding-readiness-review",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "Release 4.0 scope planning precedes fielding readiness."
+    },
+    {
+      "id": "D-etcc-demo-dep-ato-review-to-accepted",
+      "predecessor_id": "W-etcc-scaffold-ato-authorization-package",
+      "successor_id": "W-etcc-schedule-accepted-ato-review",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "Authorization package assembly precedes the accepted ATO review fact."
+    },
+    {
+      "id": "D-etcc-demo-dep-option-2-to-option-3",
+      "predecessor_id": "W-etcc-schedule-year-2-option-exercised",
+      "successor_id": "W-etcc-schedule-year-3-option-exercised",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "Contract option years are sequenced for demo readability."
+    },
+    {
+      "id": "D-etcc-demo-dep-option-3-to-option-4",
+      "predecessor_id": "W-etcc-schedule-year-3-option-exercised",
+      "successor_id": "W-etcc-schedule-year-4-option-exercised",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "Contract option years are sequenced for demo readability."
+    },
+    {
+      "id": "D-etcc-demo-dep-option-4-to-pop-end",
+      "predecessor_id": "W-etcc-schedule-year-4-option-exercised",
+      "successor_id": "W-etcc-contract-period-of-performance-end",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "Final exercised option precedes the period-of-performance end marker."
+    },
+    {
+      "id": "D-etcc-demo-dep-controls-to-test",
+      "predecessor_id": "W-etcc-scaffold-ato-controls-implemented",
+      "successor_id": "W-etcc-scaffold-ato-integrated-test-window",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "Implemented controls are needed before integrated ATO testing."
+    },
+    {
+      "id": "D-etcc-demo-dep-env-to-test",
+      "predecessor_id": "W-etcc-scaffold-ato-validation-environment-ready",
+      "successor_id": "W-etcc-scaffold-ato-integrated-test-window",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "A validation environment is needed before integrated ATO testing."
+    },
+    {
+      "id": "D-etcc-demo-dep-test-to-assessment",
+      "predecessor_id": "W-etcc-scaffold-ato-integrated-test-window",
+      "successor_id": "W-etcc-scaffold-ato-assessment-complete",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "Integrated test results feed the security assessment."
+    },
+    {
+      "id": "D-etcc-demo-dep-assessment-to-package",
+      "predecessor_id": "W-etcc-scaffold-ato-assessment-complete",
+      "successor_id": "W-etcc-scaffold-ato-authorization-package",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "Assessment results support authorization package assembly."
+    },
+    {
+      "id": "D-etcc-demo-dep-package-to-ato",
+      "predecessor_id": "W-etcc-scaffold-ato-authorization-package",
+      "successor_id": "W-etcc-schedule-accepted-ato-review",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "The authorization package precedes the accepted ATO review fact."
+    },
+    {
+      "id": "D-etcc-demo-dep-ato-to-release-4-fielding",
+      "predecessor_id": "W-etcc-schedule-accepted-ato-review",
+      "successor_id": "W-etcc-scaffold-release-4-fielding-readiness-review",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "ATO posture gates Release 4.0 fielding readiness."
+    },
+    {
+      "id": "D-etcc-demo-dep-performance-to-option-determination",
+      "predecessor_id": "W-etcc-scaffold-option-performance-review",
+      "successor_id": "W-etcc-scaffold-option-determination",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "Performance evidence supports the written option determination."
+    },
+    {
+      "id": "D-etcc-demo-dep-funding-to-option-determination",
+      "predecessor_id": "W-etcc-scaffold-option-funding-confirmed",
+      "successor_id": "W-etcc-scaffold-option-determination",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "Funding availability supports the written option determination."
+    },
+    {
+      "id": "D-etcc-demo-dep-option-determination-to-option-4",
+      "predecessor_id": "W-etcc-scaffold-option-determination",
+      "successor_id": "W-etcc-schedule-year-4-option-exercised",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "The written determination precedes the exercised Year 4 option fact."
+    },
+    {
+      "id": "D-etcc-demo-dep-ims-drop-to-packet",
+      "predecessor_id": "W-etcc-scaffold-pm-monthly-ims-drop",
+      "successor_id": "W-etcc-scaffold-pm-decision-packet",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "The monthly IMS drop feeds the PM decision packet."
+    },
+    {
+      "id": "D-etcc-demo-dep-ato-package-to-packet",
+      "predecessor_id": "W-etcc-scaffold-ato-authorization-package",
+      "successor_id": "W-etcc-scaffold-pm-decision-packet",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "ATO package evidence feeds the PM decision packet."
+    },
+    {
+      "id": "D-etcc-demo-dep-ato-to-continuous-monitoring",
+      "predecessor_id": "W-etcc-schedule-accepted-ato-review",
+      "successor_id": "W-etcc-scaffold-ato-continuous-monitoring-start",
+      "type": "FS",
+      "source_id": "src-etcc-proof-artifacts",
+      "inferred": true,
+      "rationale": "The accepted ATO review starts continuous monitoring handoff."
+    }
+  ],
+  "operational_requirements": []
+}

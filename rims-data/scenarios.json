@@ -17,6 +17,11 @@
       "generated_at": "2026-03-09T00:00:00Z"
     },
     {
+      "scenario_id": "etcc-famis-wcf",
+      "label": "FAMIS-WCF ETCC Analysis",
+      "generated_at": "2026-04-16T00:00:00Z"
+    },
+    {
       "scenario_id": "mpi_block2_baseline",
       "generated_at": "2026-03-11T15:00:00Z",
       "label": "mpi_block2_baseline"

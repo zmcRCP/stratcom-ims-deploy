@@ -1,0 +1,146 @@
+[
+  {
+    "id": 0,
+    "predecessorId": "etcc-scaffold-release-3-integration-complete",
+    "successorId": "etcc-scaffold-release-4-scope-baseline",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 1,
+    "predecessorId": "etcc-scaffold-release-4-scope-baseline",
+    "successorId": "etcc-scaffold-release-4-fielding-readiness-review",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 2,
+    "predecessorId": "etcc-scaffold-ato-authorization-package",
+    "successorId": "etcc-schedule-accepted-ato-review",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 3,
+    "predecessorId": "etcc-schedule-year-2-option-exercised",
+    "successorId": "etcc-schedule-year-3-option-exercised",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 4,
+    "predecessorId": "etcc-schedule-year-3-option-exercised",
+    "successorId": "etcc-schedule-year-4-option-exercised",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 5,
+    "predecessorId": "etcc-schedule-year-4-option-exercised",
+    "successorId": "etcc-contract-period-of-performance-end",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 6,
+    "predecessorId": "etcc-scaffold-ato-controls-implemented",
+    "successorId": "etcc-scaffold-ato-integrated-test-window",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 7,
+    "predecessorId": "etcc-scaffold-ato-validation-environment-ready",
+    "successorId": "etcc-scaffold-ato-integrated-test-window",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 8,
+    "predecessorId": "etcc-scaffold-ato-integrated-test-window",
+    "successorId": "etcc-scaffold-ato-assessment-complete",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 9,
+    "predecessorId": "etcc-scaffold-ato-assessment-complete",
+    "successorId": "etcc-scaffold-ato-authorization-package",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 10,
+    "predecessorId": "etcc-scaffold-ato-authorization-package",
+    "successorId": "etcc-schedule-accepted-ato-review",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 11,
+    "predecessorId": "etcc-schedule-accepted-ato-review",
+    "successorId": "etcc-scaffold-release-4-fielding-readiness-review",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 12,
+    "predecessorId": "etcc-scaffold-option-performance-review",
+    "successorId": "etcc-scaffold-option-determination",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 13,
+    "predecessorId": "etcc-scaffold-option-funding-confirmed",
+    "successorId": "etcc-scaffold-option-determination",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 14,
+    "predecessorId": "etcc-scaffold-option-determination",
+    "successorId": "etcc-schedule-year-4-option-exercised",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 15,
+    "predecessorId": "etcc-scaffold-pm-monthly-ims-drop",
+    "successorId": "etcc-scaffold-pm-decision-packet",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 16,
+    "predecessorId": "etcc-scaffold-ato-authorization-package",
+    "successorId": "etcc-scaffold-pm-decision-packet",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  },
+  {
+    "id": 17,
+    "predecessorId": "etcc-schedule-accepted-ato-review",
+    "successorId": "etcc-scaffold-ato-continuous-monitoring-start",
+    "type": 0,
+    "lag_days": 0,
+    "inferred": true
+  }
+]

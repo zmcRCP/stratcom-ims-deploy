@@ -1,13 +1,8 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/stratcom-ims-deploy/static/css/main.710d11db.css",
-    "main.js": "/stratcom-ims-deploy/static/js/main.ca4cbf14.js",
-=======
-    "main.css": "/stratcom-ims-deploy/static/css/main.4aaf9064.css",
-    "main.js": "/stratcom-ims-deploy/static/js/main.0a6330f7.js",
->>>>>>> 6b81e94 (Deploy STRATCOM demo update)
-    "static/js/685.0176a4b6.chunk.js": "/stratcom-ims-deploy/static/js/685.0176a4b6.chunk.js",
+    "main.css": "/stratcom-ims-deploy/static/css/main.fc9ade1d.css",
+    "main.js": "/stratcom-ims-deploy/static/js/main.c602b4c5.js",
+    "static/js/685.55846563.chunk.js": "/stratcom-ims-deploy/static/js/685.55846563.chunk.js",
     "static/media/Roboto-500.ttf": "/stratcom-ims-deploy/static/media/Roboto-500.0fcd45fbfc419c42c8b9.ttf",
     "static/media/Roboto-400.ttf": "/stratcom-ims-deploy/static/media/Roboto-400.6bede58e856278b0f8f1.ttf",
     "static/media/Roboto-700.ttf": "/stratcom-ims-deploy/static/media/Roboto-700.17451a4c1cd55e33ac57.ttf",
@@ -26,12 +21,7 @@
     "index.html": "/stratcom-ims-deploy/index.html"
   },
   "entrypoints": [
-<<<<<<< HEAD
-    "static/css/main.710d11db.css",
-    "static/js/main.ca4cbf14.js"
-=======
-    "static/css/main.4aaf9064.css",
-    "static/js/main.0a6330f7.js"
->>>>>>> 6b81e94 (Deploy STRATCOM demo update)
+    "static/css/main.fc9ade1d.css",
+    "static/js/main.c602b4c5.js"
   ]
 }

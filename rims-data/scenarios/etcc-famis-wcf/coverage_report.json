@@ -1,0 +1,129 @@
+{
+  "contract_version": "0.1",
+  "created_at": "2026-05-06T00:00:00Z",
+  "entities": {
+    "anchors": [
+      {
+        "anchor_name": "FAMIS-WCF",
+        "anchor_type": "program"
+      },
+      {
+        "anchor_name": "HC104722F0001",
+        "anchor_type": "contract"
+      }
+    ]
+  },
+  "intent_id": "ssup-run-delta-etcc",
+  "notes": "ETCC enriched run-delta output produced by SSUP Mode 1.",
+  "run_id": "etcc-enriched-proof-fresh",
+  "run_root_rel_path": "etcc-enriched-proof-fresh",
+  "views": {
+    "etcc_program_schedule_direct_fill": {
+      "artifacts": {
+        "errors_path": "etcc-enriched-proof-fresh/reports/review_queue.json",
+        "records_path": "etcc-enriched-proof-fresh/evidence_records.jsonl"
+      },
+      "conflicts": [
+        {
+          "candidate_count": 2,
+          "conflict_id": "1a1e92d7-78a1-5879-ace7-e42c49083eeb",
+          "entity_ref": {
+            "aliases": [
+              "release-3-dev-baseline-drift"
+            ],
+            "anchor_id": "schedule.release_3_dev_baseline_drift",
+            "anchor_name": "schedule.release_3_dev_baseline_drift",
+            "anchor_type": "schedule_element"
+          },
+          "field": "finish_date",
+          "reason": "Government tracking shows Release 3.0 development and integration testing slipping past the contractor baseline finish.",
+          "suggested_action": "collect_more"
+        },
+        {
+          "candidate_count": 2,
+          "conflict_id": "377aca06-46ed-5d01-9e6b-70ad42dc6112",
+          "entity_ref": {
+            "aliases": [
+              "release-3-dev-percent-complete-mismatch"
+            ],
+            "anchor_id": "schedule.release_3_dev_percent_complete",
+            "anchor_name": "schedule.release_3_dev_percent_complete",
+            "anchor_type": "schedule_element"
+          },
+          "field": "percent_complete",
+          "reason": "Government tracking and the contractor IMS disagree on percent complete for Release 3.0 development and integration testing.",
+          "suggested_action": "collect_more"
+        },
+        {
+          "candidate_count": 2,
+          "conflict_id": "c02d3d84-2cdc-55ec-9469-53c1bc514d6e",
+          "entity_ref": {
+            "aliases": [
+              "release-3-deploy-date-slip"
+            ],
+            "anchor_id": "schedule.release_3_deploy_date",
+            "anchor_name": "schedule.release_3_deploy_date",
+            "anchor_type": "schedule_element"
+          },
+          "field": "finish_date",
+          "reason": "Government and contractor schedules disagree on the Release 3.0 deployment milestone date.",
+          "suggested_action": "collect_more"
+        },
+        {
+          "candidate_count": 2,
+          "conflict_id": "14c49514-97f5-590d-9886-9300c194ada5",
+          "entity_ref": {
+            "aliases": [
+              "release-4-dev-percent-complete-mismatch"
+            ],
+            "anchor_id": "schedule.release_4_dev_percent_complete",
+            "anchor_name": "schedule.release_4_dev_percent_complete",
+            "anchor_type": "schedule_element"
+          },
+          "field": "percent_complete",
+          "reason": "Government tracking and the contractor IMS disagree on percent complete for Release 4.0 development and integration testing.",
+          "suggested_action": "collect_more"
+        },
+        {
+          "candidate_count": 2,
+          "conflict_id": "89d7e75c-ff8f-5c4d-a0fb-b7fa0d58fb28",
+          "entity_ref": {
+            "aliases": [
+              "release-4-deploy-date-slip"
+            ],
+            "anchor_id": "schedule.release_4_deploy_date",
+            "anchor_name": "schedule.release_4_deploy_date",
+            "anchor_type": "schedule_element"
+          },
+          "field": "finish_date",
+          "reason": "Government and contractor schedules disagree on the Release 4.0 deployment date.",
+          "suggested_action": "collect_more"
+        },
+        {
+          "candidate_count": 2,
+          "conflict_id": "5429b647-d911-5519-b377-e1c9b3f6b73b",
+          "entity_ref": {
+            "aliases": [
+              "ato-review-status-mismatch"
+            ],
+            "anchor_id": "schedule.ato_review_status_mismatch",
+            "anchor_name": "schedule.ato_review_status_mismatch",
+            "anchor_type": "schedule_element"
+          },
+          "field": "status_label",
+          "reason": "Government tracking shows the ATO review accepted and closed while the contractor IMS still shows it in progress.",
+          "suggested_action": "collect_more"
+        }
+      ],
+      "missing_fields": [],
+      "notes": "ETCC enriched SSUP run-delta output over schedule and contract custody artifacts.",
+      "records_emitted": 15,
+      "required_fields": [
+        "metadata_observation >= 5",
+        "absence_statement >= 2",
+        "source_fact >= 5"
+      ],
+      "status": "partial"
+    }
+  }
+}

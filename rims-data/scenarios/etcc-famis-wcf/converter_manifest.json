@@ -1,0 +1,101 @@
+{
+  "converter_version": "1.0.0",
+  "adapter_id": "etcc",
+  "timestamp": "2026-05-13T17:57:44.012Z",
+  "bundle_id": "etcc-famis-wcf",
+  "bundle_version": "0.1.0",
+  "schema_id": "modernization_portfolio_abstract",
+  "schema_version": "0.1.0",
+  "source_path": "public/rims-data/scenarios/etcc-famis-wcf/etcc_portfolio_abstract.json",
+  "output_dir": "public/rims-data/scenarios/etcc-famis-wcf",
+  "emitted_files": [
+    {
+      "path": "plants.json",
+      "hash": "69737918982ecf71",
+      "count": 1
+    },
+    {
+      "path": "gantt_tasks_by_plant.json",
+      "hash": "b48be3b631d06acd",
+      "count": 38
+    },
+    {
+      "path": "gantt_dependencies_by_plant.json",
+      "hash": "77085807030f818d",
+      "count": 18
+    },
+    {
+      "path": "load_forecast_by_region.json",
+      "hash": "ca3d163bab055381",
+      "count": 0
+    }
+  ],
+  "id_map": {
+    "anchors": {
+      "A-famis-wcf": "famis-wcf"
+    },
+    "work_items": {
+      "W-etcc-program-schedule": "etcc-program-schedule",
+      "W-etcc-group-release-3": "etcc-group-release-3",
+      "W-etcc-group-release-4": "etcc-group-release-4",
+      "W-etcc-group-ato-governance": "etcc-group-ato-governance",
+      "W-etcc-group-contract-options": "etcc-group-contract-options",
+      "W-etcc-schedule-release-3-dev-baseline-drift": "etcc-schedule-release-3-dev-baseline-drift",
+      "W-etcc-schedule-release-3-dev-baseline-drift-gov": "etcc-schedule-release-3-dev-baseline-drift-gov",
+      "W-etcc-schedule-release-3-dev-baseline-drift-contractor": "etcc-schedule-release-3-dev-baseline-drift-contractor",
+      "W-etcc-schedule-release-3-dev-percent-complete": "etcc-schedule-release-3-dev-percent-complete",
+      "W-etcc-schedule-release-3-deploy-date": "etcc-schedule-release-3-deploy-date",
+      "W-etcc-schedule-release-3-deploy-date-gov": "etcc-schedule-release-3-deploy-date-gov",
+      "W-etcc-schedule-release-3-deploy-date-contractor": "etcc-schedule-release-3-deploy-date-contractor",
+      "W-etcc-schedule-release-4-dev-percent-complete": "etcc-schedule-release-4-dev-percent-complete",
+      "W-etcc-schedule-release-4-deploy-date": "etcc-schedule-release-4-deploy-date",
+      "W-etcc-schedule-release-4-deploy-date-gov": "etcc-schedule-release-4-deploy-date-gov",
+      "W-etcc-schedule-release-4-deploy-date-contractor": "etcc-schedule-release-4-deploy-date-contractor",
+      "W-etcc-schedule-ato-review-status-mismatch": "etcc-schedule-ato-review-status-mismatch",
+      "W-etcc-schedule-accepted-ato-review": "etcc-schedule-accepted-ato-review",
+      "W-etcc-schedule-year-2-option-exercised": "etcc-schedule-year-2-option-exercised",
+      "W-etcc-schedule-year-3-option-exercised": "etcc-schedule-year-3-option-exercised",
+      "W-etcc-schedule-year-4-option-exercised": "etcc-schedule-year-4-option-exercised",
+      "W-etcc-schedule-release-2-deploy-complete": "etcc-schedule-release-2-deploy-complete",
+      "W-etcc-contract-period-of-performance-end": "etcc-contract-period-of-performance-end",
+      "W-etcc-scaffold-release-3-scope-baseline": "etcc-scaffold-release-3-scope-baseline",
+      "W-etcc-scaffold-release-3-integration-complete": "etcc-scaffold-release-3-integration-complete",
+      "W-etcc-scaffold-release-4-scope-baseline": "etcc-scaffold-release-4-scope-baseline",
+      "W-etcc-scaffold-release-4-fielding-readiness-review": "etcc-scaffold-release-4-fielding-readiness-review",
+      "W-etcc-scaffold-ato-controls-implemented": "etcc-scaffold-ato-controls-implemented",
+      "W-etcc-scaffold-ato-validation-environment-ready": "etcc-scaffold-ato-validation-environment-ready",
+      "W-etcc-scaffold-ato-integrated-test-window": "etcc-scaffold-ato-integrated-test-window",
+      "W-etcc-scaffold-ato-assessment-complete": "etcc-scaffold-ato-assessment-complete",
+      "W-etcc-scaffold-ato-authorization-package": "etcc-scaffold-ato-authorization-package",
+      "W-etcc-scaffold-option-performance-review": "etcc-scaffold-option-performance-review",
+      "W-etcc-scaffold-option-funding-confirmed": "etcc-scaffold-option-funding-confirmed",
+      "W-etcc-scaffold-option-determination": "etcc-scaffold-option-determination",
+      "W-etcc-scaffold-pm-monthly-ims-drop": "etcc-scaffold-pm-monthly-ims-drop",
+      "W-etcc-scaffold-pm-decision-packet": "etcc-scaffold-pm-decision-packet",
+      "W-etcc-scaffold-ato-continuous-monitoring-start": "etcc-scaffold-ato-continuous-monitoring-start"
+    },
+    "dependencies": {
+      "D-etcc-demo-dep-release-3-to-release-4-dev": 0,
+      "D-etcc-demo-dep-release-4-dev-to-deploy": 1,
+      "D-etcc-demo-dep-ato-review-to-accepted": 2,
+      "D-etcc-demo-dep-option-2-to-option-3": 3,
+      "D-etcc-demo-dep-option-3-to-option-4": 4,
+      "D-etcc-demo-dep-option-4-to-pop-end": 5,
+      "D-etcc-demo-dep-controls-to-test": 6,
+      "D-etcc-demo-dep-env-to-test": 7,
+      "D-etcc-demo-dep-test-to-assessment": 8,
+      "D-etcc-demo-dep-assessment-to-package": 9,
+      "D-etcc-demo-dep-package-to-ato": 10,
+      "D-etcc-demo-dep-ato-to-release-4-fielding": 11,
+      "D-etcc-demo-dep-performance-to-option-determination": 12,
+      "D-etcc-demo-dep-funding-to-option-determination": 13,
+      "D-etcc-demo-dep-option-determination-to-option-4": 14,
+      "D-etcc-demo-dep-ims-drop-to-packet": 15,
+      "D-etcc-demo-dep-ato-package-to-packet": 16,
+      "D-etcc-demo-dep-ato-to-continuous-monitoring": 17
+    }
+  },
+  "warnings": [
+    "Lossy round-trip: reliable_mw, profile_meta not present in canonical; omitted from output."
+  ]
+}

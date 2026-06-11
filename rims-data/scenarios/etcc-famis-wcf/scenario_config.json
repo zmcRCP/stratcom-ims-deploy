@@ -1,0 +1,7 @@
+{
+  "scenario_id": "etcc-famis-wcf",
+  "shell_id": "acquisition",
+  "domain_pack_id": "etcc",
+  "scenario_as_of_date": "2026-04-16",
+  "label": "FAMIS-WCF ETCC Analysis"
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "plant_id": "famis-wcf",
+    "plant_name": "FAMIS-WCF ETCC Analysis",
+    "eia_plant_id": null,
+    "fuel": "etcc",
+    "category": "etcc",
+    "status": "schedule reconciliation",
+    "nameplate_mw": null,
+    "reliable_mw": null,
+    "condition_score": null,
+    "annual_sustainment_opex_$": null,
+    "infra_backlog_$M": null,
+    "forced_outage_rate": null,
+    "age_years": null,
+    "id": "famis-wcf",
+    "name": "FAMIS-WCF ETCC Analysis",
+    "capacity_mw": null,
+    "start_date": "2021-12-21",
+    "retire_date": "2026-12-20",
+    "owner": "Defense Information Systems Agency",
+    "region": "DISA",
+    "timezone": null,
+    "meta": {
+      "contract_id": "HC104722F0001",
+      "program": "Financial Accounting Management Information System - Working Capital Fund",
+      "coverage_status": "partial",
+      "proof_run_id": "etcc-enriched-proof-fresh"
+    }
+  }
+]
