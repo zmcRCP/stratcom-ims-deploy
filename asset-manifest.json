@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/stratcom-ims-deploy/static/css/main.39fd0580.css",
-    "main.js": "/stratcom-ims-deploy/static/js/main.bc249034.js",
+    "main.js": "/stratcom-ims-deploy/static/js/main.77838d65.js",
     "static/js/685.b83e5ea1.chunk.js": "/stratcom-ims-deploy/static/js/685.b83e5ea1.chunk.js",
     "static/media/Roboto-500.ttf": "/stratcom-ims-deploy/static/media/Roboto-500.0fcd45fbfc419c42c8b9.ttf",
     "static/media/Roboto-400.ttf": "/stratcom-ims-deploy/static/media/Roboto-400.6bede58e856278b0f8f1.ttf",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.39fd0580.css",
-    "static/js/main.bc249034.js"
+    "static/js/main.77838d65.js"
   ]
 }
