@@ -1,0 +1,53 @@
+{
+  "id": "planner",
+  "version": "0.1.0",
+  "vocabulary": {
+    "anchorSingular": "Schedule",
+    "anchorPlural": "Schedules",
+    "regionLabel": "Workstream",
+    "regionPlaceholder": "Workstream",
+    "categoryLabel": "Category",
+    "categoryPlaceholder": "Category",
+    "capacityLabel": "Capacity",
+    "requirementLabel": "Requirement",
+    "portfolioTitle": "Planner Schedule",
+    "dependencyTitle": "Planner Timeline",
+    "dependencyDescription": "Viewing the imported VITL-BMA program schedule.",
+    "emptyTimelineSelection": "Schedule data is loading"
+  },
+  "units": {
+    "capacityShort": "units",
+    "capacityLong": "units"
+  },
+  "thresholds": {
+    "capacityDelta": {
+      "small": 1,
+      "medium": 5,
+      "large": 6
+    }
+  },
+  "displayNames": {
+    "regions": {
+      "program": "Program"
+    },
+    "categories": {
+      "other": "Other"
+    },
+    "statuses": {
+      "active": "Active"
+    }
+  },
+  "filters": {
+    "showRegion": false,
+    "showStatus": false,
+    "showCategory": false,
+    "showAnchor": false
+  },
+  "visualEncodings": {
+    "taskColorField": "kind",
+    "taskColors": {
+      "assembly": "#f3f4f6",
+      "execution": "#dbeafe"
+    }
+  }
+}

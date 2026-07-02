@@ -40,6 +40,11 @@
       "scenario_id": "stratcom-triad-v0_1",
       "label": "STRATCOM Triad Synthetic Demo v0.1",
       "generated_at": "2026-04-29T00:00:00.000Z"
+    },
+    {
+      "scenario_id": "planner_vitl_bma_v0_1",
+      "label": "VITL-BMA Program Schedule",
+      "generated_at": "2026-06-25T00:00:00.000Z"
     }
   ]
 }

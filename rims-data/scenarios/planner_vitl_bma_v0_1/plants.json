@@ -1,0 +1,10 @@
+[
+  {
+    "plant_id": "vitl-bma",
+    "plant_name": "VITL-BMA Program Schedule",
+    "fuel": "other",
+    "status": "active",
+    "reliable_mw": 0,
+    "region": "program"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "scenario_id": "planner_vitl_bma_v0_1",
+  "shell_id": "portfolio",
+  "domain_pack_id": "planner",
+  "scenario_as_of_date": "2026-06-25",
+  "label": "VITL-BMA Program Schedule"
+}
